@@ -33,6 +33,8 @@ newemptybranch() {
 #create and drop stash, used for being able to switch branches
 alias stash="git stash; git stash drop"
 
+# ADD COMMIT AND PUSH
+#####################
 #push up to remotes
 push() {
     git push $1 $(branch-name)
@@ -55,13 +57,18 @@ update() {
 genupdate() {
     git add .; git commit -m 'testing changes'; $(push "$1")
 }
+#####################
 
 #delete local branch
 deletelocal() {
+    $(goto) master; 
+    git branch -D $1
     $(goto) master; git branch -D $1
 }
 #delete remote branch
 deleteremote() {
+    $(goto) master;
+    git push $1 --delete $2
     $(goto) master; git push $1 --delete $2
 }
 #delete local and remote branches
