@@ -105,7 +105,7 @@ clone() {
 }
 #This is for non-ssh 
 #enter user and repo
-clonehttps() {
+cloneh() {
     git clone https://github.com/$1/$2
 }
 
