@@ -52,10 +52,10 @@ alias commit="git commit"
 #stage all and commit
 update() {
     if [ -z "$@" ]; then
-        git add .; git commit -m 'generic commit';
+        git add .; git commit -m 'generic commit'
     else
         inp="$@";
-        git add .; git commit -m "$inp";
+        git add .; git commit -m "$inp"
     fi
 }
 # #general update, specify remote
@@ -113,10 +113,10 @@ cloneh() {
 #######################################################################
 #set buildpacks for scraping
 heroku_setbp() {
-    echo "xvfb" > Aptfile
-    heroku buildpacks:clear
-    heroku buildpacks:add https://github.com/vindennl48/heroku-buildpack-apt
-    heroku buildpacks:add https://github.com/vindennl48/heroku-buildpack-phantomjs
+    echo "xvfb" > Aptfile;
+    heroku buildpacks:clear;
+    heroku buildpacks:add https://github.com/vindennl48/heroku-buildpack-apt;
+    heroku buildpacks:add https://github.com/vindennl48/heroku-buildpack-phantomjs;
     heroku buildpacks:add heroku/ruby
 }
 
