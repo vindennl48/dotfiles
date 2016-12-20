@@ -1,0 +1,93 @@
+#!/usr/bin/env bash
+
+                     ######################
+                     ## ALIASES  FOR GIT ##
+                     ######################
+##################################################################
+#                 Created by: Mitchell Woodbine                  #
+#                   mitchellwoodbine@gmail.com                   #
+#               https://github.com/vindennl48/mybash             #
+##################################################################
+
+## prelim aliases ##
+#######################################################################
+#get the current branch name
+alias branch-name="git rev-parse --abbrev-ref HEAD"
+
+## useful aliases ##
+#######################################################################
+#show local and remote branches
+alias showa="git branch -a"
+#show local branches
+alias show="git branch"
+#go to branch
+alias goto="git checkout"
+
+#create new branch
+alias newbranch="git checkout -b"
+#create new orphan branch (no commits)
+newemptybranch() {
+    git checkout --orphan $1; git rm -rf .
+}
+
+#create and drop stash, used for being able to switch branches
+alias stash="git stash; git stash drop"
+
+#push up to remotes
+push() {
+    git push $1 $(branch-name)
+}
+
+#staging a file
+alias stage="git add"
+#unstage a file
+alias unstage="git reset HEAD" #filename
+
+#shorthand commit
+alias commitm="git commit -m"
+#longhand commit
+alias commit="git commit"
+#stage all and commit, specify remote
+update() {
+    git add .; git commit -m $1; $(push "$1")
+}
+#general update, specify remote
+genupdate() {
+    git add .; git commit -m 'testing changes'; $(push "$1")
+}
+
+#delete local branch
+deletelocal() {
+    $(goto) master; git branch -D $1
+}
+#delete remote branch
+deleteremote() {
+    $(goto) master; git push $1 --delete $2
+}
+#delete local and remote branches
+deleteall() {
+    $(goto) master; $(deletelocal "$2"); $(deleteremote "$1" "$2")
+}
+
+#clone from repository, make sure you have ssh set up
+#enter your repo as an argument
+clone() {
+    git clone git@github.com:vindennl48/$1.git
+}
+#This is for non-ssh 
+#enter user and repo
+clonehttps() {
+    git clone https://github.com/$1/$2
+}
+
+## heroku aliases ##
+#######################################################################
+#set buildpacks for scraping
+heroku_setbp() {
+    echo "xvfb" > Aptfile
+    heroku buildpacks:clear
+    heroku buildpacks:add https://github.com/vindennl48/heroku-buildpack-apt
+    heroku buildpacks:add https://github.com/vindennl48/heroku-buildpack-phantomjs
+    heroku buildpacks:add heroku/ruby
+}
+
