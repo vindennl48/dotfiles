@@ -22,6 +22,12 @@ alias showa="git branch -a"
 alias show="git branch"
 #go to branch
 alias goto="git checkout"
+#show status
+alias stat="git status"
+#show log
+alias glog="git log"
+#show commit gui
+alias giti="git-gui"
 
 #create new branch
 alias newbranch="git checkout -b"
