@@ -35,27 +35,45 @@ alias stash="git stash; git stash drop"
 
 # ADD COMMIT AND PUSH
 #####################
-#push up to remotes
-push() {
-    git push $1 $(branch-name)
-}
-
 #staging a file
 alias stage="git add"
 #unstage a file
 alias unstage="git reset HEAD" #filename
-
 #shorthand commit
 alias commitm="git commit -m"
 #longhand commit
 alias commit="git commit"
-#stage all and commit, specify remote
+#stage all and commit
 update() {
-    git add .; git commit -m $1; $(push "$1")
+    if [ -z "$@" ]; then
+        git add .; git commit -m 'generic commit';
+    else
+        inp="$@";
+        git add .; git commit -m "$inp";
+    fi
 }
-#general update, specify remote
-genupdate() {
-    git add .; git commit -m 'testing changes'; $(push "$1")
+# #general update, specify remote
+# genupdate() {
+#     git add .; git commit -m 'generic commit'
+# }
+#push up to remotes
+push() {
+    if [ -z "$1" ]; then
+        git push origin $(branch-name)
+    else
+        git push $1 $(branch-name)
+    fi
+}
+#update and push
+uppush() {
+    if [ -z "$@" ]; then
+        $(update);
+        $(push)
+    else
+        inp="$@";
+        $(update "$inp");
+        $(push)
+    fi
 }
 #####################
 
@@ -63,13 +81,11 @@ genupdate() {
 deletelocal() {
     $(goto) master; 
     git branch -D $1
-    $(goto) master; git branch -D $1
 }
 #delete remote branch
 deleteremote() {
     $(goto) master;
     git push $1 --delete $2
-    $(goto) master; git push $1 --delete $2
 }
 #delete local and remote branches
 deleteall() {
