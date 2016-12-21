@@ -3,14 +3,45 @@
                      ########################
                      ## ALIASES FOR HEROKU ##
                      ########################
+               ####################################
+               ## ALIASES FOR HEROKU DEVELOPMENT ##
+               ####################################
 ##################################################################
 #                 Created by: Mitchell Woodbine                  #
 #                   mitchellwoodbine@gmail.com                   #
 #               https://github.com/vindennl48/mybash             #
 ##################################################################
 
+
 #edit alias file
 alias editheroku="code ~/bin/mybash/heroku.alias"
 
-#push the current branch to heroku
-alias push_this_heroku="git push heroku +HEAD:master"
+#login to postgres
+alias login-psql="psql postgres"
+# push current branch to heroku
+alias heroku_pushcurrent="git push heroku +HEAD:master"
+#set up git repo once cloned from heroku
+setup_heroku_repo(){ # <heroku app name> [if something is here, do https instead of ssh]
+    if [ -z $2 ]; then
+        git remote add origin git@github.com:vindennl48/$1.git
+    else
+        git remote add origin https://github.com/vindennl48/$1
+    fi
+
+    git fetch origin
+    git pull origin master
+    git checkout -b dev
+    git pull origin dev
+    stat
+}
+#clone heroku app
+heroku_clone(){ # <heroku app name>
+    heroku git:clone -a $1
+    cd $1
+    if [ -z $2 ]; then 
+        setup_heroku_repo $1
+    else
+        setup_heroku_repo $1 $2
+    fi
+}
+
