@@ -45,7 +45,7 @@ alias stash="git stash; git stash drop"
 # ADD COMMIT AND PUSH
 #####################
 #staging a file
-alias stage="git add"
+alias gadd="git add"
 #unstage a file
 alias unstage="git reset HEAD" #filename
 #shorthand commit
