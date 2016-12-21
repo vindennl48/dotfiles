@@ -9,6 +9,9 @@
 #               https://github.com/vindennl48/mybash             #
 ##################################################################
 
+#edit bash file
+alias editgit="code ~/bin/mybash/.git_aliases"
+
 ## prelim aliases ##
 #######################################################################
 #get the current branch name
@@ -72,7 +75,7 @@ push() {
 }
 #update and push
 uppush() {
-    if [ -z "$@" ]; then
+    if [ -z $1 ]; then
         $(update);
         $(push)
     else

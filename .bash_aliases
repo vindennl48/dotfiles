@@ -18,6 +18,9 @@
 alias cheatbash="vim ~/bin/mybash/bashcheat"
 alias cheatgit="vim ~/bin/mybash/gitcheat"
 
+#edit bash file
+alias editbash="code ~/bin/mybash/.bash_aliases"
+
 alias p='python3'
 alias CLEAR='clear'
 alias go='cd'
