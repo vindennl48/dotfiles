@@ -14,6 +14,10 @@
 #   informtion on bash programming techniques                    #
 ##################################################################
 
+#open cheat files
+alias cheatbash="vim ~/bin/mybash/bashcheat"
+alias cheatgit="vim ~/bin/mybash/gitcheat"
+
 alias p='python3'
 alias CLEAR='clear'
 alias go='cd'
@@ -49,8 +53,8 @@ rename() {
 alias goo="xdg-open ."
 
 #go to desktop
-alias godesktop="cd ~/Desktop"
-alias godocuments="cd ~/Documents"
+alias godesk="cd ~/Desktop"
+alias godocu="cd ~/Documents"
 
 #go back to previous directory
 alias back='cd "$OLDPWD"'
@@ -61,7 +65,7 @@ alias lsh='ls -lhXG' # long listing, human-readable, sort by extension, do not s
 ## SAVE FUNCTIONS ##
 ##################################################################
 #save text in backup file
-LOCATION="/c/Users/SHOP"
+LOCATION="$HOME"
 save() { 
     if test -e /c/Users/SHOP/.savebup; then
         echo "$@" >> $LOCATION/.savebup
