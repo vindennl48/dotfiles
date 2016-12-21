@@ -54,11 +54,11 @@ alias commitm="git commit -m"
 alias commit="git commit"
 #stage all and commit
 update() {
-    if [ -z "$@" ]; then
-        git add .; git commit -m 'generic commit'
+    if [ -z $1 ]; then
+        git add .; git commit -m 'generic commit';
     else
-        inp="$@";
-        git add .; git commit -m "$inp"
+        local inp="$@";
+        git add .; git commit -m "$inp";
     fi
 }
 # #general update, specify remote
@@ -68,20 +68,20 @@ update() {
 #push up to remotes
 push() {
     if [ -z "$1" ]; then
-        git push origin $(branch-name)
+        git push origin $(branch-name);
     else
-        git push $1 $(branch-name)
+        git push $1 $(branch-name);
     fi
 }
 #update and push
 uppush() {
     if [ -z $1 ]; then
-        $(update);
-        $(push)
+        update;
+        push;
     else
-        inp="$@";
-        $(update "$inp");
-        $(push)
+        local inp="$@";
+        update $inp;
+        push;
     fi
 }
 #####################
@@ -98,7 +98,7 @@ deleteremote() {
 }
 #delete local and remote branches
 deleteall() {
-    $(goto) master; $(deletelocal "$2"); $(deleteremote "$1" "$2")
+    $(goto) master; deletelocal $2; deleteremote $1 $2;
 }
 
 #clone from repository, make sure you have ssh set up
