@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+#insert git aliases
+if [ -f "$HOME/bin/mybash/.git_aliases" ]; then
+    source "$HOME/bin/mybash/.git_aliases"
+fi
+
+#insert bash aliases
+if [ -f "$HOME/bin/mybash/.bash_aliases" ]; then
+    source "$HOME/bin/mybash/.bash_aliases"
+fi
+
