@@ -14,6 +14,15 @@
 #   informtion on bash programming techniques                    #
 ##################################################################
 
+alias p='python3'
+alias CLEAR='clear'
+alias go='cd'
+alias excel='libreoffice --calc'
+alias rshift='redshift -o 3500'
+alias calc='galculator'
+alias regen='DISPLAY=:0.0 compiz --replace &'
+alias git-gui='git citool'
+
 #make directory
 alias wf="mkdir"
 #make textfile
