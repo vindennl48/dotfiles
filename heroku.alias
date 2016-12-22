@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+                     ########################
+                     ## ALIASES FOR HEROKU ##
+                     ########################
+##################################################################
+#                 Created by: Mitchell Woodbine                  #
+#                   mitchellwoodbine@gmail.com                   #
+#               https://github.com/vindennl48/mybash             #
+##################################################################
+
+#edit alias file
+alias editheroku="code ~/bin/mybash/heroku.alias"
+
+#push the current branch to heroku
+alias push_this_heroku="git push heroku +HEAD:master"

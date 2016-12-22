@@ -10,7 +10,10 @@
 ##################################################################
 
 #edit bash file
-alias editgit="code ~/bin/mybash/.git_aliases"
+alias editgit="code ~/bin/mybash/git.alias"
+
+#edit git cheat file
+alias cheatgit="vim ~/bin/mybash/gitcheat"
 
 ## prelim aliases ##
 #######################################################################
