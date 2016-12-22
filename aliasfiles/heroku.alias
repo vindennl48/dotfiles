@@ -16,6 +16,12 @@
 #edit heroku cheat file
 alias cheat_heroku="vim ~/bin/mybash/cheatfiles/herokucheat"
 
+#perform heroku run
+alias hrun="heroku run"
+
+#run scraping tool for santander
+alias ssrb="heroku run ruby bin/ss-rb"
+
 # push current branch to heroku
 alias hpush="git push heroku +HEAD:master"
 
