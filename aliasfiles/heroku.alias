@@ -13,13 +13,15 @@
 ##################################################################
 
 
-#edit alias file
-alias editheroku="code ~/bin/mybash/heroku.alias"
+#edit heroku cheat file
+alias cheat_heroku="vim ~/bin/mybash/cheatfiles/herokucheat"
 
-#login to postgres
-alias login-psql="psql postgres"
 # push current branch to heroku
-alias heroku_pushcurrent="git push heroku +HEAD:master"
+alias hpush="git push heroku +HEAD:master"
+
+# login to heroku remote database
+alias hdb="heroku pg:psql"
+
 #set up git repo once cloned from heroku
 setup_heroku_repo(){ # <heroku app name> [if something is here, do https instead of ssh]
     if [ -z $2 ]; then
@@ -43,5 +45,14 @@ heroku_clone(){ # <heroku app name>
     else
         setup_heroku_repo $1 $2
     fi
+}
+
+#set buildpacks for scraping
+heroku_setbp() {
+    echo "xvfb" > Aptfile;
+    heroku buildpacks:clear;
+    heroku buildpacks:add https://github.com/vindennl48/heroku-buildpack-apt;
+    heroku buildpacks:add https://github.com/vindennl48/heroku-buildpack-phantomjs;
+    heroku buildpacks:add heroku/ruby
 }
 

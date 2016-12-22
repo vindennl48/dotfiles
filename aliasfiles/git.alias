@@ -9,11 +9,8 @@
 #               https://github.com/vindennl48/mybash             #
 ##################################################################
 
-#edit bash file
-alias editgit="code ~/bin/mybash/git.alias"
-
 #edit git cheat file
-alias cheatgit="vim ~/bin/mybash/gitcheat"
+alias cheat_git="vim ~/bin/mybash/cheatfiles/gitcheat"
 
 ## prelim aliases ##
 #######################################################################
@@ -34,11 +31,12 @@ alias stat="git status"
 alias glog="git log"
 #show commit gui
 alias giti="git citool"
+alias git-gui="git citool"
 
 #create new branch
-alias newbranch="git checkout -b"
+alias gnew="git checkout -b"
 #create new orphan branch (no commits)
-newemptybranch() {
+gnewempty() {
     git checkout --orphan $1; git rm -rf .
 }
 
@@ -49,59 +47,33 @@ alias stash="git stash; git stash drop"
 #####################
 #staging a file
 alias gadd="git add"
-#unstage a file
-alias unstage="git reset HEAD" #filename
-#shorthand commit
-alias commitm="git commit -m"
-#longhand commit
-alias commit="git commit"
-#stage all and commit
-update() {
-    if [ -z $1 ]; then
-        git add .; git commit -m 'generic commit';
-    else
-        local inp="$@";
-        git add .; git commit -m "$inp";
-    fi
-}
-# #general update, specify remote
-# genupdate() {
-#     git add .; git commit -m 'generic commit'
-# }
+#unstage files
+alias gdrop="git reset"
+#commit
+alias gcom="git commit"
+
 #push up to remotes
-push() {
-    if [ -z "$1" ]; then
-        git push origin $(branch-name);
-    else
-        git push $1 $(branch-name);
-    fi
-}
-#update and push
-uppush() {
-    if [ -z $1 ]; then
-        update;
-        push;
-    else
-        local inp="$@";
-        update $inp;
-        push;
-    fi
-}
+alias gpush="git push origin $(branch-name)"
+# gpush() {
+#     if [ -z "$1" ]; then
+#         git push origin $(branch-name);
+#     else
+#         git push $1 $(branch-name);
+#     fi
+# }
 #####################
 
 #delete local branch
 deletelocal() {
-    $(goto) master; 
     git branch -D $1
 }
 #delete remote branch
 deleteremote() {
-    $(goto) master;
     git push $1 --delete $2
 }
 #delete local and remote branches
 deleteall() {
-    $(goto) master; deletelocal $2; deleteremote $1 $2;
+    deletelocal $2; deleteremote $1 $2;
 }
 
 #clone from repository, make sure you have ssh set up
@@ -113,16 +85,5 @@ clone() {
 #enter user and repo
 cloneh() {
     git clone https://github.com/$1/$2
-}
-
-## heroku aliases ##
-#######################################################################
-#set buildpacks for scraping
-heroku_setbp() {
-    echo "xvfb" > Aptfile;
-    heroku buildpacks:clear;
-    heroku buildpacks:add https://github.com/vindennl48/heroku-buildpack-apt;
-    heroku buildpacks:add https://github.com/vindennl48/heroku-buildpack-phantomjs;
-    heroku buildpacks:add heroku/ruby
 }
 

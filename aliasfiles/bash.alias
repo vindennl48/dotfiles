@@ -14,20 +14,35 @@
 #   informtion on bash programming techniques                    #
 ##################################################################
 
-#edit bash file
-alias editbash="code ~/bin/mybash/bash.alias"
 
+#go to mybash LOCATION
+alias editmybash="code ~/bin/mybash/."
 #open cheat files
-alias cheatbash="vim ~/bin/mybash/bashcheat"
+alias cheat_bash="vim ~/bin/mybash/cheatfiles/bashcheat"
 
+#open with python3 instead of 2
 alias p='python3'
+#all caps version of clear
 alias CLEAR='clear'
+#alternate form of cd
 alias go='cd'
+#open up spreadsheet
 alias excel='libreoffice --calc'
+#auto shift screen to red
 alias rshift='redshift -o 3500'
+#calculator
 alias calc='galculator'
+#reload compiz when it craps out
 alias regen='DISPLAY=:0.0 compiz --replace &'
-alias git-gui='git citool'
+#open file in gui
+alias goo="xdg-open ."
+#go to desktop
+alias godesk="cd ~/Desktop"
+#go to documents
+alias godoc="cd ~/Documents"
+
+#go back to previous directory
+alias back='cd "$OLDPWD"'
 
 #make directory
 alias wf="mkdir"
@@ -38,60 +53,11 @@ wt() {
 
 #delete directory
 alias rmdir="rm -rf"
-#copy all contents
-cpall() {
-    cp -a /. $1/
-}
-#copy folder and contents
-cpdir() { 
-    cp -a $1 $2
-}
 #rename file or folder
 rename() {
     mv $1 $2
 }
 
-#open file in gui
-alias goo="xdg-open ."
-
-#go to desktop
-alias godesk="cd ~/Desktop"
-alias godocu="cd ~/Documents"
-
-#go back to previous directory
-alias back='cd "$OLDPWD"'
-
 #different form of ls
 alias lsh='ls -lhXG' # long listing, human-readable, sort by extension, do not show group info
-
-## SAVE FUNCTIONS ##
-##################################################################
-#save text in backup file
-LOCATION="$HOME"
-save() { 
-    if test -$LOCATION/.savebup; then
-        echo "$@" >> $LOCATION/.savebup
-    else
-        echo "$@" > $LOCATION/.savebup
-    fi
-}
-
-#get last 10 entries from .savebup
-getsave() {
-    if test -e $LOCATION/.savebup; then
-        tail $LOCATION/.savebup
-    else
-        echo "There is nothing saved..."
-    fi
-}
-
-#edit .savebup
-editsave() {
-    if test -e $LOCATION/.savebup; then
-        code $LOCATION/.savebup
-    else
-        echo "There is nothing saved..."
-    fi
-}
-##################################################################
 
