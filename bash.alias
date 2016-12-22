@@ -69,7 +69,7 @@ alias lsh='ls -lhXG' # long listing, human-readable, sort by extension, do not s
 #save text in backup file
 LOCATION="$HOME"
 save() { 
-    if test -e /c/Users/SHOP/.savebup; then
+    if test -$LOCATION/.savebup; then
         echo "$@" >> $LOCATION/.savebup
     else
         echo "$@" > $LOCATION/.savebup
@@ -78,7 +78,7 @@ save() {
 
 #get last 10 entries from .savebup
 getsave() {
-    if test -e /c/Users/SHOP/.savebup; then
+    if test -e $LOCATION/.savebup; then
         tail $LOCATION/.savebup
     else
         echo "There is nothing saved..."
@@ -87,7 +87,7 @@ getsave() {
 
 #edit .savebup
 editsave() {
-    if test -e /c/Users/SHOP/.savebup; then
+    if test -e $LOCATION/.savebup; then
         code $LOCATION/.savebup
     else
         echo "There is nothing saved..."
