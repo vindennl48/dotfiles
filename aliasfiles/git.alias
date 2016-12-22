@@ -43,6 +43,9 @@ gnewempty() {
 #create and drop stash, used for being able to switch branches
 alias stash="git stash; git stash drop"
 
+#push up to remotes
+alias gpush="git push origin $(branch-name)"
+
 # ADD COMMIT AND PUSH
 #####################
 #staging a file
@@ -52,15 +55,8 @@ alias gdrop="git reset"
 #commit
 alias gcom="git commit"
 
-#push up to remotes
-alias gpush="git push origin $(branch-name)"
-# gpush() {
-#     if [ -z "$1" ]; then
-#         git push origin $(branch-name);
-#     else
-#         git push $1 $(branch-name);
-#     fi
-# }
+
+
 #####################
 
 #delete local branch
