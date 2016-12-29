@@ -14,6 +14,12 @@
 #   informtion on bash programming techniques                    #
 ##################################################################
 
+# screen resolution for single display
+alias ds="xrandr --output eDP1 --scale 1.25x1.25"
+# screen resolution for dual displays
+alias dd="xrandr --output VGA1 --mode 1920x1080_60.00 --scale 1x1 --pos 0x0;ds --pos 0x1152"
+# create resolution for ext monitor
+alias ddd="xrandr --newmode '1920x1080_60.00'  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync; xrandr --addmode VGA1 1920x1080_60.00;dd"
 
 #go to mybash LOCATION
 alias editmybash="code ~/bin/mybash/."
