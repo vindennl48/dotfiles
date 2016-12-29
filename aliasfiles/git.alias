@@ -45,6 +45,8 @@ alias stash="git stash; git stash drop"
 
 #push up to remotes
 alias gpush="git push origin $(branch-name)"
+#pull from remotes
+alias gpull="git pull"
 
 # ADD COMMIT AND PUSH
 #####################
