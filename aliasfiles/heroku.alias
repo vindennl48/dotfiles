@@ -33,14 +33,14 @@ setup_heroku_repo(){ # <heroku app name> [if something is here, do https instead
         git remote add origin https://github.com/vindennl48/$1
     fi
 
-    git fetch origin
+    git fetch -p origin
     git pull origin master
     git checkout -b dev
     git pull origin dev
     stat
 }
 #clone heroku app
-heroku_clone(){ # <heroku app name>
+heroku_clone(){ # <heroku app name> [http or ssh]
     heroku git:clone -a $1
     cd $1
     if [ -z $2 ]; then 

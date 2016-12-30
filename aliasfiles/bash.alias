@@ -26,6 +26,9 @@ alias editmybash="code ~/bin/mybash/."
 #open cheat files
 alias cheat_bash="vim ~/bin/mybash/cheatfiles/bashcheat"
 
+#pull bank account info
+alias pull_bankinfo="start ~/bin/mybash/pull_bankinfo.bat"
+
 #open with python3 instead of 2
 alias p='python3'
 #all caps version of clear
