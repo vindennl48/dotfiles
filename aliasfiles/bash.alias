@@ -15,7 +15,7 @@
 ##################################################################
 
 # screen resolution for single display
-alias ds="xrandr --output eDP1 --scale 1.25x1.25"
+alias ds="xrandr --output eDP1 --scale 1.25x1.25 --panning 1708x960"
 # screen resolution for dual displays
 alias dd="xrandr --output VGA1 --mode 1920x1080_60.00 --scale 1x1 --pos 0x0;ds --pos 0x1152"
 # create resolution for ext monitor
