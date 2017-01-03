@@ -44,14 +44,29 @@ gnewempty() {
 alias stash="git stash; git stash drop"
 
 #push up to remotes
-alias gpush="git push origin $(branch-name)"
+alias gpush="git push -u origin $(branch-name)"
+#function to merge current branch with another branch and push that branch
+gpushto(){ # <branch to merge into>
+    bname=$(branch-name)
+    git checkout $1
+    git merge $bname
+    git push origin $1
+    git checkout $bname
+}
 #pull from remotes
-alias gpull="git pull"
+alias gpull="git pull -u origin $(branch-name)"
+#fetch from remotes
+alias gfetch="git fetch -p origin"
 
 # ADD COMMIT AND PUSH
 #####################
 #staging a file
 alias gadd="git add"
+#add files and create commit
+gac(){
+    git add $@
+    git commit
+}
 #unstage files
 alias gdrop="git reset"
 #commit
