@@ -67,7 +67,7 @@ deletelocal() {
 }
 #delete remote branch
 deleteremote() {
-    git push $1 --delete $2
+        git push $1 --delete $2
 }
 #delete local and remote branches
 deleteall() {
