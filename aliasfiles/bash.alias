@@ -14,7 +14,11 @@
 #   informtion on bash programming techniques                    #
 ##################################################################
 
-# commit and puh mybash
+# auto-sync between work and home computers
+alias sync_load="bash ~/bin/mybash/backup_files/backupfiles.sh load"
+alias sync_save="bash ~/bin/mybash/backup_files/backupfiles.sh save"
+
+# commit and push mybash
 updatemybash(){
     curdir=$(pwd)
     cd ~/bin/mybash
