@@ -14,6 +14,17 @@
 #   informtion on bash programming techniques                    #
 ##################################################################
 
+# commit and puh mybash
+updatemybash(){
+    curdir=$(pwd)
+    cd ~/bin/mybash
+    git add .
+    git commit -m "updated code"
+    git pull origin master --no-edit
+    git push -u origin master
+    cd $curdir
+}
+
 # screen resolution for single display
 alias ds="xrandr --output eDP1 --scale 1.25x1.25 --panning 1708x960"
 # screen resolution for dual displays
