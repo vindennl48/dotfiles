@@ -2,14 +2,17 @@
 " https://www.shortcutfoo.com/blog/top-50-vim-configuration-options/
 
 :imap jk <Esc>
+:map q! q1
 :nnoremap ; :
 :nnoremap : ;
-:nnoremap q! q1
-:imap <S-A-up> ddkkp
-:imap <S-A-down> ddp
+:map <M-up> ddkkp
+:imap <M-up> jkddkkpi
+:map <M-down> ddp
+:imap <M-down> jkddpi
 :nnoremap A a
 :nnoremap a A
-
+:nmap <Left> <<
+:nmap <Right> >>
 
 " Indent Options
 set autoindent
@@ -44,7 +47,7 @@ set laststatus=2
 set ruler
 set wildmenu
 " set tabpagemax=50
-" set colorscheme wombat256mod
+" :colorscheme wombat256mod
 set cursorline
 set noerrorbells
 set visualbell
