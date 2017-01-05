@@ -18,6 +18,9 @@
 alias sync_load="bash ~/bin/mybash/backup_files/backupfiles.sh load"
 alias sync_save="bash ~/bin/mybash/backup_files/backupfiles.sh save"
 
+# go back a folder
+alias ..="cd .."
+
 # commit and push mybash
 updatemybash(){
     curdir=$(pwd)

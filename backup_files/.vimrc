@@ -1,6 +1,16 @@
 " Explanations:
 " https://www.shortcutfoo.com/blog/top-50-vim-configuration-options/
 
+:imap jk <Esc>
+:nnoremap ; :
+:nnoremap : ;
+:nnoremap q! q1
+:imap <S-A-up> ddkkp
+:imap <S-A-down> ddp
+:nnoremap A a
+:nnoremap a A
+
+
 " Indent Options
 set autoindent
 set expandtab
