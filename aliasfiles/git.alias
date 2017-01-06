@@ -41,7 +41,9 @@ gnewempty() {
 }
 
 #create and drop stash, used for being able to switch branches
-alias stash="git stash; git stash drop"
+alias gstash="git stash; git stash drop"
+# clean up any ignore files
+alias gclean="git clean -f -i -d -x"
 
 # #push up to remotes (throws error)
 # alias gpush="git push -u origin $(branch-name)"
