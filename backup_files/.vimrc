@@ -1,18 +1,27 @@
 " Explanations:
 " https://www.shortcutfoo.com/blog/top-50-vim-configuration-options/
 
-:imap jk <Esc>
-:map q! q1
+" Remaps
+:let mapleader = "-"
+:inoremap jk <Esc>
+:nnoremap q1 :q!<cr>
 :nnoremap ; :
 :nnoremap : ;
-:map <M-up> ddkkp
-:imap <M-up> jkddkkpi
-:map <M-down> ddp
-:imap <M-down> jkddpi
+:nnoremap <C-j> <Esc>ddp
+:nnoremap <C-k> <Esc>ddkkp
+:nnoremap <leader>d yyp
 :nnoremap A a
 :nnoremap a A
-:nmap <Left> <<
-:nmap <Right> >>
+:nnoremap <Left> <<
+:nnoremap <Right> >>
+:nnoremap <leader>c ma0i" <esc>`a
+:nnoremap <leader>v ma0xx`a
+
+" NerdTree
+""""""""""""""""""""""""""""""""
+:nnoremap -no :NERDTree<cr>
+:nnoremap -nt :NERDTreeToggle<cr>
+""""""""""""""""""""""""""""""""
 
 " Indent Options
 set autoindent
@@ -66,15 +75,15 @@ set backspace=indent,eol,start
 " set confirm
 set history=1000
 set nomodeline
-set spell
+"set spell
 
 " set side numbers to show line num in insert mode
 set rnu
-function ToggleNumbersOn()
+function! ToggleNumbersOn()
     set rnu!
     set nu
 endfunction
-function ToggleRelativeOn()
+function! ToggleRelativeOn()
     set nu!
     set rnu
 endfunction
