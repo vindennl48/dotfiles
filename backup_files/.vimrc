@@ -16,11 +16,25 @@
 :nnoremap <Right> >>
 :nnoremap <leader>c ma0i" <esc>`a
 :nnoremap <leader>v ma0xx`a
+:inoremap " ""<left>
+:inoremap ( ()<left>
+:inoremap { {}<left>
+:inoremap [ []<left>
+:inoremap < <><left>
+:nnoremap <leader>r :so ~/.vimrc<cr>
+:nnoremap <leader>w :noh<cr>>
+
+" VimUI
+""""""""""""""""""""""""""""""""
+nnoremap <leader>n :tabnew<cr>
+nnoremap <leader>d :tabclose<cr>
+""""""""""""""""""""""""""""""""
 
 " NerdTree
 """"""""""""""""""""""""""""""""
-:nnoremap -no :NERDTree<cr>
-:nnoremap -nt :NERDTreeToggle<cr>
+execute pathogen#infect()
+nnoremap <leader>no :NERDTree<cr>
+nnoremap <leader>nt :NERDTreeMirror<cr>
 """"""""""""""""""""""""""""""""
 
 " Indent Options
