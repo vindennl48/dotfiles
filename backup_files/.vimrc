@@ -22,7 +22,8 @@
 :inoremap [ []<left>
 :inoremap < <><left>
 :nnoremap <leader>r :so ~/.vimrc<cr>
-:nnoremap <leader>w :noh<cr>>
+:nnoremap <leader>s :noh<cr>>
+:nnoremap <leader>w :w<cr>
 
 "MORE BINDINGS"
 :inoremap jl <esc>A "to jump out of a bracket"
