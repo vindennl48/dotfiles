@@ -24,6 +24,10 @@
 :nnoremap <leader>r :so ~/.vimrc<cr>
 :nnoremap <leader>w :noh<cr>>
 
+"MORE BINDINGS"
+:inoremap jl <esc>A "to jump out of a bracket"
+
+
 " VimUI
 """"""""""""""""""""""""""""""""
 nnoremap <leader>n :tabnew<cr>
