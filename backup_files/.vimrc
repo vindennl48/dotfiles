@@ -26,8 +26,13 @@
 :nnoremap <leader>w :w<cr>
 
 "MORE BINDINGS"
-:inoremap jl <esc>A "to jump out of a bracket"
+:inoremap jl <esc>A
+:nnoremap <leader>% i<%  %><esc>2hi
+:nnoremap <leader>= i<%=  %><esc>2hi
+:nnoremap <leader>< i<t></t><esc>3hi
 
+" Search in Vim"
+set path+=**
 
 " VimUI
 """"""""""""""""""""""""""""""""
