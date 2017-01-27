@@ -62,7 +62,7 @@ gpushto(){ # <branch to merge into>
 #pull from remotes
 # alias gpull="git pull -u origin $(branch-name)"
 gpull(){
-    git pull -u origin $(branch-name)
+    git pull origin $(branch-name)
 }
 #fetch from remotes
 alias gfetch="git fetch -p origin"

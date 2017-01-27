@@ -1,41 +1,47 @@
-" Explanations:
-" https://www.shortcutfoo.com/blog/top-50-vim-configuration-options/
-
 " Remaps
 :let mapleader = "-"
+
+" escape
 :inoremap jk <Esc>
+" easier way to quit without saving
 :nnoremap q1 :q!<cr>
+" swap colon with semicolon
 :nnoremap ; :
 :nnoremap : ;
-:nnoremap <C-j> <Esc>ddp
-:nnoremap <C-k> <Esc>ddkkp
-:nnoremap <leader>d yyp
+" move current line up or down one line
+:nnoremap <C-j> <esc>ddp
+:nnoremap <C-k> <esc>ddkkp
+" make lowercase a insert at end of line
 :nnoremap A a
 :nnoremap a A
+" indent or unindent line
 :nnoremap <Left> <<
 :nnoremap <Right> >>
-:nnoremap <leader>c ma0i" <esc>`a
-:nnoremap <leader>v ma0xx`a
-:inoremap " ""<left>
-:inoremap ( ()<left>
-:inoremap { {}<left>
-:inoremap [ []<left>
-:inoremap < <><left>
+" comment out single line with hash
+:nnoremap <leader>c ma0i# <esc>`a
+" reload vimrc file
 :nnoremap <leader>r :so ~/.vimrc<cr>
+" unselect selected text from search
 :nnoremap <leader>s :noh<cr>>
+" save file
 :nnoremap <leader>w :w<cr>
 
-"MORE BINDINGS"
-:inoremap jl <esc>A
+" RAILS ADDITIONS "
+" insert <% %> tag
 :nnoremap <leader>% i<%  %><esc>2hi
+" insert <%= %> tag
 :nnoremap <leader>= i<%=  %><esc>2hi
+" insert <t></t> tag
 :nnoremap <leader>< i<t></t><esc>3hi
 
 "Window Bindings"
-:nnoremap <C-J> <C-W><C-J>
-:nnoremap <C-K> <C-W><C-K>
-:nnoremap <C-L> <C-W><C-L>
-:nnoremap <C-H> <C-W><C-H>
+":nnoremap <C-J> <C-W><C-J>
+":nnoremap <C-K> <C-W><C-K>
+":nnoremap <C-L> <C-W><C-L>
+":nnoremap <C-H> <C-W><C-H>
+
+"Comment Out Code"
+:vnoremap <leader>c I#<esc><esc>
 
 " Search in Vim"
 set path+=**
@@ -53,14 +59,17 @@ nnoremap <leader>no :NERDTree<cr>
 nnoremap <leader>nt :NERDTreeMirror<cr>
 """"""""""""""""""""""""""""""""
 
+" Explanations:
+" https://www.shortcutfoo.com/blog/top-50-vim-configuration-options/
+
 " Indent Options
 set autoindent
 set expandtab
 " set filetype indent on
 set shiftround
-set shiftwidth=4
+set shiftwidth=2
 set smarttab
-set tabstop=4
+set tabstop=2
 
 " Search Options
 set hlsearch
@@ -122,3 +131,6 @@ autocmd FocusGained * :call ToggleRelativeOn()
 autocmd InsertEnter * :call ToggleNumbersOn()
 autocmd InsertLeave * :call ToggleRelativeOn()
 
+:colorscheme desert
+:highlight Comment ctermfg=green
+:highlight String ctermfg=172
