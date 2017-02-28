@@ -14,6 +14,12 @@
 #   informtion on bash programming techniques                    #
 ##################################################################
 
+# run rails server
+alias rsd="rails s -d"
+
+# kill rails server
+alias rsk="pkill ruby"
+
 # open tmux
 alias t="tmux"
 
@@ -43,7 +49,7 @@ alias dd="xrandr --output VGA1 --mode 1920x1080_60.00 --scale 1x1 --pos 0x0 --ou
 alias ddd="xrandr --newmode '1920x1080_60.00'  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync; xrandr --addmode VGA1 1920x1080_60.00;dd"
 
 #go to mybash LOCATION
-alias editmybash="code ~/bin/mybash/."
+alias editmybash="vim ~/bin/mybash/."
 #open cheat files
 alias cheat_bash="vim ~/bin/mybash/cheatfiles/bashcheat"
 
