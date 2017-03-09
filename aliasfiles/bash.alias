@@ -14,6 +14,12 @@
 #   informtion on bash programming techniques                    #
 ##################################################################
 
+# shutdown
+alias sdn="shutdown now"
+
+# restart
+alias sdrn="shutdown -r now"
+
 # run rails server
 alias rsd="rails s -d"
 
