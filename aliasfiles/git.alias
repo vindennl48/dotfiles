@@ -9,6 +9,18 @@
 #               https://github.com/vindennl48/mybash             #
 ##################################################################
 
+# No arguments: `git status`
+# With arguments: acts like `git`
+g() {
+  if [[ $# -gt 0 ]]; then
+    git "$@"
+  else
+    git status
+  fi
+}
+
+#alias g="echo stfu"
+
 #edit git cheat file
 alias cheat_git="vim ~/bin/mybash/cheatfiles/gitcheat"
 
