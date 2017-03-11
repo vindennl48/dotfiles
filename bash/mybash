@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-for f in $HOME/bin/mybash/aliasfiles/*.alias
+for f in $MYBASHPATH/aliasfiles/*.alias
 do
     source "$f"
 done
