@@ -23,6 +23,10 @@ alias gadd="git add"                  #staging a file
 alias gdrop="git reset"               #unstage files
 alias gcom="git commit"               #commit
 
+## HUB PLUGIN ##
+#######################################################################
+alias browse="hub browse"
+
 #create and drop stash, used for being able to switch branches
 # alias gstash="git stash; git stash drop"
 alias gstash="git checkout ."
