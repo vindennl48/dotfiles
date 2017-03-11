@@ -1,0 +1,8 @@
+
+# custom theme setup
+
+export GREY="#666666"
+export LIGHTGREY="#aaaaaa"
+
+export BLUE="#84aae8"
+export DARKBLUE="#253b5e"

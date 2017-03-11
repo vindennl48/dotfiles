@@ -1,0 +1,3 @@
+# source any other paths needed
+
+export PATH="$MYPATH/bin:$PATH"

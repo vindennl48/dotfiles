@@ -4,3 +4,9 @@ for f in $MYBASHPATH/aliasfiles/*.alias
 do
     source "$f"
 done
+
+for f in $MYBASHPATH/variables/*.var
+do
+    source "$f"
+done
+
