@@ -9,7 +9,8 @@ alias sdrn="shutdown -r now"                   # restart
 alias rsd="rails s -d"                         # run rails server
 alias rsk="pkill ruby"                         # kill rails server
 alias t="tmux"                                 # open tmux
-alias editmybash="vim $MYBASHPATH/."           # go to mybash LOCATION
+alias editdotfiles="vim $MYBASHPATH/."         # go to mybash LOCATION
+alias edf="vim $MYBASHPATH/."                  # go to mybash LOCATION
 alias p='python3'                              # open with python3 instead of 2
 alias CLEAR='clear'                            # all caps version of clear
 alias go='cd'                                  # alternate form of cd
@@ -36,10 +37,10 @@ alias ddd="xrandr --newmode '1920x1080_60.00'  173.00  1920 2048 2248 2576  1080
 ## FUNCTIONS ##
 ###############
 
-# commit and push mybash
-updatemybash(){
+# Update Dotfiles repo
+udf(){
     curdir=$(pwd)
-    cd ~/bin/mybash
+    cd $MYPATH
     git add .
     git commit -m "updated code"
     git pull origin master --no-edit
