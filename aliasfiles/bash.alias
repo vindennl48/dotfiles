@@ -1,13 +1,8 @@
 #!/usr/bin/env bash
 
-                     ######################
-                     ## ALIASES FOR BASH ##
-                     ######################
-##################################################################
-# NOTES TO SELF:                                                 #
-# - refer to link: http://tldp.org/LDP/abs/html/ : for more      #
-#   informtion on bash programming techniques                    #
-##################################################################
+######################
+## ALIASES FOR BASH ##
+######################
 
 alias sdn="shutdown now"                       # shutdown
 alias sdrn="shutdown -r now"                   # restart

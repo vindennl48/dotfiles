@@ -1,16 +1,9 @@
 #!/usr/bin/env bash
 
-                     ######################
-                     ##   SAVE FOR BASH  ##
-                     ######################
-##################################################################
-#                 Created by: Mitchell Woodbine                  #
-#                   mitchellwoodbine@gmail.com                   #
-#               https://github.com/vindennl48/mybash             #
-##################################################################
+######################
+##   SAVE FOR BASH  ##
+######################
 
-## SAVE FUNCTIONS ##
-##################################################################
 #save text in backup file
 LOCATION="$HOME"
 save() { 
@@ -38,5 +31,4 @@ editsave() {
         echo "There is nothing saved..."
     fi
 }
-##################################################################
 

@@ -1,14 +1,34 @@
 #!/usr/bin/env bash
 
-                     ######################
-                     ## ALIASES  FOR GIT ##
-                     ######################
-##################################################################
-#                 Created by: Mitchell Woodbine                  #
-#                   mitchellwoodbine@gmail.com                   #
-#               https://github.com/vindennl48/mybash             #
-##################################################################
+######################
+## ALIASES  FOR GIT ##
+######################
 
+## prelim aliases ##
+#######################################################################
+#get the current branch name
+alias branch-name="git rev-parse --abbrev-ref HEAD"
+
+## useful aliases ##
+#######################################################################
+alias showa="git branch -a"           # show local and remote branches
+alias gs="git branch -a"              # show local and remote branches
+alias goto="git checkout"             # go to branch
+# alias stat="git status"               # show status
+alias giti="git citool"               # show commit gui
+alias gnew="git checkout -b"          # create new branch
+alias gclean="git clean -f -i -d -x"  # clean up any ignore files
+alias gfetch="git fetch -p origin"    # fetch from remotes
+alias gadd="git add"                  #staging a file
+alias gdrop="git reset"               #unstage files
+alias gcom="git commit"               #commit
+
+#create and drop stash, used for being able to switch branches
+# alias gstash="git stash; git stash drop"
+alias gstash="git checkout ."
+
+## FUNCTIONS ##
+#######################################################################
 # No arguments: `git status`
 # With arguments: acts like `git`
 g() {
@@ -18,44 +38,6 @@ g() {
     git status
   fi
 }
-
-#alias g="echo stfu"
-
-#edit git cheat file
-alias cheat_git="vim ~/bin/mybash/cheatfiles/gitcheat"
-
-## prelim aliases ##
-#######################################################################
-#get the current branch name
-alias branch-name="git rev-parse --abbrev-ref HEAD"
-
-## useful aliases ##
-#######################################################################
-#show local and remote branches
-alias showa="git branch -a"
-#show local branches
-alias show="git branch"
-#go to branch
-alias goto="git checkout"
-#show status
-alias stat="git status"
-#show log
-alias glog="git log"
-#show commit gui
-alias giti="git citool"
-alias git-gui="git citool"
-
-#create new branch
-alias gnew="git checkout -b"
-#create new orphan branch (no commits)
-gnewempty() {
-    git checkout --orphan $1; git rm -rf .
-}
-
-#create and drop stash, used for being able to switch branches
-alias gstash="git stash; git stash drop"
-# clean up any ignore files
-alias gclean="git clean -f -i -d -x"
 
 # #push up to remotes (throws error)
 # alias gpush="git push -u origin $(branch-name)"
@@ -71,31 +53,17 @@ gpushto(){ # <branch to merge into>
     git push origin $1
     git checkout $bname
 }
+
 #pull from remotes
 # alias gpull="git pull -u origin $(branch-name)"
 gpull(){
     git pull origin $(branch-name)
 }
-#fetch from remotes
-alias gfetch="git fetch -p origin"
 
-# ADD COMMIT AND PUSH
-#####################
-#staging a file
-alias gadd="git add"
-#add files and create commit
-gac(){
-    git add $@
-    git commit
+#create new orphan branch (no commits)
+gnewempty() {
+    git checkout --orphan $1; git rm -rf .
 }
-#unstage files
-alias gdrop="git reset"
-#commit
-alias gcom="git commit"
-
-
-
-#####################
 
 #delete local branch
 deletelocal() {
@@ -121,3 +89,8 @@ cloneh() {
     git clone https://github.com/$1/$2
 }
 
+#add files and create commit
+gac(){
+    git add $@
+    git commit
+}
