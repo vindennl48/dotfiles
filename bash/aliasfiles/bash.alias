@@ -4,7 +4,7 @@
 ## ALIASES FOR BASH ##
 ######################
 
-alias sdn="shutdown now"                       # shutdown
+alias sdn="udf; shutdown now"                  # shutdown
 alias sdrn="shutdown -r now"                   # restart
 alias rsd="rails s -d"                         # run rails server
 alias rsk="pkill ruby"                         # kill rails server
@@ -29,7 +29,7 @@ alias regen='DISPLAY=:0.0 compiz --replace &'  # reload compiz when it craps out
 alias start="nohup"
 
 start(){
-  nohup $@ &
+  $@ &
 }
 
 # screen resolution for single display
