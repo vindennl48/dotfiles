@@ -5,12 +5,12 @@
 ######################
 
 alias sdn="udf; shutdown now"                  # shutdown
-alias sdrn="shutdown -r now"                   # restart
+alias sdrn="udf; shutdown -r now"              # restart
 alias rsd="rails s -d"                         # run rails server
 alias rsk="pkill ruby"                         # kill rails server
 alias t="tmux"                                 # open tmux
-alias editdotfiles="vim $MYBASHPATH/."         # go to mybash LOCATION
-alias edf="vim $MYBASHPATH/."                  # go to mybash LOCATION
+alias editdotfiles="cd $MYPATH/;tat"           # go to mybash LOCATION
+alias edf="editdotfiles"                       # go to mybash LOCATION
 alias p='python3'                              # open with python3 instead of 2
 alias CLEAR='clear'                            # all caps version of clear
 alias go='cd'                                  # alternate form of cd
@@ -26,7 +26,8 @@ alias rmdir="rm -rf"                           # delete directory
 alias lsh='ls -lhXG'                           # different form of ls
 alias q1='exit'                                # exit out of terminal
 alias regen='DISPLAY=:0.0 compiz --replace &'  # reload compiz when it craps out
-alias start="nohup"
+alias sed="sed -E"                             # making sure we always use -E
+alias grep="grep -E"                           # making sure we always use -E
 
 start(){
   $@ &

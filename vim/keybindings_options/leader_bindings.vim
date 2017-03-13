@@ -20,7 +20,7 @@
   :nnoremap <leader>wy :vsp<cr><c-w>l
   :nnoremap <leader>wx :sp<cr><c-w>j
 
-  :nnoremap <leader>r :so $MYVIMPATH/source_me.vim<cr>
+  :nnoremap <silent><leader>r :so $MYVIMPATH/source_me.vim<cr>:echo "ReSourced Successfully!"<cr>
 
 """" Rails """"
   "" Open rails find
@@ -29,4 +29,11 @@
   :nnoremap <leader>fc :Econtroller<space>
   :nnoremap <leader>fr :find routes.rb<cr>
   :nnoremap <leader>fs :find schema.rb<cr>
+
+"""" VTR Commands """"
+  "" Attach to output pane
+  :nnoremap <leader>va :VtrAttachToPane<cr>
+  :nnoremap <leader>vs :VtrSendLinesToRunner<cr>
+  :vnoremap <leader>va :VtrAttachToPane<cr>
+  :vnoremap <leader>vs :VtrSendLinesToRunner<cr>
 
