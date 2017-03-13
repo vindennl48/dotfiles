@@ -12,5 +12,5 @@ done
 
 # func to open tmux with terminal
 # see bin/always_tmux
-ensure_tmux_is_running
+# ensure_tmux_is_running
 
