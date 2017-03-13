@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+
+######################
+##   SAVE FOR BASH  ##
+######################
+
+#save text in backup file
+LOCATION="$HOME"
+save() { 
+    if test -$LOCATION/.savebup; then
+        echo "$@" >> $LOCATION/.savebup
+    else
+        echo "$@" > $LOCATION/.savebup
+    fi
+}
+
+#get last 10 entries from .savebup
+getsave() {
+    if test -e $LOCATION/.savebup; then
+        tail $LOCATION/.savebup
+    else
+        echo "There is nothing saved..."
+    fi
+}
+
+#edit .savebup
+editsave() {
+    if test -e $LOCATION/.savebup; then
+        code $LOCATION/.savebup
+    else
+        echo "There is nothing saved..."
+    fi
+}
+

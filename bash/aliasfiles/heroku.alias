@@ -1,29 +1,13 @@
 #!/usr/bin/env bash
 
-               ####################################
-               ## ALIASES FOR HEROKU DEVELOPMENT ##
-               ####################################
-##################################################################
-#                 Created by: Mitchell Woodbine                  #
-#                   mitchellwoodbine@gmail.com                   #
-#               https://github.com/vindennl48/mybash             #
-##################################################################
+####################################
+## ALIASES FOR HEROKU DEVELOPMENT ##
+####################################
 
-
-#edit heroku cheat file
-alias cheat_heroku="vim ~/bin/mybash/cheatfiles/herokucheat"
-
-#perform heroku run
-alias hrun="heroku run"
-
-#run scraping tool for santander
-alias ssrb="heroku run ruby bin/ss-rb"
-
-# push current branch to heroku
-alias hpush="git push heroku +HEAD:master"
-
-# login to heroku remote database
-alias hdb="heroku pg:psql"
+alias hrun="heroku run"                      # perform heroku run
+alias ssrb="heroku run ruby bin/ss-rb"       # run scraping tool for santander
+alias hpush="git push heroku +HEAD:master"   # push current branch to heroku
+alias hdb="heroku pg:psql"                   # login to heroku remote database
 
 #set up git repo once cloned from heroku
 setup_heroku_repo(){ # <heroku app name> [if something is here, do https instead of ssh]

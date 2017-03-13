@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+for f in $MYPATH/bash/variables/*.var
+do
+    source "$f"
+done
+
+for f in $MYPATH/bash/aliasfiles/*.alias
+do
+    source "$f"
+done
+
+# func to open tmux with terminal
+# see bin/always_tmux
+# ensure_tmux_is_running
+

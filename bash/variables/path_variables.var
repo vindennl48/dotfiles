@@ -1,0 +1,11 @@
+# source any other paths needed
+
+# options for terminal fuzzy finder
+export FZF_DEFAULT_OPTS="--extended"
+export FZF_CTRL_T_COMMAND='ag --hidden --ignore .git -g ""'
+
+# location paths to dotfiles
+export MYVIMPATH="$MYPATH/vim"
+export MYBASHPATH="$MYPATH/bash"
+export MYTMUXPATH="$MYPATH/tmux"
+

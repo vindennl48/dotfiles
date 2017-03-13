@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-for f in $HOME/bin/mybash/aliasfiles/*.alias
-do
-    source "$f"
-done
