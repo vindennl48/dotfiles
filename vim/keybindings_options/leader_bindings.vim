@@ -13,6 +13,12 @@
   "" Switch Vim Splits
   :nnoremap <leader>wh <c-w>h
   :nnoremap <leader>wl <c-w>l
+  :nnoremap <leader>wj <c-w>j
+  :nnoremap <leader>wk <c-w>k
+  
+  "" Create vim splits
+  :nnoremap <leader>wy :vsp<cr><c-w>l
+  :nnoremap <leader>wx :sp<cr><c-w>j
 
   :nnoremap <leader>r :so $MYVIMPATH/source_me.vim<cr>
 

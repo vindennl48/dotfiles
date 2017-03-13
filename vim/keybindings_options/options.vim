@@ -143,3 +143,12 @@ endfunction
 """"""""""""""""""
   execute pathogen#infect()
 """"""""""""""""""
+
+" automatically rebalance windows on vim resize
+:autocmd VimResized * :wincmd =
+
+" zoom a vim pane, <C-w>= to re-balance
+:nnoremap <leader>wz :wincmd _<cr>:wincmd \|<cr>
+:nnoremap <leader>wb :wincmd =<cr>
+
+

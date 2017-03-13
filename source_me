@@ -1,0 +1,7 @@
+# Source Everything In This Repo
+
+export PATH="$MYPATH/bin:$PATH"
+source $MYPATH/bash/source_me
+# tmux gets sourced through .tmux.conf
+# vim gets sourced through .vimrc
+

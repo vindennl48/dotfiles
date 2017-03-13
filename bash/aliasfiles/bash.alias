@@ -26,6 +26,11 @@ alias rmdir="rm -rf"                           # delete directory
 alias lsh='ls -lhXG'                           # different form of ls
 alias q1='exit'                                # exit out of terminal
 alias regen='DISPLAY=:0.0 compiz --replace &'  # reload compiz when it craps out
+alias start="nohup"
+
+start(){
+  nohup $@ &
+}
 
 # screen resolution for single display
 alias ds="xrandr --output eDP1 --scale 1.25x1.25 --panning 1708x960"
