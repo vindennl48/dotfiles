@@ -5,6 +5,23 @@
 path_name="$(basename "$PWD" | tr . -)"
 session_name=${1-$path_name}
 
+dotfiles_exists(){
+  tmux list-sessions | sed -E 's/:.*$//' | grep -q dotfiles
+}
+
+keep_dotfiles_open() {
+  if ! dotfiles_exists; then
+    local curpwd=$(pwd)
+    cd ~/bin/dotfiles
+    tmux new-session -d -s dotfiles
+    tmux send -t dotfiles.0 tmux\ split-window\ -h\ -d ENTER
+    tmux send -t dotfiles.0 'vim'
+    tmux send -t dotfiles.0 ENTER
+    cd $curpwd
+  fi
+}
+
+
 not_in_tmux() {
   [ -z "$TMUX" ]
 }
@@ -28,5 +45,6 @@ create_if_needed_and_attach() {
   fi
 }
 
+keep_dotfiles_open
 create_if_needed_and_attach
 
