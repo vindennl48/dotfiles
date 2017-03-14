@@ -1,8 +1,8 @@
 # source any other paths needed
 
 # options for terminal fuzzy finder
-export FZF_DEFAULT_OPTS="--extended"
 export FZF_CTRL_T_COMMAND='ag --hidden --ignore .git -g ""'
+export FZF_CTRL_T_OPTS='--extended --preview="head -$LINES {}" --height=100%'
 
 # location paths to dotfiles
 export MYVIMPATH="$MYPATH/vim"

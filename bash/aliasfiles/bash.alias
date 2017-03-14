@@ -8,7 +8,6 @@ alias sdn="udf; shutdown now"                  # shutdown
 alias sdrn="udf; shutdown -r now"              # restart
 alias rsd="rails s -d"                         # run rails server
 alias rsk="pkill ruby"                         # kill rails server
-alias t="tmux"                                 # open tmux
 alias editdotfiles="cd $MYPATH/;tat"           # go to mybash LOCATION
 alias edf="editdotfiles"                       # go to mybash LOCATION
 alias p='python3'                              # open with python3 instead of 2
@@ -28,6 +27,9 @@ alias q1='exit'                                # exit out of terminal
 alias regen='DISPLAY=:0.0 compiz --replace &'  # reload compiz when it craps out
 alias sed="sed -E"                             # making sure we always use -E
 alias grep="grep -E"                           # making sure we always use -E
+
+# making sure we always use -E
+alias so='source $MYPATH/source_me; echo "Successfully Resourced!"'
 
 start(){
   $@ &
