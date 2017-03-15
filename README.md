@@ -31,6 +31,20 @@ To get this repo working, you will need to set some environment variables.
   source-file $MYTMUXPATH/tmux_bindings
 ```
 
+## Vim Plugin List
+ - ctrlp.vim
+ - indentLine
+ - L9
+ - nerdcommenter
+ - nerdtree
+ - newL9
+ - tlib_vim
+ - vim-bundler
+ - vim-rails
+ - vim-tmux-navigator
+ - vim-tmux-runner
+ - vimux
+
 ## Requirements
 You will need:
  - Oh-My-Zsh
