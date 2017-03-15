@@ -56,6 +56,8 @@ You will need:
  - Oh-My-Zsh
  - Tmux
  - Vim
+ - ag - The Silver Searcher
+ - fzf
  - A shot of malt liquor
 
 ## Thats It!
