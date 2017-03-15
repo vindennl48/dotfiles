@@ -5,7 +5,7 @@ export FZF_CTRL_T_COMMAND='ag --hidden --ignore .git -g ""'
 export FZF_CTRL_T_OPTS='--extended --preview="head -$LINES {}" --height=100%'
 
 # location paths to dotfiles
-export MYVIMPATH="$MYPATH/vim"
-export MYBASHPATH="$MYPATH/bash"
-export MYTMUXPATH="$MYPATH/tmux"
+export MYVIMPATH="$DOTFILES_PATH/vim"
+export MYBASHPATH="$DOTFILES_PATH/bash"
+export MYTMUXPATH="$DOTFILES_PATH/tmux"
 

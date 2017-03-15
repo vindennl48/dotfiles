@@ -7,9 +7,9 @@ To get this repo working, you will need to set some environment variables.
 ### Inside .zshrc
 ```sh
   # Path to the repo directory
-  export MYPATH="/home/mitch/bin/dotfiles"
+  export DOTFILES_PATH="/home/mitch/bin/dotfiles"
   # Source in the main file of the repo
-  source $MYPATH/source_me
+  source $DOTFILES_PATH/source_me
   
   # To allow fzf to work properly with ohmyzsh
   [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

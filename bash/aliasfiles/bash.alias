@@ -8,7 +8,7 @@ alias sdn="udf; shutdown now"                  # shutdown
 alias sdrn="udf; shutdown -r now"              # restart
 alias rsd="rails s -d"                         # run rails server
 alias rsk="pkill ruby"                         # kill rails server
-alias editdotfiles="cd $MYPATH/;tat"           # go to mybash LOCATION
+alias editdotfiles="cd $DOTFILES_PATH/;tat"           # go to mybash LOCATION
 alias edf="editdotfiles"                       # go to mybash LOCATION
 alias p='python3'                              # open with python3 instead of 2
 alias CLEAR='clear'                            # all caps version of clear
@@ -29,7 +29,7 @@ alias sed="sed -E"                             # making sure we always use -E
 alias grep="grep -E"                           # making sure we always use -E
 
 # making sure we always use -E
-alias so='source $MYPATH/source_me; echo "Successfully Resourced!"'
+alias so='source $DOTFILES_PATH/source_me; echo "Successfully Resourced!"'
 
 start(){
   $@ &
@@ -48,7 +48,7 @@ alias ddd="xrandr --newmode '1920x1080_60.00'  173.00  1920 2048 2248 2576  1080
 # Update Dotfiles repo
 udf(){
     curdir=$(pwd)
-    cd $MYPATH
+    cd $DOTFILES_PATH
     git add .
     git commit -m "updated code"
     git pull origin master --no-edit

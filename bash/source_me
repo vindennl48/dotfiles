@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-for f in $MYPATH/bash/variables/*.var
+for f in $DOTFILES_PATH/bash/variables/*.var
 do
     source "$f"
 done
 
-for f in $MYPATH/bash/aliasfiles/*.alias
+for f in $DOTFILES_PATH/bash/aliasfiles/*.alias
 do
     source "$f"
 done
