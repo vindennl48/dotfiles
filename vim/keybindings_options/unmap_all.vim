@@ -15,7 +15,7 @@
 :noremap n <Nop>
 :noremap o <Nop>
 :noremap p <Nop>
-:noremap q <Nop>
+" :noremap q <Nop>
 :noremap r <Nop>
 :noremap s <Nop>
 :noremap t <Nop>
