@@ -1,7 +1,7 @@
 # dotfiles
 Mitchell's collection of customizations and aliases
-<hr>
-## Source All The Things
+
+# Source All The Things
 To get this repo working, you will need to set some environment variables.
 
 ### Inside .zshrc
