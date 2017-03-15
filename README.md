@@ -55,9 +55,3 @@ You will need:
 ## Thats It!
 For a full-featured documentation, please refer to the sourced files.
 
-## Over And Out
-## out
-### out
-#### out
-##### out
-###### out
