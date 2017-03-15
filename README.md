@@ -5,7 +5,7 @@ Mitchell's collection of customizations and aliases
  - Arch Linux: Antergos x64: https://antergos.com/
 
 ## Source All The Things
-To use this repo:
+### To use this repo:
  - First, make sure that you installed all the required
    software and plugins! (if you choose not to use them, they
    can be removed at any time.  Just make sure to track down
