@@ -33,26 +33,17 @@ To get this repo working, you will need to set some environment variables.
 
 ## Vim Plugin List
  Plugin Manager
-  - Pathogen
-    https://github.com/tpope/vim-pathogen.git
+  - Pathogen https://github.com/tpope/vim-pathogen.git
 
  Plugins
-  - ctrlp.vim
-    https://github.com/kien/ctrlp.vim.git
-  - indentLine
-    https://github.com/Yggdroot/indentLine.git
-  - nerdcommenter
-    https://github.com/scrooloose/nerdcommenter.git
-  - nerdtree
-    https://github.com/scrooloose/nerdtree.git
-  - vim-rails
-    https://github.com/tpope/vim-rails.git
-  - vim-tmux-navigator
-    https://github.com/christoomey/vim-tmux-navigator.git
-  - vim-tmux-runner
-    https://github.com/christoomey/vim-tmux-runner.git
-  - vimux
-    https://github.com/benmills/vimux.git
+  - ctrlp.vim https://github.com/kien/ctrlp.vim.git
+  - indentLine https://github.com/Yggdroot/indentLine.git
+  - nerdcommenter https://github.com/scrooloose/nerdcommenter.git
+  - nerdtree https://github.com/scrooloose/nerdtree.git
+  - vim-rails https://github.com/tpope/vim-rails.git
+  - vim-tmux-navigator https://github.com/christoomey/vim-tmux-navigator.git
+  - vim-tmux-runner https://github.com/christoomey/vim-tmux-runner.git
+  - vimux https://github.com/benmills/vimux.git
 
 ## Requirements
 You will need:
