@@ -25,6 +25,12 @@ To get this repo working, you will need to set some environment variables.
   ensure_tmux_is_running
 ```
 
+### Inside .vimrc
+```sh
+  # Path to tmux config file
+  :so $MYVIMPATH/source_me.vim
+```
+
 ### Inside .tmux.conf
 ```sh
   # Path to tmux config file
