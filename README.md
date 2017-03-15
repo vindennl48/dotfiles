@@ -9,23 +9,10 @@ To get this repo working, you will need to set some environment variables.
 
 ### Inside .zshrc
 ```sh
-  # Path to the repo directory
+  # Create dotfiles directory variable
   export DOTFILES_PATH="/home/mitch/bin/dotfiles"
-  # Source in the main file of the repo
-  source $DOTFILES_PATH/source_me
-  
-  # To allow fzf to work properly with ohmyzsh
-  [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-  
-  # This is to make sure that tmux is running everytime
-  #  a terminal is opened.
-  _not_inside_tmux() { [[ -z "$TMUX" ]] }
-  ensure_tmux_is_running() {
-    if _not_inside_tmux; then
-      tat
-    fi
-  }
-  ensure_tmux_is_running
+  # Source zshrc
+  source $DOTFILES_PATH/bash/zshrc
 ```
 
 ### Inside .vimrc
