@@ -52,6 +52,6 @@ Installed with `pacman`
  - htop - Interactive Process viewer
  - termite - Lightweight Terminal
 
-## Thats It!
+# Thats It!
 For a full-featured documentation, please refer to the sourced files.
 
