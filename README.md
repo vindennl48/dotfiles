@@ -10,7 +10,7 @@ To get this repo working, you will need to set some environment variables.
 ### Inside .zshrc
 ```sh
   # Create dotfiles directory variable
-  export DOTFILES_PATH="/home/mitch/bin/dotfiles"
+  export DOTFILES_PATH="$HOME/bin/dotfiles"
   # Source zshrc
   source $DOTFILES_PATH/bash/zshrc
 ```
