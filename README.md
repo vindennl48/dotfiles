@@ -33,7 +33,8 @@ To get this repo working, you will need to set some environment variables.
 
 ## Vim Plugin List
  Plugin Manager
-  - Pathogen            # https://github.com/tpope/vim-pathogen.git 
+  - Pathogen            # https://github.com/tpope/vim-pathogen.git
+  
  Plugins
   - ctrlp.vim           # https://github.com/kien/ctrlp.vim.git
   - indentLine          # https://github.com/Yggdroot/indentLine.git
