@@ -5,27 +5,19 @@ Mitchell's collection of customizations and aliases
  - Arch Linux: Antergos x64: https://antergos.com/
 
 ## Source All The Things
-To get this repo working, you will need to set some environment variables.
-
-### Inside .zshrc
-```sh
-  # Create dotfiles directory variable
-  export DOTFILES_PATH="$HOME/bin/dotfiles"
-  # Source zshrc
-  source $DOTFILES_PATH/bash/zshrc
-```
-
-### Inside .vimrc
-```sh
-  # Path to tmux config file
-  :so $MYVIMPATH/source_me.vim
-```
-
-### Inside .tmux.conf
-```sh
-  # Path to tmux config file
-  source-file $MYTMUXPATH/tmux_bindings
-```
+To use this repo:
+ - First, make sure that you installed all the required
+   software and plugins! (if you choose not to use them, they
+   can be removed at any time.  Just make sure to track down
+   the keybindings and config files and remove them)
+ - Clone this repo into $HOME/bin/
+   - You can change this directory if you choose to. If you
+     do, make sure to change the directory path for the
+     global variable `DOTFILES_PATH` in dotfiles/bash/zshrc
+ - Navigate to $HOME/bin/dotfiles in the terminal
+ - Run `chmod a+x install_me.sh`
+ - Run `./install_me.sh`
+ - Thats It!
 
 # Requirements
 
