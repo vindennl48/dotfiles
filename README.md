@@ -1,10 +1,10 @@
-# dotfiles
+# DOTFILES
 Mitchell's collection of customizations and aliases
 
 ## Current Linux Distro
  - Arch Linux: Antergos x64: https://antergos.com/
 
-## Source All The Things
+# Source All The Things
 ### To use this repo:
  - First, make sure that you installed all the required
    software and plugins! (if you choose not to use them, they
