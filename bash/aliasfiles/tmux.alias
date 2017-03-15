@@ -1,6 +1,7 @@
 
 # Common tmux commands
 
-alias tn="tmux new -s"         # Create new tmux session with name x
+alias tn="tmux new -d -s"         # Create new tmux session with name x
 alias ta="tmux attach -t"      # Attach to specified session name
 alias tl="tmux list-sessions"  # List all open sessions
+
