@@ -16,17 +16,17 @@ Mitchell's collection of customizations and aliases
      $ cd ~/bin
      $ git clone git@github.com:vindennl48/dotfiles.git
    ```
- - You can change this directory if you choose to. If you
-   do, make sure to change the directory path for the
-   global variable `DOTFILES_PATH` in `dotfiles/bash/zshrc`
-   ```sh
-     export DOTFILES_PATH="<your directory here>/dotfiles"
-   ```
  - Navigate to `$HOME/bin/dotfiles` in the terminal and run `install_me.sh`
    ```sh
      $ cd ~/bin/dotfiles
      $ chmod a+x install_me.sh
      $ ./install_me.sh
+   ```
+ - You can change this directory if you choose to. If you
+   do, make sure to change the directory path for the
+   global variable `DOTFILES_PATH` in `dotfiles/bash/zshrc`
+   ```sh
+     export DOTFILES_PATH="<your directory here>/dotfiles"
    ```
  - Thats It!
 
