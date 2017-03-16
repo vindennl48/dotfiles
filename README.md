@@ -10,13 +10,24 @@ Mitchell's collection of customizations and aliases
    software and plugins! (if you choose not to use them, they
    can be removed at any time.  Just make sure to track down
    the keybindings and config files and remove them)
- - Clone this repo into `$HOME/bin/`
-   - You can change this directory if you choose to. If you
-     do, make sure to change the directory path for the
-     global variable `DOTFILES_PATH` in `dotfiles/bash/zshrc`
- - Navigate to `$HOME/bin/dotfiles` in the terminal
- - Run `chmod a+x install_me.sh`
- - Run `./install_me.sh`
+ - Clone this repo into `$HOME/bin/` or copy:
+   ```sh
+     $ mkdir ~/bin
+     $ cd ~/bin
+     $ git clone git@github.com:vindennl48/dotfiles.git
+   ```
+ - You can change this directory if you choose to. If you
+   do, make sure to change the directory path for the
+   global variable `DOTFILES_PATH` in `dotfiles/bash/zshrc`
+   ```sh
+     export DOTFILES_PATH="<your directory here>/dotfiles"
+   ```
+ - Navigate to `$HOME/bin/dotfiles` in the terminal and run `install_me.sh`
+   ```sh
+     $ cd ~/bin/dotfiles
+     $ chmod a+x install_me.sh
+     $ ./install_me.sh
+   ```
  - Thats It!
 
 # Requirements
