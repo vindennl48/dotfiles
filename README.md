@@ -63,6 +63,9 @@ Installed with `pacman`
  - htop | Interactive Process viewer
  - termite | Lightweight Terminal
 
+Installed from the Inerwebs
+ - RVM ruby version manager | https://rvm.io/
+
 # Thats It!
 For a full-featured documentation, please refer to the sourced files.
 
