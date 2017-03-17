@@ -24,7 +24,7 @@ Mitchell's collection of customizations and aliases
    ```
  - You can change this directory if you choose to. If you
    do, make sure to change the directory path for the
-   global variable `DOTFILES_PATH` in `dotfiles/bash/zshrc`
+   global variable `DOTFILES_PATH` in `~/.zshrc`
    ```sh
      export DOTFILES_PATH="<your directory here>/dotfiles"
    ```
