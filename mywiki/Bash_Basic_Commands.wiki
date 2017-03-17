@@ -1,0 +1,44 @@
+= Basic_Commands =
+
+== Files and Folders ==
+
+* *mv - Move, Rename*
+  - Arguments:
+    - f: force, do not promt
+    - i: interactive, ask before overwrite
+    - n: do not overwrite existing file(s)
+    - t: specify target dir
+    - u: update, move only when the source 
+         file is newer than the destination
+         file.
+    - v: verbose
+
+* *cp - Copy*
+  - Arguments:
+    - f: force, do not prompt, overwrite all
+    - i: interactive, ask before overwrite
+    - H: follow command-line symbolic links in source
+    - l: hard link files instead of copying
+    - L: always follow symbolic links in source
+    - n: do not overwrite existing files
+    - P: never follow symbolic links in source
+    - R: copy directories recursively
+    - s: make symbolic links instead of copying
+    - t: specify target dir
+    - u: update, move only when the source
+         file is newer than the destination file.
+    - v: verbose
+
+== Displaying / Saving Information ==
+
+* *echo - Send Text To Object*
+  - Display text in terminal:
+    :$ echo "hello world"
+    
+  - Send text to create/replace file:
+    :$ echo "hello world" > hello_world.txt
+    
+  - Send text to the end of existing file:
+    :$ echo "hello person" >> hello_world.txt
+
+
