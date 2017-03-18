@@ -59,11 +59,10 @@ You will need:
 Other Programs I typically install:
 
 Installed with `pacman`
- - feh | Terminal Image Viewer (for wallpaper)
  - htop | Interactive Process viewer
  - termite | Lightweight Terminal
 
-Installed from the Inerwebs
+Installed from the Interwebs
  - RVM ruby version manager | https://rvm.io/
 
 # Thats It!
