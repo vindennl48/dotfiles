@@ -4,6 +4,7 @@
 ## ALIASES FOR BASH ##
 ######################
 
+## General Aliases ##
 alias sdn="udf; shutdown now"                  # shutdown
 alias sdrn="udf; shutdown -r now"              # restart
 alias rsd="rails s -d"                         # run rails server
@@ -27,20 +28,25 @@ alias q1='exit'                                # exit out of terminal
 alias regen='DISPLAY=:0.0 compiz --replace &'  # reload compiz when it craps out
 alias sed="sed -E"                             # making sure we always use -E
 alias grep="grep -E"                           # making sure we always use -E
+alias home="~/"                                # home directory, 'go home' goes to ~/
 
-# making sure we always use -E
+## Pacman Aliases ##
+alias pacinstall="sudo pacman -S"              # install package script for pacman
+alias paclist="pacman -Q"                      # get a list of installed packages
+alias pacsearch="pacman -Ss"                   # search for package in database
+alias pacuninstall="sudo pacman -R"            # pacman uninstall
+
+# Re-source bash source files
 alias so='source $DOTFILES_PATH/source_me; echo "Successfully Resourced!"'
 
-start(){
-  $@ &
-}
-
+## Resolution Scripts ##
 # screen resolution for single display
 alias ds="xrandr --output eDP1 --scale 1.25x1.25 --panning 1708x960"
 # screen resolution for dual displays
 alias dd="xrandr --output VGA1 --mode 1920x1080_60.00 --scale 1x1 --pos 0x0 --output eDP1 --scale 1.25x1.25 --pos 0x1152"
 # create resolution for ext monitor
 alias ddd="xrandr --newmode '1920x1080_60.00'  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync; xrandr --addmode VGA1 1920x1080_60.00;dd"
+
 
 ## FUNCTIONS ##
 ###############
