@@ -14,14 +14,15 @@ alias branch-name="git rev-parse --abbrev-ref HEAD"
 alias showa="git branch -a"           # show local and remote branches
 alias gs="git branch -a"              # show local and remote branches
 alias goto="git checkout"             # go to branch
-# alias stat="git status"               # show status
+# alias stat="git status"             # show status
 alias giti="git citool"               # show commit gui
 alias gnew="git checkout -b"          # create new branch
 alias gclean="git clean -f -i -d -x"  # clean up any ignore files
 alias gfetch="git fetch -p origin"    # fetch from remotes
-alias gadd="git add"                  #staging a file
-alias gdrop="git reset"               #unstage files
-alias gcom="git commit"               #commit
+alias gadd="git add"                  # staging a file
+alias gdrop="git reset"               # unstage files
+alias gcom="git commit"               # commit
+alias gitk="gitkraken &"              # open git kraken
 
 ## HUB PLUGIN ##
 #######################################################################
