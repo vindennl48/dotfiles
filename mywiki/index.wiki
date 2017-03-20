@@ -23,4 +23,7 @@
 * [[Arch_Pacman]]
 
 
+== [[Installations]] ==
+* [[Ruby-Rails]]
+
 
