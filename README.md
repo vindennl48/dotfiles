@@ -45,6 +45,8 @@ Mitchell's collection of customizations and aliases
   - vim-tmux-navigator | https://github.com/christoomey/vim-tmux-navigator.git
   - vim-tmux-runner | https://github.com/christoomey/vim-tmux-runner.git
   - vimux | https://github.com/benmills/vimux.git
+  - fugitive | https://github.com/tpope/vim-fugitive
+  - conflicted | https://github.com/christoomey/vim-conflicted
 
 ## Additional Required Software
 You will need:

@@ -1,0 +1,12 @@
+= Commits =
+
+* ammend: add stuff to the last commit,
+          fix the previous commit.
+          
+          Add extra files to the previous commit
+           - git commit amend --no-edit
+          
+          Edit the previous commit message
+           - git commit amend
+
+
