@@ -63,6 +63,7 @@ Other Programs I typically install:
 Installed with `pacman`
  - htop | Interactive Process viewer
  - termite | Lightweight Terminal
+ - hub | Github cli
 
 Installed from the Interwebs
  - RVM ruby version manager | https://rvm.io/
