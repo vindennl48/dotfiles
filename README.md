@@ -6,21 +6,25 @@ Mitchell's collection of customizations and aliases
 
 # Source All The Things
 ### To use this repo:
- - First, make sure that you installed all the required
-   software and plugins! (if you choose not to use them, they
-   can be removed at any time.  Just make sure to track down
-   the keybindings and config files and remove them)
  - Clone this repo into `$HOME/bin/` or copy:
    ```sh
-     $ mkdir ~/bin
-     $ cd ~/bin
-     $ git clone git@github.com:vindennl48/dotfiles.git
+     mkdir ~/bin
+     cd ~/bin
+     git clone https://github.com/vindennl48/dotfiles
    ```
+ - Install the required software for this repo to work.  You can either
+   install them all manually, or try your luck with running my installer:
+   ```sh
+     cd ~/bin/dotfiles
+     chmod a+x run_me_first.sh
+     ./run_me_first.sh
+   ```
+
  - Navigate to `$HOME/bin/dotfiles` in the terminal and run `install_me.sh`
    ```sh
-     $ cd ~/bin/dotfiles
-     $ chmod a+x install_me.sh
-     $ ./install_me.sh
+     cd ~/bin/dotfiles
+     chmod a+x run_me_second.sh
+     ./run_me_second.sh
    ```
  - You can change this directory if you choose to. If you
    do, make sure to change the directory path for the
