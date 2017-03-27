@@ -27,6 +27,13 @@ run_installer() {
 
   echo '# Path to tmux config file' > ~/.tmux.conf
   echo 'source-file $MYTMUXPATH/tmux_bindings' >> ~/.tmux.conf
+
+  # install git config file
+  if [ -f ~/.gitconfig ]; then
+    mv ~/.gitconfig ~/.gitconfig.old
+  fi
+
+  cp ~/bin/dotfiles/git/gitconfig ~/.gitconfig
 }
 
 run_installer

@@ -51,6 +51,7 @@ Mitchell's collection of customizations and aliases
   - vimux | https://github.com/benmills/vimux.git
   - fugitive | https://github.com/tpope/vim-fugitive
   - conflicted | https://github.com/christoomey/vim-conflicted
+  - vimwiki | https://github.com/vimwiki/vimwiki.git
 
 ## Additional Required Software
 You will need:

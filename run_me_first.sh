@@ -52,6 +52,7 @@ git clone https://github.com/christoomey/vim-tmux-runner.git;
 git clone https://github.com/benmills/vimux.git;
 git clone https://github.com/tpope/vim-fugitive;
 git clone https://github.com/christoomey/vim-conflicted;
+git clone https://github.com/vimwiki/vimwiki.git;
 
 cd ~
 
