@@ -29,6 +29,7 @@ alias regen='DISPLAY=:0.0 compiz --replace &'  # reload compiz when it craps out
 alias sed="sed -E"                             # making sure we always use -E
 alias grep="grep -E"                           # making sure we always use -E
 alias home="~/"                                # home directory, 'go home' goes to ~/
+alias display="xbacklight -set"                # backlight value
 
 ## Pacman Aliases ##
 alias pacinstall="sudo pacman -S"              # install package script for pacman
