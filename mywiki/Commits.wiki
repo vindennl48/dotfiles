@@ -9,4 +9,11 @@
           Edit the previous commit message
            - git commit amend
 
-
+* soft reset: undo last commit and keep the files
+          
+          - git reset HEAD~
+          
+          To reset and keep the files staged:
+          - git reset --soft HEAD~
+          
+          
