@@ -1,0 +1,3 @@
+== Install Git ==
+
+When installing git, make sure to also install "tk" package to use gitk.

@@ -28,9 +28,10 @@
 
 
 == Git ==
+* [[Install_Git]]
 * [[Commits]]
 
 
 == Postgresql ==
-* [[Install]]
+* [[Install_Postgres]]
 * [[Commands]]
