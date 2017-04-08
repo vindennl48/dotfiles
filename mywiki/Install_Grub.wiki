@@ -1,0 +1,19 @@
+== Install Grub ==
+
+When reinstalling windows, this will get rid of the grub 
+  bootloader and fail to recognize linux.  To circumvent
+  this issue, we need to open up linux live distro and
+  type in the following commands:
+  
+  cfdisk  //to see which sda# linux is installed on
+  
+  su      //most likely you will have to be root to do this
+  mount -t ext4 /dev/sda# /mnt
+  arch-chroot /mnt
+  grub-install /dev/sda    //no number after sda
+  
+You might run into an error about Sector 32.  Just ignore it.
+  That sector is no longer in use by grub.
+  
+  
+That should be it!

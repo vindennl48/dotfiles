@@ -21,6 +21,7 @@
 
 == Arch Linux / Antergos ==
 * [[Arch_Pacman]]
+* [[Install_Grub]]
 
 
 == [[Installations]] ==
