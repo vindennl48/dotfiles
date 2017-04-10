@@ -1,0 +1,18 @@
+== Touchpad Setup ==
+
+In terminal:
+  Pacinstall xf86-input-synaptics
+
+Open file "/etc/X11/xorg.conf.d/50-synaptics.conf" and add:
+
+  # This section enables some additional features
+  Section "InputClass"
+          Identifier "touchpad"
+          Driver "synaptics"
+          MatchIsTouchpad "on"
+            Option "VertEdgeScroll" "on"
+            Option "VertTwoFingerScroll" "on"
+            Option "" "on"
+  EndSection
+
+Restart, and thats it!

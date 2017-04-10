@@ -38,3 +38,7 @@
 == Postgresql ==
 * [[Install_Postgres]]
 * [[Commands]]
+
+== TouchPad ==
+* [[Touchpad_Setup]]
+
