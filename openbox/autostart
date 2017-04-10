@@ -6,3 +6,5 @@ conky -c ~/.config/conky.conf &
 #volumeicon &
 # tint2 &
 # plank &
+(obsetlayout 0 3 3 0) &
+
