@@ -17,7 +17,7 @@ run_installer() {
     mv ~/.vimrc ~/.vimrc.old
   fi
 
-  echo '# Path to tmux config file' > ~/.vimrc
+  echo '" Path to tmux config file' > ~/.vimrc
   echo ':so $MYVIMPATH/source_me.vim' >> ~/.vimrc
 
   # Install the tmux configuration file
