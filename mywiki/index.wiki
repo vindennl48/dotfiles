@@ -23,6 +23,7 @@
 * [[Arch_Pacman]]
 * [[Install_Grub]]
 * [[Configure_Mulit_Desktops]]
+* [[Modifying_bootloader]]
 
 
 == [[Installations]] ==
