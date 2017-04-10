@@ -20,6 +20,10 @@
   :nnoremap <leader>wy :vsp<cr><c-w>l
   :nnoremap <leader>wx :sp<cr><c-w>j
 
+  " zoom a vim pane, <C-w>= to re-balance
+  :nnoremap <leader>wz :wincmd _<cr>:wincmd \|<cr>
+  :nnoremap <leader>wb :wincmd =<cr>
+
   :nnoremap <silent><leader>r :so $MYVIMPATH/source_me.vim<cr>:echo "ReSourced Successfully!"<cr>
 
 """" Rails """"
