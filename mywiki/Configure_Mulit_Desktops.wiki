@@ -1,0 +1,22 @@
+== Configure Multi Desktops ==
+
+Set Number of Desktops:
+  First, open up "Openbox Configuration Manager" under:
+    <rightclick on desktop>
+    - Applications
+      - Preferences
+        - Openbox Configuration Manager
+  Next, go to desktops tab and set the number of total
+    desktops you want, ie for 3x3=9
+
+Set Grid Style Desktops:
+  First, install obsetlayout through the AUR
+
+  Next, run this script inside teriminal:
+
+    obsetlayout 0 3 3 0
+
+  Where the grid is 3 x 3.
+
+
+All Set!
