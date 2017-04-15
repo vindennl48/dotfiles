@@ -42,3 +42,6 @@
 == TouchPad ==
 * [[Touchpad_Setup]]
 
+
+== Rails Bootstrap ==
+* [[Bootstrap_Javascript_issues]]
