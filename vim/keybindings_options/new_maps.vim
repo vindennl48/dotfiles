@@ -99,9 +99,9 @@
   :nnoremap G G
   
   "" shift page to top/mid/bottom
-  :nnoremap z. z.
-  :nnoremap z- z-
-  :nnoremap z<cr> z<cr>
+"  :nnoremap z. z.
+"  :nnoremap z- z-
+"  :nnoremap z<cr> z<cr>
 
   "" Next search result
   :nnoremap n n

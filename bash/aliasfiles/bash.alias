@@ -31,6 +31,7 @@ alias grep="grep -E"                           # making sure we always use -E
 alias home="~/"                                # home directory, 'go home' goes to ~/
 alias display="xbacklight -set"                # backlight value
 alias startpostgres="sudo systemctl start postgresql" # start up the postgres server
+alias vi="vim"                                 # prevents me from using vi
 
 ## Pacman Aliases ##
 alias pacinstall="sudo pacman -S"              # install package script for pacman

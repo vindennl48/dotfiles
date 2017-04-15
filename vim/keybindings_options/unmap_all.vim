@@ -24,7 +24,7 @@
 :noremap w <Nop>
 :noremap x <Nop>
 :noremap y <Nop>
-:noremap z <Nop>
+" :noremap z <Nop>
 
 :noremap A <Nop>
 :noremap B <Nop>
