@@ -31,6 +31,11 @@
   set smartcase
 """"""""""""""""
 
+" Folding Options
+"""""""""""""""""
+  :setlocal foldmethod=syntax
+"""""""""""""""""
+
 " Performance Options
 """""""""""""""""""""
   " limit the files searched for auto-complete
