@@ -1,6 +1,6 @@
 function! SelectTag()
 
-  let l:eot = EndOfTag()
+  let l:eot = ParseTillEnd()
 
   if l:eot != 0
 

@@ -12,7 +12,7 @@
     if b:x == ''
       " if we find a begin tag, insert metatag
       if matchstr(b:this_line,'^\s*<\w\+') != ''
-        execute "normal! 0f>i " . b:metatag_full . "\"\<esc>"
+        execute "normal! 0f>i " . b:metatag_full . "  \"\<esc>h"
         startinsert
       else
         " if we cant find a tag match, keep going up

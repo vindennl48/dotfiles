@@ -61,7 +61,32 @@ function! ParseTillEnd()
 
   endwhile
 
-  call cursor(s:linenum, 0)
+  return s:linenum
+  " call cursor(s:linenum, 0)
+
+endfunction
+
+function! ParseTillStart()
+
+  let s:linenum = line('.')
+  let s:eof = 0
+  let s:tag_count = 0
+
+  let s:tag_count += Parse_Line(getline(s:linenum), "up")
+
+  while s:tag_count > 0
+
+    let s:linenum -= 1
+    if s:linenum < s:eof
+      return 0
+    endif
+
+    let s:tag_count += Parse_Line(getline(s:linenum), "up")
+
+  endwhile
+
+  return s:linenum
+  " call cursor(s:linenum, 0)
 
 endfunction
 

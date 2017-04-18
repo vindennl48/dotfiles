@@ -12,7 +12,7 @@ function! HtmlMove(type)
   endif
 
   if a:type == 'this_end_tag'
-    let l:eot = EndOfTag()
+    let l:eot = ParseTillEnd()
     call cursor(l:eot,1)
     execute "normal! f<"
   elseif a:type == 'this_start_tag'

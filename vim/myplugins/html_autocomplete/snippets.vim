@@ -9,3 +9,5 @@
   " Clear the tag name
   :nnoremap c> F<lct>
 
+  " Add comment at end of tag
+  :nnoremap <leader>ea F>li <!-- <esc>A --><esc>
