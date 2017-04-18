@@ -11,6 +11,7 @@ function! Parse_Line(curline, direction)
     if matchstr(s:temp, '<!') != '' ||
      \ matchstr(s:temp, '<input') != '' ||
      \ matchstr(s:temp, '<meta') != '' ||
+     \ matchstr(s:temp, '<br') != '' ||
      \ matchstr(s:temp, '<link') != ''
 
       let s:temp = ""
