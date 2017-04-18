@@ -4,3 +4,8 @@
 
   :inoremap <leader>rli <%= link_to "Click Me", somewhere_path, class: "btn btn-info" %><esc>FC
 
+  " Clear everything in the text area of a tag
+  :nnoremap c< F>lct<
+  " Clear the tag name
+  :nnoremap c> F<lct>
+

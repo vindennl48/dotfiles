@@ -16,7 +16,14 @@ function! EndOfTag()
 
     if matchstr(getline(l:x),'<\w\+') != ''
 
-     let l:count += 1 
+      if matchstr(getline(l:x), '<input') == '' ||
+         \ matchstr(getline(l:x), '<meta') == '' ||
+         \ matchstr(getline(l:x), '<link') == '' ||
+         \ matchstr(getline(l:x), '<!') == ''
+
+        let l:count += 1 
+
+      endif
 
     endif
 

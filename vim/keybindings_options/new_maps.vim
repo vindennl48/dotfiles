@@ -52,6 +52,7 @@
   :nnoremap c] ci]
   :nnoremap c} ci}
   :nnoremap cw ciw
+  :nnoremap cn ct <esc>lx
   
   "" cut until
   :nnoremap ct ct
@@ -69,9 +70,11 @@
   
   "" next word
   :nnoremap w w
+  :nnoremap W f l
   
   "" previous word
   :nnoremap b b
+  :nnoremap B hF l
   
   "" find on line
   :nnoremap f f
