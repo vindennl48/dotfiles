@@ -4,8 +4,8 @@ xrandr --output eDP1 --scale 1.25x1.25 --panning 1708x960 &
 nitrogen --restore &
 conky -c ~/.config/conky.conf &
 (xset -dpms s off) &
-#volumeicon &
-tint2 &
-plank &
+# volumeicon &
+# tint2 &
+# plank &
 (obsetlayout 0 3 3 0) &
 
