@@ -12,6 +12,7 @@ alias rsk="pkill ruby"                         # kill rails server
 alias editdotfiles="cd $DOTFILES_PATH/;tat"           # go to mybash LOCATION
 alias edf="editdotfiles"                       # go to mybash LOCATION
 alias p='python3'                              # open with python3 instead of 2
+alias p27='python2.7'                          # open with python2.7
 alias CLEAR='clear'                            # all caps version of clear
 alias go='cd'                                  # alternate form of cd
 alias excel='libreoffice --calc'               # open up spreadsheet
