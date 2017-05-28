@@ -1,6 +1,6 @@
 compton --config ~/.config/compton.conf -b &
 lxpolkit &
-xrandr --output eDP1 --scale 1.25x1.25 --panning 1708x960 &
+# xrandr --output eDP1 --scale 1.25x1.25 --panning 1708x960 &
 nitrogen --restore &
 conky -c ~/.config/conky.conf &
 (xset -dpms s off) &
