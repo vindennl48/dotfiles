@@ -5,7 +5,7 @@
 ######################
 
 ## General Aliases ##
-alias buy="python2.7 ~/Desktop/quickTrade.py"  # Quick way to trade
+alias trade="p27 quicksale.py"                 # Quick way to trade
 alias sdn="udf; shutdown now"                  # shutdown
 alias sdrn="udf; shutdown -r now"              # restart
 alias rsd="rails s -d"                         # run rails server
