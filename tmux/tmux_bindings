@@ -89,7 +89,7 @@ bind-key s display-panes\; command-prompt -p "pane #: "  "swap-pane -t '%%'"
 bind-key C-b send-keys 'tat && exit' 'C-m'
 
 # kill current session and move to next
-bind-key K run-shell 'tmux switch-client -n \; kill-session -t "$(tmux display-message -p "#S")" || tmux kill-session'
+bind-key C-k run-shell 'tmux switch-client -n \; kill-session -t "$(tmux display-message -p "#S")" || tmux kill-session'
 
 # when detatching from tmux, exit terminal
 bind-key ^d detach-client\; run-shell 'exit'
