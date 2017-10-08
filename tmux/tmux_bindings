@@ -1,6 +1,6 @@
 #Startup Script
 #######################
-run-shell 'open_dotfiles.sh'
+# run-shell 'open_dotfiles.sh'
 
 #######################
 ## BINDINGS FOR TMUX ##
