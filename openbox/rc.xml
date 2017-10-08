@@ -221,7 +221,7 @@
     </keybind>
     <keybind key="F4">
       <action name="Execute">
-        <command>termite</command>
+        <command>stterm</command>
       </action>
     </keybind>
     <keybind key="XF86PowerOff">
