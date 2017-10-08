@@ -10,8 +10,8 @@
   "" Open :find
   :nnoremap <leader>ff :find<space>
 
-  "" Switch Vim Splits
   :nnoremap <leader>wh <c-w>h
+  "" Switch Vim Splits
   :nnoremap <leader>wl <c-w>l
   :nnoremap <leader>wj <c-w>j
   :nnoremap <leader>wk <c-w>k
