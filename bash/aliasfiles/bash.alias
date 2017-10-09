@@ -10,7 +10,7 @@ alias sdn="udf; shutdown now"                  # shutdown
 alias sdrn="udf; shutdown -r now"              # restart
 alias rsd="rails s -d"                         # run rails server
 alias rsk="pkill ruby"                         # kill rails server
-alias editdotfiles="cd $DOTFILES_PATH/;tat"           # go to mybash LOCATION
+alias editdotfiles="cd $DOTFILES_PATH/;tat"    # go to mybash LOCATION
 alias edf="editdotfiles"                       # go to mybash LOCATION
 alias p='python3'                              # open with python3 instead of 2
 alias p27='python2.7'                          # open with python2.7
@@ -37,15 +37,10 @@ alias vi="vim"                                 # prevents me from using vi
 alias make_runnable="chmod a+x"                # allows bash file to run
 
 ## Apt-Get Aliases  ##
-alias aptinstall="sudo apt -y install"                  # install script for apt
-alias aptsearch="apt-cache search"                      # search for available packages
-alias aptupdate="sudo apt update && sudo apt upgrade"   # update all software
-
-#     ## Pacman Aliases ##
-#     alias pacinstall="sudo pacman -S"              # install package script for pacman
-#     alias paclist="pacman -Q"                      # get a list of installed packages
-#     alias pacsearch="pacman -Ss"                   # search for package in database
-#     alias pacuninstall="sudo pacman -R"            # pacman uninstall
+alias aptinstall="sudo apt -y install"         # install script for apt
+alias aptuninstall="sudo apt -y remove"        # uninstall script for apt
+alias aptsearch="apt-cache search"             # search for available packages
+alias aptupdate="sudo apt update && sudo apt upgrade && sudo apt dist-upgrade"   # update all software
 
 # Re-source bash source files
 alias so='source $DOTFILES_PATH/source_me; echo "Successfully Resourced!"'
