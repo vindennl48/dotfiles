@@ -2,7 +2,7 @@
 Mitchell's collection of customizations and aliases
 
 ## Current Linux Distro
- - Arch Linux: Antergos x64: https://antergos.com/
+ - Ubuntu Linux 16.04.3
 
 # Source All The Things
 ### To use this repo:
@@ -15,17 +15,12 @@ Mitchell's collection of customizations and aliases
  - Install the required software for this repo to work.  You can either
    install them all manually, or try your luck with running my installer:
    ```sh
-     cd ~/bin/dotfiles
-     chmod a+x run_me_first.sh
-     ./run_me_first.sh
+     chmod a+x ~/bin/dotfiles/run_me_first.sh
+     chmod a+x ~/bin/dotfiles/run_me_second.sh
+     ./~/bin/dotfiles/run_me_first.sh
+     ./~/bin/dotfiles/run_me_second.sh
    ```
-
- - Navigate to `$HOME/bin/dotfiles` in the terminal and run `install_me.sh`
-   ```sh
-     cd ~/bin/dotfiles
-     chmod a+x run_me_second.sh
-     ./run_me_second.sh
-   ```
+  
  - You can change this directory if you choose to. If you
    do, make sure to change the directory path for the
    global variable `DOTFILES_PATH` in `~/.zshrc`
@@ -65,14 +60,13 @@ You will need:
 ## Extras - Not Required
 Other Programs I typically install:
 
-Installed with `pacman`
+Installed with `Apt-Get`
+ - curl | I hope you know what curl is
  - htop | Interactive Process viewer
- - termite | Lightweight Terminal
- - hub | Github cli
 
 Installed from the Interwebs
  - RVM ruby version manager | https://rvm.io/
 
-# Thats It!
+# Thats Probably It!
 For a full-featured documentation, please refer to the sourced files.
 

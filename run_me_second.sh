@@ -1,8 +1,18 @@
 #!/usr/bin/env bash
 
+cd ~
+
+echo "###########################################"
+echo "install fzf"
+echo "###########################################"
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
 
 run_installer() {
   # Install the zsh rc file
+  echo "###########################################"
+  echo "Replace zshrc file"
+  echo "###########################################"
   if [ -f ~/.zshrc ]; then
     mv ~/.zshrc ~/.zshrc.old
   fi
@@ -13,6 +23,9 @@ run_installer() {
   echo 'source $DOTFILES_PATH/bash/zshrc' >> ~/.zshrc
 
   # Install the vim rc file
+  echo "###########################################"
+  echo "Replace vimrc file"
+  echo "###########################################"
   if [ -f ~/.vimrc ]; then
     mv ~/.vimrc ~/.vimrc.old
   fi
@@ -21,6 +34,9 @@ run_installer() {
   echo ':so $MYVIMPATH/source_me.vim' >> ~/.vimrc
 
   # Install the tmux configuration file
+  echo "###########################################"
+  echo "Replace tmux.conf file"
+  echo "###########################################"
   if [ -f ~/.tmux.conf ]; then
     mv ~/.tmux.conf ~/.tmux.conf.old
   fi
@@ -29,6 +45,9 @@ run_installer() {
   echo 'source-file $MYTMUXPATH/tmux_bindings' >> ~/.tmux.conf
 
   # install git config file
+  echo "###########################################"
+  echo "Replace gitconfig file"
+  echo "###########################################"
   if [ -f ~/.gitconfig ]; then
     mv ~/.gitconfig ~/.gitconfig.old
   fi

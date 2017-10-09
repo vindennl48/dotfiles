@@ -221,7 +221,7 @@
     </keybind>
     <keybind key="F4">
       <action name="Execute">
-        <command>stterm</command>
+        <command>gnome-terminal</command>
       </action>
     </keybind>
     <keybind key="XF86PowerOff">

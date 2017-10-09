@@ -34,12 +34,18 @@ alias home="~/"                                # home directory, 'go home' goes 
 alias display="xbacklight -set"                # backlight value
 alias startpostgres="sudo systemctl start postgresql" # start up the postgres server
 alias vi="vim"                                 # prevents me from using vi
+alias make_runnable="chmod a+x"                # allows bash file to run
 
-## Pacman Aliases ##
-alias pacinstall="sudo pacman -S"              # install package script for pacman
-alias paclist="pacman -Q"                      # get a list of installed packages
-alias pacsearch="pacman -Ss"                   # search for package in database
-alias pacuninstall="sudo pacman -R"            # pacman uninstall
+## Apt-Get Aliases  ##
+alias aptinstall="sudo apt -y install"                  # install script for apt
+alias aptsearch="apt-cache search"                      # search for available packages
+alias aptupdate="sudo apt update && sudo apt upgrade"   # update all software
+
+#     ## Pacman Aliases ##
+#     alias pacinstall="sudo pacman -S"              # install package script for pacman
+#     alias paclist="pacman -Q"                      # get a list of installed packages
+#     alias pacsearch="pacman -Ss"                   # search for package in database
+#     alias pacuninstall="sudo pacman -R"            # pacman uninstall
 
 # Re-source bash source files
 alias so='source $DOTFILES_PATH/source_me; echo "Successfully Resourced!"'
