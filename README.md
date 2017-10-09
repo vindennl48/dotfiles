@@ -50,8 +50,8 @@ Mitchell's collection of customizations and aliases
 
 ## Additional Required Software
 You will need:
- - Tmux | (pacman)
- - Vim | (pacman)
+ - Tmux | (Apt-Get)
+ - Vim | (Apt-Get)
  - Oh-My-Zsh | https://github.com/robbyrussell/oh-my-zsh
  - AG | https://github.com/ggreer/the_silver_searcher
  - fzf | https://github.com/junegunn/fzf
