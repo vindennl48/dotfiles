@@ -45,3 +45,8 @@
 
 == Rails Bootstrap ==
 * [[Bootstrap_Javascript_issues]]
+* [[Ruby_Rails_Notes]]
+
+
+
+

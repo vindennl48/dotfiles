@@ -1,0 +1,88 @@
+# Rails Workshop Notes
+# this allows us to not create test files and not bundle install
+# #   until we can get a chance to add our own gems first
+# rails new <project name> --skip-bundle --skip-test
+# User Authentication gem
+# gem 'monban'
+# after we add our gems, run bundle
+# bundle
+# since we set the skip bundle flag we need to add assets back into bundle
+# bundle --without foo
+# you can add groups for gem files that are for a specific functionality
+# #   aka. my scraping scripts have 3 gems, those three can be added into a group
+# #   since no other program is utilizing those gems
+# group :assets do
+#     gem 'foo'
+#     gem 'bar'
+# end
+# Monban Gem
+# # this creates a scaffold for user authentication
+# rails g monban:scaffold
+# # always do this after any generation commands
+# rake db:migrate
+# start rails server in DEVELOPMENT mode
+# rails s -d 
+  
+  # add our root to our routes.rb file
+  # # the reason we specify ':get' is for making the app as simple as possible.  we
+  # #   dont want to add additional routings if they are not needed
+  # root to: 'something#show', via: :get
+# # use this to see all the routes for the current rails project
+# rake routes
+# Creating A Controller
+# # notice that 'Somethings' is the plural form of the model
+# class SomethingsController < ApplicationController
+#     # all of the views will need a member here
+#     def Show
+#     end
+# end
+# to create views
+# # needs its own folder for views
+# mkdir app/views/somethings/show.html.erb
+# layouts folder is the root of the project's html.  The main html page that ALL
+# #   the other code is inserted into for the page.  Use this for content that needs
+# #   to be displayed on all pages.  aka. navigation bar
+# app/views/layouts/application.html.erb
+# Add Migration To App
+# # add_column_to_table
+# # if you leave a column name blank at the end, it defaults to a string.  this is why we
+# #   can say 'username:index' and the username is a string which is also an index
+# rails g migration add_username_to_users username:index
+# rake db:migrate
+# need to add newly created column to the controller's params method
+# params.require(:user).permit(:username, :email, :password)
+# reroute someone from the welcome page to the dashboard
+# #   if they are logged in.
+# # before filter in the controller, this goes OUTSIDE of all members
+# before_filter :check_logged_in_user # < this is a predefined private member
+# private
+# def check_logged_in_user
+#     if signed_in?
+#         redirect_to dashboard_path
+#     end
+# end
+# routes for resources
+# resource :dashboard, only: [:show]
+# # we would use 'resources' if we were talking about users or a resource with
+# #   multiple items within that resource.
+# generating a model
+# # the 'belongs_to' reference is going to create a column of user_id to reference
+# #   the uesr that created the shout
+# rails g model Shout body:string user:belongs_to
+# rake db:migrate
+# form for
+# <%= form_for :shout do |form| %>
+#     <%= form.text_field :body, placeholder: 'Shout content here' %>
+#     <%= form.submit 'Shout!' %>
+# <% end %>
+# <%=  render shouts %>
+# # we need to set the 'shout' and 'shouts' variables in the controller
+# #   as '@shout' and '@shouts'
+# div_for 
+  # this automatically creates divs for each shout and gives them a class of shout
+  # <%= div_for shout do %>
+  #     <%= shout.body %>
+  # <% end %>
+# # link_to for buttons and links aka. navigation
+# <%= link_to 'linkthatshows', shout %>
+# 
