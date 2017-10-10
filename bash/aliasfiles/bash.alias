@@ -35,6 +35,7 @@ alias display="xbacklight -set"                # backlight value
 alias startpostgres="sudo systemctl start postgresql" # start up the postgres server
 alias vi="vim"                                 # prevents me from using vi
 alias make_runnable="chmod a+x"                # allows bash file to run
+alias install_kernel="sudo dpkg -i *.deb"      # installs new kernel to select in grub
 
 ## Apt-Get Aliases  ##
 alias aptinstall="sudo apt -y install"         # install script for apt
