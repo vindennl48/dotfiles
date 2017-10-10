@@ -6,6 +6,13 @@ Mitchell's collection of customizations and aliases
 
 # Source All The Things
 ### To use this repo:
+ - If using this in VMware, Use this to install vmware tools:
+   ```sh
+     sudo apt update
+     sudo apt upgrade
+     sudo apt dist-upgrade
+     sudo apt -y install open-vm-tools-desktop
+   ```
  - First, Install git
    ```sh
      sudo apt -y install git
