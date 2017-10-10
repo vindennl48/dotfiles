@@ -6,7 +6,13 @@ Mitchell's collection of customizations and aliases
 
 # Source All The Things
 ### To use this repo:
- - Clone this repo into `$HOME/bin/` or copy:
+ - First, Install git
+   ```sh
+     sudo apt -y install git
+     git config --global user.email "your@email.com"
+     git config --global user.name "yourname"
+   ```
+ - Then, Clone this repo into `$HOME/bin/` or copy:
    ```sh
      mkdir ~/bin
      cd ~/bin
