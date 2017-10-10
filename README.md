@@ -30,8 +30,8 @@ Mitchell's collection of customizations and aliases
    ```sh
      chmod a+x ~/bin/dotfiles/run_me_first.sh
      chmod a+x ~/bin/dotfiles/run_me_second.sh
-     ./~/bin/dotfiles/run_me_first.sh
-     ./~/bin/dotfiles/run_me_second.sh
+     ~/bin/dotfiles/run_me_first.sh
+     ~/bin/dotfiles/run_me_second.sh
    ```
   
  - You can change this directory if you choose to. If you
