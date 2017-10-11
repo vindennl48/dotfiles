@@ -6,7 +6,20 @@ Mitchell's collection of customizations and aliases
 
 # Source All The Things
 ### To use this repo:
- - Clone this repo into `$HOME/bin/` or copy:
+ - If using this in VMware, Use this to install vmware tools:
+   ```sh
+     sudo apt update
+     sudo apt upgrade
+     sudo apt dist-upgrade
+     sudo apt -y install open-vm-tools-desktop
+   ```
+ - First, Install git
+   ```sh
+     sudo apt -y install git
+     git config --global user.email "your@email.com"
+     git config --global user.name "yourname"
+   ```
+ - Then, Clone this repo into `$HOME/bin/` or copy:
    ```sh
      mkdir ~/bin
      cd ~/bin
@@ -17,8 +30,8 @@ Mitchell's collection of customizations and aliases
    ```sh
      chmod a+x ~/bin/dotfiles/run_me_first.sh
      chmod a+x ~/bin/dotfiles/run_me_second.sh
-     ./~/bin/dotfiles/run_me_first.sh
-     ./~/bin/dotfiles/run_me_second.sh
+     ~/bin/dotfiles/run_me_first.sh
+     ~/bin/dotfiles/run_me_second.sh
    ```
   
  - You can change this directory if you choose to. If you
