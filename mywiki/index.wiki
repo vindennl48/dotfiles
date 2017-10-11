@@ -33,6 +33,7 @@
 == Git ==
 * [[Install_Git]]
 * [[Commits]]
+* [[gitignore]]
 
 
 == Postgresql ==
