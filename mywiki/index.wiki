@@ -1,23 +1,21 @@
-
-
 = Vindennl48's Personal VimWiki =
 
-
-== Bash ==
+== [[Bash]] ==
 * [[Bash_Basic_Commands]]
 * [[Bash_Advanced_Commands]]
 * [[Bash_Functions]]
 * [[Bash_Loops]]
 * [[Bash_Regex]]
 
-
 == Vim ==
 * [[Vim_VimScript]]
-
 
 == Tmux ==
 * [[Tmux_Commands]]
 
+== Remote_Desktop  ==
+* [[Remote_Desktop_Setup]]
+* [[Remote_Desktop_Transfer_Files]]
 
 == Arch Linux / Antergos ==
 * [[Arch_Pacman]]
@@ -25,16 +23,13 @@
 * [[Configure_Mulit_Desktops]]
 * [[Modifying_bootloader]]
 
-
 == [[Installations]] ==
 * [[Ruby-Rails]]
-
 
 == Git ==
 * [[Install_Git]]
 * [[Commits]]
 * [[gitignore]]
-
 
 == Postgresql ==
 * [[Install_Postgres]]
@@ -43,11 +38,7 @@
 == TouchPad ==
 * [[Touchpad_Setup]]
 
-
 == Rails Bootstrap ==
 * [[Bootstrap_Javascript_issues]]
 * [[Ruby_Rails_Notes]]
-
-
-
 

@@ -78,6 +78,7 @@ deletelocal() {
     git branch -D $1
 }
 #delete remote branch
+# $1 is origin or upstream name, $2 is branch
 deleteremote() {
         git push $1 --delete $2
 }

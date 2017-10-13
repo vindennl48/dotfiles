@@ -1,0 +1,10 @@
+== Transfer Files  ==
+
+To transfer files through putty, first start 'psftp' on windows.
+
+Next, open the ssh connection:
+  open <host name> <port number>
+  
+Next, enter in username and password.
+
+You are in!  Type help at the terminal for additional help

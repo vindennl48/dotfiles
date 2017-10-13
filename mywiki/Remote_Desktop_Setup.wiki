@@ -1,0 +1,38 @@
+== Remote_Desktop_Setup  ==
+
+Requirements:
+ - On Ubuntu
+   - Install and set up noip2 (ddns client)
+   - Install and set up OpenSSH with apt-get
+   - Install x11vnc with apt-get
+ - On Windows
+   - Install Putty for ssh
+   - Install RealVnc Viewer
+
+
+There is already a script in dotfiles/bin:
+  "noip2_start.sh"
+that needs to be started with Ubuntu.  To do this,
+search for 'startup programs' in the ubuntu search
+bar and create a new startup script through the
+gui to point to this bash script.  This will keep
+the ddns client running at all times.
+
+On the router, there needs to be port forwarding set up:
+ - For SSH:
+   - port: 5801
+ - For noip2:
+   - port: 8245
+ - For VNC:
+   - port: 5900 - 5905
+
+To Use:
+ - Run putty and connect to '<host name>:5801'
+ - At the terminal:
+     :$ x11vnc
+ - On windows, run vnc viewer and connect to '<host name>'
+ - It should automatically connect
+
+
+
+
