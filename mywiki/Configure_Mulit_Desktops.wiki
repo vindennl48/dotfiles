@@ -1,4 +1,4 @@
-== Configure Multi Desktops ==
+=== Configure Multi Desktops ===
 
 Set Number of Desktops:
   First, open up "Openbox Configuration Manager" under:

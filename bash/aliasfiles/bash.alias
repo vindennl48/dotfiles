@@ -22,6 +22,7 @@ alias calc='galculator'                        # calculator
 alias goo="xdg-open ."                         # open file in gui
 alias godesk="cd ~/Desktop"                    # go to desktop
 alias godoc="cd ~/Documents"                   # go to documents
+alias gogit="cd ~/Documents/github"            # go to github directory
 alias back='cd "$OLDPWD"'                      # go back to previous directory
 alias wf="mkdir"                               # make directory
 alias rmdir="rm -rf"                           # delete directory
