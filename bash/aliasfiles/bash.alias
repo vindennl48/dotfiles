@@ -40,6 +40,7 @@ alias make_runnable="chmod a+x"                # allows bash file to run
 alias install_kernel="sudo dpkg -i *.deb"      # installs new kernel to select in grub
 alias t="tree"                                 # short for tree command (need to aptinstall tree)
 alias rmdb="psql -c \"drop database bankapp3_development\"; psql -c \"drop database bankapp3_test\"; rake db:create; rake db:migrate"
+alias text="gedit"                             # For some reason I can not remember this text editor's name... so its called text now.
 
 ## Apt-Get Aliases  ##
 alias aptinstall="sudo apt -y install"         # install script for apt
