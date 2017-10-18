@@ -9,6 +9,7 @@ alias trade="p27 quicksale.py"                 # Quick way to trade
 alias sdn="udf; shutdown now"                  # shutdown
 alias sdrn="udf; shutdown -r now"              # restart
 alias rsd="rails s -d"                         # run rails server
+alias rsdr="rails s -b 0.0.0.0 -d"             # run rails server remote access
 alias rsk="pkill ruby"                         # kill rails server
 alias editdotfiles="cd $DOTFILES_PATH/;tat"    # go to mybash LOCATION
 alias edf="editdotfiles"                       # go to mybash LOCATION
@@ -37,6 +38,8 @@ alias startpostgres="sudo systemctl start postgresql" # start up the postgres se
 alias vi="vim"                                 # prevents me from using vi
 alias make_runnable="chmod a+x"                # allows bash file to run
 alias install_kernel="sudo dpkg -i *.deb"      # installs new kernel to select in grub
+alias t="tree"                                 # short for tree command (need to aptinstall tree)
+alias rmdb="psql -c \"drop database bankapp3_development\"; psql -c \"drop database bankapp3_test\"; rake db:create; rake db:migrate"
 
 ## Apt-Get Aliases  ##
 alias aptinstall="sudo apt -y install"         # install script for apt
