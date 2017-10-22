@@ -46,7 +46,7 @@ alias text="gedit"                             # For some reason I can not remem
 alias aptinstall="sudo apt -y install"         # install script for apt
 alias aptuninstall="sudo apt -y remove"        # uninstall script for apt
 alias aptsearch="apt-cache search"             # search for available packages
-alias aptupdate="sudo apt update && sudo apt upgrade && sudo apt dist-upgrade"   # update all software
+alias aptupdate="sudo apt -y update && sudo apt -y upgrade && sudo apt -y dist-upgrade && sudo apt -y autoremove"   # update all software
 
 # Re-source bash source files
 alias so='source $DOTFILES_PATH/source_me; echo "Successfully Resourced!"'
