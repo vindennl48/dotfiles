@@ -1,5 +1,7 @@
 """" ANYTHING GOES """"
 
+  :vnoremap // y/<C-R>"<CR>
+
   :nnoremap <F9> za
 
   "" leader
