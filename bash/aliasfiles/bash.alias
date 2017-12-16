@@ -4,6 +4,13 @@
 ## ALIASES FOR BASH ##
 ######################
 
+## Trading ##
+alias pfall="p27 pfall.py"                     # start cascade trading
+alias pclear="p27 clear_trades.py"             # clear all open trades
+alias psell="p27 clear_trades.py;\
+             p27 sell_all.py"                  # clear all open trades
+alias balance="p27 balance.py"                 # get bank account balance
+
 ## General Aliases ##
 alias trade="p27 quicksale.py"                 # Quick way to trade
 alias sdn="udf; shutdown now"                  # shutdown
