@@ -4,15 +4,22 @@
 ## ALIASES FOR BASH ##
 ######################
 
+## ## Trading ##
+## alias  pfall="p27 pfall.py"                    # start cascade trading
+## alias pclear="p27 clear_trades.py"             # clear all open trades
+## alias   pbuy="p27 buy.py"                      # buy coins
+## alias  psell="p27 sell_all.py;\
+##               p27 clear_trades.py;\
+##               p27 sell_all.py"                 # sell all trades
+## alias   pbal="p27 balance.py"                  # get bank account balance
+## alias  pstat="p27 stats.py"                    # start stats screen
+## alias  preset="pkill python;pstat"                    # start stats screen
+
 ## Trading ##
-alias pfall="p27 pfall.py"                     # start cascade trading
-alias pclear="p27 clear_trades.py"             # clear all open trades
-alias psell="p27 clear_trades.py;\
-             p27 sell_all.py"                  # clear all open trades
-alias balance="p27 balance.py"                 # get bank account balance
+alias b="p bina.py"                            # Quick way to trade
+alias gobina="go /home/mitchellwoodbine/Documents/github/binance-trader/term_commands"  # Go to term commands folder
 
 ## General Aliases ##
-alias trade="p27 quicksale.py"                 # Quick way to trade
 alias sdn="udf; shutdown now"                  # shutdown
 alias sdrn="udf; shutdown -r now"              # restart
 alias rsd="rails s -d"                         # run rails server
@@ -20,7 +27,8 @@ alias rsdr="rails s -b 0.0.0.0 -d"             # run rails server remote access
 alias rsk="pkill ruby"                         # kill rails server
 alias editdotfiles="cd $DOTFILES_PATH/;tat"    # go to mybash LOCATION
 alias edf="editdotfiles"                       # go to mybash LOCATION
-alias p='python3'                              # open with python3 instead of 2
+#alias p='python3'                              # open with python3 instead of 2
+alias p='python2.7'                            # open with python3 instead of 2
 alias p27='python2.7'                          # open with python2.7
 alias clear='clear;clear'                      # erase the screen twice to get rid of any buffer
 alias CLEAR='clear'                            # all caps version of clear
