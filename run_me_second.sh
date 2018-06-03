@@ -18,6 +18,11 @@ echo "###########################################"
 sudo apt -y install vim tmux
 
 echo "###########################################"
+echo "Install Tree"
+echo "###########################################"
+sudo apt -y install tree
+
+echo "###########################################"
 echo "installing package manager for vim"
 echo "###########################################"
 mkdir -p ~/.vim/autoload ~/.vim/bundle
