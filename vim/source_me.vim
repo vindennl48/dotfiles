@@ -14,6 +14,9 @@
   "" Leader Key Bindings
   :so $MYVIMPATH/keybindings_options/leader_bindings.vim
 
+  "" Syntax Highlighting
+  :au BufNewFile,BufRead *.EXP set filetype=stplc
+
   "" Personal Plugins
   for f in split(glob('$MYVIMPATH/myplugins/*.vim'), '\n')
     exe 'source' f

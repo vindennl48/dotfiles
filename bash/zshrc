@@ -122,3 +122,8 @@ ensure_tmux_is_running() {
 
 ensure_tmux_is_running
 #####################################################
+
+# Stop python from creating pyc files
+#####################################
+export PYTHONDONTWRITEBYTECODE=1
+#####################################
