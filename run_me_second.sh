@@ -23,6 +23,27 @@ echo "###########################################"
 sudo apt -y install tree
 
 echo "###########################################"
+echo "Install docker"
+echo "###########################################"
+sudo apt -y install docker.io
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo groupadd docker
+sudo gpasswd -a $USER docker
+
+echo "###########################################"
+echo "Install docker-compose"
+echo "###########################################"
+sudo curl -L https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+
+echo "###########################################"
+echo "Install heroku cli tools"
+echo "###########################################"
+sudo snap install heroku --classic
+ln -s /snap/bin/heroku /usr/bin/heroku
+
+echo "###########################################"
 echo "installing package manager for vim"
 echo "###########################################"
 mkdir -p ~/.vim/autoload ~/.vim/bundle
