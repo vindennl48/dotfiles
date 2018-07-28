@@ -18,12 +18,19 @@
 ## Docker ##
 alias buildbetaflight='docker run -e "PLATFORM=BETAFLIGHTF4" --rm -ti -v `pwd`:/opt/betaflight betaflight/betaflight-build'
 alias testbetaflight='docker run --rm -ti -v `pwd`:/opt/betaflight --entrypoint /opt/betaflight/.travis.sh betaflight/betaflight-build'
+alias dc='docker-compose'
+alias dcr='docker-compose run --rm'
+alias dcrw='docker-compose run --rm web'
+alias dcu='docker-compose up web'
+alias dcd='docker-compose down'
+alias docker_clean='sudo docker rm $(sudo docker ps -a -q);sudo docker rmi $(sudo docker images -q)'
 
 ## Trading ##
 alias b="p bina.py"                            # Quick way to trade
 alias gobina="go /home/mitchellwoodbine/Documents/github/binance-trader/term_commands"  # Go to term commands folder
 
 ## General Aliases ##
+#alias heroku="sudo heroku"                     # im tired of forgetting this
 alias sdn="udf; shutdown now"                  # shutdown
 alias sdrn="udf; shutdown -r now"              # restart
 alias rsd="rails s -d"                         # run rails server
