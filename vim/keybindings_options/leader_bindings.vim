@@ -5,7 +5,7 @@
   :nnoremap <leader>pas :r ~/.cp<cr>
 
   "" Open NerdTree
-  :nnoremap <leader>nerd :NERDTree<cr>
+  :nnoremap <leader>nerd :NERDTreeToggle<cr>
 
   "" Open :find
   :nnoremap <leader>ff :find<space>

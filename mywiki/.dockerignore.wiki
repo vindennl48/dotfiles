@@ -1,0 +1,1 @@
+Add this file to your apps to ignore files to build into the image when running build.
