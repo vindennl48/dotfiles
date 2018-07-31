@@ -2,7 +2,7 @@ version: '3'
 
 services:
   web:
-    container_name: myapp
+    container_name: project
     build: .
     volumes:
       - ./:/app
@@ -18,12 +18,12 @@ services:
       REDIS_URL: redis://redis@redis
   db:
     container_name: postgres
-    image: postgres:alpine
+    image: postgres:11-alpine
     volumes:
       - ./postgres-data:/var/lib/postgresql/data
   redis:
     container_name: redis
-    image: redis:alpine
+    image: redis:4.0.10-alpine3.8
     command: redis-server /usr/local/etc/redis/redis.conf
     volumes:
       - .${PWD}/redis.conf:/usr/local/etc/redis/redis.conf
