@@ -12,7 +12,7 @@
   :nnoremap ; :
 
   "" quit without saving
-  :noremap q1 :q!<cr>
+  :noremap q1 :q<cr>
 
   "" esc key
   :inoremap jk <esc>
