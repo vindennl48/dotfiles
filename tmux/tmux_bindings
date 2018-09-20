@@ -94,3 +94,5 @@ bind-key C-k run-shell 'tmux switch-client -n \; kill-session -t "$(tmux display
 # when detatching from tmux, exit terminal
 bind-key ^d detach-client\; run-shell 'exit'
 
+# remove wait time on esc key
+set -sg escape-time 10

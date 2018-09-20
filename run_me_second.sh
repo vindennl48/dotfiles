@@ -3,6 +3,11 @@
 cd ~
 
 echo "###########################################"
+echo "install git"
+echo "###########################################"
+sudo apt -y install git
+
+echo "###########################################"
 echo "install htop"
 echo "###########################################"
 sudo apt -y install htop
@@ -13,14 +18,25 @@ echo "###########################################"
 sudo apt -y install silversearcher-ag
 
 echo "###########################################"
-echo "Install Vim and Tmux"
+echo "Install Neovim and Tmux"
 echo "###########################################"
-sudo apt -y install vim tmux
+sudo apt -y install nvim tmux
+mkdir -p .local/share/nvim/site/autoload/
+mkdir -p .config/nvim/
+cat ":source ~/bin/dotfiles/init.vim" > .config/nvim/init.vim
+git clone https://github.com/junegunn/vim-plug.git .local/share/nvim/site/autoload/vim-plug
+cp vim-plug/plug.vim . ; rm -Rf vim-plug
 
 echo "###########################################"
 echo "Install Tree"
 echo "###########################################"
 sudo apt -y install tree
+
+echo "###########################################"
+echo "Install openssh"
+echo "###########################################"
+sudo apt -y install openssh-server
+sudo systemctl restart ssh
 
 echo "###########################################"
 echo "Install docker"
@@ -30,6 +46,7 @@ sudo systemctl start docker
 sudo systemctl enable docker
 sudo groupadd docker
 sudo gpasswd -a $USER docker
+sudo useradd -g $USER docker
 
 echo "###########################################"
 echo "Install docker-compose"
@@ -37,41 +54,26 @@ echo "###########################################"
 sudo curl -L https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 
-echo "###########################################"
-echo "Install heroku cli tools"
-echo "###########################################"
-sudo snap install heroku --classic
-ln -s /snap/bin/heroku /usr/bin/heroku
-
-echo "###########################################"
-echo "installing package manager for vim"
-echo "###########################################"
-mkdir -p ~/.vim/autoload ~/.vim/bundle
-sudo curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim;
-
-echo "###########################################"
-echo "Installing Plugins"
-echo "###########################################"
-cd ~/.vim/bundle/
-git clone https://github.com/kien/ctrlp.vim.git
-git clone https://github.com/Yggdroot/indentLine.git
-git clone https://github.com/scrooloose/nerdcommenter.git
-git clone https://github.com/scrooloose/nerdtree.git
-git clone https://github.com/tpope/vim-rails.git
-git clone https://github.com/christoomey/vim-tmux-navigator.git
-git clone https://github.com/christoomey/vim-tmux-runner.git
-git clone https://github.com/benmills/vimux.git
-git clone https://github.com/tpope/vim-fugitive
-git clone https://github.com/christoomey/vim-conflicted
-git clone https://github.com/vimwiki/vimwiki.git
+# echo "###########################################"
+# echo "Install heroku cli tools"
+# echo "###########################################"
+# sudo snap install heroku --classic
+# ln -s /snap/bin/heroku /usr/bin/heroku
 
 cd ~
 
-# echo "###########################################"
-# echo "install rvm manager"
-# echo "###########################################"
-# gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
-# sudo \curl -sSL https://get.rvm.io | bash -s stable
+echo "###########################################"
+echo "install rvm, rails, nodejs"
+echo "###########################################"
+sudo apt -y install software-properties-common
+sudo apt-add-repository -y ppa:rael-gc/rvm
+sudo apt update
+sudo apt -y install rvm
+sudo useradd -g $USER rvm
+rvm install ruby
+sudo apt -y install nodejs
+gem install rails
+sudo apt -y install libpq-dev
 
 echo "###########################################"
 echo "install fzf"
@@ -93,13 +95,13 @@ run_installer() {
   echo '# Source zshrc' >> ~/.zshrc
   echo 'source $DOTFILES_PATH/bash/zshrc' >> ~/.zshrc
 
-  # Install the vim rc file
-  echo "###########################################"
-  echo "Replace vimrc file"
-  echo "###########################################"
-  if [ -f ~/.vimrc ]; then
-    mv ~/.vimrc ~/.vimrc.old
-  fi
+#  # Install the vim rc file
+#  echo "###########################################"
+#  echo "Replace vimrc file"
+#  echo "###########################################"
+#  if [ -f ~/.vimrc ]; then
+#    mv ~/.vimrc ~/.vimrc.old
+#  fi
 
   echo '" Path to tmux config file' > ~/.vimrc
   echo ':so $MYVIMPATH/source_me.vim' >> ~/.vimrc
