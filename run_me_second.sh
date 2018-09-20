@@ -22,7 +22,7 @@ echo "Install Neovim and Tmux"
 echo "###########################################"
 sudo apt-add-repository ppa:neovim-ppa/stable
 sudo apt-get update
-sudo apt -y install nvim tmux
+sudo apt -y install neovim tmux
 mkdir -p ~/.local/share/nvim/site/autoload/
 mkdir -p ~/.config/nvim/
 echo ":source ~/bin/dotfiles/init.vim" > ~/.config/nvim/init.vim
@@ -49,7 +49,6 @@ sudo systemctl start docker
 sudo systemctl enable docker
 sudo groupadd docker
 sudo gpasswd -a $USER docker
-sudo useradd -g $USER docker
 
 echo "###########################################"
 echo "Install docker-compose"
@@ -63,14 +62,13 @@ sudo chmod +x /usr/local/bin/docker-compose
 # sudo snap install heroku --classic
 # ln -s /snap/bin/heroku /usr/bin/heroku
 
-cd ~
-
 echo "###########################################"
 echo "install rvm, rails, nodejs"
 echo "###########################################"
+source /usr/share/rvm/scripts/rvm
 rvm install ruby
-sudo apt -y install nodejs
 gem install rails
+sudo apt -y install nodejs
 sudo apt -y install libpq-dev
 
 echo "###########################################"

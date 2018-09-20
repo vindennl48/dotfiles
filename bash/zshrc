@@ -67,7 +67,8 @@ source $HOME/.rvm/scripts/rvm
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
-   export EDITOR='vim'
+   export VISUAL='nvim'
+   export EDITOR="$VISUAL"
 # else
 #   export EDITOR='mvim'
 # fi
@@ -98,7 +99,8 @@ source $DOTFILES_PATH/source_me
 #################################################################
 # These should be different depending on what you have installed!
 #################################################################
-export EDITOR="vim" # default editor 
+export EDITOR="nvim" # default editor 
+export EDITOR="$VISUAL" # default editor 
 export PYTHONPATH="$PYTHONPATH:$HOME/MyPyModules" # Add custom py modules to PYTHONPATH
 export PATH="$HOME/.linuxbrew/bin:$PATH"
 export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
