@@ -1,15 +1,29 @@
 call plug#begin('~/.local/share/nvim/plugged')
-  Plug 'pangloss/vim-javascript'        " Javascript syntax highlighting
-  Plug 'mhartington/oceanic-next'       " Syntax Highlighting
-  Plug 'vim-airline/vim-airline'        " Status Bar
-  Plug 'ryanoasis/vim-devicons'         " Icon pack for term
-  Plug 'christoomey/vim-tmux-navigator' " Vim and Tmux interaction
-  Plug 'scrooloose/nerdtree'            " File browser
-  Plug 'scrooloose/nerdcommenter'       " Commenting tool
-  Plug '~/.fzf'                         " Use fuzzy finder
-  Plug 'tmux-plugins/vim-tmux'          " Syntax and special funcs for .tmux.conf
-  Plug 'Yggdroot/indentLine'            " white-space chars before code
+  """" Syntax
+    Plug 'mhartington/oceanic-next'       " Syntax Highlighting & theme
+    Plug 'pangloss/vim-javascript'        " Javascript syntax highlighting
+    Plug 'mxw/vim-jsx'                    " Syntax highlighting for react
+  """" END Syntax
+
+  """" Themes and UI
+    Plug 'vim-airline/vim-airline'        " Status Bar
+    Plug 'ryanoasis/vim-devicons'         " Icon pack for term
+    Plug 'Yggdroot/indentLine'            " white-space chars before code
+    Plug 'christoomey/vim-tmux-navigator' " Vim and Tmux interaction
+    Plug 'tmux-plugins/vim-tmux'          " Syntax and special funcs for .tmux.conf
+  """" END Themes and UI
+
+  """" Add-ons
+    Plug 'scrooloose/nerdtree'            " File browser
+    Plug 'scrooloose/nerdcommenter'       " Commenting tool
+    Plug '~/.fzf'                         " Use fuzzy finder
+    Plug 'mattn/emmet-vim'                " Auto-complete syntax
+  """" END Add-ons
 call plug#end()
+
+"""" Emmet Vim
+  let g:user_emmet_leader_key='<C-S>'
+"""" END Emmet Vim
 
 """" Oceanic Next Plugin
   if (has("termguicolors"))
@@ -37,7 +51,7 @@ call plug#end()
 
 """" Indent Line
   let g:indentLine_setColors=0
-  let g:indentLine_char='┆'
+  let g:indentLine_char='|'
 """" ENDIndent Line
 
 """" Remaps
@@ -46,6 +60,7 @@ call plug#end()
   " Jump to end of line
   :nnoremap a A
   :inoremap jk <esc><esc>
+  :noremap <esc> <esc><esc>
   " Delete line with 1 stroke
   :nnoremap d dd
   " Quit file, but not if dirty
