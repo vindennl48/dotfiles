@@ -20,12 +20,15 @@ sudo apt -y install silversearcher-ag
 echo "###########################################"
 echo "Install Neovim and Tmux"
 echo "###########################################"
+sudo apt-add-repository ppa:neovim-ppa/stable
+sudo apt-get update
 sudo apt -y install nvim tmux
-mkdir -p .local/share/nvim/site/autoload/
-mkdir -p .config/nvim/
-cat ":source ~/bin/dotfiles/init.vim" > .config/nvim/init.vim
-git clone https://github.com/junegunn/vim-plug.git .local/share/nvim/site/autoload/vim-plug
-cp vim-plug/plug.vim . ; rm -Rf vim-plug
+mkdir -p ~/.local/share/nvim/site/autoload/
+mkdir -p ~/.config/nvim/
+echo ":source ~/bin/dotfiles/init.vim" > ~/.config/nvim/init.vim
+git clone https://github.com/junegunn/vim-plug.git ~/.local/share/nvim/site/autoload/vim-plug
+cp ~/.local/share/nvim/site/autoload/vim-plug/plug.vim ~/.local/share/nvim/site/autoload/.
+rm -Rf ~/.local/share/nvim/site/autoload/vim-plug
 
 echo "###########################################"
 echo "Install Tree"
@@ -65,11 +68,6 @@ cd ~
 echo "###########################################"
 echo "install rvm, rails, nodejs"
 echo "###########################################"
-sudo apt -y install software-properties-common
-sudo apt-add-repository -y ppa:rael-gc/rvm
-sudo apt update
-sudo apt -y install rvm
-sudo useradd -g $USER rvm
 rvm install ruby
 sudo apt -y install nodejs
 gem install rails
@@ -94,14 +92,6 @@ run_installer() {
   echo 'export DOTFILES_PATH="$HOME/bin/dotfiles"' >> ~/.zshrc
   echo '# Source zshrc' >> ~/.zshrc
   echo 'source $DOTFILES_PATH/bash/zshrc' >> ~/.zshrc
-
-#  # Install the vim rc file
-#  echo "###########################################"
-#  echo "Replace vimrc file"
-#  echo "###########################################"
-#  if [ -f ~/.vimrc ]; then
-#    mv ~/.vimrc ~/.vimrc.old
-#  fi
 
   echo '" Path to tmux config file' > ~/.vimrc
   echo ':so $MYVIMPATH/source_me.vim' >> ~/.vimrc

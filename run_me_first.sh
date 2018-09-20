@@ -1,8 +1,22 @@
+echo "###########################################"
+echo "update system"
+echo "###########################################"
+sudo apt update
+sudo apt -y upgrade
 
 echo "###########################################"
 echo "install curl"
 echo "###########################################"
 sudo apt -y install curl
+
+echo "###########################################"
+echo "install rvm, rails, nodejs"
+echo "###########################################"
+sudo apt -y install software-properties-common
+sudo apt-add-repository -y ppa:rael-gc/rvm
+sudo apt update
+sudo apt -y install rvm
+sudo useradd -g $USER rvm
 
 echo "###########################################";
 echo "install zsh and oh-my-zsh";
