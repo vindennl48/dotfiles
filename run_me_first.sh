@@ -19,8 +19,6 @@ sudo apt-add-repository -y ppa:rael-gc/rvm
 sudo apt update
 sudo apt -y install rvm
 sudo adduser $USER rvm
-rm -Rf /home/$USER/.rvm
-ln -s /usr/share/rvm /home/$USER/.rvm
 
 echo "###########################################";
 echo "install zsh and oh-my-zsh";

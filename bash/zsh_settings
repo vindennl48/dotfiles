@@ -2,8 +2,10 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=$HOME/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
+# Set type/color of terminal
+TERM=xterm-256color
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -55,8 +57,6 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(fzf)
 
 source $ZSH/oh-my-zsh.sh
-source $HOME/.rvm/scripts/rvm
-
 
 # User configuration
 
@@ -67,8 +67,8 @@ source $HOME/.rvm/scripts/rvm
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
-   export VISUAL='nvim'
-   export EDITOR="$VISUAL"
+#   export VISUAL='nvim'
+#   export EDITOR="$VISUAL"
 # else
 #   export EDITOR='mvim'
 # fi
@@ -87,45 +87,4 @@ source $HOME/.rvm/scripts/rvm
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-TERM=xterm-256color
-
-## SOURCING FOR DOTFILES ##
-#################################################
-source $DOTFILES_PATH/source_me
-#################################################
-
-##################### OTHER EVENT VARIABLES #####################
-#################################################################
-# These should be different depending on what you have installed!
-#################################################################
-export EDITOR="nvim" # default editor 
-export EDITOR="$VISUAL" # default editor 
-export PYTHONPATH="$PYTHONPATH:$HOME/MyPyModules" # Add custom py modules to PYTHONPATH
-export PATH="$HOME/.linuxbrew/bin:$PATH"
-export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
-export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
-#################################################################
-
-# Sourcing for fzf fuzzy finder
-###############################
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-###############################
-
-# Script to start tmux for every instance of terminal
-#####################################################
-_not_inside_tmux() { [[ -z "$TMUX" ]] }
-
-ensure_tmux_is_running() {
-  if _not_inside_tmux; then
-    tat
-  fi
-}
-
-ensure_tmux_is_running
-#####################################################
-
-# Stop python from creating pyc files
-#####################################
-export PYTHONDONTWRITEBYTECODE=1
-#####################################
+#

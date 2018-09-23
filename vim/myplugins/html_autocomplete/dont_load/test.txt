@@ -1,5 +1,0 @@
-<mitch>
-<dev class="col-md-12">
-
-</dev>
-</dev>

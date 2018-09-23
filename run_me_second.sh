@@ -25,7 +25,7 @@ sudo apt-get update
 sudo apt -y install neovim tmux
 mkdir -p ~/.local/share/nvim/site/autoload/
 mkdir -p ~/.config/nvim/
-echo ":source ~/bin/dotfiles/init.vim" > ~/.config/nvim/init.vim
+echo ":source $MYNVIMPATH/init.vim" > ~/.config/nvim/init.vim
 git clone https://github.com/junegunn/vim-plug.git ~/.local/share/nvim/site/autoload/vim-plug
 cp ~/.local/share/nvim/site/autoload/vim-plug/plug.vim ~/.local/share/nvim/site/autoload/.
 rm -Rf ~/.local/share/nvim/site/autoload/vim-plug
@@ -65,11 +65,11 @@ sudo chmod +x /usr/local/bin/docker-compose
 echo "###########################################"
 echo "install rvm, rails, nodejs"
 echo "###########################################"
-source /usr/share/rvm/scripts/rvm
+# might have to be done manually
 rvm install ruby
+# might have to be done manually
 gem install rails
-sudo apt -y install nodejs
-sudo apt -y install libpq-dev
+sudo apt -y install nodejs libpq-dev
 
 echo "###########################################"
 echo "install fzf"

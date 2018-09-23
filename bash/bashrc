@@ -1,0 +1,54 @@
+# Zshrc terminal settings & features
+source $DOTFILES_PATH/bash/zsh_settings
+
+##################### OTHER EVENT VARIABLES #####################
+#################################################################
+# These should be different depending on what you have installed!
+#################################################################
+export EDITOR="nvim" # default editor 
+export EDITOR="$VISUAL" # default editor 
+export PYTHONPATH="$PYTHONPATH:$HOME/MyPyModules" # Add custom py modules to PYTHONPATH
+export PATH="$HOME/.linuxbrew/bin:$PATH"
+export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
+export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
+
+# location paths to dotfiles
+export PATH="$DOTFILES_PATH/bin:$PATH"
+export MYNVIMPATH="$DOTFILES_PATH/nvim"
+export MYBASHPATH="$DOTFILES_PATH/bash"
+export MYTMUXPATH="$DOTFILES_PATH/tmux"
+#################################################################
+
+# FZF Fuzzy Finder Settings
+#############################################################################
+# Sourcing for fzf fuzzy finder
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# options for terminal fuzzy finder
+export FZF_CTRL_T_COMMAND='ag --hidden --ignore .git -g ""'
+export FZF_CTRL_T_OPTS='--extended --preview="head -$LINES {}" --height=100%'
+#############################################################################
+
+# Script to start tmux for every instance of terminal
+#####################################################
+_not_inside_tmux() { [[ -z "$TMUX" ]] }
+ensure_tmux_is_running() {
+  if _not_inside_tmux; then
+    tat
+  fi
+}
+ensure_tmux_is_running
+#####################################################
+
+# Stop python from creating pyc files
+#####################################
+export PYTHONDONTWRITEBYTECODE=1
+#####################################
+
+# Source alias files
+###############################################
+for f in $DOTFILES_PATH/bash/aliasfiles/*.alias
+do
+    source "$f"
+done
+###############################################

@@ -4,75 +4,30 @@
 ## ALIASES FOR BASH ##
 ######################
 
-## ## Trading ##
-## alias  pfall="p27 pfall.py"                    # start cascade trading
-## alias pclear="p27 clear_trades.py"             # clear all open trades
-## alias   pbuy="p27 buy.py"                      # buy coins
-## alias  psell="p27 sell_all.py;\
-##               p27 clear_trades.py;\
-##               p27 sell_all.py"                 # sell all trades
-## alias   pbal="p27 balance.py"                  # get bank account balance
-## alias  pstat="p27 stats.py"                    # start stats screen
-## alias  preset="pkill python;pstat"                    # start stats screen
-
-## Docker ##
-alias buildbetaflight='docker run -e "PLATFORM=BETAFLIGHTF4" --rm -ti -v `pwd`:/opt/betaflight betaflight/betaflight-build'
-alias testbetaflight='docker run --rm -ti -v `pwd`:/opt/betaflight --entrypoint /opt/betaflight/.travis.sh betaflight/betaflight-build'
-alias dc='docker-compose'
-alias dcr='docker-compose run --rm'
-alias dcrw='docker-compose run --rm web'
-alias dcu='docker-compose up web'
-alias dcd='docker-compose down; sudo chown $USER:$USER -R . '
-alias docker_stop_all='sudo docker stop $(sudo docker ps -aq)'
-alias docker_container_remove_all='sudo docker rm $(sudo docker ps -aq)'
-alias docker_image_remove_all='sudo docker rmi $(sudo docker images -q)'
-alias docker_clean='sudo docker stop $(sudo docker ps -aq) -f;sudo docker rm $(sudo docker ps -aq) -f;sudo docker rmi $(sudo docker images -q) -f;sudo docker volume rm $(docker volume ls -qf dangling=true)'
-alias own_all='sudo chown $USER:$USER -R . '
-
-## Trading ##
-alias b="p bina.py"                            # Quick way to trade
-alias gobina="go /home/mitchellwoodbine/Documents/github/binance-trader/term_commands"  # Go to term commands folder
-
 ## General Aliases ##
-#alias heroku="sudo heroku"                     # im tired of forgetting this
 alias sdn="udf; shutdown now"                  # shutdown
 alias sdrn="udf; shutdown -r now"              # restart
 alias rsd="rails s -d"                         # run rails server
 alias rsdr="rails s -b 0.0.0.0 -d"             # run rails server remote access
 alias rsk="pkill ruby"                         # kill rails server
-alias editdotfiles="cd $DOTFILES_PATH/;tat"    # go to mybash LOCATION
-alias edf="editdotfiles"                       # go to mybash LOCATION
-alias p='python3'                              # open with python3 instead of 2
-#alias p='python2.7'                            # open with python3 instead of 2
-alias p27='python2.7'                          # open with python2.7
+alias p2='python2.7'                           # open with python2.7
+alias p3='python3'                             # open with python3
+alias p='p3'                                   # sets default python
 alias clear='clear;clear'                      # erase the screen twice to get rid of any buffer
 alias CLEAR='clear'                            # all caps version of clear
 alias go='cd'                                  # alternate form of cd
-alias excel='libreoffice --calc'               # open up spreadsheet
-alias rshift='redshift -o 3500'                # auto shift screen to red
-alias calc='galculator'                        # calculator
-alias goo="xdg-open ."                         # open file in gui
-alias godesk="cd ~/Desktop"                    # go to desktop
-alias godoc="cd ~/Documents"                   # go to documents
-alias gogit="cd ~/Documents/github"            # go to github directory
 alias back='cd "$OLDPWD"'                      # go back to previous directory
 alias wf="mkdir"                               # make directory
 alias rmdir="rm -rf"                           # delete directory
 alias lsh='ls -lhXGp'                          # different form of ls
 alias q1='exit'                                # exit out of terminal
-alias regen='DISPLAY=:0.0 compiz --replace &'  # reload compiz when it craps out
 alias sed="sed -E"                             # making sure we always use -E
 alias grep="grep -E"                           # making sure we always use -E
 alias home="~/"                                # home directory, 'go home' goes to ~/
-alias display="xbacklight -set"                # backlight value
-alias startpostgres="sudo systemctl start postgresql" # start up the postgres server
 alias vi="nvim"                                 # prevents me from using vi
 alias vim="nvim"                               # prevents me from using vi
 alias make_runnable="chmod a+x"                # allows bash file to run
-alias install_kernel="sudo dpkg -i *.deb"      # installs new kernel to select in grub
 alias t="tree"                                 # short for tree command (need to aptinstall tree)
-alias rmdb="psql -c \"drop database bankapp3_development\"; psql -c \"drop database bankapp3_test\"; rake db:create; rake db:migrate; rake add_weekly_bills; rake add_monthly_bills; rake scrape_data"
-alias text="gedit"                             # For some reason I can not remember this text editor's name... so its called text now.
 
 ## C++ Compiler Options
 alias gcc="g++ -std=c++11"                     # standard arguments for compiling c++11
@@ -84,7 +39,7 @@ alias aptsearch="apt-cache search"             # search for available packages
 alias aptupdate="sudo apt -y update && sudo apt -y upgrade && sudo apt -y dist-upgrade && sudo apt -y autoremove"   # update all software
 
 # Re-source bash source files
-alias so='source $DOTFILES_PATH/source_me; echo "Successfully Resourced!"'
+alias resource_all='source $DOTFILES_PATH/source_me; echo "Successfully Resourced!"'
 
 ## Resolution Scripts ##
 # screen resolution for single display
@@ -108,22 +63,3 @@ udf(){
     git push -u origin master
     cd $curdir
 }
-
-#make textfile
-wt() {
-    touch $1.txt 
-}
-
-#rename file or folder
-rename() {
-    mv $1 $2
-}
-
-# allows ssh keys
-getssh(){
-    eval "$(ssh-agent -s)"
-    ssh-add /c/Users/SHOP/.ssh/gitkey
-}
-
-
-

@@ -1,7 +1,0 @@
-# Source Everything In This Repo
-
-export PATH="$DOTFILES_PATH/bin:$PATH"
-source $DOTFILES_PATH/bash/source_me
-# tmux gets sourced through .tmux.conf
-# vim gets sourced through .vimrc
-

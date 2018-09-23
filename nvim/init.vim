@@ -54,6 +54,13 @@ call plug#end()
   let g:indentLine_char='|'
 """" ENDIndent Line
 
+"""" Persona Plugins
+  " Got to get these in first so we can remap them
+  for f in split(glob('$MYNVIMPATH/myplugins/*.vim'), '\n')
+    exe 'source' f
+  endfor
+"""" END Persona Plugins
+
 """" Remaps
   :nnoremap ; :
   :nnoremap : ;
@@ -122,6 +129,26 @@ call plug#end()
   let g:fzf_action = {
     \'alt-x': 'split',
     \'alt-y': 'vsplit'}
+
+  " Html + ERB stuff
+    " Jump to tag 'class'
+    :nnoremap <leader>mc :HtmlMetaClass<cr>
+    :inoremap <leader>mc <esc>:HtmlMetaClass<cr>
+    " Jump to tag 'style'
+    :nnoremap <leader>ms :HtmlMetaStyle<cr>
+    :inoremap <leader>ms <esc>:HtmlMetaStyle<cr>
+    " Jump to tag 'id'
+    :nnoremap <leader>mi :HtmlMetaId<cr>
+    :inoremap <leader>mi <esc>:HtmlMetaId<cr>
+    " Jump to tag 'href'
+    :nnoremap <leader>mh :HtmlMetaHref<cr>
+    :inoremap <leader>mh <esc>:HtmlMetaHref<cr>
+
+    " insert <% %> tag
+    :inoremap <leader>r <%  %><esc>2hi
+    " insert <%= %> tag
+    :inoremap <leader>e <%=  %><esc>2hi
+
 """" END Leader maps
 
 """" System Settings
@@ -170,9 +197,9 @@ call plug#end()
     set noerrorbells
     " Flash screen when beep sounds
     set visualbell
+    " Allow mouse for scroll
     set mouse=a
     " Change cursor for mode
-    " Allow mouse for scroll
     set guicursor=n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20
     " Prevent text wrapping
     set nowrap
