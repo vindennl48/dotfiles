@@ -25,7 +25,7 @@ sudo apt-get update
 sudo apt -y install neovim tmux
 mkdir -p ~/.local/share/nvim/site/autoload/
 mkdir -p ~/.config/nvim/
-echo ":source $MYNVIMPATH/init.vim" > ~/.config/nvim/init.vim
+echo ':source $MYNVIMPATH/init.vim' > ~/.config/nvim/init.vim
 git clone https://github.com/junegunn/vim-plug.git ~/.local/share/nvim/site/autoload/vim-plug
 cp ~/.local/share/nvim/site/autoload/vim-plug/plug.vim ~/.local/share/nvim/site/autoload/.
 rm -Rf ~/.local/share/nvim/site/autoload/vim-plug
@@ -65,11 +65,11 @@ sudo chmod +x /usr/local/bin/docker-compose
 echo "###########################################"
 echo "install rvm, rails, nodejs"
 echo "###########################################"
-# might have to be done manually
-rvm install ruby
-# might have to be done manually
-gem install rails
 sudo apt -y install nodejs libpq-dev
+# might have to be done manually
+# rvm install ruby
+# might have to be done manually
+# gem install rails
 
 echo "###########################################"
 echo "install fzf"
@@ -89,7 +89,7 @@ run_installer() {
   echo '# Create dotfiles directory variable' > ~/.zshrc
   echo 'export DOTFILES_PATH="$HOME/bin/dotfiles"' >> ~/.zshrc
   echo '# Source zshrc' >> ~/.zshrc
-  echo 'source $DOTFILES_PATH/bash/zshrc' >> ~/.zshrc
+  echo 'source $DOTFILES_PATH/bash/bashrc' >> ~/.zshrc
 
   echo '" Path to tmux config file' > ~/.vimrc
   echo ':so $MYVIMPATH/source_me.vim' >> ~/.vimrc

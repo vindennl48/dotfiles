@@ -17,8 +17,8 @@ echo "###########################################"
 sudo apt -y install software-properties-common
 sudo apt-add-repository -y ppa:rael-gc/rvm
 sudo apt update
-sudo apt -y install rvm
-sudo adduser $USER rvm
+# sudo apt -y install rvm
+# sudo adduser $USER rvm
 
 echo "###########################################";
 echo "install zsh and oh-my-zsh";

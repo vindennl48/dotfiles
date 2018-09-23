@@ -5,7 +5,7 @@ source $DOTFILES_PATH/bash/zsh_settings
 #################################################################
 # These should be different depending on what you have installed!
 #################################################################
-export EDITOR="nvim" # default editor 
+export VISUAL="nvim" # default visual 
 export EDITOR="$VISUAL" # default editor 
 export PYTHONPATH="$PYTHONPATH:$HOME/MyPyModules" # Add custom py modules to PYTHONPATH
 export PATH="$HOME/.linuxbrew/bin:$PATH"
