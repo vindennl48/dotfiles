@@ -143,11 +143,19 @@ call plug#end()
     " Jump to tag 'href'
     :nnoremap <leader>mh :HtmlMetaHref<cr>
     :inoremap <leader>mh <esc>:HtmlMetaHref<cr>
-
+    " Create html tag, inline, multiline
+    :nnoremap <leader>ee :TagCreateEnd<cr>
+    :nnoremap <leader>en :TagCreateEndNewline<cr>
+    " Add html comment
+    :nnoremap <leader>ec i<!--  --><esc>F i
+    :inoremap <leader>ec <!--  --><esc>F i
+    " Edit html comment
+    :nnoremap c- F-  ct-<esc>i 
+    
     " insert <% %> tag
-    :inoremap <leader>r <%  %><esc>2hi
+    :inoremap <leader>rr <%  %><esc>2hi
     " insert <%= %> tag
-    :inoremap <leader>e <%=  %><esc>2hi
+    :inoremap <leader>re <%=  %><esc>2hi
 
 """" END Leader maps
 
