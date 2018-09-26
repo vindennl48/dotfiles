@@ -51,3 +51,4 @@
   :command! HtmlMetaStyle :call MetaEdit('style', 0)
   :command! HtmlMetaId :call MetaEdit('id', 0)
   :command! HtmlMetaHref :call MetaEdit('href', 0)
+  :command! HtmlMetaType :call MetaEdit('type', 0)
