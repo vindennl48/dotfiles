@@ -83,6 +83,7 @@ call plug#end()
   :nnoremap c" ci"
   :nnoremap c' ci'
   :nnoremap c) ci)
+  :nnoremap c0 ci)
   :nnoremap c} ci}
   :nnoremap c] ci]
   " Cut entire word
