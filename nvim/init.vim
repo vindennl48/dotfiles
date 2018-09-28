@@ -3,6 +3,7 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'mhartington/oceanic-next'       " Syntax Highlighting & theme
     Plug 'pangloss/vim-javascript'        " Javascript syntax highlighting
     Plug 'mxw/vim-jsx'                    " Syntax highlighting for react
+    Plug 'junegunn/vim-easy-align'        " Auto align variables
   """" END Syntax
 
   """" Themes and UI
@@ -60,6 +61,10 @@ call plug#end()
     exe 'source' f
   endfor
 """" END Persona Plugins
+
+"""" Vim Easy Align
+  let g:easy_align_ignore_groups = ['Comments']
+"""" END Vim Easy Align
 
 """" Remaps
   :nnoremap ; :
@@ -162,6 +167,13 @@ call plug#end()
     :inoremap <leader>rr <%  %><esc>2hi
     " insert <%= %> tag
     :inoremap <leader>re <%=  %><esc>2hi
+  "
+
+  " Easy Align
+    :vnoremap <leader>a; :EasyAlign *:<cr>
+    :vnoremap <leader>a= :EasyAlign *=<cr>
+    :vnoremap <leader>a, :EasyAlign *,<cr>
+  " 
 
 """" END Leader maps
 
