@@ -6,6 +6,10 @@ echo "###########################################"
 echo "install git"
 echo "###########################################"
 sudo apt -y install git
+read -p "Enter your Github email address: " email
+read -p "Enter your first and last name: " fullname
+git config --global user.email "$email"
+git config --global user.email "$fullname"
 
 echo "###########################################"
 echo "install htop"
