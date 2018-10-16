@@ -6,3 +6,6 @@
 	default = upstream
 [fetch]
   prune = true
+[user]
+	email = mitchellwoodbine@gmail.com
+	name = Mitchell Woodbine
