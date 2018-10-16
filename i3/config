@@ -182,7 +182,7 @@ for_window [class="^.*"] border pixel 0
 gaps inner 15
 gaps outer 0
 
-exec --no-startup-id feh --bg-scale /home/mitch/Pictures/bridge01.jpg
+exec --no-startup-id feh --bg-scale $HOME/Pictures/bridge01.jpg
 exec --no-startup-id compton \
   --fading                   \
   --shadow                   \
