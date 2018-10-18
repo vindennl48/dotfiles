@@ -4,6 +4,9 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'pangloss/vim-javascript'        " Javascript syntax highlighting
     Plug 'mxw/vim-jsx'                    " Syntax highlighting for react
     Plug 'junegunn/vim-easy-align'        " Auto align variables
+
+		" Autocomplete
+    Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
   """" END Syntax
 
   """" Themes and UI
@@ -21,6 +24,11 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'mattn/emmet-vim'                " Auto-complete syntax
   """" END Add-ons
 call plug#end()
+
+"""" Deoplete Autocomplete
+" Use deoplete.
+  let g:deoplete#enable_at_startup = 1
+"""" END Deoplete Autocomplete
 
 """" Emmet Vim
   let g:user_emmet_leader_key='<C-S>'

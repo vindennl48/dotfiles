@@ -25,6 +25,8 @@ function Install {
         nodejs \
         ttf-freefont \
         chromium \
+        python \
+        python-pip \
 
     fi
   ##########################################
