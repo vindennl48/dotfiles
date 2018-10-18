@@ -27,6 +27,8 @@ function Install {
         chromium \
         python \
         python-pip \
+        yarn \
+        npm \
 
     fi
   ##########################################
