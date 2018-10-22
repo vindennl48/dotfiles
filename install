@@ -29,6 +29,7 @@ function Install {
         python-pip \
         yarn \
         npm \
+        cmake \
 
     fi
   ##########################################

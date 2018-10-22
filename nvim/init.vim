@@ -5,8 +5,8 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'mxw/vim-jsx'                    " Syntax highlighting for react
     Plug 'junegunn/vim-easy-align'        " Auto align variables
 
-		" Autocomplete
-    Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+    " Autocomplete
+    Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
   """" END Syntax
 
   """" Themes and UI
@@ -22,13 +22,20 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'scrooloose/nerdcommenter'       " Commenting tool
     Plug '~/.fzf'                         " Use fuzzy finder
     Plug 'mattn/emmet-vim'                " Auto-complete syntax
+    Plug 'christoomey/vim-tmux-runner'    " Send commands to tmux pane
   """" END Add-ons
 call plug#end()
 
-"""" Deoplete Autocomplete
-" Use deoplete.
-  let g:deoplete#enable_at_startup = 1
-"""" END Deoplete Autocomplete
+
+" Start autocompletion after 4 chars
+let g:ycm_min_num_of_chars_for_completion = 4
+let g:ycm_min_num_identifier_candidate_chars = 4
+let g:ycm_enable_diagnostic_highlighting = 0
+
+" Don't show YCM's preview window [ I find it really annoying ]
+set completeopt-=preview
+let g:ycm_add_preview_to_completeopt = 0
+
 
 """" Emmet Vim
   let g:user_emmet_leader_key='<C-S>'

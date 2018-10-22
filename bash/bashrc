@@ -60,7 +60,7 @@ precmd() { pwd > /tmp/whereami; }
 
 # Use VI style editing
 ###########################################
-set -o vi
-set editing-mode vi
-set keymap vi
+#set -o vi
+#set editing-mode vi
+#set keymap vi
 ###########################################

@@ -183,16 +183,4 @@ gaps inner 15
 gaps outer 0
 
 exec --no-startup-id feh --bg-scale $HOME/Pictures/bridge01.jpg
-exec --no-startup-id compton \
-  --fading                   \
-  --shadow                   \
-  --shadow-opacity=1.0       \
-  --fade-in-step=0.04        \
-  --fade-out-step=0.04       \
-  --inactive-opacity=0.8     \
-  --frame-opacity=0.5        \
-  --menu-opacity=0.8         \
-  #--active-opacity=0.8       \
-  #--inactive-dim=0.2         \
-  #--config /dev/null
-
+exec --no-startup-id compton --config $HOME/bin/dotfiles/i3/compton.conf
