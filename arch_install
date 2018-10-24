@@ -36,6 +36,7 @@ p
 3
 
 $ROOT_SIZE
+p
 w
 EOF
 
@@ -52,7 +53,7 @@ mount /dev/mapper/cryptroot /mnt
 mkdir /mnt/boot /mnt/home
 mount /dev/"$DISK"1 /mnt/boot
 
-pacstrap /mnt base base-devel vim git
+pacstrap /mnt base base-devel networkmanager vim git
 
 genfstab -U /mnt >> /mnt/etc/fstab
 
@@ -61,6 +62,8 @@ arch-chroot /mnt
 }
 
 function post_install {
+systemctl enable NetworkManager
+
 read -p "Add hooks to next file: \n base udev autodetect keyboard keymap modconf block encrypt filesystems fsck" choice
 vim /etc/mkinitcpio.conf
 mkinitcpio -p linux
