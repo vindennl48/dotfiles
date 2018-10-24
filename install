@@ -27,6 +27,7 @@ function Install {
         chromium \
         python \
         python-pip \
+        postgresql-libs \
         yarn \
         npm \
         cmake \
