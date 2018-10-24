@@ -96,3 +96,6 @@ bind-key ^d detach-client\; run-shell 'exit'
 
 # remove wait time on esc key
 set -sg escape-time 10
+
+# Plugin Tmux Resurect
+run-shell ~/bin/repos/tmux-resurrect/resurrect.tmux

@@ -64,3 +64,9 @@ precmd() { pwd > /tmp/whereami; }
 #set editing-mode vi
 #set keymap vi
 ###########################################
+
+# Source ruby
+###########################################
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+###########################################
+
