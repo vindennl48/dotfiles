@@ -18,10 +18,6 @@ BOOT_SIZE='+200M'
 SWAP_SIZE='+200M'
 ROOT_SIZE=''      # '' will select default size
 
-# Comment out the one you are NOT installing
-pre_install
-#post_install
-
 function pre_install {
 timedatectl set-ntp true
 fdisk /dev/$DISK <<EOF
@@ -65,7 +61,7 @@ arch-chroot /mnt
 }
 
 function post_install {
-read -p "Add hooks to next file: \n base udev autodetect keyboard keymap modconf block encrypt filesystems fsk" choice
+read -p "Add hooks to next file: \n base udev autodetect keyboard keymap modconf block encrypt filesystems fsck" choice
 vim /etc/mkinitcpio.conf
 mkinitcpio -p linux
 
@@ -73,6 +69,7 @@ pacman -S grub
 grub-install --target=i386-pc /dev/"$DISK"
 read -p "Add cryptdevice to grub: \n GRUB_CMDLINE_LINUX=\"cryptdevice=/dev/sda3:cryptroot\"" choice
 vim /etc/default/grub
+grub-mkconfig -o /boot/grub/grub.cfg
 
 read -p "Set password for root" choice
 passwd
@@ -92,3 +89,8 @@ vim /etc/sudoers
 
 read -p "Make sure to exit to main screen and un-mount /mnt!" choice
 }
+
+# Comment out the one you are NOT installing
+pre_install
+#post_install
+
