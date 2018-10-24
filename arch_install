@@ -48,7 +48,7 @@ cryptsetup -y -v luksFormat --type luks2 /dev/"$DISK"2
 cryptsetup -y -v luksFormat --type luks2 /dev/"$DISK"3
 cryptsetup -y -v luksFormat --type luks2 /dev/"$DISK"4
 
-cryptsetup open /dev/"$DISK"2 cryptroot
+cryptsetup open /dev/"$DISK"3 cryptroot
 cryptsetup open /dev/"$DISK"4 crypthome
 
 mkfs.ext4 /dev/"$DISK"1
