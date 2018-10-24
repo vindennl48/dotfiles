@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # curl me in by:
-# $ curl 'https://raw.githubusercontent.com/vindennl48/dotfiles/master/install' > arch_install
+# $ curl 'https://raw.githubusercontent.com/vindennl48/dotfiles/master/arch_install' > arch_install
 # $ chmod a+x arch_install
 
 echo '- Make sure you run `wifi-menu` and connect to wifi first'
@@ -9,7 +9,7 @@ echo '- Make sure you change $DISK value to what disk you want to'
 echo '  install onto! '
 echo '- Also, make sure this drive is CLEAR first!'
 echo '- Lastly, set desired partition sizes within this file!'
-echo '\n'
+echo ''
 
 read -p "Have you completed the above steps? If yes (y), If no (CTRL+C)." choice
 
