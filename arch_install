@@ -1,0 +1,68 @@
+#!/bin/bash
+
+# curl me in by:
+# $ curl 'https://raw.githubusercontent.com/vindennl48/dotfiles/master/install' > arch_install
+# $ chmod a+x arch_install
+
+echo '- Make sure you run `wifi-menu` and connect to wifi first'
+echo '- Make sure you change $DISK value to what disk you want to'
+echo '  install onto! '
+echo '- Also, make sure this drive is CLEAR first!'
+echo '- Lastly, set desired partition sizes within this file!'
+echo '\n'
+
+read -p "Have you completed the above steps? If yes (y), If no (CTRL+C)." choice
+
+DISK='sdx'        # change this to desired drive
+BOOT_SIZE='+200M'
+SWAP_SIZE='+200M'
+ROOT_SIZE='+10G'
+HOME_SIZE=''      # '' will select default size
+
+timedatectl set-ntp true
+fdisk /dev/$DISK <<EOF
+n
+p
+1
+
+$BOOT_SIZE
+n
+p
+2
+
+$SWAP_SIZE
+n
+p
+3
+
+$ROOT_SIZE
+n
+p
+4
+
+$HOME_SIZE
+w
+EOF
+
+cryptsetup -y -v luksFormat --type luks2 /dev/"$DISK"2
+cryptsetup -y -v luksFormat --type luks2 /dev/"$DISK"3
+cryptsetup -y -v luksFormat --type luks2 /dev/"$DISK"4
+
+cryptsetup open /dev/"$DISK"2 cryptroot
+cryptsetup open /dev/"$DISK"4 crypthome
+
+mkfs.ext4 /dev/"$DISK"1
+mkfs.ext4 /dev/mapper/cryptroot
+mkfs.ext4 /dev/mapper/crypthome
+mkswap /dev/"$DISK"2
+swapon /dev/"$DISK"2
+
+mount /dev/mapper/cryptroot /mnt
+mkdir /mnt/boot /mnt/home
+mount /dev/"$DISK"1 /mnt/boot
+mount /dev/mapper/crypthome /mnt/home
+
+pacstrap /mnt base base-devel vim git
+genfstab -U /mnt >> /mnt/etc/fstab
+arch-chroot /mnt
+
