@@ -40,11 +40,11 @@ function Install {
   ######################################
     install_git
     install_openssh
-    #install_docker_debian_only
-    #install_docker_compose_debian_only
+    #install_docker
+    #install_docker_compose
     #install_heroku_debian_only
     install_fzf
-    install_termite
+    install_termite_arch_only
     install_rvm_arch_only
     install_xorg_arch_only
     install_i3_gaps_arch_only # depends on xorg
@@ -140,9 +140,15 @@ function install_rvm_arch_only {
   fi
 }
 
-function install_docker_debian_only {
+function install_docker {
   if [[ "$isDebian" =~ ^/ ]]; then
     sudo apt -y install docker.io
+    sudo systemctl start docker
+    sudo systemctl enable docker
+    sudo groupadd docker
+    sudo gpasswd -a $USER docker
+  elif [[ "$isArch" =~ ^/ ]]; then
+    sudo pacman -S docker
     sudo systemctl start docker
     sudo systemctl enable docker
     sudo groupadd docker
@@ -150,14 +156,16 @@ function install_docker_debian_only {
   fi
 }
 
-function install_docker_compose_debian_only {
+function install_docker_compose {
   if [[ "$isDebian" =~ ^/ ]]; then
     sudo curl -L https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
     sudo chmod +x /usr/local/bin/docker-compose
+  elif [[ "$isArch" =~ ^/ ]]; then
+    sudo pacman -S docker-compose
   fi
 }
 
-function install_termite {
+function install_termite_arch_only {
   if [[ "$isArch" =~ ^/ ]]; then
     sudo pacman -S termite
     mkdir -p $HOME/.config/termite
