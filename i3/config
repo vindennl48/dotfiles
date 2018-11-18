@@ -182,6 +182,7 @@ for_window [class="^.*"] border pixel 0
 gaps inner 15
 gaps outer 0
 
-exec --no-startup-id xrandr --output LVDS-1 --scale 1.25x1.25 --panning 1708x960
+#exec --no-startup-id xrandr --output LVDS-1 --scale 1.25x1.25 --panning 1708x960
 exec --no-startup-id feh --bg-scale $HOME/Pictures/bridge01.jpg
 exec --no-startup-id compton --config $HOME/bin/dotfiles/i3/compton.conf
+exec --no-startup-id volumeicon
