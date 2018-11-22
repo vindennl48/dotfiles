@@ -32,6 +32,7 @@ function Install {
   # Programs with additional work needed
   # These include custom dotfiles!
   ######################################
+    install_setbright_arch_only
     install_git
     install_openssh
     install_docker
@@ -55,6 +56,15 @@ function Install {
 
 isDebian=$(type -P apt-get)
 isArch=$(type -P pacman)
+
+function install_setbright_arch_only {
+  elif [[ "$isArch" =~ ^/ ]]; then
+    sudo ln -s $HOME/bin/dotfiles/i3/backlight.rules /etc/udev/rules.d/.
+  fi
+
+  # Git custom dotfiles
+  ln -s $HOME/bin/dotfiles/git/gitconfig $HOME/.gitconfig
+}
 
 function install_git {
   if [[ "$isDebian" =~ ^/ ]]; then
