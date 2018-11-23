@@ -60,6 +60,7 @@ isArch=$(type -P pacman)
 function install_setbright_arch_only {
   elif [[ "$isArch" =~ ^/ ]]; then
     sudo ln -s $HOME/bin/dotfiles/i3/backlight.rules /etc/udev/rules.d/.
+    sudo usermod -aG video $USER
   fi
 
   # Git custom dotfiles
@@ -193,11 +194,19 @@ function install_xorg_arch_only {
 
 function install_i3_gaps_arch_only {
   if [[ "$isArch" =~ ^/ ]]; then
-    sudo pacman -S i3-gaps i3status dmenu feh compton
+    sudo pacman -S i3-gaps i3status dmenu feh compton volumeicon \
+      xorg-xrandr mesa xf86-video-ati mesa-vdpau libva-mesa-driver \
+      libva-vdpau-driver
+    read -p "Add 'radeon' to MODULES in next file"
+    sudo vim /etc/mkinitcpio.conf
+    sudo mkinitcpio -p linux
+    sudo ln -s $HOME/bin/dotfiles/i3/20-radeon.conf /etc/X11/xorg.conf.d/.
+    sudo rm /etc/environment
+    sudo ln -s $HOME/bin/dotfiles/i3/environment /etc/environment
     mkdir -p $HOME/.config/i3
     ln -s $HOME/bin/dotfiles/i3/config $HOME/.config/i3/config
     mkdir -p $HOME/Pictures
-    cp $HOME/bin/dotfiles/i3/bridge01.jpg $HOME/Pictures/.
+    cp $HOME/bin/dotfiles/i3/desktop.jpg $HOME/Pictures/.
   fi
 }
 
