@@ -25,10 +25,11 @@ alias q1='exit'                                # exit out of terminal
 alias sed="sed -E"                             # making sure we always use -E
 alias grep="grep -E"                           # making sure we always use -E
 alias home="~/"                                # home directory, 'go home' goes to ~/
-alias vi="nvim"                                 # prevents me from using vi
+alias vi="nvim"                                # prevents me from using vi
 alias vim="nvim"                               # prevents me from using vi
 alias make_runnable="chmod a+x"                # allows bash file to run
 alias t="tree"                                 # short for tree command (need to aptinstall tree)
+alias copy="xclip -sel clip < "                # copy file to clipboard
 
 ## C++ Compiler Options
 alias gcc="g++ -std=c++11"                     # standard arguments for compiling c++11
@@ -44,11 +45,14 @@ alias resource_all='source $DOTFILES_PATH/source_me; echo "Successfully Resource
 
 ## Resolution Scripts ##
 # screen resolution for single display
-alias ds="xrandr --output eDP1 --scale 1.25x1.25 --panning 1708x960"
+alias increase_dpi="xrandr --output LVDS --scale 1.1x1.1 --panning 1503x845"
+alias reset_dpi="xrandr --output LVDS --scale 1x1 --panning 1366x768"
+alias reset_bg="feh --bg-scale $HOME/Pictures/desktop.jpg"
+#alias ds="xrandr --output eDP1 --scale 1.25x1.25 --panning 1708x960"
 # screen resolution for dual displays
-alias dd="xrandr --output VGA1 --mode 1920x1080_60.00 --scale 1x1 --pos 0x0 --output eDP1 --scale 1.25x1.25 --pos 0x1152"
+#alias dd="xrandr --output VGA1 --mode 1920x1080_60.00 --scale 1x1 --pos 0x0 --output eDP1 --scale 1.25x1.25 --pos 0x1152"
 # create resolution for ext monitor
-alias ddd="xrandr --newmode '1920x1080_60.00'  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync; xrandr --addmode VGA1 1920x1080_60.00;dd"
+#alias ddd="xrandr --newmode '1920x1080_60.00'  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync; xrandr --addmode VGA1 1920x1080_60.00;dd"
 
 
 ## FUNCTIONS ##
