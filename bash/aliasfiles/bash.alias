@@ -15,6 +15,7 @@ alias p3='python3'                             # open with python3
 alias p='p3'                                   # sets default python
 alias clear='clear;clear'                      # erase the screen twice to get rid of any buffer
 alias CLEAR='clear'                            # all caps version of clear
+#alias cp='cp -g'                               # copy with progress bar
 alias go='cd'                                  # alternate form of cd
 alias back='cd "$OLDPWD"'                      # go back to previous directory
 alias wf="mkdir"                               # make directory

@@ -70,3 +70,9 @@ precmd() { pwd > /tmp/whereami; }
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 ###########################################
 
+# Source startx
+###########################################
+#if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
+#  exec startx
+#fi
+###########################################
