@@ -59,7 +59,7 @@ isDebian=$(type -P apt-get)
 isArch=$(type -P pacman)
 
 function install_setbright_arch_only {
-  elif [[ "$isArch" =~ ^/ ]]; then
+  if [[ "$isArch" =~ ^/ ]]; then
     sudo ln -s $HOME/bin/dotfiles/i3/backlight.rules /etc/udev/rules.d/.
     sudo usermod -aG video $USER
   fi
@@ -76,6 +76,7 @@ function install_git {
   fi
 
   # Git custom dotfiles
+  rm $HOME/.gitconfig
   ln -s $HOME/bin/dotfiles/git/gitconfig $HOME/.gitconfig
 }
 
