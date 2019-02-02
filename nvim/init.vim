@@ -23,8 +23,16 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug '~/.fzf'                         " Use fuzzy finder
     Plug 'mattn/emmet-vim'                " Auto-complete syntax
     Plug 'christoomey/vim-tmux-runner'    " Send commands to tmux pane
+    Plug 'vimwiki/vimwiki'                " wiki for vim
   """" END Add-ons
 call plug#end()
+
+
+"""" Vimwiki Settings
+set nocompatible
+filetype plugin on
+syntax on
+"""" END Vimwiki Settings
 
 
 " Start autocompletion after 4 chars
