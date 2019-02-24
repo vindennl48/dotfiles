@@ -1,0 +1,6 @@
+# Turn off tmux
+export NO_TMUX="true"
+# Create dotfiles directory variable
+export DOTFILES_PATH="$HOME/bin/dotfiles"
+# Source zshrc
+source $DOTFILES_PATH/bash/bashrc

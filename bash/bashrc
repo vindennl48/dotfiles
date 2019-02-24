@@ -72,7 +72,12 @@ precmd() { pwd > /tmp/whereami; }
 
 # Source startx
 ###########################################
-#if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
-#  exec startx
+if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
+  exec startx
+fi
+
+# Just another way to do it
+#if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
+  #startx
 #fi
 ###########################################
