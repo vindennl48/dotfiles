@@ -32,9 +32,9 @@ function Install {
   # Programs with additional work needed
   # These include custom dotfiles!
   ######################################
-    install_setbright_arch_only
+    #install_setbright_arch_only
     install_git
-    install_openssh
+    #install_openssh
     #install_docker
     #install_docker_compose
     #install_heroku_debian_only
@@ -44,7 +44,7 @@ function Install {
     install_xorg_arch_only
     install_i3_gaps_arch_only # depends on xorg
     #install_atigfx_arch_only
-    #install_vbox # only if inside VirtualBox!
+    install_vbox_arch_only # only if inside VirtualBox!
     install_neovim_tmux
 
     # MUST BE LAST!
@@ -216,10 +216,9 @@ function install_i3_gaps_arch_only {
 }
 
 function install_vbox_arch_only {
+  read -p "VirtualBox tools: This only installs the linux-headers.. You still must insert the vbutils cd and install 'sudo sh ./VboxLinuxAdditions.run'" choice
   if [[ "$isArch" =~ ^/ ]]; then
     sudo pacman -S \
-      virtualbox \
-      virtualbox-host-modules-arch \
       linux-headers \
 
   fi

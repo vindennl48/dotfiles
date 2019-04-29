@@ -15,6 +15,7 @@ read -p "Have you completed the above steps? If yes (y), If no (CTRL+C)." choice
 
 DISK='sdx'        # change this to desired drive
 BOOT_SIZE='+200M'
+SWAP_SIZE='+200M'
 ROOT_SIZE=''      # '' will select default size
 
 function pre_install {
@@ -29,15 +30,26 @@ n
 p
 2
 
+$SWAP_SIZE
+n
+p
+3
+
 $ROOT_SIZE
 p
 w
 EOF
 
-mkfs.ext4 /dev/"$DISK"1
-mkfs.ext4 /dev/"$DISK"2
+cryptsetup -y -v luksFormat --type luks2 /dev/"$DISK"3
 
-mount /dev/"$DISK"2 /mnt
+cryptsetup open /dev/"$DISK"3 cryptroot
+
+mkfs.ext4 /dev/"$DISK"1
+mkfs.ext4 /dev/mapper/cryptroot
+mkswap /dev/"$DISK"2
+swapon /dev/"$DISK"2
+
+mount /dev/mapper/cryptroot /mnt
 mkdir /mnt/boot /mnt/home
 mount /dev/"$DISK"1 /mnt/boot
 
@@ -45,7 +57,7 @@ pacstrap /mnt base base-devel networkmanager vim git
 
 genfstab -U /mnt >> /mnt/etc/fstab
 
-cp arch_install /mnt/.
+cp arch_install_encrypted /mnt/.
 echo "----> You must edit the copied installer in /mnt to uncomment 'post_install' and comment 'pre_install' at the bottom, then run."
 arch-chroot /mnt
 }
@@ -53,10 +65,14 @@ arch-chroot /mnt
 function post_install {
 systemctl enable NetworkManager
 
+read -p "Add hooks to next file: \n base udev autodetect keyboard keymap modconf block encrypt filesystems fsck" choice
+vim /etc/mkinitcpio.conf
 mkinitcpio -p linux
 
 pacman -S grub
 grub-install --target=i386-pc /dev/"$DISK"
+read -p "Add cryptdevice to grub: \n GRUB_CMDLINE_LINUX=\"cryptdevice=/dev/sda3:cryptroot\"" choice
+vim /etc/default/grub
 grub-mkconfig -o /boot/grub/grub.cfg
 
 read -p "Set password for root" choice
