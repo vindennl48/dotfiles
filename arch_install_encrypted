@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # curl me in by:
-# $ curl 'https://raw.githubusercontent.com/vindennl48/dotfiles/master/arch_install' > arch_install
+# $ curl 'https://raw.githubusercontent.com/vindennl48/dotfiles/master/arch_install_encrypted' > arch_install
 # $ chmod a+x arch_install
 
 echo '- Make sure you run `wifi-menu` and connect to wifi first'
@@ -57,7 +57,7 @@ pacstrap /mnt base base-devel networkmanager vim git
 
 genfstab -U /mnt >> /mnt/etc/fstab
 
-cp arch_install_encrypted /mnt/.
+cp arch_install /mnt/.
 echo "----> You must edit the copied installer in /mnt to uncomment 'post_install' and comment 'pre_install' at the bottom, then run."
 arch-chroot /mnt
 }
