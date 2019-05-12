@@ -9,14 +9,6 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
   """" END Syntax
 
-  """" Themes and UI
-    Plug 'vim-airline/vim-airline'        " Status Bar
-    Plug 'ryanoasis/vim-devicons'         " Icon pack for term
-    Plug 'Yggdroot/indentLine'            " white-space chars before code
-    Plug 'christoomey/vim-tmux-navigator' " Vim and Tmux interaction
-    Plug 'tmux-plugins/vim-tmux'          " Syntax and special funcs for .tmux.conf
-  """" END Themes and UI
-
   """" Add-ons
     Plug 'scrooloose/nerdtree'            " File browser
     Plug 'scrooloose/nerdcommenter'       " Commenting tool
@@ -25,8 +17,18 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'christoomey/vim-tmux-runner'    " Send commands to tmux pane
     Plug 'vimwiki/vimwiki'                " wiki for vim
   """" END Add-ons
+
+  """" Themes and UI
+    Plug 'vim-airline/vim-airline'        " Status Bar
+    Plug 'Yggdroot/indentLine'            " white-space chars before code
+    Plug 'christoomey/vim-tmux-navigator' " Vim and Tmux interaction
+    Plug 'tmux-plugins/vim-tmux'          " Syntax and special funcs for .tmux.conf
+    Plug 'ryanoasis/vim-devicons'         " Icon pack for term
+  """" END Themes and UI
+
 call plug#end()
 
+set encoding=utf-8
 
 """" Vimwiki Settings
 set nocompatible
@@ -55,7 +57,9 @@ let g:ycm_add_preview_to_completeopt = 0
   endif
   
   " Theme
-  syntax enable
+  syntax on
+  let g:oceanic_next_terminal_bold=1
+  let g:oceanic_next_terminal_italic=1
   colorscheme OceanicNext
   
   " Airline Theme
@@ -63,8 +67,9 @@ let g:ycm_add_preview_to_completeopt = 0
 """" END Oceanic Next Plugin
 
 """" Airline Plugin
-  let g:airline_left_sep='>'
-  let g:airline_right_sep='<'
+  "let g:airline_left_sep='▶'
+  "let g:airline_right_sep='◀'
+  let g:airline_powerline_fonts=1
   let g:airline_detect_paste=1
   let g:airline_inactive_collapse=1
   let g:airline_symbols_ascii=1

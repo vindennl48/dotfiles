@@ -34,7 +34,7 @@ function Install {
   ######################################
     #install_setbright_arch_only
     install_git
-    #install_openssh
+    install_openssh
     #install_docker
     #install_docker_compose
     #install_heroku_debian_only
@@ -138,6 +138,7 @@ function install_zsh_and_oh_my_zsh {
 
 function install_rvm_arch_only {
   if [[ "$isArch" =~ ^/ ]]; then
+    read -p "You must visit rvm.io and install GPG keys before first use or it will not work!" choice
     curl -L get.rvm.io > rvm-install && bash < ./rvm-install
     rm rvm-install
   fi

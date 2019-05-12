@@ -185,5 +185,5 @@ gaps outer 0
 exec --no-startup-id xrandr --output LVDS --scale 1.1x1.1 --panning 1503x845
 #exec --no-startup-id xrandr --output LVDS --scale 1x1 --panning 1366x768
 exec --no-startup-id feh --bg-scale $HOME/Pictures/desktop.jpg
-exec --no-startup-id compton --config $HOME/bin/dotfiles/i3/compton.conf
+#exec --no-startup-id compton --config $HOME/bin/dotfiles/i3/compton.conf
 exec --no-startup-id volumeicon
