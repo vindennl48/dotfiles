@@ -38,6 +38,7 @@
 * [[Install_Git]]
 * [[Commits]]
 * [[gitignore]]
+* [[Git SSH]]
 
 == Postgresql ==
 * [[Install_Postgres]]
