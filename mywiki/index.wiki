@@ -1,14 +1,14 @@
 = Vindennl48's Personal VimWiki =
 
-==[[Docker & Docker-Compose]]==
+== Docker & Docker-Compose ==
 * [[Docker file example]]
 * [[docker-compose file example]]
 * [[.dockerignore]]
 
-==[[Rails]]==
+== Rails ==
 * [[ActionCable]]
 
-== [[Bash]] ==
+== Bash ==
 * [[Bash_Basic_Commands]]
 * [[Bash_Advanced_Commands]]
 * [[Bash_Functions]]
@@ -31,7 +31,7 @@
 * [[Configure_Mulit_Desktops]]
 * [[Modifying_bootloader]]
 
-== [[Installations]] ==
+== Installations ==
 * [[Ruby-Rails]]
 
 == Git ==
