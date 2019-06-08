@@ -16,6 +16,7 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'mattn/emmet-vim'                " Auto-complete syntax
     Plug 'christoomey/vim-tmux-runner'    " Send commands to tmux pane
     Plug 'vimwiki/vimwiki'                " wiki for vim
+    Plug 'mattn/emmet-vim'                " Emmet linter for html
   """" END Add-ons
 
   """" Themes and UI
@@ -46,9 +47,8 @@ let g:ycm_enable_diagnostic_highlighting = 0
 set completeopt-=preview
 let g:ycm_add_preview_to_completeopt = 0
 
-
 """" Emmet Vim
-  let g:user_emmet_leader_key='<C-S>'
+  let g:user_emmet_leader_key='<leader>'
 """" END Emmet Vim
 
 """" Oceanic Next Plugin
@@ -132,12 +132,13 @@ let g:ycm_add_preview_to_completeopt = 0
   :vnoremap i I
 
   " Surrounds
-  :inoremap "" ""<esc>i
-  :inoremap '' ''<esc>i
-  :inoremap () ()<esc>i
-  :inoremap {} {}<esc>i
-  :inoremap [] []<esc>i
-  :inoremap <> <><esc>i
+  :inoremap ""   ""<esc>i
+  :inoremap ''   ''<esc>i
+  :inoremap ()   ()<esc>i
+  :inoremap {}   {}<esc>i
+  :inoremap []   []<esc>i
+  :inoremap <>   <><esc>i
+  :inoremap \|\| \|\|<esc>i
 """" END Remaps
 
 """" Leader maps
@@ -199,9 +200,10 @@ let g:ycm_add_preview_to_completeopt = 0
   "
 
   " Easy Align
-    :vnoremap <leader>a; :EasyAlign *:<cr>
-    :vnoremap <leader>a= :EasyAlign *=<cr>
-    :vnoremap <leader>a, :EasyAlign *,<cr>
+    :vnoremap <leader>a;       :EasyAlign *:<cr>
+    :vnoremap <leader>a=       :EasyAlign *=<cr>
+    :vnoremap <leader>a,       :EasyAlign *,<cr>
+    :vnoremap <leader>a<space> :EasyAlign *<space><cr>
   " 
 
 """" END Leader maps

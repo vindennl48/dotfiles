@@ -6,12 +6,14 @@ function Install {
     if [[ "$isDebian" =~ ^/ ]]; then
       sudo apt update && sudo apt -y upgrade
       sudo apt install -y \
+        cmake \
         curl \
         htop \
         silversearcher-ag \
         tree \
-        nodejs libpq-dev \
         chromium-browser \
+	python3 \
+	python3-pip \
 
     elif [[ "$isArch" =~ ^/ ]]; then
       sudo pacman -Syu
@@ -34,17 +36,17 @@ function Install {
   ######################################
     #install_setbright_arch_only
     install_git
-    install_openssh
+    #install_openssh
     #install_docker
     #install_docker_compose
     #install_heroku_debian_only
     install_fzf
-    install_termite_arch_only
+    #install_termite_arch_only
     #install_rvm_arch_only
-    install_xorg_arch_only
-    install_i3_gaps_arch_only # depends on xorg
+    #install_xorg_arch_only
+    #install_i3_gaps_arch_only # depends on xorg
     #install_atigfx_arch_only
-    install_vbox_arch_only # only if inside VirtualBox!
+    #install_vbox_arch_only # only if inside VirtualBox!
     install_neovim_tmux
 
     # MUST BE LAST!
