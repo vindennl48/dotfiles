@@ -51,11 +51,11 @@ function! TagPair(type, insert_mode)
 
       let l:x = matchstr(getline('.'),'\w\+')
 
-      execute "normal! o</" . l:x . ">\<esc>O"
+      execute "normal! o</" . l:x . ">\<esc>O\<tab>\<bs>"
 
     else
 
-      execute "normal! ciw<\<esc>pa>\<esc>o</\<esc>pa>\<esc>O"
+      execute "normal! ciw<\<esc>pa>\<esc>o</\<esc>pa>\<esc>O\<tab>\<bs>"
 
     endif
 
