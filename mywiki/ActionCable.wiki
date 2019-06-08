@@ -41,6 +41,34 @@ Example:
     end
   end
 
+--------------------------------------------------------------------------------------
+
+Using Devise with Actioncable:
+  You will need to modify the file '[[channels/application_cable/connection.rb]]' to this:
+  
+module ApplicationCable
+  class Connection < ActionCable::Connection::Base
+    identified_by :current_user
+
+    def connect
+      self.current_user = find_verified_user
+      logger.add_tags 'ActionCable', current_user.email
+    end
+
+    protected
+
+    def find_verified_user # this checks whether a user is authenticated with devise
+      if verified_user = env['warden'].user
+        verified_user
+      else
+        reject_unauthorized_connection
+      end
+    end
+  end
+end
+
+--------------------------------------------------------------------------------------
+
 Now, we need to specify a background job to create our Message.create record.  We will do this by creating a rails background job:
   $ rails generate job BroadcastMessage
 Then we will go into the Message model:
