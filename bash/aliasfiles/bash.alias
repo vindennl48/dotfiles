@@ -5,40 +5,40 @@
 ######################
 
 ## General Aliases ##
-alias sdn="udf; shutdown now"                  # shutdown
-alias sdrn="udf; shutdown -r now"              # restart
-alias rsd="rails s -d"                         # run rails server
-alias rsdr="rails s -b 0.0.0.0 -d"             # run rails server remote access
-alias rsk="pkill ruby"                         # kill rails server
-alias p2='python2.7'                           # open with python2.7
-alias p3='python3'                             # open with python3
-alias p='p3'                                   # sets default python
-alias clear='clear;clear'                      # erase the screen twice to get rid of any buffer
-alias CLEAR='clear'                            # all caps version of clear
-#alias cp='cp -g'                               # copy with progress bar
-alias go='cd'                                  # alternate form of cd
-alias back='cd "$OLDPWD"'                      # go back to previous directory
-alias wf="mkdir"                               # make directory
-alias rmdir="rm -rf"                           # delete directory
-alias l='ls -lhXGp'                            # different form of ls
-alias lsh='ls -lhXGpa'                         # different form of ls
-alias q1='exit'                                # exit out of terminal
-alias sed="sed -E"                             # making sure we always use -E
-alias grep="grep -E"                           # making sure we always use -E
-alias home="~/"                                # home directory, 'go home' goes to ~/
-alias vi="nvim"                                # prevents me from using vi
-alias vim="nvim"                               # prevents me from using vi
-alias make_runnable="chmod a+x"                # allows bash file to run
-alias t="tree"                                 # short for tree command (need to aptinstall tree)
-alias copy="xclip -sel clip < "                # copy file to clipboard
+alias sdn="udf; shutdown now"                          # shutdown
+alias sdrn="udf; shutdown -r now"                      # restart
+alias rs="clear; rails s -b 0.0.0.0"                   # run rails server remote access
+alias rpg="rails db:drop db:create db:migrate db:seed" # reset rails postgres database
+alias rsk="pkill ruby"                                 # kill rails server
+alias p2='python2.7'                                   # open with python2.7
+alias p3='python3'                                     # open with python3
+alias p='p3'                                           # sets default python
+alias clear='clear;clear'                              # erase the screen twice to get rid of any buffer
+alias CLEAR='clear'                                    # all caps version of clear
+#alias cp='cp -g'                                      # copy with progress bar
+alias go='cd'                                          # alternate form of cd
+alias back='cd "$OLDPWD"'                              # go back to previous directory
+alias wf="mkdir"                                       # make directory
+alias rmdir="rm -rf"                                   # delete directory
+alias l='ls -lhXGp'                                    # different form of ls
+alias lsh='ls -lhXGpa'                                 # different form of ls
+alias q1='exit'                                        # exit out of terminal
+alias sed="sed -E"                                     # making sure we always use -E
+alias grep="grep -E"                                   # making sure we always use -E
+alias home="~/"                                        # home directory, 'go home' goes to ~/
+alias vi="nvim"                                        # prevents me from using vi
+alias vim="nvim"                                       # prevents me from using vi
+alias make_runnable="chmod a+x"                        # allows bash file to run
+alias t="tree"                                         # short for tree command (need to aptinstall tree)
+alias copy="xclip -sel clip < "                        # copy file to clipboard
 
 ## C++ Compiler Options
-alias gcc="g++ -std=c++11"                     # standard arguments for compiling c++11
+#alias gcc="g++ -std=c++11"                            # standard arguments for compiling c++11
 
 ## Apt-Get Aliases  ##
-alias aptinstall="sudo apt -y install"         # install script for apt
-alias aptuninstall="sudo apt -y remove"        # uninstall script for apt
-alias aptsearch="apt-cache search"             # search for available packages
+alias aptinstall="sudo apt -y install"                 # install script for apt
+alias aptuninstall="sudo apt -y remove"                # uninstall script for apt
+alias aptsearch="apt-cache search"                     # search for available packages
 alias aptupdate="sudo apt -y update && sudo apt -y upgrade && sudo apt -y dist-upgrade && sudo apt -y autoremove"   # update all software
 
 # Re-source bash source files
@@ -46,9 +46,9 @@ alias resource_all='source $DOTFILES_PATH/source_me; echo "Successfully Resource
 
 ## Resolution Scripts ##
 # screen resolution for single display
-alias increase_dpi="xrandr --output LVDS --scale 1.1x1.1 --panning 1503x845"
-alias reset_dpi="xrandr --output LVDS --scale 1x1 --panning 1366x768"
-alias reset_bg="feh --bg-scale $HOME/Pictures/desktop.jpg"
+# alias increase_dpi="xrandr --output LVDS --scale 1.1x1.1 --panning 1503x845"
+# alias reset_dpi="xrandr --output LVDS --scale 1x1 --panning 1366x768"
+# alias reset_bg="feh --bg-scale $HOME/Pictures/desktop.jpg"
 #alias ds="xrandr --output eDP1 --scale 1.25x1.25 --panning 1708x960"
 # screen resolution for dual displays
 #alias dd="xrandr --output VGA1 --mode 1920x1080_60.00 --scale 1x1 --pos 0x0 --output eDP1 --scale 1.25x1.25 --pos 0x1152"
