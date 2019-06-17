@@ -26,7 +26,8 @@ bind-key b break-pane -d
 set -g mouse on
 
 # options
-set-option -g default-terminal "screen-256color"
+set -g default-terminal "tmux-256color"
+set -ga terminal-overrides ",*256col*:Tc"
 
 # Switch binding from Ctrl-b to Ctrl-a
 unbind C-b
