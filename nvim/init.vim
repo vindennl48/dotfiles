@@ -48,7 +48,7 @@ set completeopt-=preview
 let g:ycm_add_preview_to_completeopt = 0
 
 """" Emmet Vim
-  let g:user_emmet_leader_key='<leader>'
+  let g:user_emmet_leader_key='<C-e>'
 """" END Emmet Vim
 
 """" Oceanic Next Plugin
@@ -151,15 +151,18 @@ let g:ycm_add_preview_to_completeopt = 0
   " Create vim splits
   :nnoremap <leader>y :vsp<cr><c-w>l
   :nnoremap <leader>x :sp<cr><c-w>j
+  :nnoremap <leader>L :vertical resize +5<cr>
+  :nnoremap <leader>H :vertical resize -5<cr>
   " Zoom a vim pane
   :nnoremap <leader>z :wincmd _<cr>:wincmd \|<cr>
   :nnoremap <leader>f :wincmd =<cr>
   " Switch to next buffer
   :nnoremap <leader>b :bn<cr>
+  :nnoremap <leader>v :bp<cr>
   " Ctrl P but with fzf
   :nnoremap <C-p> :FZF<cr>
   " Ctrl P set directory
-  :nnoremap <C-f> :FZF 
+  ":nnoremap <C-f> :FZF 
   " Ctrl P actions
   let g:fzf_action = {
     \'alt-x': 'split',
@@ -254,12 +257,35 @@ let g:ycm_add_preview_to_completeopt = 0
     set noerrorbells
     " Flash screen when beep sounds
     set visualbell
-    " Allow mouse for scroll
-    set mouse=a
     " Change cursor for mode
     set guicursor=n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20
     " Prevent text wrapping
     set nowrap
   """"""""""""""""""""""""
+
+  " User Interface Options
+  """"""""""""""""""""""""
+    " Allow mouse for scroll
+    set mouse=a
+    " Allow touch scrolling
+    function! MouseScroll()
+      "mark b is the current cursor position
+      "mark a is the previous cursor position
+      norm mb
+      let currPos=line('.')
+      norm `a
+      let prevPos=line('.')
+      if currPos>prevPos
+        norm `bma
+        norm ^E
+      elseif currPos<prevPos
+        norm `bma
+        norm ^Y
+      endif
+    endfunction
+
+    map <LeftDrag> ma<LeftMouse>:call MouseScroll()<cr>
+  """"""""""""""""""""""""
+
 
 """" ENDSystem Settings

@@ -6,12 +6,18 @@
 ## BINDINGS FOR TMUX ##
 #######################
 
+## GENERAL SETTINGS ##
+# color options
+set -g default-terminal "tmux-256color"
+set -ga terminal-overrides ",*256col*:Tc"
+
 # set colors for status bar
 set-option -g status-bg "#84aae8"
 set-option -g status-fg "#253b5e"
 
 # set length of file name
 set-option -g status-left-length 50
+
 # set output of right side of status bar
 set-option -g status-right " #(date '+%a, %b %d - %I:%M') "
 
@@ -19,61 +25,40 @@ set-option -g status-right " #(date '+%a, %b %d - %I:%M') "
 set-option -g base-index 1
 set-option -g renumber-windows on
 
-# break current pane to new window
-bind-key b break-pane -d
+# remove wait time on esc key
+set -sg escape-time 10
 
 # use mouse with tmux
 set -g mouse on
 
-# options
-set -g default-terminal "tmux-256color"
-set -ga terminal-overrides ",*256col*:Tc"
+# remove wait time on esc key
+set -sg escape-time 10
+## -- ##
 
-# Switch binding from Ctrl-b to Ctrl-a
+## Switch binding from Ctrl-b to Ctrl-a ##
 unbind C-b
 set-option -g prefix C-a
 bind-key C-a send-prefix
+## -- ##
 
-# re-source file
-bind-key r source-file ~/.tmux.conf \; display-message "~/.tmux.conf reloaded"
+## NON-PREFIX BINDINGS ##
+# split horizontal
+bind-key -n C-y split-window -h
+bind-key -n M-Enter split-window -h
+# split vertical
+bind-key -n C-x split-window -v
+# zoom into selected pane
+bind-key -n C-z resize-pane -Z
+## -- ##
 
-# prevent detaching
-# unbind ^z
-
-# create new window
-bind-key ^c new-window
-# create new window with same path as current window
-bind-key c new-window -c '#{pane_current_path}'
-
-# switch to next window
-bind-key ^n next-window
-
-# switch between sessions
-# bind-key ^j choose-tree
-bind C-j split-window -v "tmux list-sessions | sed -E 's/:.*$//' | grep -v \"^$(tmux display-message -p '#S')\$\" | fzf --reverse | xargs tmux switch-client -t"
-
-# resize panes
+## RESIZE PANES ##
 bind-key -r H resize-pane -L 5
 bind-key -r J resize-pane -D 5
 bind-key -r K resize-pane -U 5
 bind-key -r L resize-pane -R 5
+## -- ##
 
-## FZF ##
-bind-key -n ^f split-window -v -p 20 fzf
-
-#####################
-# NON-PREFIX BINDINGS
-#####################
-# split horizontal
-bind-key -n ^y split-window -h
-# split vertical
-bind-key -n ^x split-window -v
-# zoom into selected pane
-bind-key -n ^z resize-pane -Z
-#####################
-#####################
-
-# Smart pane switching with awareness of Vim splits.
+## Smart pane switching with awareness of Vim splits. ##
 # See: https://github.com/christoomey/vim-tmux-navigator
 is_vim="ps -o state= -o comm= -t '#{pane_tty}' \
     | grep -iqE '^[^TXZ ]+ +(\\S+\\/)?g?(view|n?vim?x?)(diff)?$'"
@@ -82,41 +67,78 @@ bind-key -n C-j if-shell "$is_vim" "send-keys C-j"  "select-pane -D"
 bind-key -n C-k if-shell "$is_vim" "send-keys C-k"  "select-pane -U"
 bind-key -n C-l if-shell "$is_vim" "send-keys C-l"  "select-pane -R"
 
-unbind-key -T copy-mode    C-h
-unbind-key -T copy-mode-vi C-h
-unbind-key -T copy-mode    C-j
-unbind-key -T copy-mode-vi C-j
-unbind-key -T copy-mode    C-k
-unbind-key -T copy-mode-vi C-k
-unbind-key -T copy-mode    C-l
-unbind-key -T copy-mode-vi C-l
-
 bind-key -T copy-mode    C-h if-shell "$is_vim" "send-keys C-h"  "select-pane -L"
 bind-key -T copy-mode-vi C-h if-shell "$is_vim" "send-keys C-h"  "select-pane -L"
-bind-key -T copy-mode    C-h if-shell "$is_vim" "send-keys C-j"  "select-pane -D"
-bind-key -T copy-mode-vi C-h if-shell "$is_vim" "send-keys C-j"  "select-pane -D"
-bind-key -T copy-mode    C-h if-shell "$is_vim" "send-keys C-k"  "select-pane -U"
-bind-key -T copy-mode-vi C-h if-shell "$is_vim" "send-keys C-k"  "select-pane -U"
-bind-key -T copy-mode    C-h if-shell "$is_vim" "send-keys C-l"  "select-pane -R"
-bind-key -T copy-mode-vi C-h if-shell "$is_vim" "send-keys C-l"  "select-pane -R"
+bind-key -T copy-mode    C-j if-shell "$is_vim" "send-keys C-j"  "select-pane -D"
+bind-key -T copy-mode-vi C-j if-shell "$is_vim" "send-keys C-j"  "select-pane -D"
+bind-key -T copy-mode    C-k if-shell "$is_vim" "send-keys C-k"  "select-pane -U"
+bind-key -T copy-mode-vi C-k if-shell "$is_vim" "send-keys C-k"  "select-pane -U"
+bind-key -T copy-mode    C-l if-shell "$is_vim" "send-keys C-l"  "select-pane -R"
+bind-key -T copy-mode-vi C-l if-shell "$is_vim" "send-keys C-l"  "select-pane -R"
+## -- ##
 
-# Prompted join-pane
-bind-key j command-prompt -p "join pane from: "  "join-pane -h -s '%%'"
+## Switch Tabs with Alt+Num. ##
+bind-key -n M-1 if-shell 'tmux select-window -t 1' '' 'new-window -t 1'
+bind-key -n M-2 if-shell 'tmux select-window -t 2' '' 'new-window -t 2'
+bind-key -n M-3 if-shell 'tmux select-window -t 3' '' 'new-window -t 3'
+bind-key -n M-4 if-shell 'tmux select-window -t 4' '' 'new-window -t 4'
+bind-key -n M-5 if-shell 'tmux select-window -t 5' '' 'new-window -t 5'
+bind-key -n M-6 if-shell 'tmux select-window -t 6' '' 'new-window -t 6'
+bind-key -n M-7 if-shell 'tmux select-window -t 7' '' 'new-window -t 7'
+bind-key -n M-8 if-shell 'tmux select-window -t 8' '' 'new-window -t 8'
+bind-key -n M-9 if-shell 'tmux select-window -t 9' '' 'new-window -t 9'
+## -- ##
 
+# create new window
+bind-key C-c new-window
+# create new window with same path as current window
+bind-key c new-window -c '#{pane_current_path}'
+
+# Easily swap a pane (targeted by pane number) with the current pane
+bind-key C-s display-panes\; command-prompt -p "pane #: "  "swap-pane -t '%%'"
+
+## FZF ##
+# bind-key -n C-f split-window -v -p 20 fzf
+# switch between sessions
+bind C-j split-window -v "tmux list-sessions | sed -E 's/:.*$//' | grep -v \"^$(tmux display-message -p '#S')\$\" | fzf --reverse | xargs tmux switch-client -t"
+## -- ##
+
+# break current pane to new tmux-instance
+bind-key C-b send-keys 'tat && exit' '^m'
+
+# # break current pane to new tab
+# bind-key b break-pane -d
+# break window to a new tmux session
+bind-key C-b send-keys 'tat && exit' '^m'
+
+# kill current session and move to next
+bind-key k run-shell 'tmux switch-client -n \; kill-session -t "$(tmux display-message -p "#S")" || tmux kill-session'
+
+# Easily swap a pane (targeted by pane number) with the current pane
+bind-key C-s display-panes\; command-prompt -p "pane #: "  "swap-pane -t '%%'"
+
+# Join pane
+#bind-key C-m command-prompt -p "join pane from: "  "join-pane -h -s '%%'"
+bind-key M-1 if-shell 'tmux join-pane -h -t :1' '' 'break-pane'
+bind-key M-2 if-shell 'tmux join-pane -h -t :2' '' 'break-pane'
+bind-key M-3 if-shell 'tmux join-pane -h -t :3' '' 'break-pane' 
+bind-key M-4 if-shell 'tmux join-pane -h -t :4' '' 'break-pane'
+bind-key M-5 if-shell 'tmux join-pane -h -t :5' '' 'break-pane'
+bind-key M-6 if-shell 'tmux join-pane -h -t :6' '' 'break-pane'
+bind-key M-7 if-shell 'tmux join-pane -h -t :7' '' 'break-pane'
+bind-key M-8 if-shell 'tmux join-pane -h -t :8' '' 'break-pane'
+bind-key M-9 if-shell 'tmux join-pane -h -t :9' '' 'break-pane'
+
+# move panes around
+bind-key -n M-j swap-pane -s {bottom-of}
+bind-key -n M-k swap-pane -s {top-of}
+bind-key -n M-h swap-pane -s {left-of}
+bind-key -n M-l swap-pane -s {left-of}
 # Easily swap a pane (targeted by pane number) with the current pane
 bind-key s display-panes\; command-prompt -p "pane #: "  "swap-pane -t '%%'"
 
-# break window to a new tmux session
-bind-key C-b send-keys 'tat && exit' 'C-m'
-
-# kill current session and move to next
-bind-key C-k run-shell 'tmux switch-client -n \; kill-session -t "$(tmux display-message -p "#S")" || tmux kill-session'
-
-# when detatching from tmux, exit terminal
-bind-key ^d detach-client\; run-shell 'exit'
-
-# remove wait time on esc key
-set -sg escape-time 10
+# re-source file
+bind-key C-r source-file ~/.tmux.conf \; display-message "~/.tmux.conf reloaded"
 
 # Plugin Tmux Resurect
-run-shell ~/bin/repos/tmux-resurrect/resurrect.tmux
+run-shell ~/clone/path/resurrect.tmux

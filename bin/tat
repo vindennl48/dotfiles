@@ -14,7 +14,7 @@ keep_dotfiles_open() {
     local curpwd=$(pwd)
     cd ~/bin/dotfiles
     tmux new-session -d -s dotfiles
-    tmux send -t dotfiles.0 tmux\ split-window\ -h\ -d ENTER
+    #tmux send -t dotfiles.0 tmux\ split-window\ -h\ -d ENTER
     tmux send -t dotfiles.0 'vim'
     tmux send -t dotfiles.0 ENTER
     cd $curpwd

@@ -60,9 +60,16 @@ precmd() { pwd > /tmp/whereami; }
 
 # Use VI style editing
 ###########################################
-#set -o vi
-#set editing-mode vi
-#set keymap vi
+# set -o vi
+# set editing-mode vi
+# set keymap vi
+# export KEYTIMEOUT=10
+# bindkey -M viins 'jk' vi-cmd-mode
+# bindkey -M vicmd '^U' kill-whole-line
+# bindkey -M viins '^U' kill-whole-line
+# bindkey -M viins '^V' edit-command-line
+# bindkey -M vicmd '^V' edit-command-line
+bindkey '^V' edit-command-line
 ###########################################
 
 # Source ruby
