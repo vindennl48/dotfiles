@@ -1,30 +1,31 @@
 call plug#begin('~/.local/share/nvim/plugged')
   """" Syntax
-    Plug 'mhartington/oceanic-next'       " Syntax Highlighting & theme
-    Plug 'pangloss/vim-javascript'        " Javascript syntax highlighting
-    Plug 'mxw/vim-jsx'                    " Syntax highlighting for react
-    Plug 'junegunn/vim-easy-align'        " Auto align variables
+    Plug 'mhartington/oceanic-next'         " Syntax Highlighting & theme
+    Plug 'pangloss/vim-javascript'          " Javascript syntax highlighting
+    Plug 'mxw/vim-jsx'                      " Syntax highlighting for react
+    Plug 'junegunn/vim-easy-align'          " Auto align variables
+    Plug 'triglav/vim-visual-increment'     " Auto align variables
 
     " Autocomplete
     Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
   """" END Syntax
 
   """" Add-ons
-    Plug 'scrooloose/nerdtree'            " File browser
-    Plug 'scrooloose/nerdcommenter'       " Commenting tool
-    Plug '~/.fzf'                         " Use fuzzy finder
-    Plug 'mattn/emmet-vim'                " Auto-complete syntax
-    Plug 'christoomey/vim-tmux-runner'    " Send commands to tmux pane
-    Plug 'vimwiki/vimwiki'                " wiki for vim
-    Plug 'mattn/emmet-vim'                " Emmet linter for html
+    Plug 'scrooloose/nerdtree'              " File browser
+    Plug 'scrooloose/nerdcommenter'         " Commenting tool
+    Plug '~/.fzf'                           " Use fuzzy finder
+    Plug 'mattn/emmet-vim'                  " Auto-complete syntax
+    Plug 'christoomey/vim-tmux-runner'      " Send commands to tmux pane
+    Plug 'vimwiki/vimwiki'                  " wiki for vim
+    Plug 'mattn/emmet-vim'                  " Emmet linter for html
   """" END Add-ons
 
   """" Themes and UI
-    Plug 'vim-airline/vim-airline'        " Status Bar
-    Plug 'Yggdroot/indentLine'            " white-space chars before code
-    Plug 'christoomey/vim-tmux-navigator' " Vim and Tmux interaction
-    Plug 'tmux-plugins/vim-tmux'          " Syntax and special funcs for .tmux.conf
-    Plug 'ryanoasis/vim-devicons'         " Icon pack for term
+    Plug 'vim-airline/vim-airline'          " Status Bar
+    Plug 'Yggdroot/indentLine'              " white-space chars before code
+    Plug 'christoomey/vim-tmux-navigator'   " Vim and Tmux interaction
+    Plug 'tmux-plugins/vim-tmux'            " Syntax and special funcs for .tmux.conf
+    Plug 'ryanoasis/vim-devicons'           " Icon pack for term
   """" END Themes and UI
 
 call plug#end()
@@ -211,6 +212,13 @@ let g:ycm_add_preview_to_completeopt = 0
     :vnoremap <leader>a,       :EasyAlign *,<cr>
     :vnoremap <leader>a<space> :EasyAlign *\ <cr>
   " 
+
+  " Visual Increment
+    :vmap <leader>i <Plug>VisualIncrement
+    :vmap <leader>d <Plug>VisualDecrement
+  "
+
+
 
 """" END Leader maps
 
