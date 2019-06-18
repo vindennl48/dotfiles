@@ -146,6 +146,8 @@ let g:ycm_add_preview_to_completeopt = 0
   " Copy and paste to external buffer
   :vnoremap <leader>cop :'<,'>w! ~/.cp<cr>
   :nnoremap <leader>pas :r ~/.cp<cr>
+  " Playback copied command to repeat
+  :nnoremap <leader>g @g
   " Nerdtree
   :nnoremap <leader>n :NERDTreeToggle<cr>
   " Create vim splits
@@ -203,10 +205,11 @@ let g:ycm_add_preview_to_completeopt = 0
   "
 
   " Easy Align
+    :xmap ga <Plug>(EasyAlign)
     :vnoremap <leader>a;       :EasyAlign *:<cr>
     :vnoremap <leader>a=       :EasyAlign *=<cr>
     :vnoremap <leader>a,       :EasyAlign *,<cr>
-    :vnoremap <leader>a<space> :EasyAlign *<space><cr>
+    :vnoremap <leader>a<space> :EasyAlign *\ <cr>
   " 
 
 """" END Leader maps
