@@ -1,0 +1,3 @@
+- On Ubuntu
+  - You have to change the system font to one of the patched nerd-fonts available at github:
+    - ryanoasis/nerd-fonts.git
