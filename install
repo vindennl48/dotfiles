@@ -132,7 +132,10 @@ function install_zsh_and_oh_my_zsh {
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
     # Install custom dotfiles
-    cp $HOME/bin/dotfiles/bash/zshrc $HOME/.zshrc
+    echo '# Create dotfiles directory variable' > $HOME/.zshrc
+    echo 'export DOTFILES_PATH="$HOME/bin/dotfiles"' >> $HOME/.zshrc
+    echo '# Source zshrc' >> $HOME/.zshrc
+    echo 'source $DOTFILES_PATH/bash/zshrc' >> $HOME/.zshrc
 
   fi
 }
