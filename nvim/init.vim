@@ -5,6 +5,7 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'mxw/vim-jsx'                      " Syntax highlighting for react
     Plug 'junegunn/vim-easy-align'          " Auto align variables
     Plug 'triglav/vim-visual-increment'     " Auto align variables
+    Plug 'pseewald/vim-anyfold'             " Code folding
 
     " Autocomplete
     Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
@@ -51,6 +52,19 @@ let g:ycm_add_preview_to_completeopt = 0
 """" Emmet Vim
   "let g:user_emmet_leader_key='<C-e>'
 """" END Emmet Vim
+
+"""" Vim-Anyfold
+filetype plugin indent on " required
+syntax on                 " required
+
+autocmd Filetype * AnyFoldActivate               " activate for all filetypes
+" or
+"autocmd Filetype <your-filetype> AnyFoldActivate " activate for a specific filetype
+
+"set foldlevel=0  " close all folds
+" or
+set foldlevel=99 " Open all folds
+"""" END Vim-Anyfold
 
 """" Oceanic Next Plugin
   if (has("termguicolors"))
@@ -140,6 +154,12 @@ let g:ycm_add_preview_to_completeopt = 0
   :inoremap []   []<esc>i
   :inoremap <>   <><esc>i
   :inoremap \|\| \|\|<esc>i
+
+  " Folding
+  :nnoremap zj zMgg
+  :nnoremap zk zRgg
+  :nnoremap zo zOz<cr>
+  :nnoremap zc zCz.
 """" END Remaps
 
 """" Leader maps
