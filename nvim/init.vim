@@ -6,6 +6,7 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'junegunn/vim-easy-align'          " Auto align variables
     Plug 'triglav/vim-visual-increment'     " Auto align variables
     Plug 'pseewald/vim-anyfold'             " Code folding
+    Plug 'majutsushi/tagbar'                " Code Outline, you need to manually install universal-ctags
 
     " Autocomplete
     Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
@@ -34,36 +35,38 @@ call plug#end()
 set encoding=utf-8
 
 """" Vimwiki Settings
-set nocompatible
-filetype plugin on
-syntax on
+  set nocompatible
+  filetype plugin on
+  syntax on
 """" END Vimwiki Settings
 
 
-" Start autocompletion after 4 chars
-let g:ycm_min_num_of_chars_for_completion = 4
-let g:ycm_min_num_identifier_candidate_chars = 4
-let g:ycm_enable_diagnostic_highlighting = 0
+"""" YouCompleteMe
+  " Start autocompletion after 4 chars
+  let g:ycm_min_num_of_chars_for_completion = 4
+  let g:ycm_min_num_identifier_candidate_chars = 4
+  let g:ycm_enable_diagnostic_highlighting = 0
 
-" Don't show YCM's preview window [ I find it really annoying ]
-set completeopt-=preview
-let g:ycm_add_preview_to_completeopt = 0
+  " Don't show YCM's preview window [ I find it really annoying ]
+  set completeopt-=preview
+  let g:ycm_add_preview_to_completeopt = 0
+"""" YouCompleteMe
 
 """" Emmet Vim
   "let g:user_emmet_leader_key='<C-e>'
 """" END Emmet Vim
 
 """" Vim-Anyfold
-filetype plugin indent on " required
-syntax on                 " required
+  filetype plugin indent on " required
+  syntax on                 " required
 
-autocmd Filetype * AnyFoldActivate               " activate for all filetypes
-" or
-"autocmd Filetype <your-filetype> AnyFoldActivate " activate for a specific filetype
+  autocmd Filetype * AnyFoldActivate               " activate for all filetypes
+  " or
+  "autocmd Filetype <your-filetype> AnyFoldActivate " activate for a specific filetype
 
-"set foldlevel=0  " close all folds
-" or
-set foldlevel=99 " Open all folds
+  "set foldlevel=0  " close all folds
+  " or
+  set foldlevel=99 " Open all folds
 """" END Vim-Anyfold
 
 """" Oceanic Next Plugin
@@ -184,6 +187,8 @@ set foldlevel=99 " Open all folds
   :nnoremap <leader>v :bp<cr>
   " Ctrl P but with fzf
   :nnoremap <C-p> :FZF<cr>
+  " Tagbar
+  :nnoremap <leader>tb :TagbarToggle<CR>
   " Ctrl P set directory
   ":nnoremap <C-f> :FZF 
   " Ctrl P actions
