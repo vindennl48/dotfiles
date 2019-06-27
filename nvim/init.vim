@@ -20,6 +20,8 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'christoomey/vim-tmux-runner'      " Send commands to tmux pane
     Plug 'vimwiki/vimwiki'                  " wiki for vim
     Plug 'mattn/emmet-vim'                  " Emmet linter for html
+    Plug 'airblade/vim-gitgutter'           " Git diff symbols in left hand gutter
+    Plug 'tpope/vim-repeat'                 " Extend the '.' repeat command
   """" END Add-ons
 
   """" Themes and UI
