@@ -29,17 +29,6 @@ export FZF_CTRL_T_COMMAND='ag --hidden --ignore .git -g ""'
 export FZF_CTRL_T_OPTS='--extended --preview="head -$LINES {}" --height=100%'
 #############################################################################
 
-# Script to start tmux for every instance of terminal
-#####################################################
-_not_inside_tmux() { [[ -z "$TMUX" ]] }
-ensure_tmux_is_running() {
-  if _not_inside_tmux; then
-    tat
-  fi
-}
-ensure_tmux_is_running
-#####################################################
-
 # Stop python from creating pyc files
 #####################################
 export PYTHONDONTWRITEBYTECODE=1
@@ -88,3 +77,14 @@ fi
   #startx
 #fi
 ###########################################
+
+# Script to start tmux for every instance of terminal
+#####################################################
+_not_inside_tmux() { [[ -z "$TMUX" ]] }
+ensure_tmux_is_running() {
+  if _not_inside_tmux; then
+    tat
+  fi
+}
+ensure_tmux_is_running
+#####################################################
