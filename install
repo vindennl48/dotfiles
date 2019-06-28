@@ -99,8 +99,7 @@ function install_neovim_tmux {
   rm -Rf $HOME/.local/share/nvim/site/autoload/vim-plug
 
   # Tmux custom dotfiles
-  echo '# Path to tmux config file' > $HOME/.tmux.conf
-  echo 'source-file $MYTMUXPATH/tmux_bindings' >> $HOME/.tmux.conf
+  ln -s $MYTMUXPATH/tmux.conf $HOME/.tmux.conf
 }
 
 function install_openssh {
@@ -133,7 +132,10 @@ function install_zsh_and_oh_my_zsh {
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
     # Install custom dotfiles
-    cp $HOME/bin/dotfiles/bash/zshrc $HOME/.zshrc
+    echo '# Create dotfiles directory variable' > $HOME/.zshrc
+    echo 'export DOTFILES_PATH="$HOME/bin/dotfiles"' >> $HOME/.zshrc
+    echo '# Source zshrc' >> $HOME/.zshrc
+    echo 'source $DOTFILES_PATH/bash/zshrc' >> $HOME/.zshrc
 
   fi
 }

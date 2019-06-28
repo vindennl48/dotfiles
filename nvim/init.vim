@@ -1,30 +1,35 @@
 call plug#begin('~/.local/share/nvim/plugged')
   """" Syntax
-    Plug 'mhartington/oceanic-next'       " Syntax Highlighting & theme
-    Plug 'pangloss/vim-javascript'        " Javascript syntax highlighting
-    Plug 'mxw/vim-jsx'                    " Syntax highlighting for react
-    Plug 'junegunn/vim-easy-align'        " Auto align variables
+    Plug 'mhartington/oceanic-next'         " Syntax Highlighting & theme
+    Plug 'pangloss/vim-javascript'          " Javascript syntax highlighting
+    Plug 'mxw/vim-jsx'                      " Syntax highlighting for react
+    Plug 'junegunn/vim-easy-align'          " Auto align variables
+    Plug 'triglav/vim-visual-increment'     " Auto align variables
+    Plug 'pseewald/vim-anyfold'             " Code folding
+    Plug 'majutsushi/tagbar'                " Code Outline, you need to manually install universal-ctags
 
     " Autocomplete
     Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
   """" END Syntax
 
   """" Add-ons
-    Plug 'scrooloose/nerdtree'            " File browser
-    Plug 'scrooloose/nerdcommenter'       " Commenting tool
-    Plug '~/.fzf'                         " Use fuzzy finder
-    Plug 'mattn/emmet-vim'                " Auto-complete syntax
-    Plug 'christoomey/vim-tmux-runner'    " Send commands to tmux pane
-    Plug 'vimwiki/vimwiki'                " wiki for vim
-    Plug 'mattn/emmet-vim'                " Emmet linter for html
+    Plug 'scrooloose/nerdtree'              " File browser
+    Plug 'scrooloose/nerdcommenter'         " Commenting tool
+    Plug '~/.fzf'                           " Use fuzzy finder
+    Plug 'mattn/emmet-vim'                  " Auto-complete syntax
+    Plug 'christoomey/vim-tmux-runner'      " Send commands to tmux pane
+    Plug 'vimwiki/vimwiki'                  " wiki for vim
+    Plug 'mattn/emmet-vim'                  " Emmet linter for html
+    Plug 'airblade/vim-gitgutter'           " Git diff symbols in left hand gutter
+    Plug 'tpope/vim-repeat'                 " Extend the '.' repeat command
   """" END Add-ons
 
   """" Themes and UI
-    Plug 'vim-airline/vim-airline'        " Status Bar
-    Plug 'Yggdroot/indentLine'            " white-space chars before code
-    Plug 'christoomey/vim-tmux-navigator' " Vim and Tmux interaction
-    Plug 'tmux-plugins/vim-tmux'          " Syntax and special funcs for .tmux.conf
-    Plug 'ryanoasis/vim-devicons'         " Icon pack for term
+    Plug 'vim-airline/vim-airline'          " Status Bar
+    Plug 'Yggdroot/indentLine'              " white-space chars before code
+    Plug 'christoomey/vim-tmux-navigator'   " Vim and Tmux interaction
+    Plug 'tmux-plugins/vim-tmux'            " Syntax and special funcs for .tmux.conf
+    Plug 'ryanoasis/vim-devicons'           " Icon pack for term
   """" END Themes and UI
 
 call plug#end()
@@ -32,24 +37,39 @@ call plug#end()
 set encoding=utf-8
 
 """" Vimwiki Settings
-set nocompatible
-filetype plugin on
-syntax on
+  set nocompatible
+  filetype plugin on
+  syntax on
 """" END Vimwiki Settings
 
 
-" Start autocompletion after 4 chars
-let g:ycm_min_num_of_chars_for_completion = 4
-let g:ycm_min_num_identifier_candidate_chars = 4
-let g:ycm_enable_diagnostic_highlighting = 0
+"""" YouCompleteMe
+  " Start autocompletion after 4 chars
+  let g:ycm_min_num_of_chars_for_completion = 4
+  let g:ycm_min_num_identifier_candidate_chars = 4
+  let g:ycm_enable_diagnostic_highlighting = 0
 
-" Don't show YCM's preview window [ I find it really annoying ]
-set completeopt-=preview
-let g:ycm_add_preview_to_completeopt = 0
+  " Don't show YCM's preview window [ I find it really annoying ]
+  set completeopt-=preview
+  let g:ycm_add_preview_to_completeopt = 0
+"""" YouCompleteMe
 
 """" Emmet Vim
-  let g:user_emmet_leader_key='<leader>'
+  "let g:user_emmet_leader_key='<C-e>'
 """" END Emmet Vim
+
+"""" Vim-Anyfold
+  filetype plugin indent on " required
+  syntax on                 " required
+
+  autocmd Filetype * AnyFoldActivate               " activate for all filetypes
+  " or
+  "autocmd Filetype <your-filetype> AnyFoldActivate " activate for a specific filetype
+
+  "set foldlevel=0  " close all folds
+  " or
+  set foldlevel=99 " Open all folds
+"""" END Vim-Anyfold
 
 """" Oceanic Next Plugin
   if (has("termguicolors"))
@@ -139,6 +159,12 @@ let g:ycm_add_preview_to_completeopt = 0
   :inoremap []   []<esc>i
   :inoremap <>   <><esc>i
   :inoremap \|\| \|\|<esc>i
+
+  " Folding
+  :nnoremap zj zMgg
+  :nnoremap zk zRgg
+  :nnoremap zo zOz<cr>
+  :nnoremap zc zCz.
 """" END Remaps
 
 """" Leader maps
@@ -146,20 +172,27 @@ let g:ycm_add_preview_to_completeopt = 0
   " Copy and paste to external buffer
   :vnoremap <leader>cop :'<,'>w! ~/.cp<cr>
   :nnoremap <leader>pas :r ~/.cp<cr>
+  " Playback copied command to repeat
+  :nnoremap <leader>g @g
   " Nerdtree
   :nnoremap <leader>n :NERDTreeToggle<cr>
   " Create vim splits
   :nnoremap <leader>y :vsp<cr><c-w>l
   :nnoremap <leader>x :sp<cr><c-w>j
+  :nnoremap <leader>L :vertical resize +5<cr>
+  :nnoremap <leader>H :vertical resize -5<cr>
   " Zoom a vim pane
   :nnoremap <leader>z :wincmd _<cr>:wincmd \|<cr>
   :nnoremap <leader>f :wincmd =<cr>
   " Switch to next buffer
   :nnoremap <leader>b :bn<cr>
+  :nnoremap <leader>v :bp<cr>
   " Ctrl P but with fzf
   :nnoremap <C-p> :FZF<cr>
+  " Tagbar
+  :nnoremap <leader>tb :TagbarToggle<CR>
   " Ctrl P set directory
-  :nnoremap <C-f> :FZF 
+  ":nnoremap <C-f> :FZF 
   " Ctrl P actions
   let g:fzf_action = {
     \'alt-x': 'split',
@@ -200,11 +233,19 @@ let g:ycm_add_preview_to_completeopt = 0
   "
 
   " Easy Align
+    :xmap ga <Plug>(EasyAlign)
     :vnoremap <leader>a;       :EasyAlign *:<cr>
     :vnoremap <leader>a=       :EasyAlign *=<cr>
     :vnoremap <leader>a,       :EasyAlign *,<cr>
-    :vnoremap <leader>a<space> :EasyAlign *<space><cr>
+    :vnoremap <leader>a<space> :EasyAlign *\ <cr>
   " 
+
+  " Visual Increment
+    :vmap <leader>i <Plug>VisualIncrement
+    :vmap <leader>d <Plug>VisualDecrement
+  "
+
+
 
 """" END Leader maps
 
@@ -254,12 +295,60 @@ let g:ycm_add_preview_to_completeopt = 0
     set noerrorbells
     " Flash screen when beep sounds
     set visualbell
-    " Allow mouse for scroll
-    set mouse=a
     " Change cursor for mode
     set guicursor=n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20
     " Prevent text wrapping
     set nowrap
   """"""""""""""""""""""""
+
+  " User Interface Options
+  """"""""""""""""""""""""
+    " Allow mouse for scroll
+    set mouse=a
+    func! MScroll()
+      let l:done=0
+      let l:n = -1
+      let l:w0 = line("w0")
+      let l:last = line("$")
+      while done!=1
+        let l:g = getchar()
+        if l:g != "\<LeftDrag>"
+          let done = 1
+        else
+          if l:n == -1
+            let l:n = v:mouse_lnum
+            let l:fln = v:mouse_lnum
+          else
+            let l:new = l:w0 - v:mouse_lnum + l:n
+            if l:new<1
+              let l:new = 1
+            endif
+
+            let l:diff = -v:mouse_lnum + l:n
+            let l:nd = line("w$")
+            if l:nd+l:diff>l:last
+              let l:new = l:last - winheight(0) + 1
+              if l:new<1
+                let l:new = 1
+              endif
+            end
+
+            let l:wn = "normal ".string(l:new)."zt"
+            if (l:n != v:mouse_lnum)
+              exec(l:wn)
+              redraw
+            endif
+            let l:w0 = line("w0")
+            let l:n = v:mouse_lnum + l:diff
+          endif
+        endif
+      endwhile
+      :call cursor(v:mouse_lnum,v:mouse_col)
+    endfunc
+    :noremap <silent> <LeftMouse> :call MScroll()<CR>
+    :noremap <LeftRelease> <Nop>
+    :noremap <LeftDrag> <Nop>
+  """"""""""""""""""""""""
+
 
 """" ENDSystem Settings

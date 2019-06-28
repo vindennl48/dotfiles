@@ -31,6 +31,7 @@ alias vim="nvim"                                       # prevents me from using 
 alias make_runnable="chmod a+x"                        # allows bash file to run
 alias t="tree"                                         # short for tree command (need to aptinstall tree)
 alias copy="xclip -sel clip < "                        # copy file to clipboard
+alias ta="tmux attach-session -t "                     # attach to open tmux session
 
 ## C++ Compiler Options
 #alias gcc="g++ -std=c++11"                            # standard arguments for compiling c++11

@@ -1,6 +1,90 @@
-# Turn off tmux
-export NO_TMUX="true"
-# Create dotfiles directory variable
-export DOTFILES_PATH="$HOME/bin/dotfiles"
-# Source zshrc
-source $DOTFILES_PATH/bash/bashrc
+# Zshrc terminal settings & features
+source $DOTFILES_PATH/bash/zsh_settings
+
+##################### OTHER EVENT VARIABLES #####################
+#################################################################
+# These should be different depending on what you have installed!
+#################################################################
+export VISUAL="nvim" # default visual 
+export EDITOR="$VISUAL" # default editor 
+export PYTHONPATH="$PYTHONPATH:$HOME/MyPyModules" # Add custom py modules to PYTHONPATH
+export PATH="$HOME/.linuxbrew/bin:$PATH"
+export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
+export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
+
+# location paths to dotfiles
+export PATH="$DOTFILES_PATH/bin:$PATH"
+export MYNVIMPATH="$DOTFILES_PATH/nvim"
+export MYBASHPATH="$DOTFILES_PATH/bash"
+export MYTMUXPATH="$DOTFILES_PATH/tmux"
+#################################################################
+
+# FZF Fuzzy Finder Settings
+#############################################################################
+# Sourcing for fzf fuzzy finder
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# options for terminal fuzzy finder
+export FZF_CTRL_T_COMMAND='ag --hidden --ignore .git -g ""'
+export FZF_CTRL_T_OPTS='--extended --preview="head -$LINES {}" --height=100%'
+#############################################################################
+
+# Script to start tmux for every instance of terminal
+#####################################################
+_not_inside_tmux() { [[ -z "$TMUX" ]] }
+ensure_tmux_is_running() {
+  if _not_inside_tmux; then
+    tat
+  fi
+}
+ensure_tmux_is_running
+#####################################################
+
+# Stop python from creating pyc files
+#####################################
+export PYTHONDONTWRITEBYTECODE=1
+#####################################
+
+# Source alias files
+###############################################
+for f in $DOTFILES_PATH/bash/aliasfiles/*.alias
+do
+    source "$f"
+done
+###############################################
+
+# Copy pwd to temp
+###########################################
+precmd() { pwd > /tmp/whereami; }
+###########################################
+
+# Use VI style editing
+###########################################
+# set -o vi
+# set editing-mode vi
+# set keymap vi
+# export KEYTIMEOUT=10
+# bindkey -M viins 'jk' vi-cmd-mode
+# bindkey -M vicmd '^U' kill-whole-line
+# bindkey -M viins '^U' kill-whole-line
+# bindkey -M viins '^V' edit-command-line
+# bindkey -M vicmd '^V' edit-command-line
+bindkey '^V' edit-command-line
+###########################################
+
+# Source ruby
+###########################################
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+###########################################
+
+# Source startx | start i3 automatically
+###########################################
+if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
+  exec startx
+fi
+
+# Just another way to do it
+#if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
+  #startx
+#fi
+###########################################

@@ -51,3 +51,5 @@
 * [[Bootstrap_Javascript_issues]]
 * [[Ruby_Rails_Notes]]
 
+== Nerd-Fonts ==
+* [[Install nerd-fonts]]
