@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Link To Curl
+# https://raw.githubusercontent.com/vindennl48/dotfiles/master/barebones_bash.alias
+
 # default aliases
 alias clear='clear;clear'                              # erase the screen twice to get rid of any buffer
 alias CLEAR='clear'                                    # all caps version of clear
