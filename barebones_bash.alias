@@ -1,0 +1,68 @@
+#!/usr/bin/env bash
+
+# default aliases
+alias clear='clear;clear'                              # erase the screen twice to get rid of any buffer
+alias CLEAR='clear'                                    # all caps version of clear
+alias go='cd'                                          # alternate form of cd
+alias l='ls -lhXGp'                                    # different form of ls
+alias lsh='ls -lhXGpa'                                 # different form of ls
+alias q1='exit'                                        # exit out of terminal
+alias vi="vim"                                         # prevents me from using vi
+
+# apt-get aliases
+alias aptinstall="sudo apt -y install"                 # install script for apt
+alias aptuninstall="sudo apt -y remove"                # uninstall script for apt
+alias aptsearch="apt-cache search"                     # search for available packages
+alias aptupdate="sudo apt -y update && sudo apt -y upgrade && sudo apt -y dist-upgrade && sudo apt -y autoremove"   # update all software
+
+# git aliases
+alias showa="git branch -a"               # show local and remote branches
+alias goto="git checkout"                 # go to branch
+alias gstat="git status"                  # show status
+alias gnew="git checkout -b"              # create new branch
+alias gclean="git clean -f -i -d -x"      # clean up any ignore files
+alias gfetch="git fetch -p origin"        # fetch from remotes
+alias gadd="git add"                      # staging a file
+alias gdrop="git reset"                   # unstage files
+alias gcom="git commit"                   # commit
+alias glog="git log --oneline \
+  --decorate --graph --all"               # git log
+alias glogsearch="glog -E -i --grep"      # git log grep search
+alias gshow="git show"                    # git show
+alias gstash="git stash"                  # git stash
+
+# No arguments: `git status`
+# With arguments: acts like `git`
+g() {
+  if [[ $# -gt 0 ]]; then
+    git "$@"
+  else
+    git status
+  fi
+}
+
+# #push up to remotes (throws error)
+# alias gpush="git push -u origin $(branch-name)"
+gpush(){
+    git push -u origin $(branch-name)
+}
+
+#delete local branch
+deletelocal() {
+    git branch -D $1
+}
+#delete remote branch
+# $1 is origin or upstream name, $2 is branch
+deleteremote() {
+        git push $1 --delete $2
+}
+#delete local and remote branches
+deleteall() {
+    deletelocal $2; deleteremote $1 $2;
+}
+
+#add files and create commit
+gac(){
+    git add $@
+    git commit
+}
