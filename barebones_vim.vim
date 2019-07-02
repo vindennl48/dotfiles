@@ -7,7 +7,6 @@
   " Jump to end of line
   :nnoremap a A
   :inoremap jk <esc><esc>
-  :noremap <esc> <esc><esc>
   " Delete line with 1 stroke
   :nnoremap d dd
   " Quit file, but not if dirty
