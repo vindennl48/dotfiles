@@ -4,6 +4,7 @@
 # https://raw.githubusercontent.com/vindennl48/dotfiles/master/barebones_bash.alias
 
 # default aliases
+alias ..='cd ..'                                       # go back a dir
 alias clear='clear;clear'                              # erase the screen twice to get rid of any buffer
 alias CLEAR='clear'                                    # all caps version of clear
 alias go='cd'                                          # alternate form of cd
