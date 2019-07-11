@@ -8,7 +8,7 @@ MYTMUXPATH="$DOTFILES_PATH/tmux"
 MYGITPATH="$DOTFILES_PATH/git"
 #################################################################
 
-function Install {
+function install_pacman {
   # Programs with no additional work
   ##########################################
     if [[ "$isDebian" =~ ^/ ]]; then
@@ -31,7 +31,6 @@ function Install {
         htop \
         the_silver_searcher \
         tree \
-        ttf-freefont \
         chromium \
         python \
         python-pip \
@@ -39,6 +38,9 @@ function Install {
     fi
   ##########################################
 
+}
+
+function install_packages {
   # Programs with additional work needed
   # These include custom dotfiles!
   ######################################
@@ -79,11 +81,11 @@ function install_git {
   if [[ "$isDebian" =~ ^/ ]]; then
     sudo apt install -y git
   elif [[ "$isArch" =~ ^/ ]]; then
-    sudo pacman -S git
+    sudo pacman -S --needed --noconfirm git
   fi
 
   # Git custom dotfiles
-  rm $HOME/.gitconfig
+  rm -f $HOME/.gitconfig
   ln -s $MYGITPATH/gitconfig $HOME/.gitconfig
 }
 
@@ -91,7 +93,7 @@ function install_neovim_tmux {
   if [[ "$isDebian" =~ ^/ ]]; then
     sudo apt install -y neovim tmux
   elif [[ "$isArch" =~ ^/ ]]; then
-    sudo pacman -S neovim tmux
+    sudo pacman -S --needed --noconfirm neovim tmux
     sudo pip install neovim
     git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
     echo    "----> In tmux, you must run <prefix><Shift-i> to load plugins"
@@ -114,9 +116,9 @@ function install_openssh {
   if [[ "$isDebian" =~ ^/ ]]; then
     sudo apt install -y openssh-server
   elif [[ "$isArch" =~ ^/ ]]; then
-    sudo pacman -S openssh
+    sudo pacman -S --needed --noconfirm openssh
   fi
-  sudo systemctl restart ssh
+  sudo systemctl restart sshd
 }
 
 function install_fzf {
@@ -130,7 +132,7 @@ function install_zsh_and_oh_my_zsh {
     if [[ "$isDebian" =~ ^/ ]]; then
       sudo apt -y install zsh
     elif [[ "$isArch" =~ ^/ ]]; then
-      sudo pacman -S zsh zsh-completions
+      sudo pacman -S --needed --noconfirm zsh zsh-completions
     fi
     chsh -s $(which zsh)
 
@@ -167,7 +169,7 @@ function install_docker {
     sudo groupadd docker
     sudo gpasswd -a $USER docker
   elif [[ "$isArch" =~ ^/ ]]; then
-    sudo pacman -S docker
+    sudo pacman -S --needed --noconfirm docker
     sudo systemctl start docker
     sudo systemctl enable docker
     sudo groupadd docker
@@ -180,13 +182,13 @@ function install_docker_compose {
     sudo curl -L https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
     sudo chmod +x /usr/local/bin/docker-compose
   elif [[ "$isArch" =~ ^/ ]]; then
-    sudo pacman -S docker-compose
+    sudo pacman -S --needed --noconfirm docker-compose
   fi
 }
 
 function install_termite_arch_only {
   if [[ "$isArch" =~ ^/ ]]; then
-    sudo pacman -S termite
+    sudo pacman -S --needed --noconfirm termite
     mkdir -p $HOME/.config/termite
     ln -s $HOME/bin/dotfiles/termite/config $HOME/.config/termite/config
   fi
@@ -201,14 +203,14 @@ function install_heroku_debian_only {
 
 function install_xorg_arch_only {
   if [[ "$isArch" =~ ^/ ]]; then
-    sudo pacman -S xorg-server xorg-xinit
+    sudo pacman -S --needed --noconfirm xorg-server xorg-xinit
     echo "exec i3" > ~/.xinitrc
   fi
 }
 
 function install_atigfx_arch_only {
   if [[ "$isArch" =~ ^/ ]]; then
-    sudo pacman -S mesa xf86-video-ati mesa-vdpau \
+    sudo pacman -S --needed --noconfirm mesa xf86-video-ati mesa-vdpau \
       libva-mesa-driver libva-vdpau-driver
     echo    "----> Add 'radeon' to MODULES in next file"
     read -p "      (Press ENTER to continue)" en
@@ -228,7 +230,7 @@ function install_synaptics_touchpad {
 
 function install_i3_gaps_arch_only {
   if [[ "$isArch" =~ ^/ ]]; then
-    sudo pacman -S i3-gaps i3status dmenu feh compton volumeicon xorg-xrandr
+    sudo pacman -S --needed --noconfirm i3-gaps i3status dmenu feh compton volumeicon xorg-xrandr
     mkdir -p $HOME/.config/i3
     ln -s $HOME/bin/dotfiles/i3/config $HOME/.config/i3/config
     mkdir -p $HOME/Pictures
@@ -237,10 +239,12 @@ function install_i3_gaps_arch_only {
 }
 
 function install_vbox_arch_only {
-  echo    "VirtualBox tools: This only installs the necessary linux-headers.. You still must follow the Arch Wiki install instructions."
+  echo    "VirtualBox tools: This only installs the necessary linux-headers.."
+  echo    "                  You still must follow the Arch Wiki install"
+  echo    "                  instructions."
   read -p "                  (Press ENTER to continue)" en
   if [[ "$isArch" =~ ^/ ]]; then
-    sudo pacman -S \
+    sudo pacman -S --needed --noconfirm \
       linux-headers \
 
   fi
@@ -255,7 +259,8 @@ echo "that you are logged into right now.  You also must continuously"
 echo "exit out of each prompt until you see 'Finished install!'."
 echo "Happy installing!"
 set -e  # exit if something fails
-Install
+install_pacman
+install_packages
 echo "Finished install!"
 
 # Done
