@@ -1,5 +1,5 @@
 " Link To Curl
-" https://raw.githubusercontent.com/vindennl48/dotfiles/master/barebones_vim.vim
+" https://raw.githubusercontent.com/vindennl48/dotfiles/master/barebones/barebones_vim.vim
 
 """" Remaps
   :nnoremap ; :

@@ -59,10 +59,14 @@ pacman -S grub
 grub-install --target=i386-pc /dev/"$DISK"
 grub-mkconfig -o /boot/grub/grub.cfg
 
-read -p "Set password for root" choice
+
+echo    "----> Set password for root"
+read -p "      (Press ENTER to continue)" choice
 passwd
 
-read -p "Set locales, uncomment all en_US" choice
+
+echo    "----> Set locales, uncomment all en_US"
+read -p "      (Press ENTER to continue)" choice
 vim /etc/locale.gen
 locale-gen
 
@@ -72,10 +76,13 @@ ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime
 
 echo "arch" > /etc/hostname
 
-read -p "Set wheel permissions: uncomment 'wheel ALL=(ALL) ALL' and add 'Defaults !tty_tickets' " choice
+
+echo    "----> Set wheel permissions: uncomment 'wheel ALL=(ALL) ALL' and add 'Defaults !tty_tickets'"
+read -p "      (Press ENTER to continue)" choice
 vim /etc/sudoers
 
-read -p "Make sure to exit to main screen and un-mount /mnt!" choice
+echo    "----> Make sure to exit to main screen and un-mount /mnt!"
+read -p "      (Press ENTER to continue)" choice
 }
 
 # Comment out the one you are NOT installing
