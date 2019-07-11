@@ -4,8 +4,52 @@ Mitchell's collection of customizations and aliases
 ## Current Linux Distro
  - The installer should work for both Ubuntu and Arch systems.
 
+# Arch Installer
+## What is this?
+The `arch_install` and `arch_install_encrypted` are automated installers 
+for arch.  They create and format the partitions and swapfile, perform 
+pacstrap with a few basic packages (you can add your own to the installer 
+if needed), and guide you through setting up language options, grub, wheel 
+permissions etc.. 
+
+## How to Use
+Once booted into the arch live cd:
+ - For regular install
+   ```sh
+     curl 'https://raw.githubusercontent.com/vindennl48/dotfiles/master/arch_install' > arch_install
+     chmod a+x arch_install
+     ./arch_install
+   ```
+ - For encrypted install
+   ```sh
+     curl 'https://raw.githubusercontent.com/vindennl48/dotfiles/master/arch_install_encrypted' > arch_install
+     chmod a+x arch_install
+     ./arch_install
+   ```
+ - The first half of the installer will create the partitions, set up pacstrap
+   and arch_chroot into the new install.  Once this is complete, the installer will
+   echo this to the screen:
+   ```
+   You must edit the copied installer in /mnt to uncomment 'post_install' and comment 'pre_install' at the bottom, then run.
+   ```
+   The installer copied the `arch_install` or `arch_install_encrypted` file to the new arch install root directory.  All you
+   have to do is edit the very end of the file:
+   - From:
+     ```sh
+       # Comment out the one you are NOT installing
+       pre_install
+       #post_install
+     ```
+   - To:
+     ```sh
+       # Comment out the one you are NOT installing
+       #pre_install
+       post_install
+     ```
+ - Now, re-run the installer and follow the prompts!
+
 # Source All The Things
-### To use this repo:
+## To use the dotfiles:
  - Clone this repo into `$HOME/bin/` or copy:
    ```sh
      mkdir ~/bin
@@ -28,6 +72,9 @@ Mitchell's collection of customizations and aliases
    ```sh
      export DOTFILES_PATH="<your directory here>/dotfiles"
    ```
+   You will want to modify this in the installer code before you install.  
+   If you install first and then try to change this, you will also need to 
+   re-link all the symlinks to match this new path.
 
 # Thats Probably It!
 For a full-featured documentation, please refer to the sourced files.
