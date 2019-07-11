@@ -41,12 +41,12 @@ function Install {
     #install_heroku_debian_only
     install_fzf
     install_termite_arch_only
-    install_rvm_arch_only
+    #install_rvm_arch_only
     install_xorg_arch_only
     install_i3_gaps_arch_only # depends on xorg
     #install_atigfx_arch_only # only for ati gfx cards
     #install_setbright_arch_only # only works with ati + not vbox
-    #install_vbox_arch_only # only if inside VirtualBox!
+    install_vbox_arch_only # only if inside VirtualBox!
     install_neovim_tmux
 
     # MUST BE LAST!
@@ -88,6 +88,9 @@ function install_neovim_tmux {
   elif [[ "$isArch" =~ ^/ ]]; then
     sudo pacman -S neovim tmux
     sudo pip install neovim
+    git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+    echo    "----> In tmux, you must run <prefix><Shift-i> to load plugins"
+    read -p "      (Press ENTER to continue)" en
   fi
 
   # Neovim custom dotfiles

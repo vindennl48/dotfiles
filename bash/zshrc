@@ -68,23 +68,23 @@ bindkey '^V' edit-command-line
 
 # Source startx | start i3 automatically
 ###########################################
-if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
-  exec startx
-fi
+# if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
+#   exec startx
+# fi
 
 # Just another way to do it
-#if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
-  #startx
-#fi
+# if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
+#   startx
+# fi
 ###########################################
 
 # Script to start tmux for every instance of terminal
 #####################################################
-_not_inside_tmux() { [[ -z "$TMUX" ]] }
-ensure_tmux_is_running() {
-  if _not_inside_tmux; then
-    tat
-  fi
-}
-ensure_tmux_is_running
+# _not_inside_tmux() { [[ -z "$TMUX" ]] }
+# ensure_tmux_is_running() {
+#   if _not_inside_tmux; then
+#     tat
+#   fi
+# }
+# ensure_tmux_is_running
 #####################################################
