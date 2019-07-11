@@ -55,7 +55,7 @@ set encoding=utf-8
 """" YouCompleteMe
 
 """" Emmet Vim
-  "let g:user_emmet_leader_key='<C-e>'
+  let g:user_emmet_leader_key='<C-b>'
 """" END Emmet Vim
 
 """" Vim-Anyfold
@@ -241,7 +241,7 @@ set encoding=utf-8
   " 
 
   " Visual Increment
-    :vmap <leader>i <Plug>VisualIncrement
+    :vmap <leader>u <Plug>VisualIncrement
     :vmap <leader>d <Plug>VisualDecrement
   "
 
