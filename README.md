@@ -1,18 +1,18 @@
 # DOTFILES
 Mitchell's collection of customizations and aliases
 
-## Current Linux Distro
+### Current Linux Distro
  - The installer should work for both Ubuntu and Arch systems.
 
 # Arch Installer
-## What's this?
+### What's this?
 The `arch_install` and `arch_install_encrypted` are automated installers 
 for arch.  They create and format the partitions and swapfile, perform 
 pacstrap with a few basic packages (you can add your own to the installer 
 if needed), and guide you through setting up language options, grub, wheel 
 permissions etc.. 
 
-## How to Use
+### How to Use
 Once booted into the arch live cd:
  - For regular install
    ```sh
@@ -49,7 +49,7 @@ Once booted into the arch live cd:
  - Now, re-run the installer and follow the prompts!
 
 # Source All The Things
-## To use the dotfiles:
+### To use the dotfiles:
  - Clone this repo into `$HOME/bin/` or copy:
    ```sh
      mkdir ~/bin
@@ -77,10 +77,10 @@ Once booted into the arch live cd:
    re-link all the symlinks to match this new path.
 
 # Barebones Dotfiles
-## What's This?
+### What's This?
 This is a stripped down version of my dotfiles and vim commands that I can quickly add to a remote server and not have to clutter the server with all of my own custom software and settings.  All it does is copy over a thin alias file for bash and a thin vimrc file for vim.  It then adds a line of code to the original bashrc and vimrc files to source the barebones files.  I do it this way so as to not disrupt any existing aliases or vim commands that are needed for the environment, and It's easy to remove if you aren't allowed to keep your settings on the server.
 
-## How to use
+### How to use
  - You will need to curl down and run the barebones installer
    ```sh
      curl https://raw.githubusercontent.com/vindennl48/dotfiles/master/barebones/barebones_install.sh | /bin/bash
