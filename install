@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# location paths to dotfiles
+DOTFILES_PATH="$HOME/bin/dotfiles"
+MYNVIMPATH="$DOTFILES_PATH/nvim"
+MYBASHPATH="$DOTFILES_PATH/bash"
+MYTMUXPATH="$DOTFILES_PATH/tmux"
+MYGITPATH="$DOTFILES_PATH/git"
+#################################################################
+
 function Install {
   # Programs with no additional work
   ##########################################
@@ -12,12 +20,12 @@ function Install {
         silversearcher-ag \
         tree \
         chromium-browser \
-	python3 \
-	python3-pip \
+        python3 \
+        python3-pip \
 
     elif [[ "$isArch" =~ ^/ ]]; then
       sudo pacman -Syu
-      sudo pacman -S \
+      sudo pacman -S --needed --noconfirm \
         cmake \
         curl \
         htop \
@@ -62,12 +70,9 @@ isArch=$(type -P pacman)
 
 function install_setbright_arch_only {
   if [[ "$isArch" =~ ^/ ]]; then
-    sudo ln -s $HOME/bin/dotfiles/i3/backlight.rules /etc/udev/rules.d/.
+    sudo ln -s $DOTFILES_PATH/i3/backlight.rules /etc/udev/rules.d/.
     sudo usermod -aG video $USER
   fi
-
-  # Git custom dotfiles
-  ln -s $HOME/bin/dotfiles/git/gitconfig $HOME/.gitconfig
 }
 
 function install_git {
@@ -79,7 +84,7 @@ function install_git {
 
   # Git custom dotfiles
   rm $HOME/.gitconfig
-  ln -s $HOME/bin/dotfiles/git/gitconfig $HOME/.gitconfig
+  ln -s $MYGITPATH/gitconfig $HOME/.gitconfig
 }
 
 function install_neovim_tmux {
@@ -129,14 +134,15 @@ function install_zsh_and_oh_my_zsh {
     fi
     chsh -s $(which zsh)
 
-    read -p "You must type exit at the next prompt to finish install!" en
+    echo    "----> You must type exit at the next prompt to finish install!"
+    read -p "      (Press ENTER to continue)" en
  
     # Install oh-my-zsh, THIS MUST BE INSTALLED LAST!
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
     # Install custom dotfiles
     echo '# Create dotfiles directory variable' > $HOME/.zshrc
-    echo 'export DOTFILES_PATH="$HOME/bin/dotfiles"' >> $HOME/.zshrc
+    echo "export DOTFILES_PATH=\"${DOTFILES_PATH}\"" >> $HOME/.zshrc
     echo '# Source zshrc' >> $HOME/.zshrc
     echo 'source $DOTFILES_PATH/bash/zshrc' >> $HOME/.zshrc
 
@@ -145,7 +151,8 @@ function install_zsh_and_oh_my_zsh {
 
 function install_rvm_arch_only {
   if [[ "$isArch" =~ ^/ ]]; then
-    read -p "You are better off installing this manually.  Go to rvm.io, install the GPG keys and install rvm+rails from there." choice
+    echo    "RVM:  You are better off installing this manually.  Go to rvm.io, install the GPG keys and install rvm+rails from there."
+    read -p "      (Press ENTER to continue)" en
     #read -p "You must visit rvm.io and install GPG keys before first use or it will not work!" choice
     #curl -L get.rvm.io > rvm-install && bash < ./rvm-install
     #rm rvm-install
@@ -203,7 +210,8 @@ function install_atigfx_arch_only {
   if [[ "$isArch" =~ ^/ ]]; then
     sudo pacman -S mesa xf86-video-ati mesa-vdpau \
       libva-mesa-driver libva-vdpau-driver
-    read -p "Add 'radeon' to MODULES in next file"
+    echo    "----> Add 'radeon' to MODULES in next file"
+    read -p "      (Press ENTER to continue)" en
     sudo vim /etc/mkinitcpio.conf
     sudo mkinitcpio -p linux
     sudo ln -s $HOME/bin/dotfiles/i3/20-radeon.conf /etc/X11/xorg.conf.d/.
@@ -212,11 +220,15 @@ function install_atigfx_arch_only {
   fi
 }
 
+function install_synaptics_touchpad {
+  #touchpad drivers
+  sudo pacman -S --needed --noconfirm xf86-input-synaptics
+  sudo ln -s $HOME/bin/dotfiles/i3/70-synaptics.conf /etc/X11/xorg.conf.d/.
+}
+
 function install_i3_gaps_arch_only {
   if [[ "$isArch" =~ ^/ ]]; then
-    sudo pacman -S i3-gaps i3status dmenu feh compton volumeicon xorg-xrandr xf86-input-synaptics
-    #touchpad drivers
-    sudo ln -s $HOME/bin/dotfiles/i3/70-synaptics.conf /etc/X11/xorg.conf.d/.
+    sudo pacman -S i3-gaps i3status dmenu feh compton volumeicon xorg-xrandr
     mkdir -p $HOME/.config/i3
     ln -s $HOME/bin/dotfiles/i3/config $HOME/.config/i3/config
     mkdir -p $HOME/Pictures
@@ -225,7 +237,8 @@ function install_i3_gaps_arch_only {
 }
 
 function install_vbox_arch_only {
-  read -p "VirtualBox tools: This only installs the necessary linux-headers.. You still must follow the Arch Wiki install instructions." choice
+  echo    "VirtualBox tools: This only installs the necessary linux-headers.. You still must follow the Arch Wiki install instructions."
+  read -p "                  (Press ENTER to continue)" en
   if [[ "$isArch" =~ ^/ ]]; then
     sudo pacman -S \
       linux-headers \
@@ -241,6 +254,7 @@ echo "You must have passwords set for both root and the account"
 echo "that you are logged into right now.  You also must continuously"
 echo "exit out of each prompt until you see 'Finished install!'."
 echo "Happy installing!"
+set -e  # exit if something fails
 Install
 echo "Finished install!"
 
