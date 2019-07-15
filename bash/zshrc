@@ -69,11 +69,15 @@ bindkey '^V' edit-command-line
 # Source startx | start i3 automatically
 ###########################################
 # if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
+#   # For VirtualBox guest additions
+#   # /usr/bin/VBoxClient-all
 #   exec startx
 # fi
 
 # Just another way to do it
 # if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
+#   # For VirtualBox guest additions
+#   # /usr/bin/VBoxClient-all
 #   startx
 # fi
 ###########################################
