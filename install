@@ -191,6 +191,9 @@ function install_termite_arch_only {
     sudo pacman -S --needed --noconfirm termite
     mkdir -p $HOME/.config/termite
     ln -s $HOME/bin/dotfiles/termite/config $HOME/.config/termite/config
+    sudo mkdir /usr/share/fonts/nerd-fonts
+    sudo curl "https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/RobotoMono/Regular/complete/Roboto%20Mono%20Nerd%20Font%20Complete%20Mono.ttf?raw=true" -o /usr/share/fonts/nerd-fonts/.
+    fc-cache
   fi
 }
 

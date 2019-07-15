@@ -34,7 +34,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 
 call plug#end()
 
-set encoding=utf-8
+set encoding=UTF-8
 
 """" Vimwiki Settings
   set nocompatible
