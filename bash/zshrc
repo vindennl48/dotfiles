@@ -71,14 +71,14 @@ bindkey '^V' edit-command-line
 # if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
 #   # For VirtualBox guest additions
 #   # /usr/bin/VBoxClient-all
-#   exec startx
+#   exec startx; exit
 # fi
 
 # Just another way to do it
 # if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
 #   # For VirtualBox guest additions
 #   # /usr/bin/VBoxClient-all
-#   startx
+#   startx; exit
 # fi
 ###########################################
 
