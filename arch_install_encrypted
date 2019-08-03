@@ -71,7 +71,7 @@ read -p "Add hooks to next file: \n base udev autodetect keyboard keymap modconf
 vim /etc/mkinitcpio.conf
 mkinitcpio -p linux
 
-pacman -S grub
+pacman -S --needed --noconfirm grub
 grub-install --target=i386-pc /dev/"$DISK"
 read -p "Add cryptdevice to grub: \n GRUB_CMDLINE_LINUX=\"cryptdevice=/dev/sda3:cryptroot\"" choice
 vim /etc/default/grub

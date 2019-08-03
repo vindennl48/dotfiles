@@ -72,7 +72,7 @@ isArch=$(type -P pacman)
 
 function install_setbright_arch_only {
   if [[ "$isArch" =~ ^/ ]]; then
-    sudo ln -s $DOTFILES_PATH/i3/backlight.rules /etc/udev/rules.d/.
+    sudo ln -sfn $DOTFILES_PATH/i3/backlight.rules /etc/udev/rules.d/.
     sudo usermod -aG video $USER
   fi
 }
@@ -86,7 +86,7 @@ function install_git {
 
   # Git custom dotfiles
   rm -f $HOME/.gitconfig
-  ln -s $MYGITPATH/gitconfig $HOME/.gitconfig
+  ln -sfn $MYGITPATH/gitconfig $HOME/.gitconfig
 }
 
 function install_neovim_tmux {
@@ -109,7 +109,7 @@ function install_neovim_tmux {
   rm -Rf $HOME/.local/share/nvim/site/autoload/vim-plug
 
   # Tmux custom dotfiles
-  ln -s $MYTMUXPATH/tmux.conf $HOME/.tmux.conf
+  ln -sfn $MYTMUXPATH/tmux.conf $HOME/.tmux.conf
 }
 
 function install_openssh {
@@ -190,17 +190,20 @@ function install_termite_arch_only {
   if [[ "$isArch" =~ ^/ ]]; then
     sudo pacman -S --needed --noconfirm termite
     mkdir -p $HOME/.config/termite
-    ln -s $HOME/bin/dotfiles/termite/config $HOME/.config/termite/config
-    sudo mkdir /usr/share/fonts/nerd-fonts
-    sudo curl "https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/RobotoMono/Regular/complete/Roboto%20Mono%20Nerd%20Font%20Complete%20Mono.ttf?raw=true" -o /usr/share/fonts/nerd-fonts/.
-    fc-cache
+    ln -sfn $HOME/bin/dotfiles/termite/config $HOME/.config/termite/config
+    sudo mkdir -p /usr/share/fonts/nerd-fonts
+    sudo curl "https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/RobotoMono/Regular/complete/Roboto%20Mono%20Nerd%20Font%20Complete%20Mono.ttf?raw=true" -o "/usr/share/fonts/nerd-fonts/roboto_mono_nerd_font_complete_mono.ttf"
+    sudo fc-cache
+    echo    "Nerd-Fonts:  You might need to manually download the Roboto Font from github.com/ryanoasis/nerd-fonts"
+    echo    "             For what ever reason, curl doesn't seem to work very well for this.."
+    read -p "             (Press ENTER to continue)" en
   fi
 }
 
 function install_heroku_debian_only {
   if [[ "$isDebian" =~ ^/ ]]; then
     sudo snap install heroku --classic
-    ln -s /snap/bin/heroku /usr/bin/heroku
+    ln -sfn /snap/bin/heroku /usr/bin/heroku
   fi
 }
 
@@ -219,23 +222,23 @@ function install_atigfx_arch_only {
     read -p "      (Press ENTER to continue)" en
     sudo vim /etc/mkinitcpio.conf
     sudo mkinitcpio -p linux
-    sudo ln -s $HOME/bin/dotfiles/i3/20-radeon.conf /etc/X11/xorg.conf.d/.
+    sudo ln -sfn $HOME/bin/dotfiles/i3/20-radeon.conf /etc/X11/xorg.conf.d/.
     sudo rm /etc/environment
-    sudo ln -s $HOME/bin/dotfiles/i3/environment /etc/environment
+    sudo ln -sfn $HOME/bin/dotfiles/i3/environment /etc/environment
   fi
 }
 
 function install_synaptics_touchpad {
   #touchpad drivers
   sudo pacman -S --needed --noconfirm xf86-input-synaptics
-  sudo ln -s $HOME/bin/dotfiles/i3/70-synaptics.conf /etc/X11/xorg.conf.d/.
+  sudo ln -sfn $HOME/bin/dotfiles/i3/70-synaptics.conf /etc/X11/xorg.conf.d/.
 }
 
 function install_i3_gaps_arch_only {
   if [[ "$isArch" =~ ^/ ]]; then
     sudo pacman -S --needed --noconfirm i3-gaps i3status dmenu feh compton volumeicon xorg-xrandr
     mkdir -p $HOME/.config/i3
-    ln -s $HOME/bin/dotfiles/i3/config $HOME/.config/i3/config
+    ln -sfn $HOME/bin/dotfiles/i3/config $HOME/.config/i3/config
     mkdir -p $HOME/Pictures
     cp $HOME/bin/dotfiles/i3/desktop.jpg $HOME/Pictures/.
   fi
@@ -254,7 +257,6 @@ function install_vbox_arch_only {
 }
 
 ################################
-
 
 # Here is where the magic happens
 echo "You must have passwords set for both root and the account"

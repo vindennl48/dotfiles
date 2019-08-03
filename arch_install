@@ -57,7 +57,7 @@ systemctl enable NetworkManager
 
 mkinitcpio -p linux
 
-pacman -S grub
+pacman -S --needed --noconfirm grub
 grub-install --target=i386-pc /dev/"$DISK"
 grub-mkconfig -o /boot/grub/grub.cfg
 
