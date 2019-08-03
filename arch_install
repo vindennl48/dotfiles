@@ -20,11 +20,13 @@ ROOT_SIZE=''      # '' will select default size
 function pre_install {
 timedatectl set-ntp true
 fdisk /dev/$DISK <<EOF
+o
 n
 p
 1
 
 $BOOT_SIZE
+a
 n
 p
 2
