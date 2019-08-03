@@ -9,7 +9,8 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod1
+set $mod  Mod1
+set $amod Control
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -106,28 +107,28 @@ set $ws9 "9"
 set $ws10 "10"
 
 # switch to workspace
-bindsym $mod+1 workspace $ws1
-bindsym $mod+2 workspace $ws2
-bindsym $mod+3 workspace $ws3
-bindsym $mod+4 workspace $ws4
-bindsym $mod+5 workspace $ws5
-bindsym $mod+6 workspace $ws6
-bindsym $mod+7 workspace $ws7
-bindsym $mod+8 workspace $ws8
-bindsym $mod+9 workspace $ws9
-bindsym $mod+0 workspace $ws10
+bindsym $amod+1 workspace $ws1
+bindsym $amod+2 workspace $ws2
+bindsym $amod+3 workspace $ws3
+bindsym $amod+4 workspace $ws4
+bindsym $amod+5 workspace $ws5
+bindsym $amod+6 workspace $ws6
+bindsym $amod+7 workspace $ws7
+bindsym $amod+8 workspace $ws8
+bindsym $amod+9 workspace $ws9
+bindsym $amod+0 workspace $ws10
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace $ws1
-bindsym $mod+Shift+2 move container to workspace $ws2
-bindsym $mod+Shift+3 move container to workspace $ws3
-bindsym $mod+Shift+4 move container to workspace $ws4
-bindsym $mod+Shift+5 move container to workspace $ws5
-bindsym $mod+Shift+6 move container to workspace $ws6
-bindsym $mod+Shift+7 move container to workspace $ws7
-bindsym $mod+Shift+8 move container to workspace $ws8
-bindsym $mod+Shift+9 move container to workspace $ws9
-bindsym $mod+Shift+0 move container to workspace $ws10
+bindsym $amod+Shift+1 move container to workspace $ws1
+bindsym $amod+Shift+2 move container to workspace $ws2
+bindsym $amod+Shift+3 move container to workspace $ws3
+bindsym $amod+Shift+4 move container to workspace $ws4
+bindsym $amod+Shift+5 move container to workspace $ws5
+bindsym $amod+Shift+6 move container to workspace $ws6
+bindsym $amod+Shift+7 move container to workspace $ws7
+bindsym $amod+Shift+8 move container to workspace $ws8
+bindsym $amod+Shift+9 move container to workspace $ws9
+bindsym $amod+Shift+0 move container to workspace $ws10
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -182,7 +183,7 @@ for_window [class="^.*"] border pixel 0
 gaps inner 15
 gaps outer 0
 
-exec --no-startup-id xrandr --output LVDS --scale 1.1x1.1 --panning 1503x845
+#exec --no-startup-id xrandr --output LVDS --scale 1.1x1.1 --panning 1503x845
 #exec --no-startup-id xrandr --output LVDS --scale 1x1 --panning 1366x768
 exec --no-startup-id feh --bg-scale $HOME/Pictures/desktop.jpg
 #exec --no-startup-id compton --config $HOME/bin/dotfiles/i3/compton.conf
