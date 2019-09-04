@@ -198,6 +198,8 @@ set encoding=UTF-8
     \'alt-x': 'split',
     \'alt-y': 'vsplit'}
 
+  :nmap <leader>gd -ygDz<cr>
+
   " Html + ERB stuff
     " Jump to tag 'class'
     :nnoremap <leader>mc :HtmlMetaClass<cr>

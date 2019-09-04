@@ -58,6 +58,7 @@ function install_packages {
     #install_setbright_arch_only # only works with ati + not vbox
     install_vbox_arch_only # only if inside VirtualBox!
     install_neovim_tmux
+    install_grub_settings
 
     # MUST BE LAST!
     install_zsh_and_oh_my_zsh
@@ -253,6 +254,14 @@ function install_vbox_arch_only {
     sudo pacman -S --needed --noconfirm \
       linux-headers \
 
+  fi
+}
+
+function install_grub_settings {
+  if [[ "$isArch" =~ ^/ ]]; then
+    sudo rm -Rf /etc/default/grub
+    sudo ln -s $HOME/bin/dotfiles/grub/grub /etc/default/grub
+    sudo grub-mkconfig -o /boot/grub/grub.cfg
   fi
 }
 
