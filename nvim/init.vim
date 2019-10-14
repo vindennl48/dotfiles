@@ -252,6 +252,13 @@ set encoding=UTF-8
 """" END Leader maps
 
 """" System Settings
+  " System Options
+  """"""""""""""""
+  " This will hopefully prevent me from
+  " losing data on system crashes...
+  set fsync
+  """"""""""""""""
+
   " Indent Options
   """"""""""""""""
     " Indent on creation of next line
