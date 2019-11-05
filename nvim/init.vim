@@ -4,7 +4,7 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'pangloss/vim-javascript'          " Javascript syntax highlighting
     Plug 'mxw/vim-jsx'                      " Syntax highlighting for react
     Plug 'junegunn/vim-easy-align'          " Auto align variables
-    Plug 'triglav/vim-visual-increment'     " Auto align variables
+    Plug 'triglav/vim-visual-increment'     " Auto increment variables
     Plug 'pseewald/vim-anyfold'             " Code folding
     Plug 'majutsushi/tagbar'                " Code Outline, you need to manually install universal-ctags
 
