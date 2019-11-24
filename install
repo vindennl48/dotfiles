@@ -33,7 +33,9 @@ function install_pacman {
         tree \
         chromium \
         python \
+        python2 \
         python-pip \
+        python2-pip \
 
     fi
   ##########################################
