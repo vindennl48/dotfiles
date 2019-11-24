@@ -195,7 +195,7 @@ function install_termite_arch_only {
     mkdir -p $HOME/.config/termite
     ln -sfn $HOME/bin/dotfiles/termite/config $HOME/.config/termite/config
     sudo mkdir -p /usr/share/fonts/nerd-fonts
-    sudo curl "https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/RobotoMono/Regular/complete/Roboto%20Mono%20Nerd%20Font%20Complete%20Mono.ttf?raw=true" -o "/usr/share/fonts/nerd-fonts/roboto_mono_nerd_font_complete_mono.ttf"
+    sudo curl -L 'https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/RobotoMono/Regular/complete/Roboto%20Mono%20Nerd%20Font%20Complete.ttf?raw=true' -o "/usr/share/fonts/nerd-fonts/roboto_mono_nerd_font_complete_mono.ttf"
     sudo fc-cache
     echo    "Nerd-Fonts:  You might need to manually download the Roboto Font from github.com/ryanoasis/nerd-fonts"
     echo    "             For what ever reason, curl doesn't seem to work very well for this.."
