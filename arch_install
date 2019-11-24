@@ -43,7 +43,7 @@ mount /dev/"$DISK"2 /mnt
 mkdir /mnt/boot /mnt/home
 mount /dev/"$DISK"1 /mnt/boot
 
-pacstrap /mnt base base-devel networkmanager vim git
+pacstrap /mnt linux linux-firmware base base-devel networkmanager vim git
 
 genfstab -U /mnt >> /mnt/etc/fstab
 
