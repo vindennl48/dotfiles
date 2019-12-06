@@ -24,7 +24,7 @@ alias l='ls -lhXGp'                                         # different form of 
 alias lsh='ls -lhXGpa'                                      # different form of ls
 alias q1='exit'                                             # exit out of terminal
 alias sed="sed -E"                                          # making sure we always use -E
-alias grep="grep -E"                                        # making sure we always use -E
+alias grep="grep -E --color=auto"                           # making sure we always use -E
 alias home="~/"                                             # home directory, 'go home' goes to ~/
 alias vi="nvim"                                             # prevents me from using vi
 alias vim="nvim"                                            # prevents me from using vi
