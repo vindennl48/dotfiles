@@ -178,16 +178,14 @@ function install_i3_gaps {
 # vbox-utils
 #################################################################
 function add_vbox_utils {
-  echo    "----> When virtualbox-guest-utils asks what version to install, make sure"
-  echo    "      to install the default linux (2), not dkms (1)"
-  read -p "      (Press ENTER to continue)" en
   PACMAN_PACKAGES+=(linux-headers virtualbox-guest-utils xf86-video-vmware)
   INSTALL_PACKAGES+=(install_vbox_utils)
 }
 function install_vbox_utils {
+  echo "----> Adding user to vboxsf group"
+  sudo usermod -aG vboxsf $USER
   echo    "VirtualBox tools: This only installs part of the tools.."
   echo    "                  You still must install the guest utils from the CD."
-  echo    "                  !! Don't forget to add 'vboxsf' group to current user. !!"
   read -p "                  (Press ENTER to continue)" en
 }
 #################################################################
