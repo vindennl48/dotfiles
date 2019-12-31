@@ -1,142 +1,311 @@
 #!/bin/bash
 
-# location paths to dotfiles
+# Add in any pacman packages to install here
+PACMAN_PACKAGES=(
+  cmake
+  curl
+  htop
+  the_silver_searcher
+  tree
+  chromium
+  python
+  python-pip
+  python2
+  python2-pip
+  #docker-compose
+)
+
+# Add in any custom packages to install here
+CUSTOM_PACKAGES=(
+  add_git
+  add_openssh
+  #add_docker
+  add_fzf
+  add_termite
+  add_xorg
+  add_i3_gaps
+  add_vbox_utils
+  add_neovim_tmux
+  add_grub
+  #add_atigfx
+  #add_set_bright     # NEEDS add_atigfx
+  #add_synaptics_touchpad
+  add_zsh_oh_my_zsh  # MUST BE LAST!
+)
+
+#################################################################
+#################################################################
+# Custom Packages
+#################################################################
+#################################################################
+
+# Variables
 DOTFILES_PATH="$HOME/bin/dotfiles"
 MYNVIMPATH="$DOTFILES_PATH/nvim"
 MYBASHPATH="$DOTFILES_PATH/bash"
 MYTMUXPATH="$DOTFILES_PATH/tmux"
 MYGITPATH="$DOTFILES_PATH/git"
+INSTALL_PACKAGES=()
+PAC="sudo pacman -S"
+PAC_FLAGS="--needed --noconfirm"
+PAC_UPDATE="sudo pacman -Syu"
+PACMAN="$PAC $PAC_FLAGS"
+
+#################################################################
+# Packages
 #################################################################
 
-function install_pacman {
-  # Programs with no additional work
-  ##########################################
-    if [[ "$isDebian" =~ ^/ ]]; then
-      sudo apt update && sudo apt -y upgrade
-      sudo apt install -y \
-        cmake \
-        curl \
-        htop \
-        silversearcher-ag \
-        tree \
-        chromium-browser \
-        python3 \
-        python3-pip \
-
-    elif [[ "$isArch" =~ ^/ ]]; then
-      sudo pacman -Syu
-      sudo pacman -S --needed --noconfirm \
-        cmake \
-        curl \
-        htop \
-        the_silver_searcher \
-        tree \
-        chromium \
-        python \
-        python2 \
-        python-pip \
-        python2-pip \
-
-    fi
-  ##########################################
-
+# git
+#################################################################
+function add_git {
+  PACMAN_PACKAGES+=(git)
+  INSTALL_PACKAGES+=(install_git)
 }
-
-function install_packages {
-  # Programs with additional work needed
-  # These include custom dotfiles!
-  ######################################
-    install_git
-    install_openssh
-    #install_docker
-    #install_docker_compose
-    #install_heroku_debian_only
-    install_fzf
-    install_termite_arch_only
-    #install_rvm_arch_only
-    install_xorg_arch_only
-    install_i3_gaps_arch_only # depends on xorg
-    #install_atigfx_arch_only # only for ati gfx cards
-    #install_setbright_arch_only # only works with ati + not vbox
-    install_vbox_arch_only # only if inside VirtualBox!
-    install_neovim_tmux
-    install_grub_settings
-
-    # MUST BE LAST!
-    install_zsh_and_oh_my_zsh
-  ######################################
-}
-
-# Additional work installs below
-################################
-
-isDebian=$(type -P apt-get)
-isArch=$(type -P pacman)
-
-function install_setbright_arch_only {
-  if [[ "$isArch" =~ ^/ ]]; then
-    sudo ln -sfn $DOTFILES_PATH/i3/backlight.rules /etc/udev/rules.d/.
-    sudo usermod -aG video $USER
-  fi
-}
-
 function install_git {
-  if [[ "$isDebian" =~ ^/ ]]; then
-    sudo apt install -y git
-  elif [[ "$isArch" =~ ^/ ]]; then
-    sudo pacman -S --needed --noconfirm git
-  fi
-
   # Git custom dotfiles
+  echo "----> Removing old gitconfig file"
   rm -f $HOME/.gitconfig
+  echo "----> Linking gitconfig file"
   ln -sfn $MYGITPATH/gitconfig $HOME/.gitconfig
+  echo "----> Done!"
 }
+#################################################################
 
+# openssh
+#################################################################
+function add_openssh {
+  PACMAN_PACKAGES+=(openssh)
+  INSTALL_PACKAGES+=(install_openssh)
+}
+function install_openssh {
+  echo "----> Restarting sshd service"
+  sudo systemctl restart sshd
+  echo "----> Done!"
+}
+#################################################################
+
+# docker
+#################################################################
+function add_docker {
+  PACMAN_PACKAGES+=(docker)
+  INSTALL_PACKAGES+=(install_docker)
+}
+function install_docker {
+  echo "----> Starting docker service"
+  sudo systemctl start docker
+  echo "----> Enabling docker service"
+  sudo systemctl enable docker
+  echo "----> Adding docker group"
+  sudo groupadd docker
+  echo "----> Adding current user to docker group"
+  sudo gpasswd -a $USER docker
+  echo "----> Done!"
+}
+#################################################################
+
+# fzf
+#################################################################
+function add_fzf {
+  #PACMAN_PACKAGES+=()
+  INSTALL_PACKAGES+=(install_fzf)
+}
+function install_fzf {
+  echo "----> Removing old fzf dir"
+  sudo rm -Rf ~/.fzf
+  echo "----> Cloning fzf"
+  git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+  echo "----> Running fzf install"
+  $HOME/.fzf/install
+  echo "----> Done!"
+}
+#################################################################
+
+# termite
+#################################################################
+function add_termite {
+  PACMAN_PACKAGES+=(termite)
+  INSTALL_PACKAGES+=(install_termite)
+}
+function install_termite {
+  echo "----> Making termite directory"
+  mkdir -p $HOME/.config/termite
+  echo "----> Linking termite config"
+  ln -sfn $DOTFILES_PATH/termite/config $HOME/.config/termite/config
+  echo "----> Making nerd-fonts directory"
+  sudo mkdir -p /usr/share/fonts/nerd-fonts
+  echo "----> Downloading nerd-font 'Roboto Mono'"
+  sudo curl -L 'https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/RobotoMono/Regular/complete/Roboto%20Mono%20Nerd%20Font%20Complete.ttf?raw=true' -o "/usr/share/fonts/nerd-fonts/roboto_mono_nerd_font_complete_mono.ttf"
+  echo "----> Caching fonts"
+  sudo fc-cache
+  echo "----> Done!"
+}
+#################################################################
+
+# xorg
+#################################################################
+function add_xorg {
+  PACMAN_PACKAGES+=(xorg-server xorg-xinit)
+  INSTALL_PACKAGES+=(install_xorg)
+}
+function install_xorg {
+  echo "----> Creating xinitrc file"
+  echo "exec i3" > ~/.xinitrc
+  echo    "Install Xorg: Make sure to add startup script to the end of your zshrc"
+  read -p "              (Press ENTER to continue)" en
+  echo "----> Done!"
+}
+#################################################################
+
+# i3-gaps
+#################################################################
+function add_i3_gaps {
+  PACMAN_PACKAGES+=(i3-gaps i3status dmenu feh compton volumeicon xorg-xrandr)
+  INSTALL_PACKAGES+=(install_i3_gaps)
+}
+function install_i3_gaps {
+  echo "----> Making i3 directory"
+  mkdir -p $HOME/.config/i3
+  echo "----> Linking i3 config file"
+  ln -sfn $DOTFILES_PATH/i3/config $HOME/.config/i3/config
+  echo "----> Making pictures directory"
+  mkdir -p $HOME/Pictures
+  echo "----> Adding background image to pictures directory"
+  cp $DOTFILES_PATH/i3/desktop.jpg $HOME/Pictures/.
+  echo "----> Done!"
+}
+#################################################################
+
+# vbox-utils
+#################################################################
+function add_vbox_utils {
+  echo    "----> When virtualbox-guest-utils asks what version to install, make sure"
+  echo    "      to install the default linux (2), not dkms (1)"
+  read -p "      (Press ENTER to continue)" en
+  PACMAN_PACKAGES+=(linux-headers virtualbox-guest-utils xf86-video-vmware)
+  INSTALL_PACKAGES+=(install_vbox_utils)
+}
+function install_vbox_utils {
+  echo    "VirtualBox tools: This only installs part of the tools.."
+  echo    "                  You still must install the guest utils from the CD."
+  echo    "                  !! Don't forget to add 'vboxsf' group to current user. !!"
+  read -p "                  (Press ENTER to continue)" en
+}
+#################################################################
+
+# neovim tmux
+#################################################################
+function add_neovim_tmux {
+  PACMAN_PACKAGES+=(neovim tmux python python-pip)
+  INSTALL_PACKAGES+=(install_neovim_tmux)
+}
 function install_neovim_tmux {
-  if [[ "$isDebian" =~ ^/ ]]; then
-    sudo apt install -y neovim tmux
-  elif [[ "$isArch" =~ ^/ ]]; then
-    sudo pacman -S --needed --noconfirm neovim tmux
-    sudo pip install neovim
-    git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-    echo    "----> In tmux, you must run <prefix><Shift-i> to load plugins"
-    read -p "      (Press ENTER to continue)" en
-  fi
+  echo "----> Pip install neovim"
+  sudo pip install neovim
+  echo "----> Remove old tmux/tpm directory"
+  sudo rm -Rf ~/.tmux/plugins/tpm
+  echo "----> Clone tmux/tpm"
+  git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+  echo    "Tmux: In tmux, you must run <prefix><Shift-i> to load plugins"
+  read -p "      (Press ENTER to continue)" en
+  echo    "Neovim: In Neovim, you must run :PlugInstall"
+  read -p "        (Press ENTER to continue)" en
 
   # Neovim custom dotfiles
+  echo "----> Make directories for nvim"
   mkdir -p ~/.local/share/nvim/site/autoload/
   mkdir -p ~/.config/nvim/
+  echo "----> Source nvim dotfiles"
   echo ':source $MYNVIMPATH/init.vim' > $HOME/.config/nvim/init.vim
+  echo "----> Clone vimplug"
   git clone https://github.com/junegunn/vim-plug.git $HOME/.local/share/nvim/site/autoload/vim-plug
+  echo "----> Copy plug.vim to parent directory"
   cp $HOME/.local/share/nvim/site/autoload/vim-plug/plug.vim $HOME/.local/share/nvim/site/autoload/.
+  echo "----> Remove vim-plug directory"
   rm -Rf $HOME/.local/share/nvim/site/autoload/vim-plug
 
   # Tmux custom dotfiles
+  echo "----> Link tmux config file"
   ln -sfn $MYTMUXPATH/tmux.conf $HOME/.tmux.conf
+  echo "----> Done!"
 }
+#################################################################
 
-function install_openssh {
-  if [[ "$isDebian" =~ ^/ ]]; then
-    sudo apt install -y openssh-server
-  elif [[ "$isArch" =~ ^/ ]]; then
-    sudo pacman -S --needed --noconfirm openssh
-  fi
-  sudo systemctl restart sshd
+# grub
+#################################################################
+function add_grub {
+  #PACMAN_PACKAGES+=()
+  INSTALL_PACKAGES+=(install_grub)
 }
-
-function install_fzf {
-  git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-  $HOME/.fzf/install
+function install_grub {
+  echo "----> Removing old grub config file"
+  sudo rm -Rf /etc/default/grub
+  echo "----> Linking grub config file"
+  sudo ln -s $DOTFILES_PATH/grub/grub /etc/default/grub
+  echo "----> Recompiling grub"
+  sudo grub-mkconfig -o /boot/grub/grub.cfg
+  echo "----> Done!"
 }
+#################################################################
 
-function install_zsh_and_oh_my_zsh {
-  if [[ ! "$(which zsh)" =~ ^/ ]]; then
+# atigfx
+#################################################################
+function add_atigfx {
+  PACMAN_PACKAGES+=(mesa xf86-video-ati mesa-vdpau libva-mesa-driver libva-vdpau-driver)
+  INSTALL_PACKAGES+=(install_atigfx)
+}
+function install_atigfx {
+  echo    "ATIGFX: Add 'radeon' to MODULES in next file"
+  read -p "        (Press ENTER to continue)" en
+  sudo vim /etc/mkinitcpio.conf
+  echo "----> Recompiling kernel"
+  sudo mkinitcpio -p linux
+  echo "----> Linking radeon config file"
+  sudo ln -sfn $DOTFILES_PATH/i3/20-radeon.conf /etc/X11/xorg.conf.d/.
+  echo "----> Removing old environment"
+  sudo rm /etc/environment
+  echo "----> Linking new environment"
+  sudo ln -sfn $DOTFILES_PATH/i3/environment /etc/environment
+  echo "----> Done!"
+}
+#################################################################
 
-    if [[ "$isDebian" =~ ^/ ]]; then
-      sudo apt -y install zsh
-    elif [[ "$isArch" =~ ^/ ]]; then
-      sudo pacman -S --needed --noconfirm zsh zsh-completions
-    fi
+# set_bright
+#################################################################
+function add_set_bright {
+  PACMAN_PACKAGES+=()
+  INSTALL_PACKAGES+=(install_set_bright)
+}
+function install_set_bright {
+  echo "----> Linking backlight.rules"
+  sudo ln -sfn $DOTFILES_PATH/i3/backlight.rules /etc/udev/rules.d/.
+  echo "----> Adding user to video group"
+  sudo usermod -aG video $USER
+  echo "----> Done!"
+}
+#################################################################
+
+# synaptics_touchpad
+#################################################################
+function add_synaptics_touchpad {
+  PACMAN_PACKAGES+=(xf86-input-synaptics)
+  INSTALL_PACKAGES+=(install_synaptics_touchpad)
+}
+function install_synaptics_touchpad {
+  echo "----> Linking synaptics config file"
+  sudo ln -sfn $DOTFILES_PATH/i3/70-synaptics.conf /etc/X11/xorg.conf.d/.
+  echo "----> Done!"
+}
+#################################################################
+
+# zsh oh_my_zsh
+#################################################################
+function add_zsh_oh_my_zsh {
+  PACMAN_PACKAGES+=(zsh zsh-completions)
+  INSTALL_PACKAGES+=(install_zsh_oh_my_zsh)
+}
+function install_zsh_oh_my_zsh {
+  if [[ "$(which zsh)" =~ ^/ ]]; then
+    echo "----> Changing shell"
     chsh -s $(which zsh)
 
     echo    "----> You must type exit at the next prompt to finish install!"
@@ -150,137 +319,41 @@ function install_zsh_and_oh_my_zsh {
     echo "export DOTFILES_PATH=\"${DOTFILES_PATH}\"" >> $HOME/.zshrc
     echo '# Source zshrc' >> $HOME/.zshrc
     echo 'source $DOTFILES_PATH/bash/zshrc' >> $HOME/.zshrc
-
   fi
 }
+#################################################################
 
-function install_rvm_arch_only {
-  if [[ "$isArch" =~ ^/ ]]; then
-    echo    "RVM:  You are better off installing this manually.  Go to rvm.io, install the GPG keys and install rvm+rails from there."
-    read -p "      (Press ENTER to continue)" en
-    #read -p "You must visit rvm.io and install GPG keys before first use or it will not work!" choice
-    #curl -L get.rvm.io > rvm-install && bash < ./rvm-install
-    #rm rvm-install
-  fi
-}
+#################################################################
+#################################################################
+# Core - Below shouldn't need to be touched!
+#################################################################
+#################################################################
+echo    "--> You must have passwords set for both root and the account"
+echo    "    that you are logged into right now.  You also must continuously"
+echo    "    exit out of each prompt until you see 'Finished install!'."
+echo    "    Happy installing!"
+read -p "    (Press ENTER to continue)" en
 
-function install_docker {
-  if [[ "$isDebian" =~ ^/ ]]; then
-    sudo apt -y install docker.io
-    sudo systemctl start docker
-    sudo systemctl enable docker
-    sudo groupadd docker
-    sudo gpasswd -a $USER docker
-  elif [[ "$isArch" =~ ^/ ]]; then
-    sudo pacman -S --needed --noconfirm docker
-    sudo systemctl start docker
-    sudo systemctl enable docker
-    sudo groupadd docker
-    sudo gpasswd -a $USER docker
-  fi
-}
-
-function install_docker_compose {
-  if [[ "$isDebian" =~ ^/ ]]; then
-    sudo curl -L https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
-    sudo chmod +x /usr/local/bin/docker-compose
-  elif [[ "$isArch" =~ ^/ ]]; then
-    sudo pacman -S --needed --noconfirm docker-compose
-  fi
-}
-
-function install_termite_arch_only {
-  if [[ "$isArch" =~ ^/ ]]; then
-    sudo pacman -S --needed --noconfirm termite
-    mkdir -p $HOME/.config/termite
-    ln -sfn $HOME/bin/dotfiles/termite/config $HOME/.config/termite/config
-    sudo mkdir -p /usr/share/fonts/nerd-fonts
-    sudo curl -L 'https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/RobotoMono/Regular/complete/Roboto%20Mono%20Nerd%20Font%20Complete.ttf?raw=true' -o "/usr/share/fonts/nerd-fonts/roboto_mono_nerd_font_complete_mono.ttf"
-    sudo fc-cache
-    echo    "Nerd-Fonts:  You might need to manually download the Roboto Font from github.com/ryanoasis/nerd-fonts"
-    echo    "             For what ever reason, curl doesn't seem to work very well for this.."
-    read -p "             (Press ENTER to continue)" en
-  fi
-}
-
-function install_heroku_debian_only {
-  if [[ "$isDebian" =~ ^/ ]]; then
-    sudo snap install heroku --classic
-    ln -sfn /snap/bin/heroku /usr/bin/heroku
-  fi
-}
-
-function install_xorg_arch_only {
-  if [[ "$isArch" =~ ^/ ]]; then
-    sudo pacman -S --needed --noconfirm xorg-server xorg-xinit
-    echo "exec i3" > ~/.xinitrc
-  fi
-}
-
-function install_atigfx_arch_only {
-  if [[ "$isArch" =~ ^/ ]]; then
-    sudo pacman -S --needed --noconfirm mesa xf86-video-ati mesa-vdpau \
-      libva-mesa-driver libva-vdpau-driver
-    echo    "----> Add 'radeon' to MODULES in next file"
-    read -p "      (Press ENTER to continue)" en
-    sudo vim /etc/mkinitcpio.conf
-    sudo mkinitcpio -p linux
-    sudo ln -sfn $HOME/bin/dotfiles/i3/20-radeon.conf /etc/X11/xorg.conf.d/.
-    sudo rm /etc/environment
-    sudo ln -sfn $HOME/bin/dotfiles/i3/environment /etc/environment
-  fi
-}
-
-function install_synaptics_touchpad {
-  #touchpad drivers
-  sudo pacman -S --needed --noconfirm xf86-input-synaptics
-  sudo ln -sfn $HOME/bin/dotfiles/i3/70-synaptics.conf /etc/X11/xorg.conf.d/.
-}
-
-function install_i3_gaps_arch_only {
-  if [[ "$isArch" =~ ^/ ]]; then
-    sudo pacman -S --needed --noconfirm i3-gaps i3status dmenu feh compton volumeicon xorg-xrandr
-    mkdir -p $HOME/.config/i3
-    ln -sfn $HOME/bin/dotfiles/i3/config $HOME/.config/i3/config
-    mkdir -p $HOME/Pictures
-    cp $HOME/bin/dotfiles/i3/desktop.jpg $HOME/Pictures/.
-  fi
-}
-
-function install_vbox_arch_only {
-  echo    "VirtualBox tools: This only installs the necessary linux-headers.."
-  echo    "                  You still must install the guest utils from the CD."
-  echo    "                  Don't forget to add 'vboxsf' group to current user."
-  read -p "                  (Press ENTER to continue)" en
-  if [[ "$isArch" =~ ^/ ]]; then
-    sudo pacman -S --needed --noconfirm \
-      linux-headers \
-
-  fi
-}
-
-function install_grub_settings {
-  if [[ "$isArch" =~ ^/ ]]; then
-    sudo rm -Rf /etc/default/grub
-    sudo ln -s $HOME/bin/dotfiles/grub/grub /etc/default/grub
-    sudo grub-mkconfig -o /boot/grub/grub.cfg
-  fi
-}
-
-################################
-
-# Here is where the magic happens
-echo "You must have passwords set for both root and the account"
-echo "that you are logged into right now.  You also must continuously"
-echo "exit out of each prompt until you see 'Finished install!'."
-echo "Happy installing!"
 set -e  # exit if something fails
-install_pacman
-install_packages
-echo "Finished install!"
 
-# Done
+# Load Custom Packages
+for package in ${CUSTOM_PACKAGES[@]}; do
+  $package
+done
 
+# Install Pacman Packages
+$PAC_UPDATE
+$PACMAN $(printf " %s" "${PACMAN_PACKAGES[@]}")
 
+# Install Custom Packages
+for package in ${INSTALL_PACKAGES[@]}; do
+  echo " "
+  echo "----> $package"
+  echo "########################################"
+  $package
+  echo "########################################"
+  echo "----> END: $package"
+  echo " "
+done
 
-
+echo    "----> Finished!"
