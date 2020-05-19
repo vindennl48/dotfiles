@@ -12,6 +12,7 @@ PACMAN_PACKAGES=(
   python-pip
   python2
   python2-pip
+  ntfs-3g
   #docker-compose
 )
 
@@ -178,7 +179,7 @@ function install_i3_gaps {
 # vbox-utils
 #################################################################
 function add_vbox_utils {
-  PACMAN_PACKAGES+=(linux-headers virtualbox-guest-utils xf86-video-vmware)
+  PACMAN_PACKAGES+=(linux-headers xf86-video-vmware)
   INSTALL_PACKAGES+=(install_vbox_utils)
 }
 function install_vbox_utils {
@@ -186,6 +187,7 @@ function install_vbox_utils {
   sudo usermod -aG vboxsf $USER
   echo    "VirtualBox tools: This only installs part of the tools.."
   echo    "                  You still must install the guest utils from the CD."
+  echo    "                  Also.. this better be VBox -v 6.0.22 or this won't work..."
   read -p "                  (Press ENTER to continue)" en
 }
 #################################################################
