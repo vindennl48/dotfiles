@@ -1,11 +1,11 @@
 call plug#begin('~/.local/share/nvim/plugged')
   """" Syntax
-    Plug 'mhartington/oceanic-next'         " Syntax Highlighting & theme
-    Plug 'pangloss/vim-javascript'          " Javascript syntax highlighting
-    Plug 'mxw/vim-jsx'                      " Syntax highlighting for react
     Plug 'junegunn/vim-easy-align'          " Auto align variables
     Plug 'triglav/vim-visual-increment'     " Auto increment variables
-    Plug 'pseewald/vim-anyfold'             " Code folding
+    "Plug 'pseewald/vim-anyfold'             " Code folding
+    "Plug 'pangloss/vim-javascript'          " Javascript syntax highlighting
+    "Plug 'mxw/vim-jsx'                      " Syntax highlighting for react
+    Plug 'sheerun/vim-polyglot'             " Syntax highlighting language collection
     Plug 'majutsushi/tagbar'                " Code Outline, you need to manually install universal-ctags
 
     " Autocomplete
@@ -16,7 +16,6 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'scrooloose/nerdtree'              " File browser
     Plug 'scrooloose/nerdcommenter'         " Commenting tool
     Plug '~/.fzf'                           " Use fuzzy finder
-    Plug 'mattn/emmet-vim'                  " Auto-complete syntax
     Plug 'christoomey/vim-tmux-runner'      " Send commands to tmux pane
     Plug 'vimwiki/vimwiki'                  " wiki for vim
     Plug 'mattn/emmet-vim'                  " Emmet linter for html
@@ -25,6 +24,7 @@ call plug#begin('~/.local/share/nvim/plugged')
   """" END Add-ons
 
   """" Themes and UI
+    Plug 'mhartington/oceanic-next'         " Color Theme
     Plug 'vim-airline/vim-airline'          " Status Bar
     Plug 'Yggdroot/indentLine'              " white-space chars before code
     Plug 'christoomey/vim-tmux-navigator'   " Vim and Tmux interaction
@@ -42,6 +42,10 @@ set encoding=UTF-8
   syntax on
 """" END Vimwiki Settings
 
+"""" vim-polyglot
+  let g:vim_jsx_pretty_highlight_close_tag = 1
+  let g:vim_jsx_pretty_colorful_config = 1
+"""" END vim-polyglot
 
 """" YouCompleteMe
   " Start autocompletion after 4 chars
@@ -55,20 +59,21 @@ set encoding=UTF-8
 """" YouCompleteMe
 
 """" Emmet Vim
-  let g:user_emmet_leader_key='<C-b>'
+  "let g:user_emmet_leader_key='<C-b>'
+  let g:user_emmet_leader_key='<C-e>'
 """" END Emmet Vim
 
 """" Vim-Anyfold
-  filetype plugin indent on " required
-  syntax on                 " required
-
-  autocmd Filetype * AnyFoldActivate               " activate for all filetypes
+"  filetype plugin indent on " required
+"  syntax on                 " required
+"
+"  autocmd Filetype * AnyFoldActivate               " activate for all filetypes
   " or
   "autocmd Filetype <your-filetype> AnyFoldActivate " activate for a specific filetype
 
   "set foldlevel=0  " close all folds
   " or
-  set foldlevel=99 " Open all folds
+"  set foldlevel=99 " Open all folds
 """" END Vim-Anyfold
 
 """" Oceanic Next Plugin
@@ -354,9 +359,9 @@ set encoding=UTF-8
       endwhile
       :call cursor(v:mouse_lnum,v:mouse_col)
     endfunc
-    :noremap <silent> <LeftMouse> :call MScroll()<CR>
-    :noremap <LeftRelease> <Nop>
-    :noremap <LeftDrag> <Nop>
+    ":noremap <silent> <LeftMouse> :call MScroll()<CR>
+    ":noremap <LeftRelease> <Nop>
+    ":noremap <LeftDrag> <Nop>
   """"""""""""""""""""""""
 
 

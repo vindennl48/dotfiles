@@ -1,1 +1,2 @@
-while inotifywait -e close_write,moved_to,create .; do "$@"; done
+#while inotifywait -e close_write,moved_to,create .; do "$@"; done
+fswatch -o . | xargs -n1 -I{} "$@"
