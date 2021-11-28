@@ -7,10 +7,10 @@ source $DOTFILES_PATH/bash/zsh_settings
 #################################################################
 export VISUAL="nvim" # default visual 
 export EDITOR="$VISUAL" # default editor 
-export PYTHONPATH="$PYTHONPATH:$HOME/MyPyModules" # Add custom py modules to PYTHONPATH
-export PATH="$HOME/.linuxbrew/bin:$PATH"
-export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
-export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
+# export PYTHONPATH="$PYTHONPATH:$HOME/MyPyModules" # Add custom py modules to PYTHONPATH
+# export PATH="$HOME/.linuxbrew/bin:$PATH"
+# export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
+# export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
 
 # location paths to dotfiles
 export PATH="$DOTFILES_PATH/bin:$PATH"
@@ -64,7 +64,7 @@ bindkey '^V' edit-command-line
 
 # Source ruby
 ###########################################
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+# [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 ###########################################
 
 # Source startx | start i3 automatically

@@ -1,7 +1,7 @@
 call plug#begin('~/.local/share/nvim/plugged')
   """" Syntax
     Plug 'junegunn/vim-easy-align'          " Auto align variables
-    Plug 'triglav/vim-visual-increment'     " Auto increment variables
+    "Plug 'triglav/vim-visual-increment'     " Auto increment variables
     "Plug 'pseewald/vim-anyfold'             " Code folding
     "Plug 'pangloss/vim-javascript'          " Javascript syntax highlighting
     "Plug 'mxw/vim-jsx'                      " Syntax highlighting for react
@@ -259,6 +259,9 @@ set encoding=UTF-8
 """" System Settings
   " System Options
   """"""""""""""""
+  " This highlights the color on 80chars
+  :set textwidth=80
+  :set colorcolumn=+1
   " This will hopefully prevent me from
   " losing data on system crashes...
   set fsync
