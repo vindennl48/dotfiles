@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Always run as sudo
+if [ "$EUID" -ne 0 ]; then
+  sudo "$0" "$@"
+  exit $?
+fi
+
+# Check if the required number of arguments were provided
+if [ $# -lt 3 ]; then
+  echo "Usage: $0 search_dir search_pattern search_type"
+  echo "search_type: -f for files, -d for directories"
+  exit 1
+fi
+
+# Assign the arguments to variables
+search_dir=$1
+search_pattern=$2
+search_type=$3
+
+# Check if the search type is valid
+if [ "$search_type" != "-f" ] && [ "$search_type" != "-d" ]; then
+  echo "Invalid search type. Must be -f for files or -d for directories."
+  exit 1
+fi
+
+# Execute the find command with the specified arguments
+if [ "$search_type" == "-f" ]; then
+  find "$search_dir" -type f -name "$search_pattern"
+elif [ "$search_type" == "-d" ]; then
+  find "$search_dir" -type d -name "$search_pattern"
+fi
+

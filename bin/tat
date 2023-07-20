@@ -45,6 +45,6 @@ create_if_needed_and_attach() {
   fi
 }
 
-keep_dotfiles_open
+# keep_dotfiles_open
 create_if_needed_and_attach
 

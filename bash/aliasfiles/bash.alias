@@ -34,6 +34,9 @@ alias copy="xclip -sel clip < "                             # copy file to clipb
 alias ta="tmux attach-session -t "                          # attach to open tmux session
 alias usbmount="sudo mount -t ntfs-3g -o uid=1000,gid=1000" # mount usb drive with full access, must install ntfs-3g
 
+alias tsy="cd /Applications/Teensyduino.app/Contents/Java/hardware/teensy/avr/cores/teensy4"
+alias rea="cd /Users/mitch/Library/Application\ Support/REAPER"
+
 ## Mac Aliases ##
 alias textedit="open -a TextEdit "                          # open file in textedit
 

@@ -1,3 +1,5 @@
+" ::OLD::
+
 call plug#begin('~/.local/share/nvim/plugged')
   """" Syntax
     Plug 'junegunn/vim-easy-align'          " Auto align variables
@@ -205,38 +207,44 @@ set encoding=UTF-8
 
   :nmap <leader>gd -ygDz<cr>
 
-  " Html + ERB stuff
-    " Jump to tag 'class'
-    :nnoremap <leader>mc :HtmlMetaClass<cr>
-    :inoremap <leader>mc <esc>:HtmlMetaClass<cr>
-    " Jump to tag 'style'
-    :nnoremap <leader>ms :HtmlMetaStyle<cr>
-    :inoremap <leader>ms <esc>:HtmlMetaStyle<cr>
-    " Jump to tag 'id'
-    :nnoremap <leader>mi :HtmlMetaId<cr>
-    :inoremap <leader>mi <esc>:HtmlMetaId<cr>
-    " Jump to tag 'href'
-    :nnoremap <leader>mh :HtmlMetaHref<cr>
-    :inoremap <leader>mh <esc>:HtmlMetaHref<cr>
-    " Jump to tag 'type'
-    :nnoremap <leader>mt :HtmlMetaType<cr>
-    :inoremap <leader>mt <esc>:HtmlMetaType<cr>
-    " Create HTML Tags, singleline, multiline
-    :nnoremap <leader>ee :TagCreateEnd<cr>
-    :nnoremap <leader>en :TagCreateEndNewline<cr>
+"""" C++/Arduino Maps
+  :inoremap <leader>for for(int i=0; i< XX; i++) {<CR>}<esc>O
+  :inoremap <leader>sw switch (n.e()) {<CR>};<esc>Ocase 0:<CR>break;
+  :inoremap <leader>def #ifndef HEADER_H<CR>#define HEADER_H<cr><cr><cr><cr>#endif<esc>kki
+  :inoremap <leader>bp void setup() {}<cr>void loop() {}
+
+  "" Html + ERB stuff
+    "" Jump to tag 'class'
+    ":nnoremap <leader>mc :HtmlMetaClass<cr>
+    ":inoremap <leader>mc <esc>:HtmlMetaClass<cr>
+    "" Jump to tag 'style'
+    ":nnoremap <leader>ms :HtmlMetaStyle<cr>
+    ":inoremap <leader>ms <esc>:HtmlMetaStyle<cr>
+    "" Jump to tag 'id'
+    ":nnoremap <leader>mi :HtmlMetaId<cr>
+    ":inoremap <leader>mi <esc>:HtmlMetaId<cr>
+    "" Jump to tag 'href'
+    ":nnoremap <leader>mh :HtmlMetaHref<cr>
+    ":inoremap <leader>mh <esc>:HtmlMetaHref<cr>
+    "" Jump to tag 'type'
+    ":nnoremap <leader>mt :HtmlMetaType<cr>
+    ":inoremap <leader>mt <esc>:HtmlMetaType<cr>
+    "" Create HTML Tags, singleline, multiline
+    ":nnoremap <leader>ee :TagCreateEnd<cr>
+    ":nnoremap <leader>en :TagCreateEndNewline<cr>
     " Clear everything in the text area of a tag
     :nnoremap c< F>lct<
-    " Clear the tag name
-    :nnoremap c> F<lct>
-    " Clear comment
-    :nnoremap c- F- ct-  <esc>i
-    " Add comment at end of tag
-    :nnoremap <leader>ec i<!--  --><esc>F i
+    "" Clear the tag name
+    ":nnoremap c> F<lct>
+    "" Clear comment
+    ":nnoremap c- F- ct-  <esc>i
+    "" Add comment at end of tag
+    ":nnoremap <leader>ec i<!--  --><esc>F i
 
-    " insert <% %> tag
-    :inoremap <leader>rr <%  %><esc>2hi
-    " insert <%= %> tag
-    :inoremap <leader>re <%=  %><esc>2hi
+    "" insert <% %> tag
+    ":inoremap <leader>rr <%  %><esc>2hi
+    "" insert <%= %> tag
+    ":inoremap <leader>re <%=  %><esc>2hi
   "
 
   " Easy Align

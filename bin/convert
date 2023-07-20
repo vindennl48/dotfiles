@@ -1,0 +1,90 @@
+#!/bin/bash
+
+# Check if the number of arguments is correct
+if [ $# -lt 3 ] || [ $# -gt 7 ]
+then
+  echo "Usage: $0 <input_file> to <output_format> [--sample-rate <value>] [--bit-depth <value>]"
+  echo "Supported output formats: wav, mp3"
+  exit 1
+fi
+
+# Get the input file
+input_file=$1
+
+# Get the target format
+if [ "$2" != "to" ]
+then
+  echo "Usage: $0 <input_file> to <output_format> [--sample-rate <value>] [--bit-depth <value>]"
+  echo "Supported output formats: wav, mp3"
+  exit 1
+fi
+format=$3
+
+# Get the filename and extension
+filename=$(basename "$input_file")
+extension="${filename##*.}"
+filename="${filename%.*}"
+
+# Get the optional sample rate and bit depth
+sample_rate=
+bit_depth=
+shift 3
+while [ $# -gt 0 ]
+do
+  case "$1" in
+    --sample-rate)
+      sample_rate="-ar $2"
+      shift 2
+      ;;
+    --bit-depth)
+      if [ $# -lt 2 ] || [ "$2" == "--sample-rate" ]
+      then
+        echo "Error: Missing value for --bit-depth option"
+        echo "Usage: $0 <input_file> to <output_format> [--sample-rate <value>] [--bit-depth <value>]"
+        exit 1
+      fi
+      if [ "$2" == "16" ]
+      then
+        bit_depth="-sample_fmt s16"
+      elif [ "$2" == "24" ]
+      then
+        bit_depth="-sample_fmt s32"
+      elif [ "$2" == "32" ]
+      then
+        bit_depth="-sample_fmt flt"
+      else
+        echo "Error: Invalid value for --bit-depth option. Must be 16, 24, or 32."
+        echo "Usage: $0 <input_file> to <output_format> [--sample-rate <value>] [--bit-depth <value>]"
+        exit 1
+      fi
+      shift 2
+      ;;
+    *)
+      echo "Error: Invalid option: $1"
+      echo "Usage: $0 <input_file> to <output_format> [--sample-rate <value>] [--bit-depth <value>]"
+      exit 1
+      ;;
+  esac
+done
+
+# Check if the target format is wav or mp3
+if [ $format == "wav" ]
+then
+  # Convert to wav
+  command="ffmpeg -i $input_file -vn $sample_rate $bit_depth $filename.wav"
+  echo "Running command: $command"
+  $command
+elif [ $format == "mp3" ]
+then
+  # Convert to high quality mp3
+  command="ffmpeg -i $input_file -vn $sample_rate $bit_depth $filename.mp3"
+  echo "Running command: $command"
+  $command
+else
+  # Invalid format
+  echo "Invalid format. Only wav and mp3 are supported."
+  exit 1
+fi
+
+echo "Conversion complete: $filename.$extension to $filename.$format"
+

@@ -1,0 +1,18 @@
+#!/bin/sh
+
+LAST=$(pwd)
+cd ~/Documents/convert/audio
+
+find * | while read f; do
+  yes | ffmpeg "-i" "$f"  "../mp3/${f%.*}.mp3"
+done
+
+cd ~/Documents/convert/video
+
+find * | while read f; do
+  yes | ffmpeg "-i" "$f"  "../mp4/${f%.*}.mp4"
+done
+
+cd $LAST
+
+echo DONE
