@@ -1,9 +1,0 @@
-== Javascript Issues ==
-
-If dropdowns are not working, make sure you:
-
-* in application.js, move require bootstrap to second to last, above require tree .
-* in assets/javascript/ make sure there is ONLY ONE bootstrap js file
-* make sure you run bundle install before committing any different gem files
-
-

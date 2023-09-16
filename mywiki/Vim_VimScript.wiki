@@ -1,3 +1,0 @@
-= VimScript =
-* [[VimScript_Functions]]
-* [[VimScript_Variables]]

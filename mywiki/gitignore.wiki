@@ -1,9 +1,0 @@
-
-
-
-To remove swap files from vim, add this to the end:
-
-  # Ignore vim temorary / swap files
-  *~
-  *.swp
-  *.swo
