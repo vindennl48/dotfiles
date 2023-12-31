@@ -95,10 +95,10 @@ require("lazy").setup({
     'ThePrimeagen/harpoon',
     commit = "e3e3f7fa6bed92694e21de98cef20f1525b8700d"
   },
-  -- {
-  --   'lukas-reineke/indent-blankline.nvim',
-  --   commit = "9637670896b68805430e2f72cf5d16be5b97a22a"
-  -- },
+  {
+    'lukas-reineke/indent-blankline.nvim',
+    commit = "9637670896b68805430e2f72cf5d16be5b97a22a"
+  },
 
   {
     'echasnovski/mini.nvim',
