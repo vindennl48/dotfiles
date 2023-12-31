@@ -94,8 +94,9 @@ if __name__ == "__main__":
         exit()
 
     if menuAnswer > 0:
-        menuAnswer = Files.newPath(items[menuAnswer])
-        sys.stdout.write(f'cd {menuAnswer}')
+        menuAnswer = Files.newPath(items[menuAnswer]).absolute()
+        output = f'cd "{menuAnswer}"'
+        sys.stdout.write(output)
     ############################################################################
 
 
