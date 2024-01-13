@@ -1,0 +1,109 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body { 
+	background: #fff;
+	-webkit-user-select: none;
+	height: 100vh;
+	margin: 0;
+	font-family: -apple-system,  '.SFNSText-Regular', Helvetica, Sans-serif;
+	color: #333;
+}
+
+.content {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 30px;
+	position: relative;
+	overflow: hidden;
+}
+
+
+p {
+	text-align: left;
+	font-family: -apple-system,  '.SFNSText-Light', Helvetica, Sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 22px;
+	color: #333;
+	margin: 0 0 22px;
+}	
+
+p.fine-print
+{
+	font-size: 12px;
+	text-align: center;
+	color: #849298;
+}
+
+
+p.footerline {
+	margin: 30px 0 0 0;
+	color: #859398;
+	font-weight: 200;
+	font-size: 10px;
+}
+
+ul {
+	margin: 0 0 45px;
+	padding: 0 0 0 45px;
+}
+
+li {
+	text-align: left;
+	font-family: -apple-system,  '.SFNSText-Light', Helvetica, Sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 22px;
+	color: #333;
+	margin: 0 0 12px;
+}	
+
+h1 {
+	margin: 10px 0 0px;
+	color: #333;
+	font-family: -apple-system,  '.SFNSText-Bold',  Helvetica, Sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 48px;
+	
+}
+
+h3 {
+	margin: 20px 0 4px;
+	color: #333;
+	font-family: -apple-system,  '.SFNSText-Bold', Helvetica, Sans-serif;
+	font-weight: 700;
+}
+
+h4 {
+	margin: 20px 0 4px;
+	color: #333;
+	font-family: -apple-system,  '.SFNSText-Bold', Helvetica, Sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+img { 
+	-webkit-user-drag: none;
+	max-width: 100%;
+}
+
+a {
+	color: #0571a3;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 45px 0;
+    padding: 0;
+}

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AssociationSSIDMap</key>
+	<dict>
+		<key>{length = 10, bytes = 0x46696f732d5238614256}</key>
+		<integer>2</integer>
+		<key>{length = 11, bytes = 0x7866696e69747977696669}</key>
+		<integer>1</integer>
+		<key>{length = 12, bytes = 0x4e45544745415239302d3547}</key>
+		<integer>1</integer>
+		<key>{length = 13, bytes = 0x46694f532d38304130322d3547}</key>
+		<integer>0</integer>
+		<key>{length = 13, bytes = 0x46694f532d394d37374b2d3547}</key>
+		<integer>2</integer>
+		<key>{length = 14, bytes = 0x4d617272696f7474426f6e766f79}</key>
+		<integer>2</integer>
+		<key>{length = 22, bytes = 0x6e6f7420796f75722066617468657227732077696669}</key>
+		<integer>2</integer>
+		<key>{length = 6, bytes = 0x433336343545}</key>
+		<integer>1</integer>
+		<key>{length = 6, bytes = 0x433336343546}</key>
+		<integer>2</integer>
+		<key>{length = 6, bytes = 0x70616c6f6d61}</key>
+		<integer>1</integer>
+		<key>{length = 7, bytes = 0x546564666f7264}</key>
+		<integer>4</integer>
+	</dict>
+	<key>InternalAssociationSSIDMap</key>
+	<dict>
+		<key>{length = 10, bytes = 0x46696f732d5238614256}</key>
+		<integer>2</integer>
+		<key>{length = 11, bytes = 0x7866696e69747977696669}</key>
+		<integer>1</integer>
+		<key>{length = 12, bytes = 0x4e45544745415239302d3547}</key>
+		<integer>1</integer>
+		<key>{length = 13, bytes = 0x46694f532d38304130322d3547}</key>
+		<integer>0</integer>
+		<key>{length = 13, bytes = 0x46694f532d394d37374b2d3547}</key>
+		<integer>2</integer>
+		<key>{length = 14, bytes = 0x4d617272696f7474426f6e766f79}</key>
+		<integer>2</integer>
+		<key>{length = 22, bytes = 0x6e6f7420796f75722066617468657227732077696669}</key>
+		<integer>2</integer>
+		<key>{length = 6, bytes = 0x433336343545}</key>
+		<integer>1</integer>
+		<key>{length = 6, bytes = 0x433336343546}</key>
+		<integer>2</integer>
+		<key>{length = 6, bytes = 0x70616c6f6d61}</key>
+		<integer>1</integer>
+		<key>{length = 7, bytes = 0x546564666f7264}</key>
+		<integer>4</integer>
+	</dict>
+	<key>LastSubmissionTimestamp</key>
+	<date>2023-12-13T02:49:06Z</date>
+	<key>PendingList</key>
+	<array>
+		<dict>
+			<key>com.apple.message.adopted_country_code</key>
+			<string>US</string>
+			<key>com.apple.message.airport</key>
+			<string>No</string>
+			<key>com.apple.message.autojoin</key>
+			<string>No</string>
+			<key>com.apple.message.beacon_interval</key>
+			<string>100</string>
+			<key>com.apple.message.channel_frequency_band</key>
+			<string>5GHz</string>
+			<key>com.apple.message.channel_network_count</key>
+			<string>8</string>
+			<key>com.apple.message.channel_number</key>
+			<string>64</string>
+			<key>com.apple.message.channel_width</key>
+			<string>80MHz</string>
+			<key>com.apple.message.domain</key>
+			<string>com.apple.wifi.association</string>
+			<key>com.apple.message.duration</key>
+			<string>0</string>
+			<key>com.apple.message.error</key>
+			<string>No Error</string>
+			<key>com.apple.message.ht40_intolerant</key>
+			<string>No</string>
+			<key>com.apple.message.ibss</key>
+			<string>No</string>
+			<key>com.apple.message.ios_personal_hotspot</key>
+			<string>No</string>
+			<key>com.apple.message.network_country_code</key>
+			<string>US</string>
+			<key>com.apple.message.noise</key>
+			<string>-97</string>
+			<key>com.apple.message.oui</key>
+			<string>04:a2:22</string>
+			<key>com.apple.message.passpoint</key>
+			<string>No</string>
+			<key>com.apple.message.phy_mode</key>
+			<string>11ax</string>
+			<key>com.apple.message.rssi</key>
+			<string>-69</string>
+			<key>com.apple.message.security_type</key>
+			<string>WPA2Personal</string>
+			<key>com.apple.message.snr</key>
+			<string>28</string>
+			<key>com.apple.message.supports_cck_rates</key>
+			<string>No</string>
+			<key>com.apple.message.supports_ht20</key>
+			<string>Yes</string>
+			<key>com.apple.message.supports_ht40</key>
+			<string>Yes</string>
+			<key>com.apple.message.supports_ht_rates</key>
+			<string>No</string>
+			<key>com.apple.message.supports_ofdm_rates</key>
+			<string>No</string>
+			<key>com.apple.message.supports_vht_rates</key>
+			<string>No</string>
+			<key>com.apple.message.supports_wep</key>
+			<string>No</string>
+			<key>com.apple.message.supports_wpa2_enterprise</key>
+			<string>No</string>
+			<key>com.apple.message.supports_wpa2_personal</key>
+			<string>Yes</string>
+			<key>com.apple.message.supports_wpa3_enterprise</key>
+			<string>No</string>
+			<key>com.apple.message.supports_wpa3_personal</key>
+			<string>No</string>
+			<key>com.apple.message.supports_wpa_enterprise</key>
+			<string>No</string>
+			<key>com.apple.message.supports_wpa_personal</key>
+			<string>No</string>
+			<key>com.apple.message.swap</key>
+			<string>No</string>
+			<key>com.apple.message.wake_context</key>
+			<string>FullWake</string>
+		</dict>
+	</array>
+</dict>
+</plist>

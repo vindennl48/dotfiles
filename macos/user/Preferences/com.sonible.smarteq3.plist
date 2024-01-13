@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<dict>
+  <key>ShowTooltips</key>
+  <string>true</string>
+  <key>UseOpenGL</key>
+  <string>true</string>
+  <key>GuidedTourTaken</key>
+  <string>true</string>
+  <key>SoloOnTouch</key>
+  <string>false</string>
+  <key>UseConstQByDefault</key>
+  <string>false</string>
+  <key>UseLinPhaseByDefault</key>
+  <string>false</string>
+  <key>AnalyticsConsentGiven</key>
+  <string>false</string>
+</dict>

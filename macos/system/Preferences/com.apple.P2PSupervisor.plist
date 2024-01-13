@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!--Channel dwell time for scan requests made while the WLAN
+		is active (milliseconds)-->
+	<key>SCAN_DWELL_TIME_MS_WLAN_ACTIVE</key>
+	<integer>40</integer>
+	<!--Amount of time spent idle between each channel scanned
+		during a scan cycle while the WLAN is active (milliseconds)-->
+	<key>SCAN_CHANNEL_INTERVAL_MS_WLAN_ACTIVE</key>
+	<integer>200</integer>
+	<!--Amount of time between scan cycles while the WLAN is active
+		(seconds)-->
+	<key>SCAN_CYCLE_INTERVAL_S_WLAN_ACTIVE</key>
+	<integer>8</integer>
+	<!--Amount of time to wait for a response before resending a
+		service discovery request while the WLAN is active
+		(milliseconds)-->
+	<key>SERVICE_DISC_RETRY_INTERVAL_MS_WLAN_ACTIVE</key>
+	<integer>80</integer>
+	<!--Channel dwell time for scan requests made while the WLAN
+		is inactive (milliseconds)-->
+	<key>SCAN_DWELL_TIME_MS_WLAN_INACTIVE</key>
+	<integer>40</integer>
+	<!--Amount of time spent idle between each channel scanned
+		during a scan cycle while the WLAN is inactive (milliseconds)-->
+	<key>SCAN_CHANNEL_INTERVAL_MS_WLAN_INACTIVE</key>
+	<integer>0</integer>
+	<!--Amount of time between scan cycles while the WLAN is inactive
+		(seconds)-->
+	<key>SCAN_CYCLE_INTERVAL_S_WLAN_INACTIVE</key>
+	<integer>8</integer>
+	<!--Amount of time to wait for a response before resending a
+		service discovery request while the WLAN is inactive
+		(milliseconds)-->
+	<key>SERVICE_DISC_RETRY_INTERVAL_MS_WLAN_INACTIVE</key>
+	<integer>80</integer>
+	<!--Amount of time spent dwelling on a channel waiting for
+		a response after sending an action frame (milliseconds)-->
+	<key>ACTION_FRAME_DWELL_TIME_MS</key>
+	<integer>80</integer>
+	<!--Amount of time a fragmented GAS response is buffered
+		waiting for a peer to pull all the fragments (seconds)-->
+	<key>DEFAULT_DOT11_GAS_RESP_BUFFERING_TIME_S</key>
+	<integer>5</integer>
+	<!--Amount of time spent waiting for a response to a
+		comeback request before giving up (milliseconds)-->
+	<key>DEFAULT_DOT11_GAS_RESP_TIME_MS</key>
+	<integer>80</integer>
+	<!--Number of times service discovery frames are retransmitted
+		before temporarily giving up-->
+	<key>DEFAULT_SERVICE_DISCOVERY_MAX_RETRIES</key>
+	<integer>3</integer>
+	<!--Number of scan cycles in which a device must be missed
+		before it is considered gone and its associated services
+		removed from Bonjour-->
+	<key>DEFAULT_DEVICE_MISS_THRESHOLD</key>
+	<integer>7</integer>
+	<!--Number of times to try associating to a GO before giving up-->
+	<key>DEFAULT_MAX_ASSOC_RETRIES</key>
+	<integer>5</integer>
+	<!--Number of consecutive service discovery failures to a peer
+		before dropping it. Currently this value is not super useful
+		because the supervisor will pick the device up again the next
+		time it is seen in a scan, but in the future it could be used
+		to add devices that are not responding to service discovery
+		requests to a blacklist.-->
+	<key>DEFAULT_MAX_CONSECUTIVE_SERVICE_DISC_TIMEOUTS</key>
+	<integer>5</integer>
+	<!--Number of times an invitation request will be retried before
+		giving up and attempting an association.-->
+	<key>DEFAULT_INVITATION_REQUEST_RETRIES</key>
+	<integer>5</integer>
+	<!--Amount of time to wait for an invitation request response
+		before sending a retry (milliseconds)-->
+	<key>DEFAULT_INVITATION_REQUEST_RETRY_INTERVAL_MS</key>
+	<integer>80</integer>
+	<!--RSSI threshold for scan results. If a scan result is received
+		with a RSSI below this value, it will be ignored. If this value
+		is set to 0, then scan result RSSI filtering will be disabled.-->
+	<key>DEFAULT_SCAN_RESULT_RSSI_THRESHOLD</key>
+	<integer>-72</integer>
+	<!--Number of seconds to linger after the last advertised service is removed.-->
+	<key>DEFAULT_ADVERTISE_LINGER_TIME_S</key>
+	<integer>35</integer>
+	<!--Number of extra times the channel used for advertisement when the primary interface
+	    is using a DFS channels is scanned.--> 
+	<key>DEFAULT_DFS_GO_CHANNEL_EXTRA_SCAN_COUNT</key>
+	<integer>2</integer>
+</dict>
+</plist>

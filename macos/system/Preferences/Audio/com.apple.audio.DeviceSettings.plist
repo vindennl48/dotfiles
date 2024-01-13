@@ -1,0 +1,2511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>03094a9f-a710-44e3-8810-1a70b1ade92a-25516459868125-Audio</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>042addab-27a9-44e5-8c1f-ffd901e2e9db-65054663702000-Audio</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>04726F04-0000-0000-271D-010380351E78</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>8</integer>
+				<key>bytes per packet</key>
+				<integer>8</integer>
+				<key>channels per frame</key>
+				<integer>2</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>0AE09B06-0000-0000-3313-010380663978</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>17-1A-6D-01-30-03:output</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>1CBCEB11-FE68-4D42-858E-A04500000003</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>20-15-82-EF-13-2F:input</key>
+	<dict>
+		<key>controls</key>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>1</integer>
+				<key>scope</key>
+				<integer>1768845428</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.73725491762161255</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>1</integer>
+				<key>scope</key>
+				<integer>1768845428</integer>
+				<key>selector</key>
+				<integer>1836414053</integer>
+				<key>value</key>
+				<integer>0</integer>
+			</dict>
+		</array>
+	</dict>
+	<key>20-15-82-EF-13-2F:output</key>
+	<dict>
+		<key>controls</key>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>2</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1836414053</integer>
+				<key>value</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>1</integer>
+				<key>page</key>
+				<integer>2</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.5</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>2</integer>
+				<key>page</key>
+				<integer>2</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.5</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>1</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1836414053</integer>
+				<key>value</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>1</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.5</real>
+			</dict>
+		</array>
+	</dict>
+	<key>3C-4D-BE-33-D9-44:input</key>
+	<dict>
+		<key>controls</key>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>1</integer>
+				<key>scope</key>
+				<integer>1768845428</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.66666668653488159</real>
+			</dict>
+		</array>
+	</dict>
+	<key>3C-4D-BE-33-D9-44:output</key>
+	<dict>
+		<key>controls</key>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>2</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.0</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>2</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1836414053</integer>
+				<key>value</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>1</integer>
+				<key>page</key>
+				<integer>2</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>1</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>2</integer>
+				<key>page</key>
+				<integer>2</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>1</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>1</integer>
+				<key>page</key>
+				<integer>1</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.60000002384185791</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>2</integer>
+				<key>page</key>
+				<integer>1</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.60000002384185791</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>1</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1836414053</integer>
+				<key>value</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>1</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.5625</real>
+			</dict>
+		</array>
+	</dict>
+	<key>3c-4d-be-33-d9-44:input</key>
+	<dict>
+		<key>controls</key>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1768845428</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.53333336114883423</real>
+			</dict>
+		</array>
+	</dict>
+	<key>3c-4d-be-33-d9-44:output</key>
+	<dict>
+		<key>controls</key>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>1</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.74803149700164795</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>2</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.74803149700164795</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.625</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1836414053</integer>
+				<key>value</key>
+				<integer>0</integer>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>8</integer>
+				<key>bytes per packet</key>
+				<integer>8</integer>
+				<key>channels per frame</key>
+				<integer>2</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>42324141-0000-0000-0000-000000000003</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>43424331-0000-0000-0000-000000000003</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>48F45213-0000-0000-021E-0103A0301B78</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>4C2D440D-0000-0000-021F-0103803C2278</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>4C2D440D-0000-0000-2F1E-0103803C2278</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>593A0210-0000-0000-2819-010380573178</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>65e60dff-7d9c-4294-9b7c-48d3d2372ead-262637486377416-Audio</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>70-10-01-29-4c-e2:output</key>
+	<dict>
+		<key>controls</key>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>1</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>1</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>2</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>1</real>
+			</dict>
+		</array>
+	</dict>
+	<key>78-5E-A2-D1-36-D4:output</key>
+	<dict>
+		<key>controls</key>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>2</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1836414053</integer>
+				<key>value</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>1</integer>
+				<key>page</key>
+				<integer>2</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.5625</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>2</integer>
+				<key>page</key>
+				<integer>2</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.5625</real>
+			</dict>
+		</array>
+	</dict>
+	<key>AA2BE015-8685-49BD-870E-566300000003</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>AppleUSBAudioEngine:Blooper:Blooper:Blooper:1,2</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>AppleUSBAudioEngine:Darkglass Electronics:ADAM:285f2e362d1563b4:2,3</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>AppleUSBAudioEngine:DisplayLink:USB3.0 5K Graphic Docking:4310338421755:3</key>
+	<dict>
+		<key>controls</key>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>1</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.16868624091148376</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>2</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.16868624091148376</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>16</integer>
+				<key>bytes per frame</key>
+				<integer>4</integer>
+				<key>bytes per packet</key>
+				<integer>4</integer>
+				<key>channels per frame</key>
+				<integer>2</integer>
+				<key>format flags</key>
+				<integer>12</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>AppleUSBAudioEngine:DisplayLink:USB3.0 5K Graphic Docking:4310338421755:4</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>AppleUSBAudioEngine:Elgato:Cam Link 4K:0004F003AB000:4</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>AppleUSBAudioEngine:Focusrite:Scarlett 18i20 USB:100000:1,2</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>72</integer>
+				<key>bytes per packet</key>
+				<integer>72</integer>
+				<key>channels per frame</key>
+				<integer>18</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>44100</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>80</integer>
+				<key>bytes per packet</key>
+				<integer>80</integer>
+				<key>channels per frame</key>
+				<integer>20</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>44100</real>
+			</dict>
+		</array>
+	</dict>
+	<key>AppleUSBAudioEngine:Focusrite:Scarlett 18i20 USB:140000:1,2</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>72</integer>
+				<key>bytes per packet</key>
+				<integer>72</integer>
+				<key>channels per frame</key>
+				<integer>18</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>44100</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>80</integer>
+				<key>bytes per packet</key>
+				<integer>80</integer>
+				<key>channels per frame</key>
+				<integer>20</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>44100</real>
+			</dict>
+		</array>
+	</dict>
+	<key>AppleUSBAudioEngine:Focusrite:Scarlett 18i20 USB:2100000:1,2</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>AppleUSBAudioEngine:Focusrite:Scarlett 18i20 USB:4200000:1,2</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>72</integer>
+				<key>bytes per packet</key>
+				<integer>72</integer>
+				<key>channels per frame</key>
+				<integer>18</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>44100</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>80</integer>
+				<key>bytes per packet</key>
+				<integer>80</integer>
+				<key>channels per frame</key>
+				<integer>20</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>44100</real>
+			</dict>
+		</array>
+	</dict>
+	<key>AppleUSBAudioEngine:Focusrite:Scarlett 18i20 USB:P9B73YN0A82A01:1,2</key>
+	<dict>
+		<key>controls</key>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1735159650</integer>
+				<key>selector</key>
+				<integer>1668510307</integer>
+				<key>value</key>
+				<integer>690487296</integer>
+			</dict>
+		</array>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>80</integer>
+				<key>bytes per packet</key>
+				<integer>80</integer>
+				<key>channels per frame</key>
+				<integer>20</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>80</integer>
+				<key>bytes per packet</key>
+				<integer>80</integer>
+				<key>channels per frame</key>
+				<integer>20</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>AppleUSBAudioEngine:Focusrite:Scarlett 4i4 USB:D812V7Z9B80835:1,2</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>24</integer>
+				<key>bytes per packet</key>
+				<integer>24</integer>
+				<key>channels per frame</key>
+				<integer>6</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>16</integer>
+				<key>bytes per packet</key>
+				<integer>16</integer>
+				<key>channels per frame</key>
+				<integer>4</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>AppleUSBAudioEngine:Fractal Audio Systems:Axe-Fx III:100000:1,2</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>AppleUSBAudioEngine:Fractal Audio Systems:Axe-Fx III:4200000:1,2</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>32</integer>
+				<key>bytes per packet</key>
+				<integer>32</integer>
+				<key>channels per frame</key>
+				<integer>8</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>32</integer>
+				<key>bytes per packet</key>
+				<integer>32</integer>
+				<key>channels per frame</key>
+				<integer>8</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>AppleUSBAudioEngine:LINE 6:HX Stomp:   3017882:2,3</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>32</integer>
+				<key>bytes per packet</key>
+				<integer>32</integer>
+				<key>channels per frame</key>
+				<integer>8</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>32</integer>
+				<key>bytes per packet</key>
+				<integer>32</integer>
+				<key>channels per frame</key>
+				<integer>8</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>AppleUSBAudioEngine:Logitech USB Headset:Logitech USB Headset:1124000:1</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>AppleUSBAudioEngine:Logitech USB Headset:Logitech USB Headset:1124000:2</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>AppleUSBAudioEngine:Logitech USB Headset:Logitech USB Headset:124000:1</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>AppleUSBAudioEngine:Logitech USB Headset:Logitech USB Headset:124000:2</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>16</integer>
+				<key>bytes per frame</key>
+				<integer>4</integer>
+				<key>bytes per packet</key>
+				<integer>4</integer>
+				<key>channels per frame</key>
+				<integer>2</integer>
+				<key>format flags</key>
+				<integer>12</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>AppleUSBAudioEngine:Logitech USB Headset:Logitech USB Headset:5124000:1</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>AppleUSBAudioEngine:Logitech USB Headset:Logitech USB Headset:5124000:2</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>AppleUSBAudioEngine:Neural DSP:Quad Cortex:100000:1,2</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>32</integer>
+				<key>bytes per packet</key>
+				<integer>32</integer>
+				<key>channels per frame</key>
+				<integer>8</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>32</integer>
+				<key>bytes per packet</key>
+				<integer>32</integer>
+				<key>channels per frame</key>
+				<integer>8</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>AppleUSBAudioEngine:Neural DSP:Quad Cortex:1100000:1,2</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>32</integer>
+				<key>bytes per packet</key>
+				<integer>32</integer>
+				<key>channels per frame</key>
+				<integer>8</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>32</integer>
+				<key>bytes per packet</key>
+				<integer>32</integer>
+				<key>channels per frame</key>
+				<integer>8</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>AppleUSBAudioEngine:Neural DSP:Quad Cortex:1110000:1,2</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>AppleUSBAudioEngine:Neural DSP:Quad Cortex:1120000:1,2</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>AppleUSBAudioEngine:Neural DSP:Quad Cortex:1130000:1,2</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>32</integer>
+				<key>bytes per packet</key>
+				<integer>32</integer>
+				<key>channels per frame</key>
+				<integer>8</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>32</integer>
+				<key>bytes per packet</key>
+				<integer>32</integer>
+				<key>channels per frame</key>
+				<integer>8</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>AppleUSBAudioEngine:Neural DSP:Quad Cortex:120000:1,2</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>AppleUSBAudioEngine:Neural DSP:Quad Cortex:130000:1,2</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>AppleUSBAudioEngine:Neural DSP:Quad Cortex:140000:1,2</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>32</integer>
+				<key>bytes per packet</key>
+				<integer>32</integer>
+				<key>channels per frame</key>
+				<integer>8</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>32</integer>
+				<key>bytes per packet</key>
+				<integer>32</integer>
+				<key>channels per frame</key>
+				<integer>8</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>AppleUSBAudioEngine:Neural DSP:Quad Cortex:2200000:1,2</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>32</integer>
+				<key>bytes per packet</key>
+				<integer>32</integer>
+				<key>channels per frame</key>
+				<integer>8</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>32</integer>
+				<key>bytes per packet</key>
+				<integer>32</integer>
+				<key>channels per frame</key>
+				<integer>8</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>AppleUSBAudioEngine:Neural DSP:Quad Cortex:4400000:1,2</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>32</integer>
+				<key>bytes per packet</key>
+				<integer>32</integer>
+				<key>channels per frame</key>
+				<integer>8</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>32</integer>
+				<key>bytes per packet</key>
+				<integer>32</integer>
+				<key>channels per frame</key>
+				<integer>8</integer>
+				<key>format flags</key>
+				<integer>4</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>AppleUSBAudioEngine:Other World Computing:OWC Thunderbolt 3 Audio Device:2400000:1</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>24</integer>
+				<key>bytes per frame</key>
+				<integer>6</integer>
+				<key>bytes per packet</key>
+				<integer>6</integer>
+				<key>channels per frame</key>
+				<integer>2</integer>
+				<key>format flags</key>
+				<integer>12</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>AppleUSBAudioEngine:Other World Computing:OWC Thunderbolt 3 Audio Device:2400000:2</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>16</integer>
+				<key>bytes per frame</key>
+				<integer>2</integer>
+				<key>bytes per packet</key>
+				<integer>2</integer>
+				<key>channels per frame</key>
+				<integer>1</integer>
+				<key>format flags</key>
+				<integer>12</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>AppleUSBAudioEngine:Other World Computing:OWC Thunderbolt 3 Audio Device:3400000:1</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>AppleUSBAudioEngine:Other World Computing:OWC Thunderbolt 3 Audio Device:3400000:2</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>AppleUSBAudioEngine:Other World Computing:OWC Thunderbolt 3 Audio Device:4400000:1</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>AppleUSBAudioEngine:Other World Computing:OWC Thunderbolt 3 Audio Device:4400000:2</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>BlackHole16ch_UID</key>
+	<dict>
+		<key>controls</key>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>1</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1836414053</integer>
+				<key>value</key>
+				<integer>0</integer>
+			</dict>
+		</array>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>64</integer>
+				<key>bytes per packet</key>
+				<integer>64</integer>
+				<key>channels per frame</key>
+				<integer>16</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>64</integer>
+				<key>bytes per packet</key>
+				<integer>64</integer>
+				<key>channels per frame</key>
+				<integer>16</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>BlackHole2ch_UID</key>
+	<dict>
+		<key>controls</key>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.0</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1836414053</integer>
+				<key>value</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>8</integer>
+				<key>bytes per packet</key>
+				<integer>8</integer>
+				<key>channels per frame</key>
+				<integer>2</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>8</integer>
+				<key>bytes per packet</key>
+				<integer>8</integer>
+				<key>channels per frame</key>
+				<integer>2</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>BlackHole64ch_UID</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>256</integer>
+				<key>bytes per packet</key>
+				<integer>256</integer>
+				<key>channels per frame</key>
+				<integer>64</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>96000</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>256</integer>
+				<key>bytes per packet</key>
+				<integer>256</integer>
+				<key>channels per frame</key>
+				<integer>64</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>96000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>BuiltInHeadphoneInputDevice</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>BuiltInHeadphoneOutputDevice</key>
+	<dict>
+		<key>controls</key>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>1751412846</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.43749997019767761</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>1751412846</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1836414053</integer>
+				<key>value</key>
+				<integer>0</integer>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>8</integer>
+				<key>bytes per packet</key>
+				<integer>8</integer>
+				<key>channels per frame</key>
+				<integer>2</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>BuiltInMicrophoneDevice</key>
+	<dict>
+		<key>controls</key>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>1768778083</integer>
+				<key>scope</key>
+				<integer>1768845428</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.32941177487373352</real>
+			</dict>
+		</array>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>4</integer>
+				<key>bytes per packet</key>
+				<integer>4</integer>
+				<key>channels per frame</key>
+				<integer>1</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>BuiltInSpeakerDevice</key>
+	<dict>
+		<key>controls</key>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>1769173099</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.0</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>1769173099</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1836414053</integer>
+				<key>value</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>8</integer>
+				<key>bytes per packet</key>
+				<integer>8</integer>
+				<key>channels per frame</key>
+				<integer>2</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>D5A89B22-902C-40E8-9DC7-A6A4EC629400-110637708205583-screen</key>
+	<dict>
+		<key>controls</key>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.375</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1836414053</integer>
+				<key>value</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+	</dict>
+	<key>D5A89B22-902C-40E8-9DC7-A6A4EC629400-121411921583875-screen</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>D5A89B22-902C-40E8-9DC7-A6A4EC629400-194769189768791-screen</key>
+	<dict>
+		<key>controls</key>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>1</real>
+			</dict>
+		</array>
+	</dict>
+	<key>D5A89B22-902C-40E8-9DC7-A6A4EC629400-208998921220000-screen</key>
+	<dict>
+		<key>controls</key>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.375</real>
+			</dict>
+		</array>
+	</dict>
+	<key>D5A89B22-902C-40E8-9DC7-A6A4EC629400-262645141517625-screen</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>D5A89B22-902C-40E8-9DC7-A6A4EC629400-35272938724875-screen</key>
+	<dict>
+		<key>controls</key>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.0</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1836414053</integer>
+				<key>value</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+	</dict>
+	<key>D5A89B22-902C-40E8-9DC7-A6A4EC629400-551201703944375-screen</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>D5A89B22-902C-40E8-9DC7-A6A4EC629400-551237233520458-screen</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>D5A89B22-902C-40E8-9DC7-A6A4EC629400-994243260198916-screen</key>
+	<dict>
+		<key>controls</key>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>1</real>
+			</dict>
+		</array>
+	</dict>
+	<key>E8-D0-3C-38-3D-45:output</key>
+	<dict>
+		<key>controls</key>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>2</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1836414053</integer>
+				<key>value</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>1</integer>
+				<key>page</key>
+				<integer>2</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.63389933109283447</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>2</integer>
+				<key>page</key>
+				<integer>2</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.63389933109283447</real>
+			</dict>
+		</array>
+	</dict>
+	<key>Pro Tools Audio Bridge 16_UID</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>64</integer>
+				<key>bytes per packet</key>
+				<integer>64</integer>
+				<key>channels per frame</key>
+				<integer>16</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>64</integer>
+				<key>bytes per packet</key>
+				<integer>64</integer>
+				<key>channels per frame</key>
+				<integer>16</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>Pro Tools Audio Bridge 2-A_UID</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>8</integer>
+				<key>bytes per packet</key>
+				<integer>8</integer>
+				<key>channels per frame</key>
+				<integer>2</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>8</integer>
+				<key>bytes per packet</key>
+				<integer>8</integer>
+				<key>channels per frame</key>
+				<integer>2</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>Pro Tools Audio Bridge 2-B_UID</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>8</integer>
+				<key>bytes per packet</key>
+				<integer>8</integer>
+				<key>channels per frame</key>
+				<integer>2</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>8</integer>
+				<key>bytes per packet</key>
+				<integer>8</integer>
+				<key>channels per frame</key>
+				<integer>2</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>Pro Tools Audio Bridge 32_UID</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>128</integer>
+				<key>bytes per packet</key>
+				<integer>128</integer>
+				<key>channels per frame</key>
+				<integer>32</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>128</integer>
+				<key>bytes per packet</key>
+				<integer>128</integer>
+				<key>channels per frame</key>
+				<integer>32</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>Pro Tools Audio Bridge 64_UID</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>256</integer>
+				<key>bytes per packet</key>
+				<integer>256</integer>
+				<key>channels per frame</key>
+				<integer>64</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>256</integer>
+				<key>bytes per packet</key>
+				<integer>256</integer>
+				<key>channels per frame</key>
+				<integer>64</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>Pro Tools Audio Bridge 6_UID</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>24</integer>
+				<key>bytes per packet</key>
+				<integer>24</integer>
+				<key>channels per frame</key>
+				<integer>6</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>24</integer>
+				<key>bytes per packet</key>
+				<integer>24</integer>
+				<key>channels per frame</key>
+				<integer>6</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>SonarworksSystemwide_DeviceUID</key>
+	<dict>
+		<key>controls</key>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.3125</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1836414053</integer>
+				<key>value</key>
+				<integer>0</integer>
+			</dict>
+		</array>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>8</integer>
+				<key>bytes per packet</key>
+				<integer>8</integer>
+				<key>channels per frame</key>
+				<integer>2</integer>
+				<key>format flags</key>
+				<integer>12</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>8</integer>
+				<key>bytes per packet</key>
+				<integer>8</integer>
+				<key>channels per frame</key>
+				<integer>2</integer>
+				<key>format flags</key>
+				<integer>12</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>SoundDeskCableM_UID</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>SoundDeskCableS_UID</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>SoundDeskCable_UID</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>128</integer>
+				<key>bytes per packet</key>
+				<integer>128</integer>
+				<key>channels per frame</key>
+				<integer>32</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>128</integer>
+				<key>bytes per packet</key>
+				<integer>128</integer>
+				<key>channels per frame</key>
+				<integer>32</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>SoundDesk_UID</key>
+	<dict>
+		<key>controls</key>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>1</real>
+			</dict>
+		</array>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>128</integer>
+				<key>bytes per packet</key>
+				<integer>128</integer>
+				<key>channels per frame</key>
+				<integer>32</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>8</integer>
+				<key>bytes per packet</key>
+				<integer>8</integer>
+				<key>channels per frame</key>
+				<integer>2</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>com.rogueamoeba.Loopback:024576C3-9B9E-4C76-8E9F-98B9DF4F1516</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>48</integer>
+				<key>bytes per packet</key>
+				<integer>48</integer>
+				<key>channels per frame</key>
+				<integer>12</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>48</integer>
+				<key>bytes per packet</key>
+				<integer>48</integer>
+				<key>channels per frame</key>
+				<integer>12</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>48000</real>
+			</dict>
+		</array>
+	</dict>
+	<key>com.rogueamoeba.Loopback:110C6FD4-B0D6-4BA1-901B-0E6FDEC0ED38</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>com.rogueamoeba.Loopback:491AE2C7-C597-4D60-9573-A0F54A178C69</key>
+	<dict>
+		<key>controls</key>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>1</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1836414053</integer>
+				<key>value</key>
+				<integer>0</integer>
+			</dict>
+		</array>
+		<key>input streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>24</integer>
+				<key>bytes per packet</key>
+				<integer>24</integer>
+				<key>channels per frame</key>
+				<integer>6</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>44100</real>
+			</dict>
+		</array>
+		<key>output streams</key>
+		<array>
+			<dict>
+				<key>bits per channel</key>
+				<integer>32</integer>
+				<key>bytes per frame</key>
+				<integer>24</integer>
+				<key>bytes per packet</key>
+				<integer>24</integer>
+				<key>channels per frame</key>
+				<integer>6</integer>
+				<key>format flags</key>
+				<integer>9</integer>
+				<key>format id</key>
+				<integer>1819304813</integer>
+				<key>frames per packet</key>
+				<integer>1</integer>
+				<key>sample rate</key>
+				<real>44100</real>
+			</dict>
+		</array>
+	</dict>
+	<key>com.rogueamoeba.Loopback:53F606B1-156F-4E15-9A3E-DD728E1EB9EC</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>com.rogueamoeba.Loopback:936194B8-9787-45FE-9CC4-958E9ECE914C</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>com.rogueamoeba.Loopback:B5D1A7CF-EBF5-4C99-810C-608EDE8B1FB6</key>
+	<dict>
+		<key>controls</key>
+		<array/>
+	</dict>
+	<key>e8-d0-3c-38-3d-45:output</key>
+	<dict>
+		<key>controls</key>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>1</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.25196850299835205</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>2</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>0.25196850299835205</real>
+			</dict>
+		</array>
+	</dict>
+	<key>version</key>
+	<integer>1</integer>
+	<key>zoom.us.zoomaudiodevice.001</key>
+	<dict>
+		<key>controls</key>
+		<array>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1768845428</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>1</real>
+			</dict>
+			<dict>
+				<key>element</key>
+				<integer>0</integer>
+				<key>page</key>
+				<integer>0</integer>
+				<key>scope</key>
+				<integer>1869968496</integer>
+				<key>selector</key>
+				<integer>1987013741</integer>
+				<key>value</key>
+				<real>1</real>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

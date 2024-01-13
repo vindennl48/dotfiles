@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>printer-name</key>
+		<string>EPSON_XP_4100_Series</string>
+		<key>printer-info</key>
+		<string>EPSON XP-4100 Series</string>
+		<key>printer-is-accepting-jobs</key>
+		<true/>
+		<key>printer-location</key>
+		<string></string>
+		<key>printer-make-and-model</key>
+		<string>EPSON XP-4100 Series-AirPrint</string>
+		<key>printer-state</key>
+		<integer>3</integer>
+		<key>printer-state-reasons</key>
+		<array>
+		</array>
+		<key>printer-type</key>
+		<integer>67145820</integer>
+		<key>device-uri</key>
+		<string>dnssd://EPSON%20XP-4100%20Series._ipps._tcp.local./?uuid=cfe92100-67c4-11d4-a45f-50579cba2d2a</string>
+	</dict>
+</array>
+</plist>

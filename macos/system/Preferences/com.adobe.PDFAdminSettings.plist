@@ -1,0 +1,1907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdobePDFSettings</key>
+	<dict>
+		<key>ARA</key>
+		<array>
+			<string>High Quality Print</string>
+			<string>طباعة عالية الجودة</string>
+			<string>Press Quality</string>
+			<string>جودة المطبعة</string>
+			<string>Smallest File Size</string>
+			<string>أصغر حجم ملف</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>PDF غني المحتوى</string>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>Standard</string>
+			<string>قياسي</string>
+			<string>PDFA1b 2005 CMYK</string>
+			<string>PDF/A-1b:2005 (CMYK)</string>
+			<string>PDFA1b 2005 RGB</string>
+			<string>PDF/A-1b:2005 (RGB)</string>
+			<string>Oversized Pages</string>
+			<string>صفحات كبيرة جدا</string>
+		</array>
+		<key>CHS</key>
+		<array>
+			<string>High Quality Print</string>
+			<string>高质量打印</string>
+			<string>Press Quality</string>
+			<string>印刷质量</string>
+			<string>Smallest File Size</string>
+			<string>最小文件大小</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>完整内容 PDF</string>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>Standard</string>
+			<string>标准</string>
+			<string>PDFA1b 2005 CMYK</string>
+			<string>PDF/A-1b:2005（CMYK）</string>
+			<string>PDFA1b 2005 RGB</string>
+			<string>PDF/A-1b:2005（RGB）</string>
+			<string>Oversized Pages</string>
+			<string>超大页面</string>
+		</array>
+		<key>CHT</key>
+		<array>
+			<string>High Quality Print</string>
+			<string>高品質列印</string>
+			<string>Press Quality</string>
+			<string>印刷品質</string>
+			<string>Smallest File Size</string>
+			<string>最細小檔案大小</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>完整內容 PDF</string>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>Standard</string>
+			<string>標準</string>
+			<string>PDFA1b 2005 CMYK</string>
+			<string>PDF/A-1b:2005 (CMYK)</string>
+			<string>PDFA1b 2005 RGB</string>
+			<string>PDF/A-1b:2005 (RGB)</string>
+			<string>Oversized Pages</string>
+			<string>超大頁面</string>
+		</array>
+		<key>CZE</key>
+		<array>
+			<string>High Quality Print</string>
+			<string>Kvalitní tisk</string>
+			<string>Press Quality</string>
+			<string>Tisková kvalita</string>
+			<string>Smallest File Size</string>
+			<string>Nejmenší velikost souboru</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>PDF s bohatým obsahem</string>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>Standard</string>
+			<string>Standardní</string>
+			<string>PDFA1b 2005 CMYK</string>
+			<string>PDF/A-1b:2005 (CMYK)</string>
+			<string>PDFA1b 2005 RGB</string>
+			<string>PDF/A-1b:2005 (RGB)</string>
+			<string>Oversized Pages</string>
+			<string>Nadměrně velké stránky</string>
+		</array>
+		<key>DAN</key>
+		<array>
+			<string>High Quality Print</string>
+			<string>Høj kvalitet</string>
+			<string>Press Quality</string>
+			<string>Trykkvalitet</string>
+			<string>Smallest File Size</string>
+			<string>Mindste filstørrelse</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Avanceret indhold PDF</string>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>Standard</string>
+			<string>Standard</string>
+			<string>PDFA1b 2005 CMYK</string>
+			<string>PDF/A-1b:2005 (CMYK)</string>
+			<string>PDFA1b 2005 RGB</string>
+			<string>PDF/A-1b:2005 (RGB)</string>
+			<string>Oversized Pages</string>
+			<string>Store sider</string>
+		</array>
+		<key>DEU</key>
+		<array>
+			<string>High Quality Print</string>
+			<string>Qualitativ hochwertiger Druck</string>
+			<string>Press Quality</string>
+			<string>Druckausgabequalität</string>
+			<string>Smallest File Size</string>
+			<string>Kleinste Dateigröße</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Inhalt mit allen Funktionen PDF</string>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>Standard</string>
+			<string>Standard</string>
+			<string>PDFA1b 2005 CMYK</string>
+			<string>PDF/A-1b:2005 (CMYK)</string>
+			<string>PDFA1b 2005 RGB</string>
+			<string>PDF/A-1b:2005 (RGB)</string>
+			<string>Oversized Pages</string>
+			<string>Zu große Seiten</string>
+		</array>
+		<key>ENU</key>
+		<array>
+			<string>High Quality Print</string>
+			<string>High Quality Print</string>
+			<string>Press Quality</string>
+			<string>Press Quality</string>
+			<string>Smallest File Size</string>
+			<string>Smallest File Size</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Rich Content PDF</string>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>Standard</string>
+			<string>Standard</string>
+			<string>PDFA1b 2005 CMYK</string>
+			<string>PDF/A-1b:2005 (CMYK)</string>
+			<string>PDFA1b 2005 RGB</string>
+			<string>PDF/A-1b:2005 (RGB)</string>
+			<string>Oversized Pages</string>
+			<string>Oversized Pages</string>
+		</array>
+		<key>ESO</key>
+		<array>
+			<string>High Quality Print</string>
+			<string>Impresión de alta calidad</string>
+			<string>Press Quality</string>
+			<string>Calidad de prensa</string>
+			<string>Smallest File Size</string>
+			<string>Tamaño de archivo más pequeño</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Contenido enriquecido PDF</string>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>Standard</string>
+			<string>Estándar</string>
+			<string>PDFA1b 2005 CMYK</string>
+			<string>PDF/A-1b:2005 (CMYK)</string>
+			<string>PDFA1b 2005 RGB</string>
+			<string>PDF/A-1b:2005 (RGB)</string>
+			<string>Oversized Pages</string>
+			<string>Páginas extragrandes</string>
+		</array>
+		<key>ESP</key>
+		<array>
+			<string>High Quality Print</string>
+			<string>Impresión de alta calidad</string>
+			<string>Press Quality</string>
+			<string>Calidad de prensa</string>
+			<string>Smallest File Size</string>
+			<string>Tamaño de archivo más pequeño</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Rich Content PDF</string>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>Standard</string>
+			<string>Estándar</string>
+			<string>PDFA1b 2005 CMYK</string>
+			<string>PDF/A-1b:2005 (CMYK)</string>
+			<string>PDFA1b 2005 RGB</string>
+			<string>PDF/A-1b:2005 (RGB)</string>
+			<string>Oversized Pages</string>
+			<string>Páginas extragrandes</string>
+		</array>
+		<key>FRA</key>
+		<array>
+			<string>High Quality Print</string>
+			<string>Qualité supérieure</string>
+			<string>Press Quality</string>
+			<string>Qualité optimale</string>
+			<string>Smallest File Size</string>
+			<string>Taille de fichier minimale</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Contenu enrichi PDF</string>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>Standard</string>
+			<string>Qualité standard</string>
+			<string>PDFA1b 2005 CMYK</string>
+			<string>PDF/A-1b:2005 (CMJN)</string>
+			<string>PDFA1b 2005 RGB</string>
+			<string>PDF/A-1b:2005 (RVB)</string>
+			<string>Oversized Pages</string>
+			<string>Pages hors format</string>
+		</array>
+		<key>GRE</key>
+		<array>
+			<string>High Quality Print</string>
+			<string>Εκτύπωση υψηλής ποιότητας</string>
+			<string>Press Quality</string>
+			<string>Ποιότητα εκτύπωσης</string>
+			<string>Smallest File Size</string>
+			<string>Το μικρότερο μέγεθος αρχείου</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>PDF εμπλουτισμένου περιεχομένου</string>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>Standard</string>
+			<string>Τυπικό</string>
+			<string>PDFA1b 2005 CMYK</string>
+			<string>PDF/A-1b:2005 (CMYK)</string>
+			<string>PDFA1b 2005 RGB</string>
+			<string>PDF/A-1b:2005 (RGB)</string>
+			<string>Oversized Pages</string>
+			<string>Σελίδες μεγάλου μεγέθους</string>
+		</array>
+		<key>HEB</key>
+		<array>
+			<string>High Quality Print</string>
+			<string>הדפסה באיכות גבוהה</string>
+			<string>Press Quality</string>
+			<string>איכות דפוס</string>
+			<string>Smallest File Size</string>
+			<string>גודל קובץ הקטן ביותר</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>PDF לתוכן עשיר</string>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>Standard</string>
+			<string>רגיל</string>
+			<string>PDFA1b 2005 CMYK</string>
+			<string>PDF/A-1b:2005 (CMYK)</string>
+			<string>PDFA1b 2005 RGB</string>
+			<string>PDF/A-1b:2005 (RGB)</string>
+			<string>Oversized Pages</string>
+			<string>עמודים גדולים מדי</string>
+		</array>
+		<key>HUN</key>
+		<array>
+			<string>High Quality Print</string>
+			<string>Kiváló minőségű nyomtatás</string>
+			<string>Press Quality</string>
+			<string>Nyomdai minőség</string>
+			<string>Smallest File Size</string>
+			<string>Legkisebb fájlméret</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Vegyes tartalmú PDF-dokumentumok</string>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>Standard</string>
+			<string>Normál</string>
+			<string>PDFA1b 2005 CMYK</string>
+			<string>PDF/A-1b:2005 (CMYK)</string>
+			<string>PDFA1b 2005 RGB</string>
+			<string>PDF/A-1b:2005 (RGB)</string>
+			<string>Oversized Pages</string>
+			<string>Túlméretes oldalak</string>
+		</array>
+		<key>ITA</key>
+		<array>
+			<string>High Quality Print</string>
+			<string>Stampa di alta qualità</string>
+			<string>Press Quality</string>
+			<string>Qualità tipografica</string>
+			<string>Smallest File Size</string>
+			<string>Dimensioni file minime</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Rich Content PDF</string>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>Standard</string>
+			<string>Standard</string>
+			<string>PDFA1b 2005 CMYK</string>
+			<string>PDF/A-1b:2005 (CMYK)</string>
+			<string>PDFA1b 2005 RGB</string>
+			<string>PDF/A-1b:2005 (RGB)</string>
+			<string>Oversized Pages</string>
+			<string>Pagine di dimensioni eccessive</string>
+		</array>
+		<key>JPN</key>
+		<array>
+			<string>High Quality Print</string>
+			<string>高品質印刷</string>
+			<string>Press Quality</string>
+			<string>プレス品質</string>
+			<string>Smallest File Size</string>
+			<string>最小ファイルサイズ</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (日本)</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (日本)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (日本)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (日本)</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (日本)</string>
+			<string>Rich Content PDF</string>
+			<string>リッチコンテンツ PDF</string>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>雑誌広告送稿用</string>
+			<string>Standard</string>
+			<string>標準</string>
+			<string>PDFA1b 2005 CMYK</string>
+			<string>PDF/A-1b:2005 (CMYK)</string>
+			<string>PDFA1b 2005 RGB</string>
+			<string>PDF/A-1b:2005 (RGB)</string>
+			<string>Oversized Pages</string>
+			<string>オーバーサイズページ</string>
+		</array>
+		<key>KOR</key>
+		<array>
+			<string>High Quality Print</string>
+			<string>고품질 인쇄</string>
+			<string>Press Quality</string>
+			<string>출판 품질</string>
+			<string>Smallest File Size</string>
+			<string>최소 파일 크기</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>리치 컨텐트 PDF</string>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>Standard</string>
+			<string>표준</string>
+			<string>PDFA1b 2005 CMYK</string>
+			<string>PDF/A-1b:2005 (CMYK)</string>
+			<string>PDFA1b 2005 RGB</string>
+			<string>PDF/A-1b:2005 (RGB)</string>
+			<string>Oversized Pages</string>
+			<string>대용량 페이지</string>
+		</array>
+		<key>NLD</key>
+		<array>
+			<string>High Quality Print</string>
+			<string>Afdrukken met hoge kwaliteit</string>
+			<string>Press Quality</string>
+			<string>Drukwerkkwaliteit</string>
+			<string>Smallest File Size</string>
+			<string>Kleinste bestandsgrootte</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Uitgebreide inhoud PDF</string>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>Standard</string>
+			<string>Standaard</string>
+			<string>PDFA1b 2005 CMYK</string>
+			<string>PDF/A-1b:2005 (CMYK)</string>
+			<string>PDFA1b 2005 RGB</string>
+			<string>PDF/A-1b:2005 (RGB)</string>
+			<string>Oversized Pages</string>
+			<string>Te grote pagina's</string>
+		</array>
+		<key>NOR</key>
+		<array>
+			<string>High Quality Print</string>
+			<string>Utskrift av høy kvalitet</string>
+			<string>Press Quality</string>
+			<string>Trykkvalitet</string>
+			<string>Smallest File Size</string>
+			<string>Minste filstørrelse</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Rikholdig innhold PDF</string>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>Standard</string>
+			<string>Standard</string>
+			<string>PDFA1b 2005 CMYK</string>
+			<string>PDF/A-1b:2005 (CMYK)</string>
+			<string>PDFA1b 2005 RGB</string>
+			<string>PDF/A-1b:2005 (RGB)</string>
+			<string>Oversized Pages</string>
+			<string>Overdimensjonerte sider</string>
+		</array>
+		<key>POL</key>
+		<array>
+			<string>High Quality Print</string>
+			<string>Druk o wysokiej jakości</string>
+			<string>Press Quality</string>
+			<string>Jakość drukarska</string>
+			<string>Smallest File Size</string>
+			<string>Najmniejszy rozmiar pliku</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Plik PDF z bogatą treścią</string>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>Standard</string>
+			<string>Standardowy</string>
+			<string>PDFA1b 2005 CMYK</string>
+			<string>PDF/A-1b:2005 (CMYK)</string>
+			<string>PDFA1b 2005 RGB</string>
+			<string>PDF/A-1b:2005 (RGB)</string>
+			<string>Oversized Pages</string>
+			<string>Za duże strony</string>
+		</array>
+		<key>PTB</key>
+		<array>
+			<string>High Quality Print</string>
+			<string>Impressão de alta qualidade</string>
+			<string>Press Quality</string>
+			<string>Qualidade tipográfica</string>
+			<string>Smallest File Size</string>
+			<string>Menor tamanho do arquivo</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Conteúdo elaborado PDF</string>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>Standard</string>
+			<string>Padrão</string>
+			<string>PDFA1b 2005 CMYK</string>
+			<string>PDF/A-1b:2005 (CMYK)</string>
+			<string>PDFA1b 2005 RGB</string>
+			<string>PDF/A-1b:2005 (RGB)</string>
+			<string>Oversized Pages</string>
+			<string>Páginas excessivamente grandes </string>
+		</array>
+		<key>RUM</key>
+		<array>
+			<string>High Quality Print</string>
+			<string>Tipărire la calitate superioară</string>
+			<string>Press Quality</string>
+			<string>Calitate presă</string>
+			<string>Smallest File Size</string>
+			<string>Dimensiunea celui mai mic fişier</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>PDF cu conţinut îmbogăţit</string>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>Standard</string>
+			<string>Standard</string>
+			<string>PDFA1b 2005 CMYK</string>
+			<string>PDF/A-1B:2005 (CMYK)</string>
+			<string>PDFA1b 2005 RGB</string>
+			<string>PDF/A-1B:2005 (RGB)</string>
+			<string>Oversized Pages</string>
+			<string>Pagini supradimensionate</string>
+		</array>
+		<key>RUS</key>
+		<array>
+			<string>High Quality Print</string>
+			<string>Высококачественная печать</string>
+			<string>Press Quality</string>
+			<string>Полиграфическое качество</string>
+			<string>Smallest File Size</string>
+			<string>Наименьший размер файла</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Информативный PDF</string>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>Standard</string>
+			<string>Стандартные настройки</string>
+			<string>PDFA1b 2005 CMYK</string>
+			<string>PDF/A-1b:2005 (CMYK)</string>
+			<string>PDFA1b 2005 RGB</string>
+			<string>PDF/A-1b:2005 (RGB)</string>
+			<string>Oversized Pages</string>
+			<string>Страницы с превышением максимального размера</string>
+		</array>
+		<key>SUO</key>
+		<array>
+			<string>High Quality Print</string>
+			<string>Laadukas tuloste</string>
+			<string>Press Quality</string>
+			<string>Painolaatu</string>
+			<string>Smallest File Size</string>
+			<string>Pienin tiedostokoko</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Monitietosisältö PDF</string>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>Standard</string>
+			<string>Normaali</string>
+			<string>PDFA1b 2005 CMYK</string>
+			<string>PDF/A-1b:2005 (CMYK)</string>
+			<string>PDFA1b 2005 RGB</string>
+			<string>PDF/A-1b:2005 (RGB)</string>
+			<string>Oversized Pages</string>
+			<string>Ylimittaiset sivut</string>
+		</array>
+		<key>SVE</key>
+		<array>
+			<string>High Quality Print</string>
+			<string>Högkvalitetsutskrift</string>
+			<string>Press Quality</string>
+			<string>Tryckkvalitet</string>
+			<string>Smallest File Size</string>
+			<string>Minsta filstorlek</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Rikt innehåll PDF</string>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>Standard</string>
+			<string>Standard</string>
+			<string>PDFA1b 2005 CMYK</string>
+			<string>PDF/A-1b:2005 (CMYK)</string>
+			<string>PDFA1b 2005 RGB</string>
+			<string>PDF/A-1b:2005 (RGB)</string>
+			<string>Oversized Pages</string>
+			<string>För stora sidor</string>
+		</array>
+		<key>TUR</key>
+		<array>
+			<string>High Quality Print</string>
+			<string>Yüksek Kalitede Baskı</string>
+			<string>Press Quality</string>
+			<string>Baskı Kalitesi</string>
+			<string>Smallest File Size</string>
+			<string>En Küçük Dosya Boyutu</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Zengin İçerikli PDF</string>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>Standard</string>
+			<string>Standart</string>
+			<string>PDFA1b 2005 CMYK</string>
+			<string>PDF/A-1b:2005 (CMYK)</string>
+			<string>PDFA1b 2005 RGB</string>
+			<string>PDF/A-1b:2005 (RGB)</string>
+			<string>Oversized Pages</string>
+			<string>Fazla Boyutlandırılmış Sayfalar</string>
+		</array>
+		<key>UKR</key>
+		<array>
+			<string>High Quality Print</string>
+			<string>Високоякісний друк</string>
+			<string>Press Quality</string>
+			<string>Друкарська якість</string>
+			<string>Smallest File Size</string>
+			<string>Мінімальний розмір файлу</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Розширений формат PDF</string>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>Standard</string>
+			<string>Стандартний</string>
+			<string>PDFA1b 2005 CMYK</string>
+			<string>PDF/A-1b:2005 (CMYK)</string>
+			<string>PDFA1b 2005 RGB</string>
+			<string>PDF/A-1b:2005 (RGB)</string>
+			<string>Oversized Pages</string>
+			<string>Сторінки збільшеного розміру</string>
+		</array>
+	</dict>
+	<key>AdobePDFSettingsPath</key>
+	<string>/Library/Application Support/Adobe/Adobe PDF/Settings/</string>
+	<key>PDFSettings</key>
+	<dict>
+		<key>ARA</key>
+		<array>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>PDF غني المحتوى</string>
+			<string>High Quality Print</string>
+			<string>طباعة عالية الجودة</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>Press Quality</string>
+			<string>جودة المطبعة</string>
+			<string>Smallest File Size</string>
+			<string>أصغر حجم ملف</string>
+		</array>
+		<key>CHS</key>
+		<array>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>完整内容 PDF</string>
+			<string>High Quality Print</string>
+			<string>高质量打印</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>Press Quality</string>
+			<string>印刷质量</string>
+			<string>Smallest File Size</string>
+			<string>最小文件大小</string>
+		</array>
+		<key>CHT</key>
+		<array>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>完整內容 PDF</string>
+			<string>High Quality Print</string>
+			<string>高品質列印</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>Press Quality</string>
+			<string>印刷品質</string>
+			<string>Smallest File Size</string>
+			<string>最細小檔案大小</string>
+		</array>
+		<key>CZE</key>
+		<array>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>PDF s bohatým obsahem</string>
+			<string>High Quality Print</string>
+			<string>Kvalitní tisk</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>Press Quality</string>
+			<string>Tisková kvalita</string>
+			<string>Smallest File Size</string>
+			<string>Nejmenší velikost souboru</string>
+		</array>
+		<key>DAN</key>
+		<array>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Avanceret indhold PDF</string>
+			<string>High Quality Print</string>
+			<string>Høj kvalitet</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>Press Quality</string>
+			<string>Trykkvalitet</string>
+			<string>Smallest File Size</string>
+			<string>Mindste filstørrelse</string>
+		</array>
+		<key>DEU</key>
+		<array>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Inhalt mit allen Funktionen PDF</string>
+			<string>High Quality Print</string>
+			<string>Qualitativ hochwertiger Druck</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>Press Quality</string>
+			<string>Druckausgabequalität</string>
+			<string>Smallest File Size</string>
+			<string>Kleinste Dateigröße</string>
+		</array>
+		<key>ENU</key>
+		<array>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Rich Content PDF</string>
+			<string>High Quality Print</string>
+			<string>High Quality Print</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>Press Quality</string>
+			<string>Press Quality</string>
+			<string>Smallest File Size</string>
+			<string>Smallest File Size</string>
+		</array>
+		<key>ESO</key>
+		<array>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Contenido enriquecido PDF</string>
+			<string>High Quality Print</string>
+			<string>Impresión de alta calidad</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>Press Quality</string>
+			<string>Calidad de prensa</string>
+			<string>Smallest File Size</string>
+			<string>Tamaño de archivo más pequeño</string>
+		</array>
+		<key>FRA</key>
+		<array>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Contenu enrichi PDF</string>
+			<string>High Quality Print</string>
+			<string>Qualité supérieure</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>Press Quality</string>
+			<string>Qualité optimale</string>
+			<string>Smallest File Size</string>
+			<string>Taille de fichier minimale</string>
+		</array>
+		<key>GRE</key>
+		<array>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>PDF εμπλουτισμένου περιεχομένου</string>
+			<string>High Quality Print</string>
+			<string>Εκτύπωση υψηλής ποιότητας</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>Press Quality</string>
+			<string>Ποιότητα εκτύπωσης</string>
+			<string>Smallest File Size</string>
+			<string>Το μικρότερο μέγεθος αρχείου</string>
+		</array>
+		<key>HEB</key>
+		<array>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>PDF לתוכן עשיר</string>
+			<string>High Quality Print</string>
+			<string>הדפסה באיכות גבוהה</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>Press Quality</string>
+			<string>איכות דפוס</string>
+			<string>Smallest File Size</string>
+			<string>גודל קובץ הקטן ביותר</string>
+		</array>
+		<key>HUN</key>
+		<array>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Vegyes tartalmú PDF-dokumentumok</string>
+			<string>High Quality Print</string>
+			<string>Kiváló minőségű nyomtatás</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>Press Quality</string>
+			<string>Nyomdai minőség</string>
+			<string>Smallest File Size</string>
+			<string>Legkisebb fájlméret</string>
+		</array>
+		<key>ITA</key>
+		<array>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Rich Content PDF</string>
+			<string>High Quality Print</string>
+			<string>Stampa di alta qualità</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>Press Quality</string>
+			<string>Qualità tipografica</string>
+			<string>Smallest File Size</string>
+			<string>Dimensioni file minime</string>
+		</array>
+		<key>JPN</key>
+		<array>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>雑誌広告送稿用</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (日本)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (日本)</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (日本)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (日本)</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (日本)</string>
+			<string>Rich Content PDF</string>
+			<string>リッチコンテンツ PDF</string>
+			<string>High Quality Print</string>
+			<string>高品質印刷</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>Press Quality</string>
+			<string>プレス品質</string>
+			<string>Smallest File Size</string>
+			<string>最小ファイルサイズ</string>
+		</array>
+		<key>KOR</key>
+		<array>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>리치 컨텐트 PDF</string>
+			<string>High Quality Print</string>
+			<string>고품질 인쇄</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>Press Quality</string>
+			<string>출판 품질</string>
+			<string>Smallest File Size</string>
+			<string>최소 파일 크기</string>
+		</array>
+		<key>NLD</key>
+		<array>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Uitgebreide inhoud PDF</string>
+			<string>High Quality Print</string>
+			<string>Afdrukken met hoge kwaliteit</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>Press Quality</string>
+			<string>Drukwerkkwaliteit</string>
+			<string>Smallest File Size</string>
+			<string>Kleinste bestandsgrootte</string>
+		</array>
+		<key>NOR</key>
+		<array>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Rikholdig innhold PDF</string>
+			<string>High Quality Print</string>
+			<string>Utskrift av høy kvalitet</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>Press Quality</string>
+			<string>Trykkvalitet</string>
+			<string>Smallest File Size</string>
+			<string>Minste filstørrelse</string>
+		</array>
+		<key>POL</key>
+		<array>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Plik PDF z bogatą treścią</string>
+			<string>High Quality Print</string>
+			<string>Druk o wysokiej jakości</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>Press Quality</string>
+			<string>Jakość drukarska</string>
+			<string>Smallest File Size</string>
+			<string>Najmniejszy rozmiar pliku</string>
+		</array>
+		<key>PTB</key>
+		<array>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Conteúdo elaborado PDF</string>
+			<string>High Quality Print</string>
+			<string>Impressão de alta qualidade</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>Press Quality</string>
+			<string>Qualidade tipográfica</string>
+			<string>Smallest File Size</string>
+			<string>Menor tamanho do arquivo</string>
+		</array>
+		<key>RUM</key>
+		<array>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>PDF cu conţinut îmbogăţit</string>
+			<string>High Quality Print</string>
+			<string>Tipărire la calitate superioară</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>Press Quality</string>
+			<string>Calitate presă</string>
+			<string>Smallest File Size</string>
+			<string>Dimensiunea celui mai mic fişier</string>
+		</array>
+		<key>RUS</key>
+		<array>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Информативный PDF</string>
+			<string>High Quality Print</string>
+			<string>Высококачественная печать</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>Press Quality</string>
+			<string>Полиграфическое качество</string>
+			<string>Smallest File Size</string>
+			<string>Наименьший размер файла</string>
+		</array>
+		<key>SUO</key>
+		<array>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Monitietosisältö PDF</string>
+			<string>High Quality Print</string>
+			<string>Laadukas tuloste</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>Press Quality</string>
+			<string>Painolaatu</string>
+			<string>Smallest File Size</string>
+			<string>Pienin tiedostokoko</string>
+		</array>
+		<key>SVE</key>
+		<array>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Rikt innehåll PDF</string>
+			<string>High Quality Print</string>
+			<string>Högkvalitetsutskrift</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>Press Quality</string>
+			<string>Tryckkvalitet</string>
+			<string>Smallest File Size</string>
+			<string>Minsta filstorlek</string>
+		</array>
+		<key>TUR</key>
+		<array>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Zengin İçerikli PDF</string>
+			<string>High Quality Print</string>
+			<string>Yüksek Kalitede Baskı</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>Press Quality</string>
+			<string>Baskı Kalitesi</string>
+			<string>Smallest File Size</string>
+			<string>En Küçük Dosya Boyutu</string>
+		</array>
+		<key>UKR</key>
+		<array>
+			<string>MAGAZINE Ad 2006 JPN</string>
+			<string>MAGAZINE Ad 2006 (Japan)</string>
+			<string>PDFX1a 2001 JPN</string>
+			<string>PDF/X-1a:2001 (Japan)</string>
+			<string>PDFX1a 2003 JPN</string>
+			<string>PDF/X-1a:2003 (Japan)</string>
+			<string>PDFX1a 2003</string>
+			<string>PDF/X-1a:2003</string>
+			<string>PDFX3 2002 JPN</string>
+			<string>PDF/X-3:2002 (Japan)</string>
+			<string>PDFX3 2003 JPN</string>
+			<string>PDF/X-3:2003 (Japan)</string>
+			<string>PDFX3 2003</string>
+			<string>PDF/X-3:2003</string>
+			<string>PDFX4 2008 JPN</string>
+			<string>PDF/X-4:2008 (Japan)</string>
+			<string>Rich Content PDF</string>
+			<string>Розширений формат PDF</string>
+			<string>High Quality Print</string>
+			<string>Високоякісний друк</string>
+			<string>PDFX1a 2001</string>
+			<string>PDF/X-1a:2001</string>
+			<string>PDFX3 2002</string>
+			<string>PDF/X-3:2002</string>
+			<string>PDFX4 2008</string>
+			<string>PDF/X-4:2008</string>
+			<string>Press Quality</string>
+			<string>Друкарська якість</string>
+			<string>Smallest File Size</string>
+			<string>Мінімальний розмір файлу</string>
+		</array>
+	</dict>
+	<key>PDFSettingsPath</key>
+	<string>/Library/Application Support/Adobe/Adobe PDF/Settings</string>
+</dict>
+</plist>

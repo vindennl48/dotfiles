@@ -1,0 +1,35 @@
+2023-12-17T12:47:17.385880: info: #######################################
+2023-12-17T12:47:17.386167: info: Started: PluginScanner 11.3.11 Build: 2023-09-15_2b9735cdbb
+2023-12-17T12:47:17.386176: info: #######################################
+2023-12-17T12:47:17.386180: info: Init: Setup environment
+2023-12-17T12:47:17.386237: info: UUID: 1D6505D0-8B86-3189-A928-866C28EAA4AD
+2023-12-17T12:47:17.387458: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-12-17T12:47:17.387493: info: Init: Version: 'PluginScanner 11.3.11 Build: 2023-09-15_2b9735cdbb' 1114897
+2023-12-17T12:47:17.387498: info: Init: BuildRevisions: 2b9735cdbbbdfe9e73ca0419b5c6f3d447ba8be0
+2023-12-17T12:47:17.387501: info: Init: Commit ID: '2b9735cdbbbdfe9e73ca0419b5c6f3d447ba8be0'
+2023-12-17T12:47:17.388475: info: Init: OS: 'macOS 14.2.0 (23C64), Arch:arm64'
+2023-12-17T12:47:17.388484: info: Init: BuildType: 'Release'
+2023-12-17T12:47:17.388487: info: Init: Pid: 26995
+2023-12-17T12:47:17.388511: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-12-17T12:47:17.388518: info: Init: CPU Brand String: 'Apple M1'
+2023-12-17T12:47:17.388521: info: Init: CPU Count: 8
+2023-12-17T12:47:17.388623: info: Init: Physical RAM: 17179869184 B
+2023-12-17T12:47:17.388628: info: Init: Address Space: 18446744073709551615 B
+2023-12-17T12:47:17.388631: info: Init: 64-bit Edition
+2023-12-17T12:47:17.458358: info: Init: Checksum 1: 6d6515f23d18f16c14ebd4c5ee6295bc
+2023-12-17T12:47:17.485959: info: Init: Checksum 2: fd608e67288eda2ce7fc11f1e6b4aa49
+2023-12-17T12:47:17.517311: info: Init: Checksum 3: fd608e67288eda2ce7fc11f1e6b4aa49
+2023-12-17T12:47:17.517453: info: Licensing: [Variant=Beta]
+2023-12-17T12:47:17.517867: info: Metadata: Initialize XMP system
+2023-12-17T12:47:17.518221: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-53.db' (key: SQL[2], sqlite 3.30.1)
+2023-12-17T12:47:17.532848: info: VST2: start scanning plugins
+2023-12-17T12:47:17.532875: info: VST2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (custom)
+2023-12-17T12:47:17.629659: info: VST2: check plugin at path: "/Library/Audio/Plug-Ins/VST/UVIWorkstationVST.vst" [""]
+2023-12-17T12:47:18.449223: info: VST2: found: UVIWorkstationVST
+   vendor: UVI
+   device-class-id: device:vst:instr:1431718231?n=UVIWorkstationVST
+   version: 196876
+   sdkVersion: 2400
+   path: "/Library/Audio/Plug-Ins/VST/UVIWorkstationVST.vst"
+   fp: 3dc2830:647846bb
+2023-12-17T12:47:18.449670: info: VST2: finished scanning plugins

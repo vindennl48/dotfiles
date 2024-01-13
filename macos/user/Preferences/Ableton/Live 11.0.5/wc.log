@@ -1,0 +1,6 @@
+INFO:2021-08-08 19:40:25,593:abl.webconnector.main:Start
+INFO:2021-08-08 19:40:25,595:abl.webconnector.main:Cleanup event logs.
+INFO:2021-08-08 19:40:30,601:abl.webconnector.main:Upload info.
+INFO:2021-08-08 19:40:30,604:abl.webconnector.auto_updates:Checking for auto updates from 11.0.5
+INFO:2021-08-08 19:40:31,091:abl.webconnector.auto_updates:No update found; terminating
+INFO:2021-08-08 19:40:31,609:abl.webconnector.main:End

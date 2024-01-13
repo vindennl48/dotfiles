@@ -1,0 +1,22 @@
+AddTimestampToLogFileNames	true	false
+AddUTCTimestampToTraces	true	false
+CreateLogFilesThatDoNotExist	true	false
+DvaMarshalRPCLogging	false	false
+EA.Config.ForceEnableDefaultLogging	false	false
+EA.Config.LocalHub.DataFolder		
+EA.Config.LocalHub.EnablePolling	false	false
+EA.Config.LocalHub.ExpireDatabaseTimeInSeconds	180	180
+EA.Config.LocalHub.JobInterval	300000	300000
+EA.Config.LocalHub.JobRetryInterval	1000	1000
+EA.Config.LocalHub.MaxLogFileAgeInDays	7	7
+EA.Config.LocalHub.TemplatesFolder		
+EA.Config.Logging.Lumberjack		
+EA.Config.Logging.Syslog		
+EA.Config.Presence.LogLevel	2	2
+EA.Config.Throttling.Method	1	1
+MaxLogSize	0	0
+MediaManagerPurgeLogging	false	false
+RolloverLogsDaily	false	false
+TraceAsync	false	false
+dvaappsupport.AppLaunchAsyncDLM	true	true
+dvanet.UploadCompressionMinimumSize	65536	65536

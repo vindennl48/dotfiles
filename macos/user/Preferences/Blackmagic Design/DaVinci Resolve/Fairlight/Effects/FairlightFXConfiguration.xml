@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Effects version="1.2">
+	<Effect>
+		<ID>AI</ID>
+		<Favourite>0</Favourite>
+		<CategoryMask>0</CategoryMask>
+	</Effect>
+	<Effect>
+		<ID>Chorus</ID>
+		<Favourite>0</Favourite>
+		<CategoryMask>2048</CategoryMask>
+	</Effect>
+	<Effect>
+		<ID>De-Esser</ID>
+		<Favourite>0</Favourite>
+		<CategoryMask>4096</CategoryMask>
+	</Effect>
+	<Effect>
+		<ID>De-Hummer</ID>
+		<Favourite>0</Favourite>
+		<CategoryMask>4096</CategoryMask>
+	</Effect>
+	<Effect>
+		<ID>Delay</ID>
+		<Favourite>0</Favourite>
+		<CategoryMask>4</CategoryMask>
+	</Effect>
+	<Effect>
+		<ID>Dialogue Processor</ID>
+		<Favourite>0</Favourite>
+		<CategoryMask>2</CategoryMask>
+	</Effect>
+	<Effect>
+		<ID>Distortion</ID>
+		<Favourite>0</Favourite>
+		<CategoryMask>32</CategoryMask>
+	</Effect>
+	<Effect>
+		<ID>Echo</ID>
+		<Favourite>0</Favourite>
+		<CategoryMask>4</CategoryMask>
+	</Effect>
+	<Effect>
+		<ID>Flanger</ID>
+		<Favourite>0</Favourite>
+		<CategoryMask>2048</CategoryMask>
+	</Effect>
+	<Effect>
+		<ID>Foley Sampler</ID>
+		<Favourite>0</Favourite>
+		<CategoryMask>128</CategoryMask>
+	</Effect>
+	<Effect>
+		<ID>Frequency Analyzer</ID>
+		<Favourite>0</Favourite>
+		<CategoryMask>512</CategoryMask>
+	</Effect>
+	<Effect>
+		<ID>LFE Filter</ID>
+		<Favourite>0</Favourite>
+		<CategoryMask>32768</CategoryMask>
+	</Effect>
+	<Effect>
+		<ID>Limiter</ID>
+		<Favourite>0</Favourite>
+		<CategoryMask>8</CategoryMask>
+	</Effect>
+	<Effect>
+		<ID>Meter</ID>
+		<Favourite>0</Favourite>
+		<CategoryMask>512</CategoryMask>
+	</Effect>
+	<Effect>
+		<ID>Modulation</ID>
+		<Favourite>0</Favourite>
+		<CategoryMask>2048</CategoryMask>
+	</Effect>
+	<Effect>
+		<ID>Multiband Compressor</ID>
+		<Favourite>0</Favourite>
+		<CategoryMask>8</CategoryMask>
+	</Effect>
+	<Effect>
+		<ID>Noise Reduction</ID>
+		<Favourite>0</Favourite>
+		<CategoryMask>4096</CategoryMask>
+	</Effect>
+	<Effect>
+		<ID>Phase Meter</ID>
+		<Favourite>0</Favourite>
+		<CategoryMask>512</CategoryMask>
+	</Effect>
+	<Effect>
+		<ID>Pitch</ID>
+		<Favourite>0</Favourite>
+		<CategoryMask>8192</CategoryMask>
+	</Effect>
+	<Effect>
+		<ID>Reverb</ID>
+		<Favourite>0</Favourite>
+		<CategoryMask>16384</CategoryMask>
+	</Effect>
+	<Effect>
+		<ID>Soft Clipper</ID>
+		<Favourite>0</Favourite>
+		<CategoryMask>8</CategoryMask>
+	</Effect>
+	<Effect>
+		<ID>Stereo Fixer</ID>
+		<Favourite>0</Favourite>
+		<CategoryMask>65536</CategoryMask>
+	</Effect>
+	<Effect>
+		<ID>Stereo Width</ID>
+		<Favourite>0</Favourite>
+		<CategoryMask>64</CategoryMask>
+	</Effect>
+	<Effect>
+		<ID>Surround Analyzer</ID>
+		<Favourite>0</Favourite>
+		<CategoryMask>512</CategoryMask>
+	</Effect>
+	<Effect>
+		<ID>Vocal Channel</ID>
+		<Favourite>0</Favourite>
+		<CategoryMask>2</CategoryMask>
+	</Effect>
+</Effects>

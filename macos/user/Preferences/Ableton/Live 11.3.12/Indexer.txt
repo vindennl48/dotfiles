@@ -1,0 +1,76 @@
+2023-12-17T12:50:25.981647: info: #######################################
+2023-12-17T12:50:25.981901: info: Started: Index 11.3.12 Build: 2023-10-05_4a81dc007f
+2023-12-17T12:50:25.981907: info: #######################################
+2023-12-17T12:50:25.981912: info: Init: Setup environment
+2023-12-17T12:50:25.981969: info: UUID: 4E29E8CF-F323-3979-B69A-D68DCA83B99D
+2023-12-17T12:50:25.982921: info: Code ID: identifier "Ableton Index" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-12-17T12:50:25.982939: info: Init: Version: 'Index 11.3.12 Build: 2023-10-05_4a81dc007f' 1114898
+2023-12-17T12:50:25.982943: info: Init: BuildRevisions: 4a81dc007ffbbd395b36962f04cbfb1d422abd1d
+2023-12-17T12:50:25.982946: info: Init: Commit ID: '4a81dc007ffbbd395b36962f04cbfb1d422abd1d'
+2023-12-17T12:50:25.983835: info: Init: OS: 'macOS 14.2.0 (23C64), Arch:arm64'
+2023-12-17T12:50:25.983844: info: Init: BuildType: 'Release'
+2023-12-17T12:50:25.983848: info: Init: Pid: 27049
+2023-12-17T12:50:25.983890: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-12-17T12:50:25.983897: info: Init: CPU Brand String: 'Apple M1'
+2023-12-17T12:50:25.983901: info: Init: CPU Count: 8
+2023-12-17T12:50:25.984011: info: Init: Physical RAM: 17179869184 B
+2023-12-17T12:50:25.984016: info: Init: Address Space: 18446744073709551615 B
+2023-12-17T12:50:25.984019: info: Init: 64-bit Edition
+2023-12-17T12:50:26.055461: info: Init: Checksum 1: 8da6833f3cc7555a0e93484f863153a6
+2023-12-17T12:50:26.086405: info: Init: Checksum 2: 92c3b053492d7f53bcd65b52db65378d
+2023-12-17T12:50:26.118943: info: Init: Checksum 3: 92c3b053492d7f53bcd65b52db65378d
+2023-12-17T12:50:26.119068: info: Licensing: [Variant=Beta]
+2023-12-17T12:50:26.119489: info: Net: Setting up connection framework
+2023-12-17T12:50:26.119496: info: Metadata: Initialize XMP system
+2023-12-17T12:50:26.123841: info: App resources: "/Applications/Ableton Live 11 Standard.app/Contents/App-Resources"
+2023-12-17T12:50:26.123888: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-53.db' (key: SQL[2], sqlite 3.30.1)
+2023-12-17T12:50:26.139679: info: Database: Open database '/Applications/Ableton Live 11 Standard.app/Contents/App-Resources/Database/filerefmap.db' (key: SQL[3], sqlite 3.30.1)
+2023-12-17T12:50:26.790980: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Standard.app/Contents/App-Resources/Core Library'
+2023-12-17T12:50:26.791004: info: Configure: UserFolders: '/Users/mitch/Downloads/Audio/Metronomes', '/Users/mitch/Desktop/lof_record', '/Users/mitch/Downloads', '/Users/mitch/Documents/Ableton/LOF LIVE Project/Samples/Transfer', '/Users/mitch/Documents/LOF'
+2023-12-17T12:50:26.791010: info: Configure: ManagedFolders: '/Library/Audio/Presets', '/Users/mitch/Library/Audio/Presets'
+2023-12-17T12:50:26.791014: info: Configure: LegacyFactoryPacks: 
+2023-12-17T12:50:26.791018: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2023-12-17T12:50:26.791026: info: Configure: CurrentProject: /Users/mitch/Music/Ableton/Live Recordings/2023-12-17 125025 Temp Project
+2023-12-17T12:50:26.791033: info: Configure: Builtin: '/Applications/Ableton Live 11 Standard.app/Contents/App-Resources/Builtin'
+2023-12-17T12:50:26.823795: info: Configuring places: Time elapsed: 26
+2023-12-17T12:50:26.902423: info: DatabaseGC: Protect core content folder at "/Applications/Ableton Live 11 Standard.app/Contents/App-Resources/Core Library" from being garbage-collected
+2023-12-17T12:50:26.911284: info: DatabaseGC: Protect core content folder at "/Applications/Ableton Live 11 Standard.app/Contents/App-Resources/Builtin" from being garbage-collected
+2023-12-17T12:50:26.912322: info: DatabaseGC: Marking unused files. Time: 26
+2023-12-17T12:50:26.925413: info: DatabaseStats: Live files: 9710
+2023-12-17T12:50:26.925417: info: DatabaseStats: Dead files: 0
+2023-12-17T12:50:26.925420: info: DatabaseStats: Ancestors count: 87735
+2023-12-17T12:50:26.925436: info: DatabaseStats: Number of metadata-file relations: 16864
+2023-12-17T12:50:26.925439: info: DatabaseStats: Number of metadata values: 697
+2023-12-17T12:50:26.925441: info: DatabaseStats: Places count: 10
+2023-12-17T12:50:26.930859: info: Starting scan, Reason: Live, Event ID: 3, All Folders?: true
+2023-12-17T12:50:26.941718: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Standard.app/Contents/App-Resources/Core Library'
+2023-12-17T12:50:26.941727: info: Configure: UserFolders: '/Users/mitch/Downloads/Audio/Metronomes', '/Users/mitch/Desktop/lof_record', '/Users/mitch/Downloads', '/Users/mitch/Documents/Ableton/LOF LIVE Project/Samples/Transfer', '/Users/mitch/Documents/LOF'
+2023-12-17T12:50:26.941730: info: Configure: ManagedFolders: '/Library/Audio/Presets', '/Users/mitch/Library/Audio/Presets'
+2023-12-17T12:50:26.941732: info: Configure: LegacyFactoryPacks: 
+2023-12-17T12:50:26.941735: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2023-12-17T12:50:26.941737: info: Configure: CurrentProject: /Users/mitch/Music/Ableton/Live Recordings/2023-12-17 125025 Temp Project
+2023-12-17T12:50:26.941741: info: Configure: Builtin: '/Applications/Ableton Live 11 Standard.app/Contents/App-Resources/Builtin'
+2023-12-17T12:50:26.959689: info: Configuring places: Time elapsed: 17
+2023-12-17T12:50:26.960663: info: Starting scan, Reason: Live, Event ID: 5, All Folders?: false
+2023-12-17T12:50:26.961045: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Standard.app/Contents/App-Resources/Core Library'
+2023-12-17T12:50:26.961051: info: Configure: UserFolders: '/Users/mitch/Downloads/Audio/Metronomes', '/Users/mitch/Desktop/lof_record', '/Users/mitch/Downloads', '/Users/mitch/Documents/Ableton/LOF LIVE Project/Samples/Transfer', '/Users/mitch/Documents/LOF'
+2023-12-17T12:50:26.961054: info: Configure: ManagedFolders: '/Library/Audio/Presets', '/Users/mitch/Library/Audio/Presets'
+2023-12-17T12:50:26.961056: info: Configure: LegacyFactoryPacks: 
+2023-12-17T12:50:26.961058: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2023-12-17T12:50:26.961060: info: Configure: CurrentProject: /Users/mitch/Music/Ableton/Live Recordings/2023-12-17 125025 Temp Project
+2023-12-17T12:50:26.961065: info: Configure: Builtin: '/Applications/Ableton Live 11 Standard.app/Contents/App-Resources/Builtin'
+2023-12-17T12:50:26.978763: info: Configuring places: Time elapsed: 17
+2023-12-17T12:50:26.979608: info: Starting scan, Reason: Live, Event ID: 7, All Folders?: false
+2023-12-17T12:50:26.979966: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Standard.app/Contents/App-Resources/Core Library'
+2023-12-17T12:50:26.979972: info: Configure: UserFolders: '/Users/mitch/Downloads/Audio/Metronomes', '/Users/mitch/Desktop/lof_record', '/Users/mitch/Downloads', '/Users/mitch/Documents/Ableton/LOF LIVE Project/Samples/Transfer', '/Users/mitch/Documents/LOF'
+2023-12-17T12:50:26.979975: info: Configure: ManagedFolders: '/Library/Audio/Presets', '/Users/mitch/Library/Audio/Presets'
+2023-12-17T12:50:26.979978: info: Configure: LegacyFactoryPacks: 
+2023-12-17T12:50:26.979980: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2023-12-17T12:50:26.979982: info: Configure: CurrentProject: /Users/mitch/Music/Ableton/Live Recordings/2023-12-17 125025 Temp Project
+2023-12-17T12:50:26.979986: info: Configure: Builtin: '/Applications/Ableton Live 11 Standard.app/Contents/App-Resources/Builtin'
+2023-12-17T12:50:26.997551: info: Configuring places: Time elapsed: 17
+2023-12-17T12:50:27.463402: info: Start extraction, Event ID: 3
+2023-12-17T13:02:43.152544: info: Starting scan, Reason: Live, Event ID: 9, All Folders?: true
+2023-12-17T13:03:37.831545: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Desktop/lof_record/ (Recursive=false)
+2023-12-17T13:03:37.835458: info: Start extraction, Event ID: 1073741823
+2023-12-17T13:04:52.944424: info: Starting scan, Reason: Live, Event ID: 10, All Folders?: true

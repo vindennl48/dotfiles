@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CRDialogShown_Adobe Desktop Service_5.4.5_5.4.5.550</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Adobe Desktop Service_5.5.0_5.5.0.617</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Adobe Desktop Service_5.5.0_5.5.0.619</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Adobe Desktop Service_5.6.0_5.6.0.788</key>
+	<integer>0</integer>
+	<key>CRDialogShown_AdobeAcrobat_22.003.20310_22.003.20310</key>
+	<integer>0</integer>
+	<key>CRDialogShown_AdobeAcrobat_22.003.20314_22.003.20314</key>
+	<integer>0</integer>
+	<key>CRDialogShown_AdobeAcrobat_23.001.20093_23.001.20093</key>
+	<integer>0</integer>
+	<key>CRDialogShown_AdobeAcrobat_23.001.20177_23.001.20177</key>
+	<integer>0</integer>
+	<key>CRDialogShown_AdobeAcrobat_23.003.20215_23.003.20215</key>
+	<integer>0</integer>
+	<key>CRDialogShown_AdobeAcrobat_23.003.20269_23.003.20269</key>
+	<integer>0</integer>
+	<key>CRDialogShown_AdobeAcrobat_23.003.20284_23.003.20284</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Core Sync_4.11.0.12_4.11.0.12</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Core Sync_4.19.0.12_4.19.0.12</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Core Sync_4.21.1.1_4.21.1.1</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Creative Cloud Helper_5.4.5_5.4.5.550</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Creative Cloud Helper_5.5.0_5.5.0.617</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Creative Cloud Helper_5.5.0_5.5.0.619</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Creative Cloud Helper_5.6.0_5.6.0.788</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Creative Cloud_5.4_5.4.5.550</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Creative Cloud_5.5_5.5.0.617</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Creative Cloud_5.5_5.5.0.619</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Creative Cloud_5.6_5.6.0.788</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Setup_5.5_5.5.0.617</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Setup_5.5_5.5.0.619</key>
+	<integer>0</integer>
+	<key>CRDialogShown_Setup_5.6_5.6.0.788</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Adobe Desktop Service_5.4.5_5.4.5.550</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Adobe Desktop Service_5.5.0_5.5.0.617</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Adobe Desktop Service_5.5.0_5.5.0.619</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Adobe Desktop Service_5.6.0_5.6.0.788</key>
+	<integer>0</integer>
+	<key>SuppressCrash_AdobeAcrobat_22.003.20310_22.003.20310</key>
+	<integer>0</integer>
+	<key>SuppressCrash_AdobeAcrobat_22.003.20314_22.003.20314</key>
+	<integer>0</integer>
+	<key>SuppressCrash_AdobeAcrobat_23.001.20093_23.001.20093</key>
+	<integer>0</integer>
+	<key>SuppressCrash_AdobeAcrobat_23.001.20177_23.001.20177</key>
+	<integer>0</integer>
+	<key>SuppressCrash_AdobeAcrobat_23.003.20215_23.003.20215</key>
+	<integer>0</integer>
+	<key>SuppressCrash_AdobeAcrobat_23.003.20269_23.003.20269</key>
+	<integer>0</integer>
+	<key>SuppressCrash_AdobeAcrobat_23.003.20284_23.003.20284</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Core Sync_4.11.0.12_4.11.0.12</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Core Sync_4.19.0.12_4.19.0.12</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Core Sync_4.21.1.1_4.21.1.1</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Creative Cloud Helper_5.4.5_5.4.5.550</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Creative Cloud Helper_5.5.0_5.5.0.617</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Creative Cloud Helper_5.5.0_5.5.0.619</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Creative Cloud Helper_5.6.0_5.6.0.788</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Creative Cloud_5.4_5.4.5.550</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Creative Cloud_5.5_5.5.0.617</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Creative Cloud_5.5_5.5.0.619</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Creative Cloud_5.6_5.6.0.788</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Setup_5.5_5.5.0.617</key>
+	<integer>0</integer>
+	<key>SuppressCrash_Setup_5.5_5.5.0.619</key>
+	<integer>1</integer>
+	<key>SuppressCrash_Setup_5.6_5.6.0.788</key>
+	<integer>0</integer>
+	<key>always_never_send</key>
+	<integer>0</integer>
+	<key>closeOnCRCNNotFoundFlag</key>
+	<integer>0</integer>
+	<key>guid_mitch</key>
+	<string>9AE55E0C-67AE-4935-A2BA-0EFF74F140D9</string>
+	<key>lastCrash_Adobe Desktop Service_5.4.5_5.4.5.550</key>
+	<string>-1</string>
+	<key>lastCrash_Adobe Desktop Service_5.5.0_5.5.0.617</key>
+	<string>-1</string>
+	<key>lastCrash_Adobe Desktop Service_5.5.0_5.5.0.619</key>
+	<string>-1</string>
+	<key>lastCrash_Adobe Desktop Service_5.6.0_5.6.0.788</key>
+	<string>-1</string>
+	<key>lastCrash_AdobeAcrobat_20.013.20074_20.013.20074</key>
+	<string>-1</string>
+	<key>lastCrash_AdobeAcrobat_22.003.20310_22.003.20310</key>
+	<string>-1</string>
+	<key>lastCrash_AdobeAcrobat_22.003.20314_22.003.20314</key>
+	<string>-1</string>
+	<key>lastCrash_AdobeAcrobat_23.001.20093_23.001.20093</key>
+	<string>-1</string>
+	<key>lastCrash_AdobeAcrobat_23.001.20177_23.001.20177</key>
+	<string>-1</string>
+	<key>lastCrash_AdobeAcrobat_23.003.20215_23.003.20215</key>
+	<string>-1</string>
+	<key>lastCrash_AdobeAcrobat_23.003.20269_23.003.20269</key>
+	<string>-1</string>
+	<key>lastCrash_AdobeAcrobat_23.003.20284_23.003.20284</key>
+	<string>-1</string>
+	<key>lastCrash_AdobeIPCBroker_6.7.0.69_vulcan</key>
+	<string>-1</string>
+	<key>lastCrash_Core Sync_4.11.0.12_4.11.0.12</key>
+	<string>-1</string>
+	<key>lastCrash_Core Sync_4.19.0.12_4.19.0.12</key>
+	<string>-1</string>
+	<key>lastCrash_Core Sync_4.21.1.1_4.21.1.1</key>
+	<string>-1</string>
+	<key>lastCrash_Creative Cloud Helper_5.4.5_5.4.5.550</key>
+	<string>-1</string>
+	<key>lastCrash_Creative Cloud Helper_5.5.0_5.5.0.617</key>
+	<string>-1</string>
+	<key>lastCrash_Creative Cloud Helper_5.5.0_5.5.0.619</key>
+	<string>-1</string>
+	<key>lastCrash_Creative Cloud Helper_5.6.0_5.6.0.788</key>
+	<string>-1</string>
+	<key>lastCrash_Creative Cloud_5.4_5.4.5.550</key>
+	<string>-1</string>
+	<key>lastCrash_Creative Cloud_5.5_5.5.0.617</key>
+	<string>-1</string>
+	<key>lastCrash_Creative Cloud_5.5_5.5.0.619</key>
+	<string>-1</string>
+	<key>lastCrash_Creative Cloud_5.6_5.6.0.788</key>
+	<string>-1</string>
+	<key>lastCrash_Setup_5.5_5.5.0.617</key>
+	<string>-1</string>
+	<key>lastCrash_Setup_5.5_5.5.0.619</key>
+	<string>Setup_2021-09-16-183949_Mitchells-MacBook-Air.crash</string>
+	<key>lastCrash_Setup_5.6_5.6.0.788</key>
+	<string>-1</string>
+	<key>lastCrash_mitch_AdobeIPCBroker_6.5.0.10_vulcan</key>
+	<string>AdobeIPCBroker_2021-07-15-081901_Mitchells-MacBook-Air.crash</string>
+	<key>productPreferences</key>
+	<dict>
+		<key>Adobe Desktop Service;5.4.5;5.4.5.550</key>
+		<dict>
+			<key>Adobe Desktop Service;5.4.5;5.4.5.550</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Adobe Desktop Service;5.5.0;5.5.0.617</key>
+		<dict>
+			<key>Adobe Desktop Service;5.5.0;5.5.0.617</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Adobe Desktop Service;5.5.0;5.5.0.619</key>
+		<dict>
+			<key>Adobe Desktop Service;5.5.0;5.5.0.619</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Adobe Desktop Service;5.6.0;5.6.0.788</key>
+		<dict>
+			<key>Adobe Desktop Service;5.6.0;5.6.0.788</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>AdobeAcrobat;22.003.20310;22.003.20310</key>
+		<dict>
+			<key>AdobeAcrobat;22.003.20310;22.003.20310</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>AdobeAcrobat;22.003.20314;22.003.20314</key>
+		<dict>
+			<key>AdobeAcrobat;22.003.20314;22.003.20314</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>AdobeAcrobat;23.001.20093;23.001.20093</key>
+		<dict>
+			<key>AdobeAcrobat;23.001.20093;23.001.20093</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>AdobeAcrobat;23.001.20177;23.001.20177</key>
+		<dict>
+			<key>AdobeAcrobat;23.001.20177;23.001.20177</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>AdobeAcrobat;23.003.20215;23.003.20215</key>
+		<dict>
+			<key>AdobeAcrobat;23.003.20215;23.003.20215</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>AdobeAcrobat;23.003.20269;23.003.20269</key>
+		<dict>
+			<key>AdobeAcrobat;23.003.20269;23.003.20269</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>AdobeAcrobat;23.003.20284;23.003.20284</key>
+		<dict>
+			<key>AdobeAcrobat;23.003.20284;23.003.20284</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>AdobeIPCBroker;6.7.0.69;vulcan</key>
+		<dict>
+			<key>AdobeIPCBroker;6.7.0.69;vulcan</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Core Sync;4.11.0.12;4.11.0.12</key>
+		<dict>
+			<key>Core Sync;4.11.0.12;4.11.0.12</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Core Sync;4.19.0.12;4.19.0.12</key>
+		<dict>
+			<key>Core Sync;4.19.0.12;4.19.0.12</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Core Sync;4.21.1.1;4.21.1.1</key>
+		<dict>
+			<key>Core Sync;4.21.1.1;4.21.1.1</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Creative Cloud Helper;5.4.5;5.4.5.550</key>
+		<dict>
+			<key>Creative Cloud Helper;5.4.5;5.4.5.550</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Creative Cloud Helper;5.5.0;5.5.0.617</key>
+		<dict>
+			<key>Creative Cloud Helper;5.5.0;5.5.0.617</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Creative Cloud Helper;5.5.0;5.5.0.619</key>
+		<dict>
+			<key>Creative Cloud Helper;5.5.0;5.5.0.619</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Creative Cloud Helper;5.6.0;5.6.0.788</key>
+		<dict>
+			<key>Creative Cloud Helper;5.6.0;5.6.0.788</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Creative Cloud;5.4;5.4.5.550</key>
+		<dict>
+			<key>Creative Cloud;5.4;5.4.5.550</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Creative Cloud;5.5;5.5.0.617</key>
+		<dict>
+			<key>Creative Cloud;5.5;5.5.0.617</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Creative Cloud;5.5;5.5.0.619</key>
+		<dict>
+			<key>Creative Cloud;5.5;5.5.0.619</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Creative Cloud;5.6;5.6.0.788</key>
+		<dict>
+			<key>Creative Cloud;5.6;5.6.0.788</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Setup;5.5;5.5.0.617</key>
+		<dict>
+			<key>Setup;5.5;5.5.0.617</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Setup;5.5;5.5.0.619</key>
+		<dict>
+			<key>Setup;5.5;5.5.0.619</key>
+			<string>0_1_100</string>
+		</dict>
+		<key>Setup;5.6;5.6.0.788</key>
+		<dict>
+			<key>Setup;5.6;5.6.0.788</key>
+			<string>0_1_100</string>
+		</dict>
+	</dict>
+	<key>search_solution</key>
+	<integer>0</integer>
+</dict>
+</plist>

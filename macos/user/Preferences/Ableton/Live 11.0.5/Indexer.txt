@@ -1,0 +1,59 @@
+2021-08-08T19:40:25.443223: info: #######################################
+2021-08-08T19:40:25.443295: info: Started: Index 11.0.5 Build: 2021-07-07_fd7c279479
+2021-08-08T19:40:25.443301: info: #######################################
+2021-08-08T19:40:25.443306: info: Init: Setup environment
+2021-08-08T19:40:25.443332: info: : UUID: 1B30ED65-CD54-307A-8E83-8161E14AAE85
+2021-08-08T19:40:25.443339: info: Init: Version: 'Index 11.0.5 Build: 2021-07-07_fd7c279479' 1114117
+2021-08-08T19:40:25.443350: info: Init: BuildRevisions: fd7c279479b26464e8dc6075fe9b03f275da259a
+2021-08-08T19:40:25.443355: info: Init: Commit ID: 'fd7c279479b26464e8dc6075fe9b03f275da259a'
+2021-08-08T19:40:25.443428: info: Init: OS: 'Mac OS X version 11.5.1, Arch:x86-64'
+2021-08-08T19:40:25.443435: info: Init: BuildType: 'Release'
+2021-08-08T19:40:25.443446: info: Init: Pid: 66846
+2021-08-08T19:40:25.443466: info: Init: Hardware Model: 'MacBookAir10,1'
+2021-08-08T19:40:25.443474: info: Init: CPU Brand String: 'Apple M1'
+2021-08-08T19:40:25.443483: info: Init: CPU Count: 8
+2021-08-08T19:40:25.443491: info: Init: Physical RAM: 17179869184 B
+2021-08-08T19:40:25.443496: info: Init: Address Space: 18446744073709551615 B
+2021-08-08T19:40:25.443500: info: Init: 64-bit Edition
+2021-08-08T19:40:25.464865: info: Init: GraphicsDevice: 'Unknown Unknown'
+2021-08-08T19:40:25.489926: info: Init: Checksum 1: 31724fd3f4f22cafcb80bf6fcfea6df7
+2021-08-08T19:40:25.507886: info: Init: Checksum 2: 135a38a7161f449a5fcd20634faa55d7
+2021-08-08T19:40:25.526765: info: Init: Checksum 3: 135a38a7161f449a5fcd20634faa55d7
+2021-08-08T19:40:25.527137: info: Licensing: [Variant=Beta]
+2021-08-08T19:40:25.527506: info: Net: Setting up connection framework
+2021-08-08T19:40:25.527513: info: Metadata: Initialize XMP system
+2021-08-08T19:40:25.538413: info: App resources: "/Applications/Ableton Live 11 Lite.app/Contents/App-Resources"
+2021-08-08T19:40:25.538662: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-08-08T19:40:25.562702: info: Database: Open database '/Applications/Ableton Live 11 Lite.app/Contents/App-Resources/Database/filerefmap.db' (key: SQL[3], sqlite 3.30.1)
+2021-08-08T19:44:18.326189: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Lite.app/Contents/App-Resources/Core Library'
+2021-08-08T19:44:18.326382: info: Configure: UserFolders: 
+2021-08-08T19:44:18.326397: info: Configure: ManagedFolders: 
+2021-08-08T19:44:18.326405: info: Configure: LegacyFactoryPacks: 
+2021-08-08T19:44:18.326412: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-08T19:44:18.326419: info: Configure: CurrentProject: /Users/mitch/Music/Ableton/Live Recordings/Temp Project/
+2021-08-08T19:44:18.326434: info: Configure: Builtin: '/Applications/Ableton Live 11 Lite.app/Contents/App-Resources/Builtin'
+2021-08-08T19:44:18.435769: info: Configuring places: Time elapsed: 74
+2021-08-08T19:44:18.455987: info: DatabaseGC: Protect core content folder at "/Applications/Ableton Live 11 Lite.app/Contents/App-Resources/Core Library" from being garbage-collected
+2021-08-08T19:44:18.468435: info: DatabaseGC: Protect core content folder at "/Applications/Ableton Live 11 Lite.app/Contents/App-Resources/Builtin" from being garbage-collected
+2021-08-08T19:44:18.470443: info: DatabaseGC: Marking unused files. Time: 32
+2021-08-08T19:44:18.471405: info: DatabaseStats: Live files: 6584
+2021-08-08T19:44:18.471410: info: DatabaseStats: Dead files: 0
+2021-08-08T19:44:18.471414: info: DatabaseStats: Ancestors count: 62718
+2021-08-08T19:44:18.471418: info: DatabaseStats: Number of metadata-file relations: 14081
+2021-08-08T19:44:18.471421: info: DatabaseStats: Number of metadata values: 399
+2021-08-08T19:44:18.471425: info: DatabaseStats: Places count: 4
+2021-08-08T19:44:18.526619: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Lite.app/Contents/App-Resources/Core Library'
+2021-08-08T19:44:18.526655: info: Configure: UserFolders: 
+2021-08-08T19:44:18.526659: info: Configure: ManagedFolders: 
+2021-08-08T19:44:18.526672: info: Configure: LegacyFactoryPacks: 
+2021-08-08T19:44:18.526675: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-08T19:44:18.526679: info: Configure: CurrentProject: /Users/mitch/Music/Ableton/Live Recordings/Temp Project/
+2021-08-08T19:44:18.526689: info: Configure: Builtin: '/Applications/Ableton Live 11 Lite.app/Contents/App-Resources/Builtin'
+2021-08-08T19:44:18.547762: info: Configuring places: Time elapsed: 20
+2021-08-08T19:44:18.553691: info: Starting scan, Reason: Live, Event ID: 1, All Folders?: true
+2021-08-08T19:44:18.929960: info: Start extraction, Event ID: 1
+2021-08-08T19:44:21.764423: info: Starting scan, Reason: OS Events, Folders: /Applications/Ableton Live 11 Lite.app/Contents/App-Resources/Builtin/Samples/Hybrid/ImpulseResponses/ (Recursive=false),/Applications/Ableton Live 11 Lite.app/Contents/App-Resources/Builtin/Samples/Hybrid/ImpulseResponses/ (Recursive=false),/Applications/Ableton Live 11 Lite.app/Contents/App-Resources/Builtin/Samples/Hybrid/ImpulseResponses/ (Recursive=false),/Applications/Ableton Live 11 Lite.app/Contents/App-Resources/Builtin/Samples/Hybrid/ImpulseResponses/ (Recursive=false),/Applications/Ableton Live 11 Lite.app/Contents/App-Resources/Builtin/Samples/Hybrid/ImpulseResponses/ (Recursive=false)
+2021-08-08T19:44:38.701228: info: Starting scan, Reason: Live, Event ID: 2, All Folders?: true
+2021-08-08T19:44:44.209081: info: Database: Cleanup keywords: 2 ms
+2021-08-08T19:44:44.230535: info: Database: Cleanup metadata: 21 ms
+2021-08-08T19:44:44.247834: info: Database: Cleanup search aggregation: 17 ms

@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Effects version="1.1">
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/Line 6/Helix Native.vst3</Path>
+		<FileTime>2023-05-15 12:21</FileTime>
+		<Name>Helix Native</Name>
+		<ID>3DB646B2C4914398B47F31F529B8EE3B</ID>
+		<Categories>Fx</Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Line 6</Vendor>
+		<Inputs>2</Inputs>
+		<Outputs>2</Outputs>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/MSED.vst3</Path>
+		<FileTime>2021-08-04 03:05</FileTime>
+		<Name>MSED</Name>
+		<ID>54000DCF26AF48BA90F0568E2FA3DF56</ID>
+		<Categories>Fx|Spatial</Categories>
+		<CategoryMask>64</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor></Vendor>
+		<Inputs>2</Inputs>
+		<Outputs>2</Outputs>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/ConvologyXT.vst3</Path>
+		<FileTime>2023-03-27 15:38</FileTime>
+		<Name>Convology XT</Name>
+		<ID>56535443565854636F6E766F6C6F6779</ID>
+		<Categories>Fx|Reverb</Categories>
+		<CategoryMask>16384</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Impulse Record</Vendor>
+		<Inputs>2</Inputs>
+		<Outputs>2</Outputs>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/MJUCjr.vst3</Path>
+		<FileTime>2021-10-28 07:34</FileTime>
+		<Name>MJUCjr</Name>
+		<ID>5653544D4A556A6D6A75636A72000000</ID>
+		<Categories>Fx|Dynamics</Categories>
+		<CategoryMask>8</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Klanghelm</Vendor>
+		<Inputs>2</Inputs>
+		<Outputs>2</Outputs>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/GGD Smash and Grab v2.vst3</Path>
+		<FileTime>2023-07-14 06:12</FileTime>
+		<Name>Smash And Grab v2</Name>
+		<ID>56535453414732736D61736820616E64</ID>
+		<Categories>Fx|Dynamics</Categories>
+		<CategoryMask>8</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>GetGood Drums</Vendor>
+		<Inputs>1</Inputs>
+		<Outputs>1</Outputs>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/LABS.vst3</Path>
+		<FileTime>2023-04-24 20:56</FileTime>
+		<Name>LABS</Name>
+		<ID>56535453664C626C6162730000000000</ID>
+		<Categories>Instrument|Synth</Categories>
+		<CategoryMask>128</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Spitfire Audio</Vendor>
+		<Inputs>0</Inputs>
+		<Outputs>0</Outputs>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/Sitala.vst3</Path>
+		<FileTime>2023-06-20 01:47</FileTime>
+		<Name>Sitala</Name>
+		<ID>56535453697461736974616C61000000</ID>
+		<Categories>Instrument|Instrument Drum Sampler</Categories>
+		<CategoryMask>128</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Decomposer</Vendor>
+		<Inputs>0</Inputs>
+		<Outputs>0</Outputs>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/TDR Nova.vst3</Path>
+		<FileTime>2021-12-31 13:18</FileTime>
+		<Name>TDR Nova</Name>
+		<ID>56535454643561746472206E6F766100</ID>
+		<Categories>Fx|EQ</Categories>
+		<CategoryMask>16</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Tokyo Dawn Labs</Vendor>
+		<Inputs>2</Inputs>
+		<Outputs>2</Outputs>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/apTrigga3.vst3</Path>
+		<FileTime>2022-06-28 15:41</FileTime>
+		<Name>apTrigga3</Name>
+		<ID>56535454674733617074726967676133</ID>
+		<Categories>Fx</Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>apulSoft</Vendor>
+		<Inputs>2</Inputs>
+		<Outputs>2</Outputs>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/Trackspacer25.vst3</Path>
+		<FileTime>2023-04-11 12:16</FileTime>
+		<Name>Trackspacer 2.5</Name>
+		<ID>565354546B3235747261636B73706163</ID>
+		<Categories>Fx</Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Wavesfactory</Vendor>
+		<Inputs>2</Inputs>
+		<Outputs>2</Outputs>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/UVIWorkstation.vst3</Path>
+		<FileTime>2023-06-01 03:21</FileTime>
+		<Name>UVIWorkstation</Name>
+		<ID>56535455564957757669776F726B7374</ID>
+		<Categories>Instrument|Sampler|Synth</Categories>
+		<CategoryMask>128</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>UVI</Vendor>
+		<Inputs>0</Inputs>
+		<Outputs>0</Outputs>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/Vital.vst3</Path>
+		<FileTime>2022-11-30 22:42</FileTime>
+		<Name>Vital</Name>
+		<ID>56535456697461766974616C00000000</ID>
+		<Categories>Instrument|Synth</Categories>
+		<CategoryMask>128</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Vital Audio</Vendor>
+		<Inputs>0</Inputs>
+		<Outputs>0</Outputs>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/OTT.vst3</Path>
+		<FileTime>2023-01-24 14:40</FileTime>
+		<Name>OTT</Name>
+		<ID>565354586654546F7474000000000000</ID>
+		<Categories>Fx|Dynamics</Categories>
+		<CategoryMask>8</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Xfer Records</Vendor>
+		<Inputs>2</Inputs>
+		<Outputs>2</Outputs>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/ValhallaSupermassive.vst3</Path>
+		<FileTime>2022-11-11 15:46</FileTime>
+		<Name>ValhallaSupermassive</Name>
+		<ID>565354734D617376616C68616C6C6173</ID>
+		<Categories>Fx</Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Valhalla DSP, LLC</Vendor>
+		<Inputs>2</Inputs>
+		<Outputs>2</Outputs>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/FabFilter Saturn 2.vst3</Path>
+		<FileTime>2023-06-29 08:20</FileTime>
+		<Name>Saturn 2</Name>
+		<ID>8D067533D8A0491DBAA36C064C6ABBFB</ID>
+		<Categories>Fx|Distortion</Categories>
+		<CategoryMask>8388608</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>FabFilter</Vendor>
+		<Inputs>2</Inputs>
+		<Outputs>2</Outputs>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/Playbeat 3.vst3</Path>
+		<FileTime>2022-12-19 06:00</FileTime>
+		<Name>Playbeat 3</Name>
+		<ID>ABCDEF019182FAEB41756D64506C6233</ID>
+		<Categories>Instrument|Sampler</Categories>
+		<CategoryMask>128</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Audiomodern</Vendor>
+		<Inputs>0</Inputs>
+		<Outputs>0</Outputs>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/Pan Knob 2.vst3</Path>
+		<FileTime>2023-10-19 20:00</FileTime>
+		<Name>Pan Knob 2</Name>
+		<ID>ABCDEF019182FAEB42444C6150346E6B</ID>
+		<Categories>Fx|Spatial</Categories>
+		<CategoryMask>64</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Boz Digital Labs</Vendor>
+		<Inputs>2</Inputs>
+		<Outputs>2</Outputs>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/GGD Studio Cabs Cali 1-5.vst3</Path>
+		<FileTime>2022-12-11 19:43</FileTime>
+		<Name>GGD Studio Cabs Cali 1.5</Name>
+		<ID>ABCDEF019182FAEB4747444C47535332</ID>
+		<Categories>Fx</Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>GetGood Drums</Vendor>
+		<Inputs>1</Inputs>
+		<Outputs>1</Outputs>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/Trigger_2.vst3</Path>
+		<FileTime>2022-11-04 18:46</FileTime>
+		<Name>Trigger 2</Name>
+		<ID>ABCDEF019182FAEB5374536C54524732</ID>
+		<Categories>Fx</Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Steven Slate</Vendor>
+		<Inputs>2</Inputs>
+		<Outputs>2</Outputs>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/Vaults BETA.vst3</Path>
+		<FileTime>2023-11-16 13:01</FileTime>
+		<Name>Vaults BETA</Name>
+		<ID>ABCDEF019182FAEB5443484356464150</ID>
+		<Categories>Instrument|Synth</Categories>
+		<CategoryMask>128</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Crow Hill</Vendor>
+		<Inputs>0</Inputs>
+		<Outputs>0</Outputs>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/ScalerAudio2.vst3</Path>
+		<FileTime>2023-05-26 19:35</FileTime>
+		<Name>ScalerAudio 2</Name>
+		<ID>ABCDEF019182FAEB654D616953633272</ID>
+		<Categories>Fx|Tools</Categories>
+		<CategoryMask>65536</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Plugin Boutique</Vendor>
+		<Inputs>2</Inputs>
+		<Outputs>2</Outputs>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/Scaler2.vst3</Path>
+		<FileTime>2023-05-26 19:18</FileTime>
+		<Name>Scaler 2</Name>
+		<ID>ABCDEF019182FAEB654D616953636C32</ID>
+		<Categories>Instrument</Categories>
+		<CategoryMask>128</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Plugin Boutique</Vendor>
+		<Inputs>2</Inputs>
+		<Outputs>2</Outputs>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/Slate Digital/Fresh Air.vst3</Path>
+		<FileTime>2022-03-31 04:22</FileTime>
+		<Name>Fresh Air</Name>
+		<ID>CD4CA2F2009849AC00439BB9001CB96A</ID>
+		<Categories>Fx</Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Slate Digital</Vendor>
+		<Inputs>2</Inputs>
+		<Outputs>2</Outputs>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/Dumpster Fire.vst3</Path>
+		<FileTime>2018-10-20 12:36</FileTime>
+		<Name>Dumpster Fire</Name>
+		<ID>Dumpster Fire</ID>
+		<Categories></Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor></Vendor>
+		<Inputs>-1</Inputs>
+		<Outputs>-1</Outputs>
+		<Enabled>0</Enabled>
+		<Working>0</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/CHANNEV.vst3</Path>
+		<FileTime>2021-08-12 03:41</FileTime>
+		<Name>CHANNEV</Name>
+		<ID>F2AEE70D00DE4F4E416E6F6243484E31</ID>
+		<Categories>Fx</Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor></Vendor>
+		<Inputs>2</Inputs>
+		<Outputs>2</Outputs>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/Crack.vst3</Path>
+		<FileTime>2023-02-06 17:27</FileTime>
+		<Name>Crack</Name>
+		<ID>F2AEE70D00DE4F4E53524D7343526B6B</ID>
+		<Categories>Fx|Dynamics</Categories>
+		<CategoryMask>8</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Surreal Machines</Vendor>
+		<Inputs>2</Inputs>
+		<Outputs>2</Outputs>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/mvMeter2.vst3</Path>
+		<FileTime>2023-06-17 09:51</FileTime>
+		<Name>mvMeter2</Name>
+		<ID>F2AEE70D00DE4F4E5442504154423135</ID>
+		<Categories>Fx|Metering</Categories>
+		<CategoryMask>512</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>TBProAudio</Vendor>
+		<Inputs>2</Inputs>
+		<Outputs>2</Outputs>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/FabFilter/FabFilter Micro.vst3</Path>
+		<FileTime>2017-03-24 11:00</FileTime>
+		<Name>FabFilter Micro</Name>
+		<ID>FabFilter Micro</ID>
+		<Categories></Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor></Vendor>
+		<Inputs>-1</Inputs>
+		<Outputs>-1</Outputs>
+		<Enabled>0</Enabled>
+		<Working>0</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/FabFilter/FabFilter One.vst3</Path>
+		<FileTime>2017-03-24 11:00</FileTime>
+		<Name>FabFilter One</Name>
+		<ID>FabFilter One</ID>
+		<Categories></Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor></Vendor>
+		<Inputs>-1</Inputs>
+		<Outputs>-1</Outputs>
+		<Enabled>0</Enabled>
+		<Working>0</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/FabFilter/FabFilter Pro-C 2.vst3</Path>
+		<FileTime>2017-03-24 11:00</FileTime>
+		<Name>FabFilter Pro-C 2</Name>
+		<ID>FabFilter Pro-C 2</ID>
+		<Categories></Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor></Vendor>
+		<Inputs>-1</Inputs>
+		<Outputs>-1</Outputs>
+		<Enabled>0</Enabled>
+		<Working>0</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/FabFilter/FabFilter Pro-DS.vst3</Path>
+		<FileTime>2017-03-24 11:00</FileTime>
+		<Name>FabFilter Pro-DS</Name>
+		<ID>FabFilter Pro-DS</ID>
+		<Categories></Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor></Vendor>
+		<Inputs>-1</Inputs>
+		<Outputs>-1</Outputs>
+		<Enabled>0</Enabled>
+		<Working>0</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/FabFilter/FabFilter Pro-G.vst3</Path>
+		<FileTime>2017-03-24 11:00</FileTime>
+		<Name>FabFilter Pro-G</Name>
+		<ID>FabFilter Pro-G</ID>
+		<Categories></Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor></Vendor>
+		<Inputs>-1</Inputs>
+		<Outputs>-1</Outputs>
+		<Enabled>0</Enabled>
+		<Working>0</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/FabFilter/FabFilter Pro-L.vst3</Path>
+		<FileTime>2017-03-24 11:00</FileTime>
+		<Name>FabFilter Pro-L</Name>
+		<ID>FabFilter Pro-L</ID>
+		<Categories></Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor></Vendor>
+		<Inputs>-1</Inputs>
+		<Outputs>-1</Outputs>
+		<Enabled>0</Enabled>
+		<Working>0</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/FabFilter/FabFilter Pro-MB.vst3</Path>
+		<FileTime>2017-03-24 11:00</FileTime>
+		<Name>FabFilter Pro-MB</Name>
+		<ID>FabFilter Pro-MB</ID>
+		<Categories></Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor></Vendor>
+		<Inputs>-1</Inputs>
+		<Outputs>-1</Outputs>
+		<Enabled>0</Enabled>
+		<Working>0</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/FabFilter/FabFilter Pro-Q 2.vst3</Path>
+		<FileTime>2017-03-24 11:00</FileTime>
+		<Name>FabFilter Pro-Q 2</Name>
+		<ID>FabFilter Pro-Q 2</ID>
+		<Categories></Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor></Vendor>
+		<Inputs>-1</Inputs>
+		<Outputs>-1</Outputs>
+		<Enabled>0</Enabled>
+		<Working>0</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/FabFilter/FabFilter Pro-R.vst3</Path>
+		<FileTime>2017-03-24 11:00</FileTime>
+		<Name>FabFilter Pro-R</Name>
+		<ID>FabFilter Pro-R</ID>
+		<Categories></Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor></Vendor>
+		<Inputs>-1</Inputs>
+		<Outputs>-1</Outputs>
+		<Enabled>0</Enabled>
+		<Working>0</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/FabFilter/FabFilter Saturn.vst3</Path>
+		<FileTime>2017-03-24 11:00</FileTime>
+		<Name>FabFilter Saturn</Name>
+		<ID>FabFilter Saturn</ID>
+		<Categories></Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor></Vendor>
+		<Inputs>-1</Inputs>
+		<Outputs>-1</Outputs>
+		<Enabled>0</Enabled>
+		<Working>0</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/FabFilter/FabFilter Simplon.vst3</Path>
+		<FileTime>2017-03-24 11:00</FileTime>
+		<Name>FabFilter Simplon</Name>
+		<ID>FabFilter Simplon</ID>
+		<Categories></Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor></Vendor>
+		<Inputs>-1</Inputs>
+		<Outputs>-1</Outputs>
+		<Enabled>0</Enabled>
+		<Working>0</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/FabFilter/FabFilter Timeless 2.vst3</Path>
+		<FileTime>2017-03-24 11:00</FileTime>
+		<Name>FabFilter Timeless 2</Name>
+		<ID>FabFilter Timeless 2</ID>
+		<Categories></Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor></Vendor>
+		<Inputs>-1</Inputs>
+		<Outputs>-1</Outputs>
+		<Enabled>0</Enabled>
+		<Working>0</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/FabFilter/FabFilter Twin 2.vst3</Path>
+		<FileTime>2017-03-24 11:00</FileTime>
+		<Name>FabFilter Twin 2</Name>
+		<ID>FabFilter Twin 2</ID>
+		<Categories></Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor></Vendor>
+		<Inputs>-1</Inputs>
+		<Outputs>-1</Outputs>
+		<Enabled>0</Enabled>
+		<Working>0</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/FabFilter/FabFilter Volcano 2.vst3</Path>
+		<FileTime>2017-03-24 11:00</FileTime>
+		<Name>FabFilter Volcano 2</Name>
+		<ID>FabFilter Volcano 2</ID>
+		<Categories></Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor></Vendor>
+		<Inputs>-1</Inputs>
+		<Outputs>-1</Outputs>
+		<Enabled>0</Enabled>
+		<Working>0</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/Kontakt.vst3</Path>
+		<FileTime>2021-09-01 08:44</FileTime>
+		<Name>Kontakt</Name>
+		<ID>Kontakt</ID>
+		<Categories></Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor></Vendor>
+		<Inputs>-1</Inputs>
+		<Outputs>-1</Outputs>
+		<Enabled>0</Enabled>
+		<Working>0</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/MISHBY.vst3</Path>
+		<FileTime>2020-05-31 18:41</FileTime>
+		<Name>MISHBY</Name>
+		<ID>MISHBY</ID>
+		<Categories></Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor></Vendor>
+		<Inputs>-1</Inputs>
+		<Outputs>-1</Outputs>
+		<Enabled>0</Enabled>
+		<Working>0</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/Ozone Imager 2.vst3</Path>
+		<FileTime>2021-12-31 13:21</FileTime>
+		<Name>Ozone Imager 2</Name>
+		<ID>Ozone Imager 2</ID>
+		<Categories></Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor></Vendor>
+		<Inputs>-1</Inputs>
+		<Outputs>-1</Outputs>
+		<Enabled>0</Enabled>
+		<Working>0</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/PreBOX.vst3</Path>
+		<FileTime>2020-04-24 16:00</FileTime>
+		<Name>PreBOX</Name>
+		<ID>PreBOX</ID>
+		<Categories></Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor></Vendor>
+		<Inputs>-1</Inputs>
+		<Outputs>-1</Outputs>
+		<Enabled>0</Enabled>
+		<Working>0</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/Supercharger.vst3</Path>
+		<FileTime>2021-08-16 12:29</FileTime>
+		<Name>Supercharger</Name>
+		<ID>Supercharger</ID>
+		<Categories></Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor></Vendor>
+		<Inputs>-1</Inputs>
+		<Outputs>-1</Outputs>
+		<Enabled>0</Enabled>
+		<Working>0</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/TX16Wx.vst3</Path>
+		<FileTime>2022-09-04 06:12</FileTime>
+		<Name>TX16Wx</Name>
+		<ID>TX16Wx</ID>
+		<Categories></Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor></Vendor>
+		<Inputs>-1</Inputs>
+		<Outputs>-1</Outputs>
+		<Enabled>0</Enabled>
+		<Working>0</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST3/soothe2.vst3</Path>
+		<FileTime>2021-11-04 06:22</FileTime>
+		<Name>soothe2</Name>
+		<ID>soothe2</ID>
+		<Categories></Categories>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor></Vendor>
+		<Inputs>-1</Inputs>
+		<Outputs>-1</Outputs>
+		<Enabled>0</Enabled>
+		<Working>0</Working>
+	</Effect>
+</Effects>

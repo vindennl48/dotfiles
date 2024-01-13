@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFPlugInFactories</key>
+	<dict>
+		<key>36db095a-64b6-a3eb-2f14-ae635310711f</key>
+		<string>GenerateRandomData</string>
+		<key>38000000-0100-0000-0500-00004a3f5b7b</key>
+		<string>InitUserKeychain</string>
+		<key>4a3f5b7b-45fb-679e-c114-86f4651e5fa0</key>
+		<string>InitPluginInterface</string>
+	</dict>
+	<key>CFPlugInTypes</key>
+	<dict>
+		<key>AAC998EE-C616-4024-B7FA-CCF067C1B4A4</key>
+		<array>
+			<string>38000000-0100-0000-0500-00004a3f5b7b</string>
+			<string>4a3f5b7b-45fb-679e-c114-86f4651e5fa0</string>
+			<string>36db095a-64b6-a3eb-2f14-ae635310711f</string>
+			<string>7c04df7c-8224-1f83-0000-000000000000</string>
+		</array>
+	</dict>
+	<key>Important</key>
+	<string>Do not delete or modify this file!</string>
+	<key>InitialisationDone</key>
+	<true/>
+</dict>
+</plist>

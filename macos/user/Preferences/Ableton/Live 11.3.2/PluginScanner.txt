@@ -1,0 +1,594 @@
+2023-05-23T10:42:55.857381: info: #######################################
+2023-05-23T10:42:55.857536: info: Started: PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-23T10:42:55.857541: info: #######################################
+2023-05-23T10:42:55.857545: info: Init: Setup environment
+2023-05-23T10:42:55.857595: info: UUID: 061718D2-1F0C-3AC2-B021-9B5CFC764537
+2023-05-23T10:42:55.858179: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-23T10:42:55.858199: info: Init: Version: 'PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-23T10:42:55.858202: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-23T10:42:55.858206: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-23T10:42:55.858963: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-23T10:42:55.858974: info: Init: BuildType: 'Release'
+2023-05-23T10:42:55.858978: info: Init: Pid: 9985
+2023-05-23T10:42:55.859007: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-23T10:42:55.859014: info: Init: CPU Brand String: 'Apple M1'
+2023-05-23T10:42:55.859019: info: Init: CPU Count: 8
+2023-05-23T10:42:55.859029: info: Init: Physical RAM: 17179869184 B
+2023-05-23T10:42:55.859033: info: Init: Address Space: 18446744073709551615 B
+2023-05-23T10:42:55.859037: info: Init: 64-bit Edition
+2023-05-23T10:42:55.924796: info: Init: Checksum 1: 7d0b7050e2e47d2299c077b8c5939740
+2023-05-23T10:42:55.952098: info: Init: Checksum 2: 738308eee07f3b20343496c40a274dfe
+2023-05-23T10:42:55.983317: info: Init: Checksum 3: 738308eee07f3b20343496c40a274dfe
+2023-05-23T10:42:55.983494: info: Licensing: [Variant=Beta]
+2023-05-23T10:42:55.983686: info: Metadata: Initialize XMP system
+2023-05-23T10:42:55.984222: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-53.db' (key: SQL[2], sqlite 3.30.1)
+2023-05-23T10:42:55.998846: info: VST2: start scanning plugins
+2023-05-23T10:42:55.998872: info: VST2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (custom)
+2023-05-23T10:42:56.089020: info: VST2: finished scanning plugins
+2023-05-23T11:17:24.247537: info: #######################################
+2023-05-23T11:17:24.247862: info: Started: PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-23T11:17:24.247871: info: #######################################
+2023-05-23T11:17:24.247876: info: Init: Setup environment
+2023-05-23T11:17:24.247949: info: UUID: 061718D2-1F0C-3AC2-B021-9B5CFC764537
+2023-05-23T11:17:24.248849: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-23T11:17:24.248868: info: Init: Version: 'PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-23T11:17:24.248872: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-23T11:17:24.248876: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-23T11:17:24.249803: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-23T11:17:24.249824: info: Init: BuildType: 'Release'
+2023-05-23T11:17:24.249836: info: Init: Pid: 10070
+2023-05-23T11:17:24.249868: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-23T11:17:24.249875: info: Init: CPU Brand String: 'Apple M1'
+2023-05-23T11:17:24.249880: info: Init: CPU Count: 8
+2023-05-23T11:17:24.249893: info: Init: Physical RAM: 17179869184 B
+2023-05-23T11:17:24.249903: info: Init: Address Space: 18446744073709551615 B
+2023-05-23T11:17:24.249911: info: Init: 64-bit Edition
+2023-05-23T11:17:24.346625: info: Init: Checksum 1: 7d0b7050e2e47d2299c077b8c5939740
+2023-05-23T11:17:24.382721: info: Init: Checksum 2: 738308eee07f3b20343496c40a274dfe
+2023-05-23T11:17:24.421941: info: Init: Checksum 3: 738308eee07f3b20343496c40a274dfe
+2023-05-23T11:17:24.422173: info: Licensing: [Variant=Beta]
+2023-05-23T11:17:24.422508: info: Metadata: Initialize XMP system
+2023-05-23T11:17:24.422974: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-53.db' (key: SQL[2], sqlite 3.30.1)
+2023-05-23T11:17:24.442971: info: VST2: start scanning plugins
+2023-05-23T11:17:24.442996: info: VST2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (custom)
+2023-05-23T11:17:24.504453: info: VST2: finished scanning plugins
+2023-05-23T14:41:55.587223: info: #######################################
+2023-05-23T14:41:55.587512: info: Started: PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-23T14:41:55.587518: info: #######################################
+2023-05-23T14:41:55.587522: info: Init: Setup environment
+2023-05-23T14:41:55.587583: info: UUID: 061718D2-1F0C-3AC2-B021-9B5CFC764537
+2023-05-23T14:41:55.588329: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-23T14:41:55.588350: info: Init: Version: 'PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-23T14:41:55.588355: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-23T14:41:55.588359: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-23T14:41:55.589056: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-23T14:41:55.589065: info: Init: BuildType: 'Release'
+2023-05-23T14:41:55.589070: info: Init: Pid: 10324
+2023-05-23T14:41:55.589104: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-23T14:41:55.589114: info: Init: CPU Brand String: 'Apple M1'
+2023-05-23T14:41:55.589119: info: Init: CPU Count: 8
+2023-05-23T14:41:55.589130: info: Init: Physical RAM: 17179869184 B
+2023-05-23T14:41:55.589134: info: Init: Address Space: 18446744073709551615 B
+2023-05-23T14:41:55.589137: info: Init: 64-bit Edition
+2023-05-23T14:41:55.658076: info: Init: Checksum 1: 7d0b7050e2e47d2299c077b8c5939740
+2023-05-23T14:41:55.685577: info: Init: Checksum 2: 738308eee07f3b20343496c40a274dfe
+2023-05-23T14:41:55.716929: info: Init: Checksum 3: 738308eee07f3b20343496c40a274dfe
+2023-05-23T14:41:55.717053: info: Licensing: [Variant=Beta]
+2023-05-23T14:41:55.717227: info: Metadata: Initialize XMP system
+2023-05-23T14:41:55.717578: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-53.db' (key: SQL[2], sqlite 3.30.1)
+2023-05-23T14:41:55.731992: info: VST2: start scanning plugins
+2023-05-23T14:41:55.732010: info: VST2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (custom)
+2023-05-23T14:41:55.778827: info: VST2: finished scanning plugins
+2023-05-23T14:47:21.002025: info: #######################################
+2023-05-23T14:47:21.002172: info: Started: PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-23T14:47:21.002176: info: #######################################
+2023-05-23T14:47:21.002180: info: Init: Setup environment
+2023-05-23T14:47:21.002198: info: UUID: 061718D2-1F0C-3AC2-B021-9B5CFC764537
+2023-05-23T14:47:21.002875: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-23T14:47:21.002884: info: Init: Version: 'PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-23T14:47:21.002889: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-23T14:47:21.002892: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-23T14:47:21.003958: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-23T14:47:21.003968: info: Init: BuildType: 'Release'
+2023-05-23T14:47:21.003973: info: Init: Pid: 10373
+2023-05-23T14:47:21.003985: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-23T14:47:21.003992: info: Init: CPU Brand String: 'Apple M1'
+2023-05-23T14:47:21.004005: info: Init: CPU Count: 8
+2023-05-23T14:47:21.004016: info: Init: Physical RAM: 17179869184 B
+2023-05-23T14:47:21.004019: info: Init: Address Space: 18446744073709551615 B
+2023-05-23T14:47:21.004021: info: Init: 64-bit Edition
+2023-05-23T14:47:21.070099: info: Init: Checksum 1: 7d0b7050e2e47d2299c077b8c5939740
+2023-05-23T14:47:21.096869: info: Init: Checksum 2: 738308eee07f3b20343496c40a274dfe
+2023-05-23T14:47:21.122461: info: Init: Checksum 3: 738308eee07f3b20343496c40a274dfe
+2023-05-23T14:47:21.122619: info: Licensing: [Variant=Beta]
+2023-05-23T14:47:21.122811: info: Metadata: Initialize XMP system
+2023-05-23T14:47:21.123213: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-53.db' (key: SQL[2], sqlite 3.30.1)
+2023-05-23T14:47:21.137679: info: VST2: start scanning plugins
+2023-05-23T14:47:21.137716: info: VST2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (custom)
+2023-05-23T14:47:21.160749: info: VST2: finished scanning plugins
+2023-05-23T14:54:58.630792: info: #######################################
+2023-05-23T14:54:58.630958: info: Started: PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-23T14:54:58.630962: info: #######################################
+2023-05-23T14:54:58.630966: info: Init: Setup environment
+2023-05-23T14:54:58.630983: info: UUID: 061718D2-1F0C-3AC2-B021-9B5CFC764537
+2023-05-23T14:54:58.631595: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-23T14:54:58.631608: info: Init: Version: 'PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-23T14:54:58.631612: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-23T14:54:58.631615: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-23T14:54:58.632261: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-23T14:54:58.632270: info: Init: BuildType: 'Release'
+2023-05-23T14:54:58.632274: info: Init: Pid: 10439
+2023-05-23T14:54:58.632284: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-23T14:54:58.632290: info: Init: CPU Brand String: 'Apple M1'
+2023-05-23T14:54:58.632294: info: Init: CPU Count: 8
+2023-05-23T14:54:58.632305: info: Init: Physical RAM: 17179869184 B
+2023-05-23T14:54:58.632309: info: Init: Address Space: 18446744073709551615 B
+2023-05-23T14:54:58.632312: info: Init: 64-bit Edition
+2023-05-23T14:54:58.697989: info: Init: Checksum 1: 7d0b7050e2e47d2299c077b8c5939740
+2023-05-23T14:54:58.725335: info: Init: Checksum 2: 738308eee07f3b20343496c40a274dfe
+2023-05-23T14:54:58.750994: info: Init: Checksum 3: 738308eee07f3b20343496c40a274dfe
+2023-05-23T14:54:58.751098: info: Licensing: [Variant=Beta]
+2023-05-23T14:54:58.751253: info: Metadata: Initialize XMP system
+2023-05-23T14:54:58.751589: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-53.db' (key: SQL[2], sqlite 3.30.1)
+2023-05-23T14:54:58.766125: info: VST2: start scanning plugins
+2023-05-23T14:54:58.766157: info: VST2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (custom)
+2023-05-23T14:54:58.790855: info: VST2: finished scanning plugins
+2023-05-23T18:18:54.067601: info: #######################################
+2023-05-23T18:18:54.067979: info: Started: PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-23T18:18:54.067988: info: #######################################
+2023-05-23T18:18:54.067992: info: Init: Setup environment
+2023-05-23T18:18:54.068012: info: UUID: 061718D2-1F0C-3AC2-B021-9B5CFC764537
+2023-05-23T18:18:54.068499: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-23T18:18:54.068508: info: Init: Version: 'PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-23T18:18:54.068519: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-23T18:18:54.068521: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-23T18:18:54.069179: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-23T18:18:54.069187: info: Init: BuildType: 'Release'
+2023-05-23T18:18:54.069190: info: Init: Pid: 10877
+2023-05-23T18:18:54.069199: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-23T18:18:54.069204: info: Init: CPU Brand String: 'Apple M1'
+2023-05-23T18:18:54.069207: info: Init: CPU Count: 8
+2023-05-23T18:18:54.069216: info: Init: Physical RAM: 17179869184 B
+2023-05-23T18:18:54.069219: info: Init: Address Space: 18446744073709551615 B
+2023-05-23T18:18:54.069221: info: Init: 64-bit Edition
+2023-05-23T18:18:54.135767: info: Init: Checksum 1: 7d0b7050e2e47d2299c077b8c5939740
+2023-05-23T18:18:54.163489: info: Init: Checksum 2: 738308eee07f3b20343496c40a274dfe
+2023-05-23T18:18:54.189034: info: Init: Checksum 3: 738308eee07f3b20343496c40a274dfe
+2023-05-23T18:18:54.189158: info: Licensing: [Variant=Beta]
+2023-05-23T18:18:54.189326: info: Metadata: Initialize XMP system
+2023-05-23T18:18:54.189674: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-53.db' (key: SQL[2], sqlite 3.30.1)
+2023-05-23T18:18:54.204219: info: VST2: start scanning plugins
+2023-05-23T18:18:54.204243: info: VST2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (custom)
+2023-05-23T18:18:54.237448: info: VST2: finished scanning plugins
+2023-05-23T18:20:25.699506: info: #######################################
+2023-05-23T18:20:25.699657: info: Started: PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-23T18:20:25.699662: info: #######################################
+2023-05-23T18:20:25.699666: info: Init: Setup environment
+2023-05-23T18:20:25.699683: info: UUID: 061718D2-1F0C-3AC2-B021-9B5CFC764537
+2023-05-23T18:20:25.700150: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-23T18:20:25.700161: info: Init: Version: 'PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-23T18:20:25.700166: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-23T18:20:25.700172: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-23T18:20:25.700860: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-23T18:20:25.700867: info: Init: BuildType: 'Release'
+2023-05-23T18:20:25.700871: info: Init: Pid: 10905
+2023-05-23T18:20:25.700881: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-23T18:20:25.700887: info: Init: CPU Brand String: 'Apple M1'
+2023-05-23T18:20:25.700891: info: Init: CPU Count: 8
+2023-05-23T18:20:25.700902: info: Init: Physical RAM: 17179869184 B
+2023-05-23T18:20:25.700905: info: Init: Address Space: 18446744073709551615 B
+2023-05-23T18:20:25.700909: info: Init: 64-bit Edition
+2023-05-23T18:20:25.767489: info: Init: Checksum 1: 7d0b7050e2e47d2299c077b8c5939740
+2023-05-23T18:20:25.795158: info: Init: Checksum 2: 738308eee07f3b20343496c40a274dfe
+2023-05-23T18:20:25.820695: info: Init: Checksum 3: 738308eee07f3b20343496c40a274dfe
+2023-05-23T18:20:25.820825: info: Licensing: [Variant=Beta]
+2023-05-23T18:20:25.820995: info: Metadata: Initialize XMP system
+2023-05-23T18:20:25.821349: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-53.db' (key: SQL[2], sqlite 3.30.1)
+2023-05-23T18:20:25.835888: info: VST2: start scanning plugins
+2023-05-23T18:20:25.835938: info: VST2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (custom)
+2023-05-23T18:20:25.858104: info: VST2: finished scanning plugins
+2023-05-23T18:22:54.903250: info: #######################################
+2023-05-23T18:22:54.903408: info: Started: PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-23T18:22:54.903423: info: #######################################
+2023-05-23T18:22:54.903426: info: Init: Setup environment
+2023-05-23T18:22:54.903442: info: UUID: 061718D2-1F0C-3AC2-B021-9B5CFC764537
+2023-05-23T18:22:54.903995: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-23T18:22:54.904004: info: Init: Version: 'PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-23T18:22:54.904008: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-23T18:22:54.904010: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-23T18:22:54.904726: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-23T18:22:54.904734: info: Init: BuildType: 'Release'
+2023-05-23T18:22:54.904738: info: Init: Pid: 10932
+2023-05-23T18:22:54.904748: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-23T18:22:54.904753: info: Init: CPU Brand String: 'Apple M1'
+2023-05-23T18:22:54.904756: info: Init: CPU Count: 8
+2023-05-23T18:22:54.904767: info: Init: Physical RAM: 17179869184 B
+2023-05-23T18:22:54.904769: info: Init: Address Space: 18446744073709551615 B
+2023-05-23T18:22:54.904771: info: Init: 64-bit Edition
+2023-05-23T18:22:54.973477: info: Init: Checksum 1: 7d0b7050e2e47d2299c077b8c5939740
+2023-05-23T18:22:55.002172: info: Init: Checksum 2: 738308eee07f3b20343496c40a274dfe
+2023-05-23T18:22:55.028120: info: Init: Checksum 3: 738308eee07f3b20343496c40a274dfe
+2023-05-23T18:22:55.028263: info: Licensing: [Variant=Beta]
+2023-05-23T18:22:55.028444: info: Metadata: Initialize XMP system
+2023-05-23T18:22:55.028806: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-53.db' (key: SQL[2], sqlite 3.30.1)
+2023-05-23T18:22:55.043775: info: VST2: start scanning plugins
+2023-05-23T18:22:55.043793: info: VST2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (custom)
+2023-05-23T18:22:55.091081: info: VST2: finished scanning plugins
+2023-05-23T18:23:46.881360: info: #######################################
+2023-05-23T18:23:46.881516: info: Started: PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-23T18:23:46.881521: info: #######################################
+2023-05-23T18:23:46.881525: info: Init: Setup environment
+2023-05-23T18:23:46.881542: info: UUID: 061718D2-1F0C-3AC2-B021-9B5CFC764537
+2023-05-23T18:23:46.882155: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-23T18:23:46.882167: info: Init: Version: 'PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-23T18:23:46.882172: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-23T18:23:46.882176: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-23T18:23:46.883388: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-23T18:23:46.883400: info: Init: BuildType: 'Release'
+2023-05-23T18:23:46.883405: info: Init: Pid: 10961
+2023-05-23T18:23:46.883416: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-23T18:23:46.883422: info: Init: CPU Brand String: 'Apple M1'
+2023-05-23T18:23:46.883427: info: Init: CPU Count: 8
+2023-05-23T18:23:46.883439: info: Init: Physical RAM: 17179869184 B
+2023-05-23T18:23:46.883443: info: Init: Address Space: 18446744073709551615 B
+2023-05-23T18:23:46.883446: info: Init: 64-bit Edition
+2023-05-23T18:23:46.951276: info: Init: Checksum 1: 7d0b7050e2e47d2299c077b8c5939740
+2023-05-23T18:23:46.979094: info: Init: Checksum 2: 738308eee07f3b20343496c40a274dfe
+2023-05-23T18:23:47.005418: info: Init: Checksum 3: 738308eee07f3b20343496c40a274dfe
+2023-05-23T18:23:47.005554: info: Licensing: [Variant=Beta]
+2023-05-23T18:23:47.005722: info: Metadata: Initialize XMP system
+2023-05-23T18:23:47.006193: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-53.db' (key: SQL[2], sqlite 3.30.1)
+2023-05-23T18:23:47.021192: info: VST2: start scanning plugins
+2023-05-23T18:23:47.021207: info: VST2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (custom)
+2023-05-23T18:23:47.067225: info: VST2: finished scanning plugins
+2023-05-23T20:39:33.774741: info: #######################################
+2023-05-23T20:39:33.775016: info: Started: PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-23T20:39:33.775025: info: #######################################
+2023-05-23T20:39:33.775029: info: Init: Setup environment
+2023-05-23T20:39:33.775082: info: UUID: 061718D2-1F0C-3AC2-B021-9B5CFC764537
+2023-05-23T20:39:33.775977: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-23T20:39:33.775997: info: Init: Version: 'PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-23T20:39:33.776001: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-23T20:39:33.776004: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-23T20:39:33.776693: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-23T20:39:33.776704: info: Init: BuildType: 'Release'
+2023-05-23T20:39:33.776708: info: Init: Pid: 11359
+2023-05-23T20:39:33.776743: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-23T20:39:33.776750: info: Init: CPU Brand String: 'Apple M1'
+2023-05-23T20:39:33.776755: info: Init: CPU Count: 8
+2023-05-23T20:39:33.776766: info: Init: Physical RAM: 17179869184 B
+2023-05-23T20:39:33.776770: info: Init: Address Space: 18446744073709551615 B
+2023-05-23T20:39:33.776773: info: Init: 64-bit Edition
+2023-05-23T20:39:33.849249: info: Init: Checksum 1: 7d0b7050e2e47d2299c077b8c5939740
+2023-05-23T20:39:33.877493: info: Init: Checksum 2: 738308eee07f3b20343496c40a274dfe
+2023-05-23T20:39:33.909840: info: Init: Checksum 3: 738308eee07f3b20343496c40a274dfe
+2023-05-23T20:39:33.909976: info: Licensing: [Variant=Beta]
+2023-05-23T20:39:33.910154: info: Metadata: Initialize XMP system
+2023-05-23T20:39:33.910568: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-53.db' (key: SQL[2], sqlite 3.30.1)
+2023-05-23T20:39:33.925708: info: VST2: start scanning plugins
+2023-05-23T20:39:33.925735: info: VST2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (custom)
+2023-05-23T20:39:33.969025: info: VST2: finished scanning plugins
+2023-05-23T20:58:22.898350: info: #######################################
+2023-05-23T20:58:22.898544: info: Started: PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-23T20:58:22.898549: info: #######################################
+2023-05-23T20:58:22.898553: info: Init: Setup environment
+2023-05-23T20:58:22.898611: info: UUID: 061718D2-1F0C-3AC2-B021-9B5CFC764537
+2023-05-23T20:58:22.900202: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-23T20:58:22.900227: info: Init: Version: 'PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-23T20:58:22.900235: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-23T20:58:22.900239: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-23T20:58:22.901038: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-23T20:58:22.901049: info: Init: BuildType: 'Release'
+2023-05-23T20:58:22.901053: info: Init: Pid: 683
+2023-05-23T20:58:22.901212: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-23T20:58:22.901224: info: Init: CPU Brand String: 'Apple M1'
+2023-05-23T20:58:22.901229: info: Init: CPU Count: 8
+2023-05-23T20:58:22.901244: info: Init: Physical RAM: 17179869184 B
+2023-05-23T20:58:22.901257: info: Init: Address Space: 18446744073709551615 B
+2023-05-23T20:58:22.901259: info: Init: 64-bit Edition
+2023-05-23T20:58:22.990989: info: Init: Checksum 1: 7d0b7050e2e47d2299c077b8c5939740
+2023-05-23T20:58:23.026050: info: Init: Checksum 2: 738308eee07f3b20343496c40a274dfe
+2023-05-23T20:58:23.078153: info: Init: Checksum 3: 738308eee07f3b20343496c40a274dfe
+2023-05-23T20:58:23.078293: info: Licensing: [Variant=Beta]
+2023-05-23T20:58:23.078651: info: Metadata: Initialize XMP system
+2023-05-23T20:58:23.079193: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-53.db' (key: SQL[2], sqlite 3.30.1)
+2023-05-23T20:58:23.149282: info: VST2: start scanning plugins
+2023-05-23T20:58:23.149346: info: VST2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (custom)
+2023-05-23T20:58:23.221175: info: VST2: finished scanning plugins
+2023-05-23T21:23:35.474735: info: #######################################
+2023-05-23T21:23:35.474953: info: Started: PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-23T21:23:35.474961: info: #######################################
+2023-05-23T21:23:35.474966: info: Init: Setup environment
+2023-05-23T21:23:35.475018: info: UUID: 061718D2-1F0C-3AC2-B021-9B5CFC764537
+2023-05-23T21:23:35.475843: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-23T21:23:35.475861: info: Init: Version: 'PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-23T21:23:35.475866: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-23T21:23:35.475870: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-23T21:23:35.476689: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-23T21:23:35.476698: info: Init: BuildType: 'Release'
+2023-05-23T21:23:35.476703: info: Init: Pid: 1629
+2023-05-23T21:23:35.476733: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-23T21:23:35.476740: info: Init: CPU Brand String: 'Apple M1'
+2023-05-23T21:23:35.476745: info: Init: CPU Count: 8
+2023-05-23T21:23:35.476756: info: Init: Physical RAM: 17179869184 B
+2023-05-23T21:23:35.476760: info: Init: Address Space: 18446744073709551615 B
+2023-05-23T21:23:35.476763: info: Init: 64-bit Edition
+2023-05-23T21:23:35.547585: info: Init: Checksum 1: 7d0b7050e2e47d2299c077b8c5939740
+2023-05-23T21:23:35.575730: info: Init: Checksum 2: 738308eee07f3b20343496c40a274dfe
+2023-05-23T21:23:35.607312: info: Init: Checksum 3: 738308eee07f3b20343496c40a274dfe
+2023-05-23T21:23:35.607437: info: Licensing: [Variant=Beta]
+2023-05-23T21:23:35.607611: info: Metadata: Initialize XMP system
+2023-05-23T21:23:35.607969: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-53.db' (key: SQL[2], sqlite 3.30.1)
+2023-05-23T21:23:35.622794: info: VST2: start scanning plugins
+2023-05-23T21:23:35.622823: info: VST2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (custom)
+2023-05-23T21:23:35.689525: info: VST2: finished scanning plugins
+2023-05-24T18:26:40.793316: info: #######################################
+2023-05-24T18:26:40.793541: info: Started: PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-24T18:26:40.793547: info: #######################################
+2023-05-24T18:26:40.793551: info: Init: Setup environment
+2023-05-24T18:26:40.793606: info: UUID: 061718D2-1F0C-3AC2-B021-9B5CFC764537
+2023-05-24T18:26:40.794465: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-24T18:26:40.794637: info: Init: Version: 'PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-24T18:26:40.794642: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-24T18:26:40.794654: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-24T18:26:40.795460: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-24T18:26:40.795468: info: Init: BuildType: 'Release'
+2023-05-24T18:26:40.795471: info: Init: Pid: 2384
+2023-05-24T18:26:40.795500: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-24T18:26:40.795506: info: Init: CPU Brand String: 'Apple M1'
+2023-05-24T18:26:40.795509: info: Init: CPU Count: 8
+2023-05-24T18:26:40.795519: info: Init: Physical RAM: 17179869184 B
+2023-05-24T18:26:40.795521: info: Init: Address Space: 18446744073709551615 B
+2023-05-24T18:26:40.795524: info: Init: 64-bit Edition
+2023-05-24T18:26:40.868475: info: Init: Checksum 1: 7d0b7050e2e47d2299c077b8c5939740
+2023-05-24T18:26:40.896897: info: Init: Checksum 2: 738308eee07f3b20343496c40a274dfe
+2023-05-24T18:26:40.928493: info: Init: Checksum 3: 738308eee07f3b20343496c40a274dfe
+2023-05-24T18:26:40.928624: info: Licensing: [Variant=Beta]
+2023-05-24T18:26:40.928810: info: Metadata: Initialize XMP system
+2023-05-24T18:26:40.929149: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-53.db' (key: SQL[2], sqlite 3.30.1)
+2023-05-24T18:26:40.943987: info: VST2: start scanning plugins
+2023-05-24T18:26:40.943998: info: VST2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (custom)
+2023-05-24T18:26:41.009704: info: VST2: finished scanning plugins
+2023-05-24T18:28:37.861343: info: #######################################
+2023-05-24T18:28:37.861838: info: Started: PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-24T18:28:37.861846: info: #######################################
+2023-05-24T18:28:37.861850: info: Init: Setup environment
+2023-05-24T18:28:37.861879: info: UUID: 061718D2-1F0C-3AC2-B021-9B5CFC764537
+2023-05-24T18:28:37.862617: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-24T18:28:37.862629: info: Init: Version: 'PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-24T18:28:37.862634: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-24T18:28:37.862645: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-24T18:28:37.863571: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-24T18:28:37.863584: info: Init: BuildType: 'Release'
+2023-05-24T18:28:37.863590: info: Init: Pid: 2421
+2023-05-24T18:28:37.863603: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-24T18:28:37.863617: info: Init: CPU Brand String: 'Apple M1'
+2023-05-24T18:28:37.863637: info: Init: CPU Count: 8
+2023-05-24T18:28:37.863658: info: Init: Physical RAM: 17179869184 B
+2023-05-24T18:28:37.863666: info: Init: Address Space: 18446744073709551615 B
+2023-05-24T18:28:37.863674: info: Init: 64-bit Edition
+2023-05-24T18:28:37.931413: info: Init: Checksum 1: 7d0b7050e2e47d2299c077b8c5939740
+2023-05-24T18:28:37.961004: info: Init: Checksum 2: 738308eee07f3b20343496c40a274dfe
+2023-05-24T18:28:37.987466: info: Init: Checksum 3: 738308eee07f3b20343496c40a274dfe
+2023-05-24T18:28:37.987600: info: Licensing: [Variant=Beta]
+2023-05-24T18:28:37.987772: info: Metadata: Initialize XMP system
+2023-05-24T18:28:37.988095: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-53.db' (key: SQL[2], sqlite 3.30.1)
+2023-05-24T18:28:38.003044: info: VST2: start scanning plugins
+2023-05-24T18:28:38.003068: info: VST2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (custom)
+2023-05-24T18:28:38.044911: info: VST2: finished scanning plugins
+2023-05-24T19:06:41.273495: info: #######################################
+2023-05-24T19:06:41.273725: info: Started: PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-24T19:06:41.273736: info: #######################################
+2023-05-24T19:06:41.273742: info: Init: Setup environment
+2023-05-24T19:06:41.273821: info: UUID: 061718D2-1F0C-3AC2-B021-9B5CFC764537
+2023-05-24T19:06:41.274678: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-24T19:06:41.274696: info: Init: Version: 'PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-24T19:06:41.274699: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-24T19:06:41.274702: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-24T19:06:41.275372: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-24T19:06:41.275379: info: Init: BuildType: 'Release'
+2023-05-24T19:06:41.275382: info: Init: Pid: 2580
+2023-05-24T19:06:41.275415: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-24T19:06:41.275420: info: Init: CPU Brand String: 'Apple M1'
+2023-05-24T19:06:41.275423: info: Init: CPU Count: 8
+2023-05-24T19:06:41.275432: info: Init: Physical RAM: 17179869184 B
+2023-05-24T19:06:41.275434: info: Init: Address Space: 18446744073709551615 B
+2023-05-24T19:06:41.275436: info: Init: 64-bit Edition
+2023-05-24T19:06:41.346404: info: Init: Checksum 1: 7d0b7050e2e47d2299c077b8c5939740
+2023-05-24T19:06:41.373981: info: Init: Checksum 2: 738308eee07f3b20343496c40a274dfe
+2023-05-24T19:06:41.406078: info: Init: Checksum 3: 738308eee07f3b20343496c40a274dfe
+2023-05-24T19:06:41.406207: info: Licensing: [Variant=Beta]
+2023-05-24T19:06:41.406383: info: Metadata: Initialize XMP system
+2023-05-24T19:06:41.406788: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-53.db' (key: SQL[2], sqlite 3.30.1)
+2023-05-24T19:06:41.421846: info: VST2: start scanning plugins
+2023-05-24T19:06:41.421862: info: VST2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (custom)
+2023-05-24T19:06:41.472701: info: VST2: finished scanning plugins
+2023-05-31T18:32:44.635647: info: #######################################
+2023-05-31T18:32:44.635940: info: Started: PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-31T18:32:44.635946: info: #######################################
+2023-05-31T18:32:44.635950: info: Init: Setup environment
+2023-05-31T18:32:44.636143: info: UUID: 061718D2-1F0C-3AC2-B021-9B5CFC764537
+2023-05-31T18:32:44.636803: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-31T18:32:44.637028: info: Init: Version: 'PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-31T18:32:44.637034: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-31T18:32:44.637038: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-31T18:32:44.637841: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-31T18:32:44.637850: info: Init: BuildType: 'Release'
+2023-05-31T18:32:44.637855: info: Init: Pid: 8927
+2023-05-31T18:32:44.637886: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-31T18:32:44.637893: info: Init: CPU Brand String: 'Apple M1'
+2023-05-31T18:32:44.637898: info: Init: CPU Count: 8
+2023-05-31T18:32:44.637909: info: Init: Physical RAM: 17179869184 B
+2023-05-31T18:32:44.637912: info: Init: Address Space: 18446744073709551615 B
+2023-05-31T18:32:44.637916: info: Init: 64-bit Edition
+2023-05-31T18:32:44.713232: info: Init: Checksum 1: 7d0b7050e2e47d2299c077b8c5939740
+2023-05-31T18:32:44.741614: info: Init: Checksum 2: 738308eee07f3b20343496c40a274dfe
+2023-05-31T18:32:44.774299: info: Init: Checksum 3: 738308eee07f3b20343496c40a274dfe
+2023-05-31T18:32:44.774457: info: Licensing: [Variant=Beta]
+2023-05-31T18:32:44.774675: info: Metadata: Initialize XMP system
+2023-05-31T18:32:44.775071: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-53.db' (key: SQL[2], sqlite 3.30.1)
+2023-05-31T18:32:44.832685: info: VST2: start scanning plugins
+2023-05-31T18:32:44.832705: info: VST2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (custom)
+2023-05-31T18:32:44.876520: info: VST2: finished scanning plugins
+2023-05-31T19:37:13.739195: info: #######################################
+2023-05-31T19:37:13.739510: info: Started: PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-31T19:37:13.739518: info: #######################################
+2023-05-31T19:37:13.739523: info: Init: Setup environment
+2023-05-31T19:37:13.739579: info: UUID: 061718D2-1F0C-3AC2-B021-9B5CFC764537
+2023-05-31T19:37:13.740159: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-31T19:37:13.740180: info: Init: Version: 'PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-31T19:37:13.740185: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-31T19:37:13.740189: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-31T19:37:13.740897: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-31T19:37:13.740904: info: Init: BuildType: 'Release'
+2023-05-31T19:37:13.740908: info: Init: Pid: 9392
+2023-05-31T19:37:13.741108: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-31T19:37:13.741116: info: Init: CPU Brand String: 'Apple M1'
+2023-05-31T19:37:13.741120: info: Init: CPU Count: 8
+2023-05-31T19:37:13.741131: info: Init: Physical RAM: 17179869184 B
+2023-05-31T19:37:13.741135: info: Init: Address Space: 18446744073709551615 B
+2023-05-31T19:37:13.741138: info: Init: 64-bit Edition
+2023-05-31T19:37:13.812723: info: Init: Checksum 1: 7d0b7050e2e47d2299c077b8c5939740
+2023-05-31T19:37:13.840448: info: Init: Checksum 2: 738308eee07f3b20343496c40a274dfe
+2023-05-31T19:37:13.872799: info: Init: Checksum 3: 738308eee07f3b20343496c40a274dfe
+2023-05-31T19:37:13.872954: info: Licensing: [Variant=Beta]
+2023-05-31T19:37:13.873129: info: Metadata: Initialize XMP system
+2023-05-31T19:37:13.873561: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-53.db' (key: SQL[2], sqlite 3.30.1)
+2023-05-31T19:37:13.888487: info: VST2: start scanning plugins
+2023-05-31T19:37:13.888503: info: VST2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (custom)
+2023-05-31T19:37:13.932439: info: VST2: finished scanning plugins
+2023-06-03T11:33:47.777789: info: #######################################
+2023-06-03T11:33:47.778129: info: Started: PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a
+2023-06-03T11:33:47.778135: info: #######################################
+2023-06-03T11:33:47.778140: info: Init: Setup environment
+2023-06-03T11:33:47.778433: info: UUID: 061718D2-1F0C-3AC2-B021-9B5CFC764537
+2023-06-03T11:33:47.779024: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-06-03T11:33:47.779252: info: Init: Version: 'PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-06-03T11:33:47.779265: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-06-03T11:33:47.779270: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-06-03T11:33:47.780362: info: Init: OS: 'macOS 12.6.6 (21G646), Arch:arm64'
+2023-06-03T11:33:47.780386: info: Init: BuildType: 'Release'
+2023-06-03T11:33:47.780391: info: Init: Pid: 5713
+2023-06-03T11:33:47.780486: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-06-03T11:33:47.780502: info: Init: CPU Brand String: 'Apple M1'
+2023-06-03T11:33:47.780507: info: Init: CPU Count: 8
+2023-06-03T11:33:47.780522: info: Init: Physical RAM: 17179869184 B
+2023-06-03T11:33:47.780526: info: Init: Address Space: 18446744073709551615 B
+2023-06-03T11:33:47.780530: info: Init: 64-bit Edition
+2023-06-03T11:33:47.854655: info: Init: Checksum 1: 7d0b7050e2e47d2299c077b8c5939740
+2023-06-03T11:33:47.883398: info: Init: Checksum 2: 738308eee07f3b20343496c40a274dfe
+2023-06-03T11:33:47.915714: info: Init: Checksum 3: 738308eee07f3b20343496c40a274dfe
+2023-06-03T11:33:47.915861: info: Licensing: [Variant=Beta]
+2023-06-03T11:33:47.916051: info: Metadata: Initialize XMP system
+2023-06-03T11:33:47.916437: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-53.db' (key: SQL[2], sqlite 3.30.1)
+2023-06-03T11:33:47.953548: info: VST2: start scanning plugins
+2023-06-03T11:33:47.953562: info: VST2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (custom)
+2023-06-03T11:33:47.988322: info: VST2: finished scanning plugins
+2023-06-03T11:36:39.768175: info: #######################################
+2023-06-03T11:36:39.768451: info: Started: PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a
+2023-06-03T11:36:39.768457: info: #######################################
+2023-06-03T11:36:39.768461: info: Init: Setup environment
+2023-06-03T11:36:39.768515: info: UUID: 061718D2-1F0C-3AC2-B021-9B5CFC764537
+2023-06-03T11:36:39.769348: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-06-03T11:36:39.769365: info: Init: Version: 'PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-06-03T11:36:39.769369: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-06-03T11:36:39.769372: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-06-03T11:36:39.770116: info: Init: OS: 'macOS 12.6.6 (21G646), Arch:arm64'
+2023-06-03T11:36:39.770126: info: Init: BuildType: 'Release'
+2023-06-03T11:36:39.770131: info: Init: Pid: 6001
+2023-06-03T11:36:39.770161: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-06-03T11:36:39.770167: info: Init: CPU Brand String: 'Apple M1'
+2023-06-03T11:36:39.770172: info: Init: CPU Count: 8
+2023-06-03T11:36:39.770182: info: Init: Physical RAM: 17179869184 B
+2023-06-03T11:36:39.770186: info: Init: Address Space: 18446744073709551615 B
+2023-06-03T11:36:39.770190: info: Init: 64-bit Edition
+2023-06-03T11:36:39.841063: info: Init: Checksum 1: 7d0b7050e2e47d2299c077b8c5939740
+2023-06-03T11:36:39.868806: info: Init: Checksum 2: 738308eee07f3b20343496c40a274dfe
+2023-06-03T11:36:39.900939: info: Init: Checksum 3: 738308eee07f3b20343496c40a274dfe
+2023-06-03T11:36:39.901061: info: Licensing: [Variant=Beta]
+2023-06-03T11:36:39.901234: info: Metadata: Initialize XMP system
+2023-06-03T11:36:39.901593: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-53.db' (key: SQL[2], sqlite 3.30.1)
+2023-06-03T11:36:39.916657: info: VST2: start scanning plugins
+2023-06-03T11:36:39.916678: info: VST2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (custom)
+2023-06-03T11:36:39.956449: info: VST2: finished scanning plugins
+2023-06-04T14:17:03.221520: info: #######################################
+2023-06-04T14:17:03.221840: info: Started: PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a
+2023-06-04T14:17:03.221850: info: #######################################
+2023-06-04T14:17:03.221856: info: Init: Setup environment
+2023-06-04T14:17:03.221941: info: UUID: 061718D2-1F0C-3AC2-B021-9B5CFC764537
+2023-06-04T14:17:03.222554: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-06-04T14:17:03.222576: info: Init: Version: 'PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-06-04T14:17:03.222581: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-06-04T14:17:03.222585: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-06-04T14:17:03.223281: info: Init: OS: 'macOS 12.6.6 (21G646), Arch:arm64'
+2023-06-04T14:17:03.223288: info: Init: BuildType: 'Release'
+2023-06-04T14:17:03.223291: info: Init: Pid: 8165
+2023-06-04T14:17:03.223504: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-06-04T14:17:03.223510: info: Init: CPU Brand String: 'Apple M1'
+2023-06-04T14:17:03.223513: info: Init: CPU Count: 8
+2023-06-04T14:17:03.223523: info: Init: Physical RAM: 17179869184 B
+2023-06-04T14:17:03.223525: info: Init: Address Space: 18446744073709551615 B
+2023-06-04T14:17:03.223527: info: Init: 64-bit Edition
+2023-06-04T14:17:03.294320: info: Init: Checksum 1: 7d0b7050e2e47d2299c077b8c5939740
+2023-06-04T14:17:03.321790: info: Init: Checksum 2: 738308eee07f3b20343496c40a274dfe
+2023-06-04T14:17:03.353636: info: Init: Checksum 3: 738308eee07f3b20343496c40a274dfe
+2023-06-04T14:17:03.353770: info: Licensing: [Variant=Beta]
+2023-06-04T14:17:03.353948: info: Metadata: Initialize XMP system
+2023-06-04T14:17:03.354289: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-53.db' (key: SQL[2], sqlite 3.30.1)
+2023-06-04T14:17:03.369279: info: VST2: start scanning plugins
+2023-06-04T14:17:03.369294: info: VST2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (custom)
+2023-06-04T14:17:03.423896: info: VST2: finished scanning plugins
+2023-06-04T17:34:35.377965: info: #######################################
+2023-06-04T17:34:35.378153: info: Started: PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a
+2023-06-04T17:34:35.378160: info: #######################################
+2023-06-04T17:34:35.378164: info: Init: Setup environment
+2023-06-04T17:34:35.378194: info: UUID: 061718D2-1F0C-3AC2-B021-9B5CFC764537
+2023-06-04T17:34:35.378732: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-06-04T17:34:35.378745: info: Init: Version: 'PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-06-04T17:34:35.378750: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-06-04T17:34:35.378754: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-06-04T17:34:35.379472: info: Init: OS: 'macOS 12.6.6 (21G646), Arch:arm64'
+2023-06-04T17:34:35.379483: info: Init: BuildType: 'Release'
+2023-06-04T17:34:35.379488: info: Init: Pid: 8308
+2023-06-04T17:34:35.379500: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-06-04T17:34:35.379506: info: Init: CPU Brand String: 'Apple M1'
+2023-06-04T17:34:35.379511: info: Init: CPU Count: 8
+2023-06-04T17:34:35.379523: info: Init: Physical RAM: 17179869184 B
+2023-06-04T17:34:35.379527: info: Init: Address Space: 18446744073709551615 B
+2023-06-04T17:34:35.379530: info: Init: 64-bit Edition
+2023-06-04T17:34:35.445261: info: Init: Checksum 1: 7d0b7050e2e47d2299c077b8c5939740
+2023-06-04T17:34:35.472267: info: Init: Checksum 2: 738308eee07f3b20343496c40a274dfe
+2023-06-04T17:34:35.497795: info: Init: Checksum 3: 738308eee07f3b20343496c40a274dfe
+2023-06-04T17:34:35.497913: info: Licensing: [Variant=Beta]
+2023-06-04T17:34:35.498093: info: Metadata: Initialize XMP system
+2023-06-04T17:34:35.498497: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-53.db' (key: SQL[2], sqlite 3.30.1)
+2023-06-04T17:34:35.513055: info: VST2: start scanning plugins
+2023-06-04T17:34:35.513085: info: VST2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (custom)
+2023-06-04T17:34:35.545296: info: VST2: finished scanning plugins
+2023-06-05T14:10:14.191527: info: #######################################
+2023-06-05T14:10:14.191686: info: Started: PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a
+2023-06-05T14:10:14.191691: info: #######################################
+2023-06-05T14:10:14.191695: info: Init: Setup environment
+2023-06-05T14:10:14.191713: info: UUID: 061718D2-1F0C-3AC2-B021-9B5CFC764537
+2023-06-05T14:10:14.192359: info: Code ID: identifier "Ableton Plugin Scanner" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-06-05T14:10:14.192383: info: Init: Version: 'PluginScanner 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-06-05T14:10:14.192387: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-06-05T14:10:14.192391: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-06-05T14:10:14.193081: info: Init: OS: 'macOS 12.6.6 (21G646), Arch:arm64'
+2023-06-05T14:10:14.193089: info: Init: BuildType: 'Release'
+2023-06-05T14:10:14.193092: info: Init: Pid: 8710
+2023-06-05T14:10:14.193101: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-06-05T14:10:14.193106: info: Init: CPU Brand String: 'Apple M1'
+2023-06-05T14:10:14.193109: info: Init: CPU Count: 8
+2023-06-05T14:10:14.193119: info: Init: Physical RAM: 17179869184 B
+2023-06-05T14:10:14.193121: info: Init: Address Space: 18446744073709551615 B
+2023-06-05T14:10:14.193123: info: Init: 64-bit Edition
+2023-06-05T14:10:14.258714: info: Init: Checksum 1: 7d0b7050e2e47d2299c077b8c5939740
+2023-06-05T14:10:14.285784: info: Init: Checksum 2: 738308eee07f3b20343496c40a274dfe
+2023-06-05T14:10:14.311323: info: Init: Checksum 3: 738308eee07f3b20343496c40a274dfe
+2023-06-05T14:10:14.311436: info: Licensing: [Variant=Beta]
+2023-06-05T14:10:14.311593: info: Metadata: Initialize XMP system
+2023-06-05T14:10:14.311977: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-53.db' (key: SQL[2], sqlite 3.30.1)
+2023-06-05T14:10:14.326362: info: VST2: start scanning plugins
+2023-06-05T14:10:14.326387: info: VST2: scanning plugins in "/Library/Audio/Plug-Ins/VST" (custom)
+2023-06-05T14:10:14.354159: info: VST2: finished scanning plugins

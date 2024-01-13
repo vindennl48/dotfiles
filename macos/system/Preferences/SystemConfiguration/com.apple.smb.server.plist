@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DOSCodePage</key>
+	<string>437</string>
+	<key>LocalKerberosRealm</key>
+	<string>LKDC:SHA1.3A4D9247AB843E58BAD69D2DE2A417EF0F02433B</string>
+	<key>NetBIOSName</key>
+	<string>Mitchells-Air</string>
+	<key>ServerDescription</key>
+	<string>Mitchell’s MacBook Air</string>
+	<key>WINSServerAddressList</key>
+	<array>
+		<string>0.0.0.0</string>
+	</array>
+</dict>
+</plist>

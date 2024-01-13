@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CriticalDomains</key>
+	<array>
+		<string>cheeserolling.apple.com</string>
+		<string>woolyjumper.sd.apple.com</string>
+		<string>basejumper.apple.com</string>
+		<string>basejumper-vip.sd.apple.com</string>
+		<string>basejumper.sd.apple.com</string>
+		<string>locksmith.apple.com</string>
+		<string>gdmf-staging-int.apple.com</string>
+		<string>pallas-uat.rno.apple.com</string>
+		<string>pr2-pallas-staging-int-prz.apple.com</string>
+		<string>livability-api.swe.apple.com</string>
+	</array>
+</dict>
+</plist>

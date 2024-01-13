@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Interfaces</key>
+	<array>
+		<dict>
+			<key>BSD Name</key>
+			<string>en0</string>
+			<key>IOBuiltin</key>
+			<true/>
+			<key>IOInterfaceNamePrefix</key>
+			<string>en</string>
+			<key>IOInterfaceType</key>
+			<integer>6</integer>
+			<key>IOInterfaceUnit</key>
+			<integer>0</integer>
+			<key>IOMACAddress</key>
+			<data>
+			GD7vzaol
+			</data>
+			<key>IOPathMatch</key>
+			<string>IOService:/AppleARMPE/arm-io@10F00000/AppleT810xIO/wlan/AppleBCMWLANBusInterfacePCIe/AppleBCMWLANCore/AppleBCMWLANSkywalkInterface/IOSkywalkLegacyEthernet/en0</string>
+			<key>SCNetworkInterfaceInfo</key>
+			<dict>
+				<key>UserDefinedName</key>
+				<string>Wi-Fi</string>
+			</dict>
+			<key>SCNetworkInterfaceType</key>
+			<string>IEEE80211</string>
+		</dict>
+		<dict>
+			<key>BSD Name</key>
+			<string>en1</string>
+			<key>IOBuiltin</key>
+			<true/>
+			<key>IOInterfaceNamePrefix</key>
+			<string>en</string>
+			<key>IOInterfaceType</key>
+			<integer>6</integer>
+			<key>IOInterfaceUnit</key>
+			<integer>1</integer>
+			<key>IOMACAddress</key>
+			<data>
+			NpTKe81A
+			</data>
+			<key>IOPathMatch</key>
+			<string>IOService:/AppleARMPE/arm-io@10F00000/AppleT810xIO/acio0@81F00000/AppleThunderboltHALType5/AppleThunderboltNHIType5/IOThunderboltControllerType5/IOThunderboltLocalNode/AppleThunderboltIPService/AppleThunderboltIPPort/en1</string>
+			<key>SCNetworkInterfaceInfo</key>
+			<dict>
+				<key>UserDefinedName</key>
+				<string>Thunderbolt 1</string>
+			</dict>
+			<key>SCNetworkInterfaceType</key>
+			<string>Ethernet</string>
+		</dict>
+		<dict>
+			<key>BSD Name</key>
+			<string>en2</string>
+			<key>IOBuiltin</key>
+			<true/>
+			<key>IOInterfaceNamePrefix</key>
+			<string>en</string>
+			<key>IOInterfaceType</key>
+			<integer>6</integer>
+			<key>IOInterfaceUnit</key>
+			<integer>2</integer>
+			<key>IOMACAddress</key>
+			<data>
+			NpTKe81E
+			</data>
+			<key>IOPathMatch</key>
+			<string>IOService:/AppleARMPE/arm-io@10F00000/AppleT810xIO/acio1@1F00000/AppleThunderboltHALType5/AppleThunderboltNHIType5/IOThunderboltControllerType5/IOThunderboltLocalNode/AppleThunderboltIPService/AppleThunderboltIPPort/en2</string>
+			<key>SCNetworkInterfaceInfo</key>
+			<dict>
+				<key>UserDefinedName</key>
+				<string>Thunderbolt 2</string>
+			</dict>
+			<key>SCNetworkInterfaceType</key>
+			<string>Ethernet</string>
+		</dict>
+		<dict>
+			<key>BSD Name</key>
+			<string>en3</string>
+			<key>HiddenConfiguration</key>
+			<true/>
+			<key>IOBuiltin</key>
+			<false/>
+			<key>IOInterfaceNamePrefix</key>
+			<string>en</string>
+			<key>IOInterfaceType</key>
+			<integer>6</integer>
+			<key>IOInterfaceUnit</key>
+			<integer>3</integer>
+			<key>IOMACAddress</key>
+			<data>
+			rkBev4UZ
+			</data>
+			<key>IOPathMatch</key>
+			<string>IOService:/AppleARMPE/arm-io@10F00000/AppleT810xIO/usb-drd0@82280000/AppleT8103USBXDCI@0/AppleUSBNCMData@1/AppleUSBDeviceNCMData/en3</string>
+			<key>SCNetworkInterfaceInfo</key>
+			<dict>
+				<key>UserDefinedName</key>
+				<string>Ethernet Adapter (en3)</string>
+			</dict>
+			<key>SCNetworkInterfaceType</key>
+			<string>Ethernet</string>
+		</dict>
+		<dict>
+			<key>BSD Name</key>
+			<string>en4</string>
+			<key>HiddenConfiguration</key>
+			<true/>
+			<key>IOBuiltin</key>
+			<false/>
+			<key>IOInterfaceNamePrefix</key>
+			<string>en</string>
+			<key>IOInterfaceType</key>
+			<integer>6</integer>
+			<key>IOInterfaceUnit</key>
+			<integer>4</integer>
+			<key>IOMACAddress</key>
+			<data>
+			rkBev4Ua
+			</data>
+			<key>IOPathMatch</key>
+			<string>IOService:/AppleARMPE/arm-io@10F00000/AppleT810xIO/usb-drd1@2280000/AppleT8103USBXDCI@0/AppleUSBNCMData@1/AppleUSBDeviceNCMData/en4</string>
+			<key>SCNetworkInterfaceInfo</key>
+			<dict>
+				<key>UserDefinedName</key>
+				<string>Ethernet Adapter (en4)</string>
+			</dict>
+			<key>SCNetworkInterfaceType</key>
+			<string>Ethernet</string>
+		</dict>
+	</array>
+	<key>Model</key>
+	<string>MacBookAir10,1</string>
+	<key>__VERSION__</key>
+	<integer>20191120</integer>
+</dict>
+</plist>

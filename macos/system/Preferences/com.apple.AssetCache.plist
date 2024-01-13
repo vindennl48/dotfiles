@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activated</key>
+	<false/>
+	<key>CacheLimit</key>
+	<integer>0</integer>
+	<key>DataPath</key>
+	<string>/Library/Application Support/Apple/AssetCache/Data</string>
+	<key>ListenWithPeersAndParents</key>
+	<true/>
+	<key>LocalSubnetsOnly</key>
+	<true/>
+	<key>PeerLocalSubnetsOnly</key>
+	<true/>
+	<key>Port</key>
+	<integer>0</integer>
+	<key>ReservedVolumeSpace</key>
+	<integer>2000000000</integer>
+	<key>ServerGUID</key>
+	<string>15E2ED9F-806F-4F86-8B0C-7284C0F1845B</string>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>

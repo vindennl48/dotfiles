@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MetaDevice.~:AMS2_Aggregate:0</key>
+	<dict>
+		<key>master</key>
+		<string>AppleUSBAudioEngine:Focusrite:Scarlett 18i20 USB:P9B73YN0A82A01:1,2</string>
+		<key>name</key>
+		<string>LOF Live</string>
+		<key>subdevices</key>
+		<array>
+			<dict>
+				<key>channels-in</key>
+				<integer>2</integer>
+				<key>channels-out</key>
+				<integer>2</integer>
+				<key>don't pad</key>
+				<integer>0</integer>
+				<key>drift</key>
+				<integer>1</integer>
+				<key>drift algorithm</key>
+				<integer>0</integer>
+				<key>drift quality</key>
+				<integer>127</integer>
+				<key>latency-in</key>
+				<integer>0</integer>
+				<key>latency-out</key>
+				<integer>0</integer>
+				<key>name</key>
+				<string>BlackHole 2ch</string>
+				<key>uid</key>
+				<string>BlackHole2ch_UID</string>
+			</dict>
+			<dict>
+				<key>channels-in</key>
+				<integer>8</integer>
+				<key>channels-out</key>
+				<integer>8</integer>
+				<key>don't pad</key>
+				<integer>0</integer>
+				<key>drift</key>
+				<integer>1</integer>
+				<key>drift algorithm</key>
+				<integer>0</integer>
+				<key>drift quality</key>
+				<integer>127</integer>
+				<key>latency-in</key>
+				<integer>0</integer>
+				<key>latency-out</key>
+				<integer>0</integer>
+				<key>name</key>
+				<string>Axe-Fx III</string>
+				<key>uid</key>
+				<string>AppleUSBAudioEngine:Fractal Audio Systems:Axe-Fx III:4200000:1,2</string>
+			</dict>
+			<dict>
+				<key>channels-in</key>
+				<integer>20</integer>
+				<key>channels-out</key>
+				<integer>20</integer>
+				<key>don't pad</key>
+				<integer>0</integer>
+				<key>drift</key>
+				<integer>0</integer>
+				<key>drift algorithm</key>
+				<integer>0</integer>
+				<key>drift quality</key>
+				<integer>127</integer>
+				<key>latency-in</key>
+				<integer>0</integer>
+				<key>latency-out</key>
+				<integer>0</integer>
+				<key>name</key>
+				<string>Scarlett 18i20 USB</string>
+				<key>uid</key>
+				<string>AppleUSBAudioEngine:Focusrite:Scarlett 18i20 USB:P9B73YN0A82A01:1,2</string>
+			</dict>
+		</array>
+		<key>uid</key>
+		<string>~:AMS2_Aggregate:0</string>
+		<key>vocal isolation type</key>
+		<integer>0</integer>
+	</dict>
+	<key>MetaDevice.~:AMS2_Aggregate:2</key>
+	<dict>
+		<key>name</key>
+		<string>MAC</string>
+		<key>subdevices</key>
+		<array>
+			<dict>
+				<key>channels-in</key>
+				<integer>2</integer>
+				<key>channels-out</key>
+				<integer>2</integer>
+				<key>don't pad</key>
+				<integer>0</integer>
+				<key>drift</key>
+				<integer>0</integer>
+				<key>drift algorithm</key>
+				<integer>0</integer>
+				<key>drift quality</key>
+				<integer>127</integer>
+				<key>latency-in</key>
+				<integer>0</integer>
+				<key>latency-out</key>
+				<integer>0</integer>
+				<key>name</key>
+				<string>MacBook Air Speakers</string>
+				<key>uid</key>
+				<string>BuiltInSpeakerDevice</string>
+			</dict>
+			<dict>
+				<key>channels-in</key>
+				<integer>1</integer>
+				<key>channels-out</key>
+				<integer>0</integer>
+				<key>don't pad</key>
+				<integer>0</integer>
+				<key>drift</key>
+				<integer>0</integer>
+				<key>drift algorithm</key>
+				<integer>0</integer>
+				<key>drift quality</key>
+				<integer>127</integer>
+				<key>latency-in</key>
+				<integer>0</integer>
+				<key>latency-out</key>
+				<integer>0</integer>
+				<key>name</key>
+				<string>MacBook Air Microphone</string>
+				<key>uid</key>
+				<string>BuiltInMicrophoneDevice</string>
+			</dict>
+		</array>
+		<key>uid</key>
+		<string>~:AMS2_Aggregate:2</string>
+		<key>vocal isolation type</key>
+		<integer>0</integer>
+	</dict>
+	<key>Meta_UIDList</key>
+	<array>
+		<string>~:AMS2_Aggregate:0</string>
+		<string>~:AMS2_Aggregate:2</string>
+	</array>
+	<key>Plug-In.com.cdsp.audio.SoundDesk</key>
+	<dict>
+		<key>com.ableton.live</key>
+		<integer>1</integer>
+		<key>com.apple.CoreSpeech</key>
+		<integer>1</integer>
+		<key>com.apple.FaceTime.FaceTimeNotificationCenterService</key>
+		<integer>1</integer>
+		<key>com.apple.PowerChime</key>
+		<integer>1</integer>
+		<key>com.apple.TelephonyUtilities</key>
+		<integer>1</integer>
+		<key>com.apple.assistantd</key>
+		<integer>1</integer>
+		<key>com.apple.audio.AudioMIDISetup</key>
+		<integer>1</integer>
+		<key>com.apple.audio.coreaudiod</key>
+		<integer>1</integer>
+		<key>com.apple.controlcenter</key>
+		<integer>1</integer>
+		<key>com.apple.loginwindow</key>
+		<integer>1</integer>
+		<key>com.apple.mediaremoted</key>
+		<integer>1</integer>
+		<key>com.apple.quicklook.QuickLookUIService</key>
+		<integer>1</integer>
+		<key>com.apple.universalaccessd</key>
+		<integer>1</integer>
+		<key>com.presonus.studioone2</key>
+		<integer>3</integer>
+		<key>company.thebrowser.browser.helper.plugin</key>
+		<integer>1</integer>
+		<key>org.videolan.vlc</key>
+		<integer>1</integer>
+	</dict>
+	<key>Plug-In.com.rogueamoeba.ACE.driver</key>
+	<dict>
+		<key>client-registry-obj</key>
+		<data>
+		TA6NLW6OBgY6IEDrAiRs7a3FDc1sxYgtbmztTozFDayNDqxOxQVKrM2MrE6s
+		TiWaYICgwOABISCKDiyODYrNLK2syy3Nbo4sjY2lDu2NLWwvC0yuzYyNrCmI
+		6wJp5SgODo0tbCyOLe3NbuWILW5s7U6MxSwODuVo7c2OrM2ObuXITiytrO7t
+		Tm1u5YgtbmztTowECayNDqxOBAVKrM2MrE6sTiXFLA4O6wIjiC1ubO1OjAQJ
+		rI0OrE4EBUqszYysTqxOJcqMrM4tbKwBYeUHp0gqSxWYAAAAAAAAICAAAAAA
+		AAAAQQAAAAAAAAAAAAAAAAAAAHk=
+		</data>
+		<key>loopback-version</key>
+		<integer>2</integer>
+		<key>proxy-devices-obj</key>
+		<data>
+		TA6NLW6OBgYaAQAAAAAAACAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAh
+		</data>
+	</dict>
+	<key>Plug-In.com.sonarworks.systemwide.aspdevice</key>
+	<dict>
+		<key>box_acquired</key>
+		<false/>
+	</dict>
+	<key>System_MixStereoToMono</key>
+	<integer>0</integer>
+	<key>Tap_UIDList</key>
+	<array/>
+	<key>device.03094a9f-a710-44e3-8810-1a70b1ade92a-25516459868125-Audio</key>
+	<dict/>
+	<key>device.042addab-27a9-44e5-8c1f-ffd901e2e9db-65054663702000-Audio</key>
+	<dict/>
+	<key>device.04726F04-0000-0000-271D-010380351E78</key>
+	<dict/>
+	<key>device.0AE09B06-0000-0000-3313-010380663978</key>
+	<dict/>
+	<key>device.17-1A-6D-01-30-03:output</key>
+	<dict/>
+	<key>device.1CBCEB11-FE68-4D42-858E-A04500000003</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>177</integer>
+			<key>time</key>
+			<integer>462720000000</integer>
+		</dict>
+	</dict>
+	<key>device.20-15-82-EF-13-2F:input</key>
+	<dict/>
+	<key>device.20-15-82-EF-13-2F:output</key>
+	<dict/>
+	<key>device.3C-4D-BE-33-D9-44:input</key>
+	<dict/>
+	<key>device.3C-4D-BE-33-D9-44:output</key>
+	<dict/>
+	<key>device.3c-4d-be-33-d9-44:input</key>
+	<dict/>
+	<key>device.3c-4d-be-33-d9-44:output</key>
+	<dict/>
+	<key>device.42324141-0000-0000-0000-000000000003</key>
+	<dict/>
+	<key>device.43424331-0000-0000-0000-000000000003</key>
+	<dict/>
+	<key>device.48F45213-0000-0000-021E-0103A0301B78</key>
+	<dict/>
+	<key>device.4C2D440D-0000-0000-021F-0103803C2278</key>
+	<dict/>
+	<key>device.4C2D440D-0000-0000-2F1E-0103803C2278</key>
+	<dict/>
+	<key>device.593A0210-0000-0000-2819-010380573178</key>
+	<dict/>
+	<key>device.65e60dff-7d9c-4294-9b7c-48d3d2372ead-262637486377416-Audio</key>
+	<dict/>
+	<key>device.70-10-01-29-4c-e2:output</key>
+	<dict/>
+	<key>device.78-5E-A2-D1-36-D4:output</key>
+	<dict/>
+	<key>device.AA2BE015-8685-49BD-870E-566300000003</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>177</integer>
+			<key>time</key>
+			<integer>360240000000</integer>
+		</dict>
+	</dict>
+	<key>device.AOP Audio-1</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>1</integer>
+			<key>time</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>device.AppleUSBAudioEngine:Blooper:Blooper:Blooper:1,2</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Darkglass Electronics:ADAM:285f2e362d1563b4:2,3</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:DisplayLink:USB3.0 5K Graphic Docking:4310338421755:3</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:DisplayLink:USB3.0 5K Graphic Docking:4310338421755:4</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Elgato:Cam Link 4K:0004F003AB000:4</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Focusrite:Scarlett 18i20 USB:100000:1,2</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Focusrite:Scarlett 18i20 USB:1140000:1,2</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Focusrite:Scarlett 18i20 USB:140000:1,2</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Focusrite:Scarlett 18i20 USB:2100000:1,2</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Focusrite:Scarlett 18i20 USB:4200000:1,2</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Focusrite:Scarlett 18i20 USB:P9B73YN0A82A01:1,2</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Focusrite:Scarlett 4i4 USB:D812V7Z9B80835:1,2</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Fractal Audio Systems:Axe-Fx III:100000:1,2</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Fractal Audio Systems:Axe-Fx III:4200000:1,2</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:LINE 6:HX Stomp:   3017882:2,3</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Logitech USB Headset:Logitech USB Headset:1124000:1</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Logitech USB Headset:Logitech USB Headset:1124000:2</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Logitech USB Headset:Logitech USB Headset:124000:1</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Logitech USB Headset:Logitech USB Headset:124000:2</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Logitech USB Headset:Logitech USB Headset:5124000:1</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Logitech USB Headset:Logitech USB Headset:5124000:2</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Neural DSP:Quad Cortex:100000:1,2</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Neural DSP:Quad Cortex:1100000:1,2</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Neural DSP:Quad Cortex:1110000:1,2</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Neural DSP:Quad Cortex:1120000:1,2</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Neural DSP:Quad Cortex:1130000:1,2</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Neural DSP:Quad Cortex:120000:1,2</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Neural DSP:Quad Cortex:130000:1,2</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Neural DSP:Quad Cortex:140000:1,2</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Neural DSP:Quad Cortex:2200000:1,2</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Neural DSP:Quad Cortex:4400000:1,2</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Other World Computing:OWC Thunderbolt 3 Audio Device:2400000:1</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Other World Computing:OWC Thunderbolt 3 Audio Device:2400000:2</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Other World Computing:OWC Thunderbolt 3 Audio Device:3400000:1</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Other World Computing:OWC Thunderbolt 3 Audio Device:3400000:2</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Other World Computing:OWC Thunderbolt 3 Audio Device:4400000:1</key>
+	<dict/>
+	<key>device.AppleUSBAudioEngine:Other World Computing:OWC Thunderbolt 3 Audio Device:4400000:2</key>
+	<dict/>
+	<key>device.AudioTap-3B3759F7-0674-4638-8FB9-4326ED785E9B</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>177</integer>
+			<key>time</key>
+			<integer>117960000000</integer>
+		</dict>
+		<key>input.stereo.left</key>
+		<integer>1</integer>
+		<key>input.stereo.right</key>
+		<integer>2</integer>
+	</dict>
+	<key>device.BlackHole16ch_2_UID</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>0</integer>
+			<key>time</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>device.BlackHole16ch_UID</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>152</integer>
+			<key>time</key>
+			<integer>1242840000000</integer>
+		</dict>
+	</dict>
+	<key>device.BlackHole2ch_2_UID</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>0</integer>
+			<key>time</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>device.BlackHole2ch_UID</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>175</integer>
+			<key>time</key>
+			<integer>480000000</integer>
+		</dict>
+	</dict>
+	<key>device.BlackHole64ch_2_UID</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>0</integer>
+			<key>time</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>device.BlackHole64ch_UID</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>97</integer>
+			<key>time</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>device.BuiltInHeadphoneInputDevice</key>
+	<dict/>
+	<key>device.BuiltInHeadphoneOutputDevice</key>
+	<dict/>
+	<key>device.BuiltInMicrophoneDevice</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>0</integer>
+			<key>time</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>device.BuiltInSpeakerDevice</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>0</integer>
+			<key>time</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>device.C4-30-18-FF-B8-71:output</key>
+	<dict/>
+	<key>device.CADefaultDeviceAggregate-8267-0</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>177</integer>
+			<key>time</key>
+			<integer>105840000000</integer>
+		</dict>
+		<key>output.stereo.left</key>
+		<integer>1</integer>
+		<key>output.stereo.right</key>
+		<integer>2</integer>
+		<key>output.surround</key>
+		<dict>
+			<key>channel bitmap</key>
+			<integer>0</integer>
+			<key>channel descriptions</key>
+			<array>
+				<dict>
+					<key>channel flags</key>
+					<integer>0</integer>
+					<key>channel label</key>
+					<integer>-1</integer>
+					<key>coordinates</key>
+					<array>
+						<real>0.0</real>
+						<real>0.0</real>
+						<real>0.0</real>
+					</array>
+				</dict>
+				<dict>
+					<key>channel flags</key>
+					<integer>0</integer>
+					<key>channel label</key>
+					<integer>-1</integer>
+					<key>coordinates</key>
+					<array>
+						<real>0.0</real>
+						<real>0.0</real>
+						<real>0.0</real>
+					</array>
+				</dict>
+			</array>
+			<key>channel layout tag</key>
+			<integer>0</integer>
+			<key>number channels</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>device.D5A89B22-902C-40E8-9DC7-A6A4EC629400-110637708205583-screen</key>
+	<dict/>
+	<key>device.D5A89B22-902C-40E8-9DC7-A6A4EC629400-121411921583875-screen</key>
+	<dict/>
+	<key>device.D5A89B22-902C-40E8-9DC7-A6A4EC629400-1595137958457208-screen</key>
+	<dict/>
+	<key>device.D5A89B22-902C-40E8-9DC7-A6A4EC629400-1595955758045250-screen</key>
+	<dict/>
+	<key>device.D5A89B22-902C-40E8-9DC7-A6A4EC629400-194769189768791-screen</key>
+	<dict/>
+	<key>device.D5A89B22-902C-40E8-9DC7-A6A4EC629400-208998921220000-screen</key>
+	<dict/>
+	<key>device.D5A89B22-902C-40E8-9DC7-A6A4EC629400-262645141517625-screen</key>
+	<dict/>
+	<key>device.D5A89B22-902C-40E8-9DC7-A6A4EC629400-35272938724875-screen</key>
+	<dict/>
+	<key>device.D5A89B22-902C-40E8-9DC7-A6A4EC629400-39896971323500-screen</key>
+	<dict/>
+	<key>device.D5A89B22-902C-40E8-9DC7-A6A4EC629400-551201703944375-screen</key>
+	<dict/>
+	<key>device.D5A89B22-902C-40E8-9DC7-A6A4EC629400-551237233520458-screen</key>
+	<dict/>
+	<key>device.D5A89B22-902C-40E8-9DC7-A6A4EC629400-994243260198916-screen</key>
+	<dict/>
+	<key>device.E8-D0-3C-38-3D-45:output</key>
+	<dict/>
+	<key>device.HUReachableHearingAidsDeviceUID</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>0</integer>
+			<key>time</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>device.Pro Tools Audio Bridge 16_UID</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>154</integer>
+			<key>time</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>device.Pro Tools Audio Bridge 2-A_UID</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>154</integer>
+			<key>time</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>device.Pro Tools Audio Bridge 2-B_UID</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>154</integer>
+			<key>time</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>device.Pro Tools Audio Bridge 32_UID</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>154</integer>
+			<key>time</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>device.Pro Tools Audio Bridge 64_UID</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>154</integer>
+			<key>time</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>device.Pro Tools Audio Bridge 6_UID</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>154</integer>
+			<key>time</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>device.SonarworksSystemwide_DeviceUID</key>
+	<dict/>
+	<key>device.SoundDeskCableM_UID</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>139</integer>
+			<key>time</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>device.SoundDeskCableS_UID</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>139</integer>
+			<key>time</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>device.SoundDeskCable_UID</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>139</integer>
+			<key>time</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>device.SoundDesk_UID</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>139</integer>
+			<key>time</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>device.com.apple.accessibility.audioPlugin.AXSpeech.input</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>0</integer>
+			<key>time</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>device.com.apple.accessibility.audioPlugin.AXSpeech.output</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>0</integer>
+			<key>time</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>device.com.rogueamoeba.InstantOn:0</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>0</integer>
+			<key>time</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>device.com.rogueamoeba.Loopback:024576C3-9B9E-4C76-8E9F-98B9DF4F1516</key>
+	<dict/>
+	<key>device.com.rogueamoeba.Loopback:110C6FD4-B0D6-4BA1-901B-0E6FDEC0ED38</key>
+	<dict/>
+	<key>device.com.rogueamoeba.Loopback:491AE2C7-C597-4D60-9573-A0F54A178C69</key>
+	<dict/>
+	<key>device.com.rogueamoeba.Loopback:53F606B1-156F-4E15-9A3E-DD728E1EB9EC</key>
+	<dict/>
+	<key>device.com.rogueamoeba.Loopback:936194B8-9787-45FE-9CC4-958E9ECE914C</key>
+	<dict/>
+	<key>device.com.rogueamoeba.Loopback:B5D1A7CF-EBF5-4C99-810C-608EDE8B1FB6</key>
+	<dict/>
+	<key>device.com.rogueamoeba.audiohijack:0</key>
+	<dict/>
+	<key>device.com.rogueamoeba.audiohijack:4D83-1491438F0</key>
+	<dict/>
+	<key>device.com.rogueamoeba.audiohijack:4DB9-15031F1C0</key>
+	<dict/>
+	<key>device.com.rogueamoeba.audiohijack:509E-12B14B6F0</key>
+	<dict/>
+	<key>device.e8-d0-3c-38-3d-45:output</key>
+	<dict/>
+	<key>device.zoom.us.zoomaudiodevice.001</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>134</integer>
+			<key>time</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>device.~:AMS2_Aggregate:0</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>100</integer>
+			<key>time</key>
+			<integer>756480000000</integer>
+		</dict>
+		<key>input.elementnames</key>
+		<dict>
+			<key>1</key>
+			<string>BlackHole</string>
+			<key>10</key>
+			<string>Axe IN 4/7</string>
+			<key>11</key>
+			<string>FR 1</string>
+			<key>12</key>
+			<string>FR 2</string>
+			<key>13</key>
+			<string>FR 3</string>
+			<key>14</key>
+			<string>FR 4</string>
+			<key>15</key>
+			<string>-</string>
+			<key>16</key>
+			<string>-</string>
+			<key>17</key>
+			<string>-</string>
+			<key>18</key>
+			<string>-</string>
+			<key>19</key>
+			<string>-</string>
+			<key>2</key>
+			<string>BlackHole</string>
+			<key>20</key>
+			<string>-</string>
+			<key>21</key>
+			<string>-</string>
+			<key>22</key>
+			<string>-</string>
+			<key>23</key>
+			<string>Mitch Left</string>
+			<key>24</key>
+			<string>Mitch Right</string>
+			<key>25</key>
+			<string>-</string>
+			<key>26</key>
+			<string>-</string>
+			<key>27</key>
+			<string>-</string>
+			<key>28</key>
+			<string>-</string>
+			<key>29</key>
+			<string>-</string>
+			<key>3</key>
+			<string>Axe Out 1L</string>
+			<key>30</key>
+			<string>-</string>
+			<key>4</key>
+			<string>Axe Out 1R</string>
+			<key>5</key>
+			<string>Axe Out 2L</string>
+			<key>6</key>
+			<string>Axe Out 2R</string>
+			<key>7</key>
+			<string>Axe DI 1</string>
+			<key>8</key>
+			<string>Axe DI 1</string>
+			<key>9</key>
+			<string>Axe IN 3/5</string>
+		</dict>
+		<key>output.elementnames</key>
+		<dict>
+			<key>1</key>
+			<string>BlackHole</string>
+			<key>10</key>
+			<string>-</string>
+			<key>11</key>
+			<string>Out 1L</string>
+			<key>12</key>
+			<string>Out 1R</string>
+			<key>13</key>
+			<string>Out 2L</string>
+			<key>14</key>
+			<string>Out 2R</string>
+			<key>15</key>
+			<string>-</string>
+			<key>16</key>
+			<string>-</string>
+			<key>17</key>
+			<string>-</string>
+			<key>18</key>
+			<string>-</string>
+			<key>19</key>
+			<string>-</string>
+			<key>2</key>
+			<string>BlackHole</string>
+			<key>20</key>
+			<string>-</string>
+			<key>21</key>
+			<string>Mitch HP Left</string>
+			<key>22</key>
+			<string>Mitch HP Right</string>
+			<key>23</key>
+			<string>-</string>
+			<key>24</key>
+			<string>-</string>
+			<key>25</key>
+			<string>-</string>
+			<key>26</key>
+			<string>-</string>
+			<key>27</key>
+			<string>-</string>
+			<key>28</key>
+			<string>-</string>
+			<key>29</key>
+			<string>-</string>
+			<key>3</key>
+			<string>Axe Out 1L</string>
+			<key>30</key>
+			<string>-</string>
+			<key>4</key>
+			<string>Axe Out 1R</string>
+			<key>5</key>
+			<string>Axe Out 2L</string>
+			<key>6</key>
+			<string>Axe Out 2R</string>
+			<key>7</key>
+			<string>-</string>
+			<key>8</key>
+			<string>-</string>
+			<key>9</key>
+			<string>-</string>
+		</dict>
+	</dict>
+	<key>device.~:AMS2_Aggregate:2</key>
+	<dict>
+		<key>global.arrival</key>
+		<dict>
+			<key>seed</key>
+			<integer>171</integer>
+			<key>time</key>
+			<integer>2458800000000</integer>
+		</dict>
+	</dict>
+	<key>preferred devices</key>
+	<dict>
+		<key>input</key>
+		<array>
+			<dict>
+				<key>master data source value</key>
+				<integer>1768778083</integer>
+				<key>uid</key>
+				<string>BuiltInMicrophoneDevice</string>
+			</dict>
+			<dict/>
+			<dict/>
+		</array>
+		<key>output</key>
+		<array>
+			<dict>
+				<key>master data source value</key>
+				<integer>0</integer>
+				<key>uid</key>
+				<string>78-5E-A2-D1-36-D4:output</string>
+			</dict>
+			<dict>
+				<key>master data source value</key>
+				<integer>1769173099</integer>
+				<key>uid</key>
+				<string>BuiltInSpeakerDevice</string>
+			</dict>
+			<dict>
+				<key>master data source value</key>
+				<integer>0</integer>
+				<key>uid</key>
+				<string>BlackHole2ch_UID</string>
+			</dict>
+		</array>
+		<key>system output</key>
+		<array>
+			<dict>
+				<key>master data source value</key>
+				<integer>0</integer>
+				<key>uid</key>
+				<string>~:AMS2_Aggregate:1</string>
+			</dict>
+			<dict>
+				<key>master data source value</key>
+				<integer>1769173099</integer>
+				<key>uid</key>
+				<string>BuiltInSpeakerDevice</string>
+			</dict>
+			<dict>
+				<key>master data source value</key>
+				<integer>0</integer>
+				<key>uid</key>
+				<string>BlackHole2ch_UID</string>
+			</dict>
+		</array>
+	</dict>
+	<key>seed</key>
+	<integer>178</integer>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>

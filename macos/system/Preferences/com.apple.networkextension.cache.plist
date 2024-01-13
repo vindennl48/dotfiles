@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>services</key>
+	<dict>
+		<key>E689C23A-1E46-4D4C-B57C-BBC70482275C</key>
+		<dict>
+			<key>vpn</key>
+			<dict>
+				<key>included-routes</key>
+				<dict>
+					<key>ipv4-subnets</key>
+					<dict>
+						<key>subnet-addresses</key>
+						<array>
+							<data>
+							AAAAAA==
+							</data>
+						</array>
+						<key>subnet-masks</key>
+						<array>
+							<data>
+							AAAAAA==
+							</data>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

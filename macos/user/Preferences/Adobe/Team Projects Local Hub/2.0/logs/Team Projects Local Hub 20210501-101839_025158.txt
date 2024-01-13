@@ -1,0 +1,20 @@
+Log file created: Sat May  1 10:18:39 2021
+-------------------------------------------
+<8606469632> <AnywhereLocalHub> <5> 2021-05-01T14:18:39.026241 Team Projects Local Hub, platform: "Macintosh", sysVersion: "2.0.DVA_PATCH_VERSION", dvaVersion: "15.1.0", build: "", dataModel: "2.0.1", suiteClient: "2021"
+<8606469632> <AnywhereLocalHub> <5> 2021-05-01T14:18:39.033925 Started local HTTP server, port: 54447
+<12969361408> <AnywhereLocalHub> <5> 2021-05-01T14:18:39.036793 Client connected, session: 3
+<12969361408> <AnywhereLocalHub> <5> 2021-05-01T14:18:39.038400 Client connected, info: {"build":"48","name":"Premiere Pro","version":"15.1.0"}, session: 3
+<12969918464> <LiveEditClient> <0> 2021-05-01T14:18:39.039844 nil threadID='374693() ', "event.type":"initSDK" , "les.analyticsEnabled":"0"
+<12969361408> <HubSync> <5> 2021-05-01T14:19:14.944610 RemoteLoginService::Login, server: "https://cc-api-teamprojects.adobe.io:443"
+<12970475520> <AnywhereLocalHub> <5> 2021-05-01T15:19:14.857219 Client connected, session: 4
+<12970475520> <AnywhereLocalHub> <5> 2021-05-01T15:19:14.858851 Client connected, info: {"build":"42","name":"Adobe Media Encoder","version":"15.1.0"}, session: 4
+<12970475520> <HubSync> <5> 2021-05-01T15:19:32.788780 RemoteLoginService::Login, server: "https://cc-api-teamprojects.adobe.io:443"
+<12969361408> <AnywhereLocalHub> <5> 2021-05-01T15:20:27.311960 Client disconnected, session: 4
+<12969918464> <AnywhereLocalHub> <5> 2021-05-01T15:20:32.420698 Client disconnected, session: 3
+<8606469632> <AnywhereLocalHub> <5> 2021-05-01T15:20:37.587309 Closing SyncBox
+<8606469632> <EACL> <5> 2021-05-01T15:20:37.588989 Entering disconnected mode, root: "https://cc-api-teamprojects.adobe.io:443"
+<8606469632> <HubSync> <5> 2021-05-01T15:20:37.589681 Terminating data server, url: "https://cc-api-teamprojects.adobe.io:443"
+<8606469632> <AnywhereLocalHub> <5> 2021-05-01T15:20:37.601898 Closing ProjectBox
+-------------------------------------------
+Log file closed: Sat May  1 11:20:37 2021
+

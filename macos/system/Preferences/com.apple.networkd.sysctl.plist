@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>net.classq.enable_l4s</key>
+	<integer>1</integer>
+	<key>net.classq.fq_codel.fq_enable_pacing</key>
+	<integer>1</integer>
+	<key>net.inet.tcp.accurate_ecn</key>
+	<integer>1</integer>
+	<key>net.inet.tcp.ecn_setup_percentage</key>
+	<integer>100</integer>
+</dict>
+</plist>

@@ -1,0 +1,19 @@
+INFO:2023-12-17 12:47:17,867:abl.webconnector.main:Start
+INFO:2023-12-17 12:47:17,878:abl.webconnector.main:Cleanup event logs.
+INFO:2023-12-17 12:47:22,880:abl.webconnector.main:Upload info.
+INFO:2023-12-17 12:47:22,999:abl.webconnector.auto_updates:Checking for auto updates from 11.3.11
+INFO:2023-12-17 12:47:23,461:abl.webconnector.auto_updates:Found update to 11.3.12
+INFO:2023-12-17 12:47:23,461:abl.webconnector.auto_updates:Update confirmed. Starting download...
+INFO:2023-12-17 12:47:23,464:abl.webconnector.tasks:Retrieving delta ableton_live_standard_11.3.12_from_11.3.11_mac_universal.asu
+INFO:2023-12-17 12:47:26,109:abl.webconnector.tasks:Delta retrieved, elapsed time: 2645ms
+INFO:2023-12-17 12:47:26,110:abl.webconnector.tasks:Preparing auto-update tasks
+INFO:2023-12-17 12:47:26,110:abl.webconnector.connector:Copy installation
+INFO:2023-12-17 12:47:49,089:abl.webconnector.connector:Copy installation completed (22978 ms)
+INFO:2023-12-17 12:47:49,090:abl.webconnector.connector:Update cloned installation
+INFO:2023-12-17 12:47:54,439:abl.webconnector.connector:Update cloned installation completed (5349 ms)
+INFO:2023-12-17 12:47:55,141:abl.webconnector.main:Notifying Live that the update is ready to apply
+INFO:2023-12-17 12:47:55,141:abl.webconnector.main:Waiting for Live to terminate
+INFO:2023-12-17 12:49:50,611:abl.webconnector.connector:Cleaning up /Users/mitch/Library/Application Support/Ableton/Live 11.3.11/_autoupdates
+INFO:2023-12-17 12:49:50,688:abl.webconnector.connector:Invoking swapper to apply update
+INFO:2023-12-17 12:49:50,717:abl.webconnector.connector:Swapper invoked with pid: 27036
+INFO:2023-12-17 12:49:50,718:abl.webconnector.main:End

@@ -1,0 +1,145 @@
+INFO:2023-05-23 10:42:56,325:abl.webconnector.main:Start
+INFO:2023-05-23 10:42:56,326:abl.webconnector.main:Cleanup event logs.
+INFO:2023-05-23 10:43:01,332:abl.webconnector.main:Upload info.
+INFO:2023-05-23 10:43:01,449:abl.webconnector.auto_updates:Checking for auto updates from 11.3.2
+INFO:2023-05-23 10:43:01,915:abl.webconnector.auto_updates:No update found; terminating
+INFO:2023-05-23 10:43:02,450:abl.webconnector.main:End
+INFO:2023-05-23 11:17:26,342:abl.webconnector.main:Start
+INFO:2023-05-23 11:17:26,343:abl.webconnector.main:Cleanup event logs.
+INFO:2023-05-23 11:17:31,347:abl.webconnector.main:Upload info.
+INFO:2023-05-23 11:17:31,445:abl.webconnector.auto_updates:Checking for auto updates from 11.3.2
+INFO:2023-05-23 11:17:31,935:abl.webconnector.auto_updates:No update found; terminating
+INFO:2023-05-23 11:17:32,450:abl.webconnector.main:End
+INFO:2023-05-23 14:41:56,079:abl.webconnector.main:Start
+INFO:2023-05-23 14:41:56,080:abl.webconnector.main:Cleanup event logs.
+INFO:2023-05-23 14:42:01,087:abl.webconnector.main:Upload info.
+INFO:2023-05-23 14:42:01,204:abl.webconnector.auto_updates:Checking for auto updates from 11.3.2
+INFO:2023-05-23 14:42:01,670:abl.webconnector.auto_updates:No update found; terminating
+INFO:2023-05-23 14:42:02,210:abl.webconnector.main:End
+INFO:2023-05-23 14:47:21,407:abl.webconnector.main:Start
+INFO:2023-05-23 14:47:21,408:abl.webconnector.main:Cleanup event logs.
+INFO:2023-05-23 14:47:26,410:abl.webconnector.main:Upload info.
+INFO:2023-05-23 14:47:26,499:abl.webconnector.auto_updates:Checking for auto updates from 11.3.2
+INFO:2023-05-23 14:47:26,960:abl.webconnector.auto_updates:No update found; terminating
+INFO:2023-05-23 14:47:27,505:abl.webconnector.main:End
+INFO:2023-05-23 14:54:59,037:abl.webconnector.main:Start
+INFO:2023-05-23 14:54:59,038:abl.webconnector.main:Cleanup event logs.
+INFO:2023-05-23 14:55:04,044:abl.webconnector.main:Upload info.
+INFO:2023-05-23 14:55:04,134:abl.webconnector.auto_updates:Checking for auto updates from 11.3.2
+INFO:2023-05-23 14:55:04,600:abl.webconnector.auto_updates:No update found; terminating
+INFO:2023-05-23 14:55:05,135:abl.webconnector.main:End
+INFO:2023-05-23 18:18:54,490:abl.webconnector.main:Start
+INFO:2023-05-23 18:18:54,491:abl.webconnector.main:Cleanup event logs.
+INFO:2023-05-23 18:18:59,496:abl.webconnector.main:Upload info.
+INFO:2023-05-23 18:18:59,571:abl.webconnector.auto_updates:Checking for auto updates from 11.3.2
+INFO:2023-05-23 18:19:00,049:abl.webconnector.auto_updates:No update found; terminating
+INFO:2023-05-23 18:19:00,576:abl.webconnector.main:End
+INFO:2023-05-23 18:20:26,105:abl.webconnector.main:Start
+INFO:2023-05-23 18:20:26,106:abl.webconnector.main:Cleanup event logs.
+INFO:2023-05-23 18:20:31,108:abl.webconnector.main:Upload info.
+INFO:2023-05-23 18:20:31,186:abl.webconnector.auto_updates:Checking for auto updates from 11.3.2
+INFO:2023-05-23 18:20:31,648:abl.webconnector.auto_updates:No update found; terminating
+INFO:2023-05-23 18:20:32,189:abl.webconnector.main:End
+INFO:2023-05-23 18:22:55,320:abl.webconnector.main:Start
+INFO:2023-05-23 18:22:55,321:abl.webconnector.main:Cleanup event logs.
+INFO:2023-05-23 18:23:00,325:abl.webconnector.main:Upload info.
+INFO:2023-05-23 18:23:00,417:abl.webconnector.auto_updates:Checking for auto updates from 11.3.2
+INFO:2023-05-23 18:23:00,904:abl.webconnector.auto_updates:No update found; terminating
+INFO:2023-05-23 18:23:01,422:abl.webconnector.main:End
+INFO:2023-05-23 18:23:47,298:abl.webconnector.main:Start
+INFO:2023-05-23 18:23:47,298:abl.webconnector.main:Cleanup event logs.
+INFO:2023-05-23 18:23:52,304:abl.webconnector.main:Upload info.
+INFO:2023-05-23 18:23:52,383:abl.webconnector.auto_updates:Checking for auto updates from 11.3.2
+INFO:2023-05-23 18:23:52,851:abl.webconnector.auto_updates:No update found; terminating
+INFO:2023-05-23 18:23:53,388:abl.webconnector.main:End
+INFO:2023-05-23 20:39:34,291:abl.webconnector.main:Start
+INFO:2023-05-23 20:39:34,292:abl.webconnector.main:Cleanup event logs.
+INFO:2023-05-23 20:39:39,294:abl.webconnector.main:Upload info.
+INFO:2023-05-23 20:39:39,373:abl.webconnector.auto_updates:Checking for auto updates from 11.3.2
+INFO:2023-05-23 20:39:39,853:abl.webconnector.auto_updates:No update found; terminating
+INFO:2023-05-23 20:39:40,378:abl.webconnector.main:End
+INFO:2023-05-23 20:58:23,626:abl.webconnector.main:Start
+INFO:2023-05-23 20:58:23,627:abl.webconnector.main:Cleanup event logs.
+INFO:2023-05-23 20:58:28,632:abl.webconnector.main:Upload info.
+INFO:2023-05-23 20:58:28,772:abl.webconnector.auto_updates:Checking for auto updates from 11.3.2
+INFO:2023-05-23 20:58:29,228:abl.webconnector.auto_updates:No update found; terminating
+INFO:2023-05-23 20:58:29,777:abl.webconnector.main:End
+INFO:2023-05-23 21:23:35,971:abl.webconnector.main:Start
+INFO:2023-05-23 21:23:35,972:abl.webconnector.main:Cleanup event logs.
+INFO:2023-05-23 21:23:40,976:abl.webconnector.main:Upload info.
+INFO:2023-05-23 21:23:41,059:abl.webconnector.auto_updates:Checking for auto updates from 11.3.2
+INFO:2023-05-23 21:23:41,540:abl.webconnector.auto_updates:No update found; terminating
+INFO:2023-05-23 21:23:42,064:abl.webconnector.main:End
+INFO:2023-05-24 18:26:41,305:abl.webconnector.main:Start
+INFO:2023-05-24 18:26:41,306:abl.webconnector.main:Cleanup event logs.
+INFO:2023-05-24 18:26:46,310:abl.webconnector.main:Upload info.
+INFO:2023-05-24 18:26:46,418:abl.webconnector.auto_updates:Checking for auto updates from 11.3.2
+INFO:2023-05-24 18:26:46,885:abl.webconnector.auto_updates:No update found; terminating
+INFO:2023-05-24 18:26:47,424:abl.webconnector.main:End
+INFO:2023-05-24 18:28:38,329:abl.webconnector.main:Start
+INFO:2023-05-24 18:28:38,330:abl.webconnector.main:Cleanup event logs.
+INFO:2023-05-24 18:28:43,333:abl.webconnector.main:Upload info.
+INFO:2023-05-24 18:28:43,445:abl.webconnector.auto_updates:Checking for auto updates from 11.3.2
+INFO:2023-05-24 18:28:43,914:abl.webconnector.auto_updates:No update found; terminating
+INFO:2023-05-24 18:28:44,448:abl.webconnector.main:End
+INFO:2023-05-24 19:06:41,800:abl.webconnector.main:Start
+INFO:2023-05-24 19:06:41,802:abl.webconnector.main:Cleanup event logs.
+INFO:2023-05-24 19:06:46,807:abl.webconnector.main:Upload info.
+INFO:2023-05-24 19:06:46,886:abl.webconnector.auto_updates:Checking for auto updates from 11.3.2
+INFO:2023-05-24 19:06:47,365:abl.webconnector.auto_updates:No update found; terminating
+INFO:2023-05-24 19:06:47,892:abl.webconnector.main:End
+INFO:2023-05-31 18:32:45,151:abl.webconnector.main:Start
+INFO:2023-05-31 18:32:45,152:abl.webconnector.main:Cleanup event logs.
+INFO:2023-05-31 18:32:50,155:abl.webconnector.main:Upload info.
+INFO:2023-05-31 18:32:50,246:abl.webconnector.auto_updates:Checking for auto updates from 11.3.2
+INFO:2023-05-31 18:32:50,710:abl.webconnector.auto_updates:No update found; terminating
+INFO:2023-05-31 18:32:51,247:abl.webconnector.main:End
+INFO:2023-05-31 19:37:14,259:abl.webconnector.main:Start
+INFO:2023-05-31 19:37:14,260:abl.webconnector.main:Cleanup event logs.
+INFO:2023-05-31 19:37:19,270:abl.webconnector.main:Upload info.
+INFO:2023-05-31 19:37:19,361:abl.webconnector.auto_updates:Checking for auto updates from 11.3.2
+INFO:2023-05-31 19:37:19,835:abl.webconnector.auto_updates:No update found; terminating
+INFO:2023-05-31 19:37:20,363:abl.webconnector.main:End
+INFO:2023-06-03 11:33:48,291:abl.webconnector.main:Start
+INFO:2023-06-03 11:33:48,292:abl.webconnector.main:Cleanup event logs.
+INFO:2023-06-03 11:33:53,296:abl.webconnector.main:Upload info.
+INFO:2023-06-03 11:33:53,378:abl.webconnector.auto_updates:Checking for auto updates from 11.3.2
+INFO:2023-06-03 11:33:53,835:abl.webconnector.auto_updates:No update found; terminating
+INFO:2023-06-03 11:33:54,381:abl.webconnector.main:End
+INFO:2023-06-03 11:36:40,252:abl.webconnector.main:Start
+INFO:2023-06-03 11:36:40,253:abl.webconnector.main:Cleanup event logs.
+INFO:2023-06-03 11:36:45,254:abl.webconnector.main:Upload info.
+INFO:2023-06-03 11:36:45,348:abl.webconnector.auto_updates:Checking for auto updates from 11.3.2
+INFO:2023-06-03 11:36:45,810:abl.webconnector.auto_updates:No update found; terminating
+INFO:2023-06-03 11:36:46,349:abl.webconnector.main:End
+INFO:2023-06-04 14:17:03,734:abl.webconnector.main:Start
+INFO:2023-06-04 14:17:03,735:abl.webconnector.main:Cleanup event logs.
+INFO:2023-06-04 14:17:08,740:abl.webconnector.main:Upload info.
+INFO:2023-06-04 14:17:08,830:abl.webconnector.auto_updates:Checking for auto updates from 11.3.2
+INFO:2023-06-04 14:17:09,297:abl.webconnector.auto_updates:No update found; terminating
+INFO:2023-06-04 14:17:09,835:abl.webconnector.main:End
+INFO:2023-06-04 17:34:35,777:abl.webconnector.main:Start
+INFO:2023-06-04 17:34:35,778:abl.webconnector.main:Cleanup event logs.
+INFO:2023-06-04 17:34:40,784:abl.webconnector.main:Upload info.
+INFO:2023-06-04 17:34:40,907:abl.webconnector.auto_updates:Checking for auto updates from 11.3.2
+INFO:2023-06-04 17:34:41,361:abl.webconnector.auto_updates:No update found; terminating
+INFO:2023-06-04 17:34:41,913:abl.webconnector.main:End
+INFO:2023-06-05 14:10:14,602:abl.webconnector.main:Start
+INFO:2023-06-05 14:10:14,603:abl.webconnector.main:Cleanup event logs.
+INFO:2023-06-05 14:10:19,609:abl.webconnector.main:Upload info.
+INFO:2023-06-05 14:10:19,732:abl.webconnector.auto_updates:Checking for auto updates from 11.3.2
+INFO:2023-06-05 14:10:20,197:abl.webconnector.auto_updates:Found update to 11.3.3
+INFO:2023-06-05 14:10:20,198:abl.webconnector.auto_updates:Update confirmed. Starting download...
+INFO:2023-06-05 14:10:20,203:abl.webconnector.tasks:Retrieving delta ableton_live_standard_11.3.3_from_11.3.2_mac_universal.asu
+INFO:2023-06-05 14:10:22,980:abl.webconnector.tasks:Delta retrieved, elapsed time: 2777ms
+INFO:2023-06-05 14:10:22,981:abl.webconnector.tasks:Preparing auto-update tasks
+INFO:2023-06-05 14:10:22,982:abl.webconnector.connector:Copy installation
+INFO:2023-06-05 14:10:52,433:abl.webconnector.connector:Copy installation completed (29451 ms)
+INFO:2023-06-05 14:10:52,435:abl.webconnector.connector:Update cloned installation
+INFO:2023-06-05 14:10:58,837:abl.webconnector.connector:Update cloned installation completed (6401 ms)
+INFO:2023-06-05 14:10:58,879:abl.webconnector.main:Notifying Live that the update is ready to apply
+INFO:2023-06-05 14:10:58,879:abl.webconnector.main:Waiting for Live to terminate
+INFO:2023-06-05 14:22:47,427:abl.webconnector.connector:Cleaning up /Users/mitch/Library/Application Support/Ableton/Live 11.3.2/_autoupdates
+INFO:2023-06-05 14:22:47,515:abl.webconnector.connector:Invoking swapper to apply update
+INFO:2023-06-05 14:22:47,572:abl.webconnector.connector:Swapper invoked with pid: 8868
+INFO:2023-06-05 14:22:47,572:abl.webconnector.main:End

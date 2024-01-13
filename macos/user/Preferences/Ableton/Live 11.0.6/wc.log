@@ -1,0 +1,45 @@
+INFO:2021-08-16 13:34:09,626:abl.webconnector.main:Start
+INFO:2021-08-16 13:34:09,628:abl.webconnector.main:Cleanup event logs.
+INFO:2021-08-16 13:34:14,634:abl.webconnector.main:Upload info.
+INFO:2021-08-16 13:34:14,642:abl.webconnector.auto_updates:Checking for auto updates from 11.0.6
+INFO:2021-08-16 13:34:15,147:abl.webconnector.auto_updates:No update found; terminating
+INFO:2021-08-16 13:34:15,647:abl.webconnector.main:End
+INFO:2021-08-16 20:51:19,156:abl.webconnector.main:Start
+INFO:2021-08-16 20:51:19,158:abl.webconnector.main:Cleanup event logs.
+INFO:2021-08-16 20:51:24,160:abl.webconnector.main:Upload info.
+INFO:2021-08-16 20:51:24,163:abl.webconnector.auto_updates:Checking for auto updates from 11.0.6
+INFO:2021-08-16 20:51:24,636:abl.webconnector.auto_updates:No update found; terminating
+INFO:2021-08-16 20:51:25,165:abl.webconnector.main:End
+INFO:2021-08-16 21:59:33,060:abl.webconnector.main:Start
+INFO:2021-08-16 21:59:33,063:abl.webconnector.main:Cleanup event logs.
+INFO:2021-08-16 21:59:38,067:abl.webconnector.main:Upload info.
+INFO:2021-08-16 21:59:38,076:abl.webconnector.auto_updates:Checking for auto updates from 11.0.6
+INFO:2021-08-16 21:59:38,577:abl.webconnector.auto_updates:No update found; terminating
+INFO:2021-08-16 21:59:39,078:abl.webconnector.main:End
+INFO:2021-08-17 18:25:36,698:abl.webconnector.main:Start
+INFO:2021-08-17 18:25:36,700:abl.webconnector.main:Cleanup event logs.
+INFO:2021-08-17 18:25:41,704:abl.webconnector.main:Upload info.
+INFO:2021-08-17 18:25:41,714:abl.webconnector.auto_updates:Checking for auto updates from 11.0.6
+INFO:2021-08-17 18:25:42,212:abl.webconnector.auto_updates:No update found; terminating
+INFO:2021-08-17 18:25:42,719:abl.webconnector.main:End
+INFO:2021-08-24 18:16:36,859:abl.webconnector.main:Start
+INFO:2021-08-24 18:16:36,862:abl.webconnector.main:Cleanup event logs.
+INFO:2021-08-24 18:16:41,864:abl.webconnector.main:Upload info.
+INFO:2021-08-24 18:16:41,875:abl.webconnector.auto_updates:Checking for auto updates from 11.0.6
+INFO:2021-08-24 18:16:42,439:abl.webconnector.auto_updates:No update found; terminating
+INFO:2021-08-24 18:16:42,878:abl.webconnector.main:End
+INFO:2021-08-26 19:19:15,759:abl.webconnector.main:Start
+INFO:2021-08-26 19:19:15,762:abl.webconnector.main:Cleanup event logs.
+INFO:2021-08-26 19:19:20,762:abl.webconnector.main:Upload info.
+INFO:2021-08-26 19:19:20,766:abl.webconnector.auto_updates:Checking for auto updates from 11.0.6
+INFO:2021-08-26 19:19:21,328:abl.webconnector.auto_updates:No update found; terminating
+INFO:2021-08-26 19:19:21,766:abl.webconnector.main:End
+INFO:2021-08-29 17:16:23,307:abl.webconnector.main:Start
+INFO:2021-08-29 17:16:23,310:abl.webconnector.main:No internet connection available, aborting. Connect to the internet or use the "directory_connection" configuration option to load local asu files
+ERROR:2021-08-29 17:16:23,310:abl.webconnector.main:
+INFO:2021-08-31 18:49:53,832:abl.webconnector.main:Start
+INFO:2021-08-31 18:49:53,834:abl.webconnector.main:Cleanup event logs.
+INFO:2021-08-31 18:49:58,840:abl.webconnector.main:Upload info.
+INFO:2021-08-31 18:49:58,861:abl.webconnector.auto_updates:Checking for auto updates from 11.0.6
+INFO:2021-08-31 18:49:59,514:abl.webconnector.auto_updates:No update found; terminating
+INFO:2021-08-31 18:49:59,866:abl.webconnector.main:End

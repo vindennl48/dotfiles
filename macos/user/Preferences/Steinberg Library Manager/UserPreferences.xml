@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><UserPreferences>   <list name="Entries" type="list">      <item>         <string name="Group" value="Application"/>         <member name="Values">            <int name="DontAskForQuit" value="0"/>         </member>      </item>   </list></UserPreferences>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<dict>
+  <key>useMulticast</key>
+  <bool>true</bool>
+  <key>broadcastIpAddress</key>
+  <string>255.255.255.255</string>
+  <key>multicastIpAddress</key>
+  <string>226.0.0.1</string>
+  <key>maxSendRetries</key>
+  <integer>5</integer>
+  <key>port</key>
+  <integer>5670</integer>
+  <key>pingIntervalMs</key>
+  <integer>1000</integer>
+</dict>

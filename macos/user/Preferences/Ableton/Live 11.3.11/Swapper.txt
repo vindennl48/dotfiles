@@ -1,0 +1,31 @@
+2023-12-17T12:49:51.086309: info: #######################################
+2023-12-17T12:49:51.087347: info: Started: Swapper 11.3.11 Build: 2023-09-15_2b9735cdbb
+2023-12-17T12:49:51.087354: info: #######################################
+2023-12-17T12:49:51.087358: info: Init: Setup environment
+2023-12-17T12:49:51.087426: info: UUID: 39DBE3A1-9145-3848-A9EC-B4FE2081A119
+2023-12-17T12:49:51.090647: info: Code ID: identifier "Ableton Swapper" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-12-17T12:49:51.090731: info: Init: Version: 'Swapper 11.3.11 Build: 2023-09-15_2b9735cdbb' 1114897
+2023-12-17T12:49:51.090744: info: Init: BuildRevisions: 2b9735cdbbbdfe9e73ca0419b5c6f3d447ba8be0
+2023-12-17T12:49:51.090755: info: Init: Commit ID: '2b9735cdbbbdfe9e73ca0419b5c6f3d447ba8be0'
+2023-12-17T12:49:51.092394: info: Init: OS: 'macOS 14.2.0 (23C64), Arch:arm64'
+2023-12-17T12:49:51.092415: info: Init: BuildType: 'Release'
+2023-12-17T12:49:51.092420: info: Init: Pid: 27036
+2023-12-17T12:49:51.092458: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-12-17T12:49:51.092465: info: Init: CPU Brand String: 'Apple M1'
+2023-12-17T12:49:51.092470: info: Init: CPU Count: 8
+2023-12-17T12:49:51.092584: info: Init: Physical RAM: 17179869184 B
+2023-12-17T12:49:51.092589: info: Init: Address Space: 18446744073709551615 B
+2023-12-17T12:49:51.092592: info: Init: 64-bit Edition
+2023-12-17T12:49:51.165702: info: Init: Checksum 1: 3794467bc1954407ecd742290608131a
+2023-12-17T12:49:51.199484: info: Init: Checksum 2: 620f2e4984c4824ffec5041d47ef90df
+2023-12-17T12:49:51.226428: info: Init: Checksum 3: 620f2e4984c4824ffec5041d47ef90df
+2023-12-17T12:49:51.230219: info: Swapper: Start
+2023-12-17T12:49:51.230244: info: Swapper: Running as '/var/folders/2r/f3q8fcg53mlbqvvc55jwzvth0000gn/T/tmpDk57rk/Ableton Swapper"
+2023-12-17T12:49:51.230368: info: Swapper: Working directory: "/private/var/folders/2r/f3q8fcg53mlbqvvc55jwzvth0000gn/T/tmpDk57rk"
+2023-12-17T12:49:51.234611: info: Scanner: Waiting for completion of parent process.
+2023-12-17T12:49:51.234721: info: Swapper: Swapping prepared copy at "/Applications/.Ableton Live 11 Standard_updated.app" to Live installation at "/Applications/Ableton Live 11 Standard.app"
+2023-12-17T12:49:51.234745: info: Swapper: Renaming "/Applications/Ableton Live 11 Standard.app" to "/Applications/Ableton Live 11 Standard.app.Old"
+2023-12-17T12:49:51.234865: info: Swapper: Renaming "/Applications/.Ableton Live 11 Standard_updated.app" to "/Applications/Ableton Live 11 Standard.app"
+2023-12-17T12:49:51.235695: info: Swapper: Deleting "/Applications/Ableton Live 11 Standard.app.Old"
+2023-12-17T12:49:55.187796: info: Swapper: Return code: 0
+2023-12-17T12:49:55.187807: info: Swapper: End

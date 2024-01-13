@@ -1,0 +1,168 @@
+2021-08-16T13:34:09.394671: info: #######################################
+2021-08-16T13:34:09.394768: info: Started: WebConnector 11.0.6 Build: 2021-08-09_daefd4db27
+2021-08-16T13:34:09.394775: info: #######################################
+2021-08-16T13:34:09.394849: info: Init: Setup environment
+2021-08-16T13:34:09.394884: info: : UUID: 6264E427-0F5F-37A0-9477-BD2AE3CC4E5C
+2021-08-16T13:34:09.394892: info: Init: Version: 'WebConnector 11.0.6 Build: 2021-08-09_daefd4db27' 1114118
+2021-08-16T13:34:09.394906: info: Init: BuildRevisions: daefd4db27434b7ab68d4df150fd795f6502f8d5
+2021-08-16T13:34:09.394912: info: Init: Commit ID: 'daefd4db27434b7ab68d4df150fd795f6502f8d5'
+2021-08-16T13:34:09.394993: info: Init: OS: 'Mac OS X version 11.5.1, Arch:x86-64'
+2021-08-16T13:34:09.395000: info: Init: BuildType: 'Release'
+2021-08-16T13:34:09.395010: info: Init: Pid: 49759
+2021-08-16T13:34:09.395042: info: Init: Hardware Model: 'MacBookAir10,1'
+2021-08-16T13:34:09.395051: info: Init: CPU Brand String: 'Apple M1'
+2021-08-16T13:34:09.395060: info: Init: CPU Count: 8
+2021-08-16T13:34:09.395069: info: Init: Physical RAM: 17179869184 B
+2021-08-16T13:34:09.395074: info: Init: Address Space: 18446744073709551615 B
+2021-08-16T13:34:09.395078: info: Init: 64-bit Edition
+2021-08-16T13:34:09.418713: info: Init: GraphicsDevice: 'Unknown Unknown'
+2021-08-16T13:34:09.446370: info: Init: Checksum 1: bc5a09d0534aa30ba4fd714b21528645
+2021-08-16T13:34:09.462864: info: Init: Checksum 2: 52faac3edd163890bb0b5de830978107
+2021-08-16T13:34:09.479700: info: Init: Checksum 3: 52faac3edd163890bb0b5de830978107
+2021-08-16T20:51:18.909959: info: #######################################
+2021-08-16T20:51:18.910125: info: Started: WebConnector 11.0.6 Build: 2021-08-09_daefd4db27
+2021-08-16T20:51:18.910133: info: #######################################
+2021-08-16T20:51:18.910138: info: Init: Setup environment
+2021-08-16T20:51:18.910168: info: : UUID: 6264E427-0F5F-37A0-9477-BD2AE3CC4E5C
+2021-08-16T20:51:18.910176: info: Init: Version: 'WebConnector 11.0.6 Build: 2021-08-09_daefd4db27' 1114118
+2021-08-16T20:51:18.910188: info: Init: BuildRevisions: daefd4db27434b7ab68d4df150fd795f6502f8d5
+2021-08-16T20:51:18.910193: info: Init: Commit ID: 'daefd4db27434b7ab68d4df150fd795f6502f8d5'
+2021-08-16T20:51:18.910270: info: Init: OS: 'Mac OS X version 11.5.1, Arch:x86-64'
+2021-08-16T20:51:18.910275: info: Init: BuildType: 'Release'
+2021-08-16T20:51:18.910286: info: Init: Pid: 53181
+2021-08-16T20:51:18.910428: info: Init: Hardware Model: 'MacBookAir10,1'
+2021-08-16T20:51:18.910444: info: Init: CPU Brand String: 'Apple M1'
+2021-08-16T20:51:18.910456: info: Init: CPU Count: 8
+2021-08-16T20:51:18.910466: info: Init: Physical RAM: 17179869184 B
+2021-08-16T20:51:18.910471: info: Init: Address Space: 18446744073709551615 B
+2021-08-16T20:51:18.910476: info: Init: 64-bit Edition
+2021-08-16T20:51:18.933294: info: Init: GraphicsDevice: 'Unknown Unknown'
+2021-08-16T20:51:18.958511: info: Init: Checksum 1: bc5a09d0534aa30ba4fd714b21528645
+2021-08-16T20:51:18.975107: info: Init: Checksum 2: 52faac3edd163890bb0b5de830978107
+2021-08-16T20:51:18.995310: info: Init: Checksum 3: 52faac3edd163890bb0b5de830978107
+2021-08-16T21:59:32.794558: info: #######################################
+2021-08-16T21:59:32.794821: info: Started: WebConnector 11.0.6 Build: 2021-08-09_daefd4db27
+2021-08-16T21:59:32.794830: info: #######################################
+2021-08-16T21:59:32.794834: info: Init: Setup environment
+2021-08-16T21:59:32.794869: info: : UUID: 6264E427-0F5F-37A0-9477-BD2AE3CC4E5C
+2021-08-16T21:59:32.794877: info: Init: Version: 'WebConnector 11.0.6 Build: 2021-08-09_daefd4db27' 1114118
+2021-08-16T21:59:32.794889: info: Init: BuildRevisions: daefd4db27434b7ab68d4df150fd795f6502f8d5
+2021-08-16T21:59:32.794894: info: Init: Commit ID: 'daefd4db27434b7ab68d4df150fd795f6502f8d5'
+2021-08-16T21:59:32.794971: info: Init: OS: 'Mac OS X version 11.5.1, Arch:x86-64'
+2021-08-16T21:59:32.794976: info: Init: BuildType: 'Release'
+2021-08-16T21:59:32.794989: info: Init: Pid: 55027
+2021-08-16T21:59:32.795160: info: Init: Hardware Model: 'MacBookAir10,1'
+2021-08-16T21:59:32.795200: info: Init: CPU Brand String: 'Apple M1'
+2021-08-16T21:59:32.795220: info: Init: CPU Count: 8
+2021-08-16T21:59:32.795230: info: Init: Physical RAM: 17179869184 B
+2021-08-16T21:59:32.795234: info: Init: Address Space: 18446744073709551615 B
+2021-08-16T21:59:32.795237: info: Init: 64-bit Edition
+2021-08-16T21:59:32.819993: info: Init: GraphicsDevice: 'Unknown Unknown'
+2021-08-16T21:59:32.845786: info: Init: Checksum 1: bc5a09d0534aa30ba4fd714b21528645
+2021-08-16T21:59:32.863778: info: Init: Checksum 2: 52faac3edd163890bb0b5de830978107
+2021-08-16T21:59:32.884398: info: Init: Checksum 3: 52faac3edd163890bb0b5de830978107
+2021-08-17T18:25:36.454509: info: #######################################
+2021-08-17T18:25:36.454643: info: Started: WebConnector 11.0.6 Build: 2021-08-09_daefd4db27
+2021-08-17T18:25:36.454654: info: #######################################
+2021-08-17T18:25:36.454659: info: Init: Setup environment
+2021-08-17T18:25:36.454697: info: : UUID: 6264E427-0F5F-37A0-9477-BD2AE3CC4E5C
+2021-08-17T18:25:36.454705: info: Init: Version: 'WebConnector 11.0.6 Build: 2021-08-09_daefd4db27' 1114118
+2021-08-17T18:25:36.454717: info: Init: BuildRevisions: daefd4db27434b7ab68d4df150fd795f6502f8d5
+2021-08-17T18:25:36.454722: info: Init: Commit ID: 'daefd4db27434b7ab68d4df150fd795f6502f8d5'
+2021-08-17T18:25:36.454814: info: Init: OS: 'Mac OS X version 11.5.1, Arch:x86-64'
+2021-08-17T18:25:36.454820: info: Init: BuildType: 'Release'
+2021-08-17T18:25:36.454832: info: Init: Pid: 59689
+2021-08-17T18:25:36.454854: info: Init: Hardware Model: 'MacBookAir10,1'
+2021-08-17T18:25:36.454864: info: Init: CPU Brand String: 'Apple M1'
+2021-08-17T18:25:36.454874: info: Init: CPU Count: 8
+2021-08-17T18:25:36.454883: info: Init: Physical RAM: 17179869184 B
+2021-08-17T18:25:36.454888: info: Init: Address Space: 18446744073709551615 B
+2021-08-17T18:25:36.454893: info: Init: 64-bit Edition
+2021-08-17T18:25:36.474121: info: Init: GraphicsDevice: 'Unknown Unknown'
+2021-08-17T18:25:36.498468: info: Init: Checksum 1: bc5a09d0534aa30ba4fd714b21528645
+2021-08-17T18:25:36.515833: info: Init: Checksum 2: 52faac3edd163890bb0b5de830978107
+2021-08-17T18:25:36.533259: info: Init: Checksum 3: 52faac3edd163890bb0b5de830978107
+2021-08-24T18:16:36.589115: info: #######################################
+2021-08-24T18:16:36.589355: info: Started: WebConnector 11.0.6 Build: 2021-08-09_daefd4db27
+2021-08-24T18:16:36.589365: info: #######################################
+2021-08-24T18:16:36.589370: info: Init: Setup environment
+2021-08-24T18:16:36.589426: info: : UUID: 6264E427-0F5F-37A0-9477-BD2AE3CC4E5C
+2021-08-24T18:16:36.589453: info: Init: Version: 'WebConnector 11.0.6 Build: 2021-08-09_daefd4db27' 1114118
+2021-08-24T18:16:36.589469: info: Init: BuildRevisions: daefd4db27434b7ab68d4df150fd795f6502f8d5
+2021-08-24T18:16:36.589475: info: Init: Commit ID: 'daefd4db27434b7ab68d4df150fd795f6502f8d5'
+2021-08-24T18:16:36.589568: info: Init: OS: 'Mac OS X version 11.5.1, Arch:x86-64'
+2021-08-24T18:16:36.589575: info: Init: BuildType: 'Release'
+2021-08-24T18:16:36.589586: info: Init: Pid: 57138
+2021-08-24T18:16:36.589767: info: Init: Hardware Model: 'MacBookAir10,1'
+2021-08-24T18:16:36.589780: info: Init: CPU Brand String: 'Apple M1'
+2021-08-24T18:16:36.589791: info: Init: CPU Count: 8
+2021-08-24T18:16:36.589800: info: Init: Physical RAM: 17179869184 B
+2021-08-24T18:16:36.589805: info: Init: Address Space: 18446744073709551615 B
+2021-08-24T18:16:36.589809: info: Init: 64-bit Edition
+2021-08-24T18:16:36.613752: info: Init: GraphicsDevice: 'Unknown Unknown'
+2021-08-24T18:16:36.639343: info: Init: Checksum 1: bc5a09d0534aa30ba4fd714b21528645
+2021-08-24T18:16:36.655883: info: Init: Checksum 2: 52faac3edd163890bb0b5de830978107
+2021-08-24T18:16:36.676473: info: Init: Checksum 3: 52faac3edd163890bb0b5de830978107
+2021-08-26T19:19:15.473595: info: #######################################
+2021-08-26T19:19:15.473816: info: Started: WebConnector 11.0.6 Build: 2021-08-09_daefd4db27
+2021-08-26T19:19:15.473824: info: #######################################
+2021-08-26T19:19:15.473842: info: Init: Setup environment
+2021-08-26T19:19:15.473877: info: : UUID: 6264E427-0F5F-37A0-9477-BD2AE3CC4E5C
+2021-08-26T19:19:15.473884: info: Init: Version: 'WebConnector 11.0.6 Build: 2021-08-09_daefd4db27' 1114118
+2021-08-26T19:19:15.473895: info: Init: BuildRevisions: daefd4db27434b7ab68d4df150fd795f6502f8d5
+2021-08-26T19:19:15.473899: info: Init: Commit ID: 'daefd4db27434b7ab68d4df150fd795f6502f8d5'
+2021-08-26T19:19:15.473988: info: Init: OS: 'Mac OS X version 11.5.1, Arch:x86-64'
+2021-08-26T19:19:15.473994: info: Init: BuildType: 'Release'
+2021-08-26T19:19:15.474004: info: Init: Pid: 1194
+2021-08-26T19:19:15.474175: info: Init: Hardware Model: 'MacBookAir10,1'
+2021-08-26T19:19:15.474185: info: Init: CPU Brand String: 'Apple M1'
+2021-08-26T19:19:15.474193: info: Init: CPU Count: 8
+2021-08-26T19:19:15.474201: info: Init: Physical RAM: 17179869184 B
+2021-08-26T19:19:15.474204: info: Init: Address Space: 18446744073709551615 B
+2021-08-26T19:19:15.474207: info: Init: 64-bit Edition
+2021-08-26T19:19:15.496082: info: Init: GraphicsDevice: 'Unknown Unknown'
+2021-08-26T19:19:15.522557: info: Init: Checksum 1: bc5a09d0534aa30ba4fd714b21528645
+2021-08-26T19:19:15.539327: info: Init: Checksum 2: 52faac3edd163890bb0b5de830978107
+2021-08-26T19:19:15.560301: info: Init: Checksum 3: 52faac3edd163890bb0b5de830978107
+2021-08-29T17:16:23.029464: info: #######################################
+2021-08-29T17:16:23.029681: info: Started: WebConnector 11.0.6 Build: 2021-08-09_daefd4db27
+2021-08-29T17:16:23.029691: info: #######################################
+2021-08-29T17:16:23.029696: info: Init: Setup environment
+2021-08-29T17:16:23.029730: info: : UUID: 6264E427-0F5F-37A0-9477-BD2AE3CC4E5C
+2021-08-29T17:16:23.029737: info: Init: Version: 'WebConnector 11.0.6 Build: 2021-08-09_daefd4db27' 1114118
+2021-08-29T17:16:23.029748: info: Init: BuildRevisions: daefd4db27434b7ab68d4df150fd795f6502f8d5
+2021-08-29T17:16:23.029753: info: Init: Commit ID: 'daefd4db27434b7ab68d4df150fd795f6502f8d5'
+2021-08-29T17:16:23.029830: info: Init: OS: 'Mac OS X version 11.5.1, Arch:x86-64'
+2021-08-29T17:16:23.029836: info: Init: BuildType: 'Release'
+2021-08-29T17:16:23.029848: info: Init: Pid: 8227
+2021-08-29T17:16:23.030066: info: Init: Hardware Model: 'MacBookAir10,1'
+2021-08-29T17:16:23.030077: info: Init: CPU Brand String: 'Apple M1'
+2021-08-29T17:16:23.030087: info: Init: CPU Count: 8
+2021-08-29T17:16:23.030096: info: Init: Physical RAM: 17179869184 B
+2021-08-29T17:16:23.030102: info: Init: Address Space: 18446744073709551615 B
+2021-08-29T17:16:23.030106: info: Init: 64-bit Edition
+2021-08-29T17:16:23.048940: info: Init: GraphicsDevice: 'Unknown Unknown'
+2021-08-29T17:16:23.074456: info: Init: Checksum 1: bc5a09d0534aa30ba4fd714b21528645
+2021-08-29T17:16:23.090974: info: Init: Checksum 2: 52faac3edd163890bb0b5de830978107
+2021-08-29T17:16:23.111472: info: Init: Checksum 3: 52faac3edd163890bb0b5de830978107
+2021-08-31T18:49:53.583504: info: #######################################
+2021-08-31T18:49:53.583806: info: Started: WebConnector 11.0.6 Build: 2021-08-09_daefd4db27
+2021-08-31T18:49:53.583817: info: #######################################
+2021-08-31T18:49:53.583827: info: Init: Setup environment
+2021-08-31T18:49:53.583865: info: : UUID: 6264E427-0F5F-37A0-9477-BD2AE3CC4E5C
+2021-08-31T18:49:53.583873: info: Init: Version: 'WebConnector 11.0.6 Build: 2021-08-09_daefd4db27' 1114118
+2021-08-31T18:49:53.583885: info: Init: BuildRevisions: daefd4db27434b7ab68d4df150fd795f6502f8d5
+2021-08-31T18:49:53.583891: info: Init: Commit ID: 'daefd4db27434b7ab68d4df150fd795f6502f8d5'
+2021-08-31T18:49:53.583984: info: Init: OS: 'Mac OS X version 11.5.1, Arch:x86-64'
+2021-08-31T18:49:53.583991: info: Init: BuildType: 'Release'
+2021-08-31T18:49:53.584003: info: Init: Pid: 38598
+2021-08-31T18:49:53.584167: info: Init: Hardware Model: 'MacBookAir10,1'
+2021-08-31T18:49:53.584179: info: Init: CPU Brand String: 'Apple M1'
+2021-08-31T18:49:53.584191: info: Init: CPU Count: 8
+2021-08-31T18:49:53.584200: info: Init: Physical RAM: 17179869184 B
+2021-08-31T18:49:53.584212: info: Init: Address Space: 18446744073709551615 B
+2021-08-31T18:49:53.584215: info: Init: 64-bit Edition
+2021-08-31T18:49:53.607822: info: Init: GraphicsDevice: 'Unknown Unknown'
+2021-08-31T18:49:53.632887: info: Init: Checksum 1: bc5a09d0534aa30ba4fd714b21528645
+2021-08-31T18:49:53.648612: info: Init: Checksum 2: 52faac3edd163890bb0b5de830978107
+2021-08-31T18:49:53.668352: info: Init: Checksum 3: 52faac3edd163890bb0b5de830978107

@@ -1,0 +1,94 @@
+## ZSH PLUGINS ##
+zap-prompt : simple plugin manager
+zsh-autosuggestions : yep
+zsh-syntax-highlighting : dunno if this conflicts with catppuccine
+catppuccine : zsh highlighting
+zsh-autocomplete : autocomplete like fish
+navi : Homebrew : basically terminal snippets and helpers # maybe..
+fd : Homebrew : an easier finder; kind of like my sfind
+ranger : terminal file browser / manager... really need to learn how to use this
+
+exa : a replacement for ls ? not sure if its good or not
+ripgrep : a more powerful grep
+enhancd : a more powerful cd command with fuzzyfind
+# diff-so-fancy : good looking git diffs
+# autojump : jump to different folders quicker.  kinda like fzf
+# fast-syntax-highlighting : dunno if this conflicts with catppuccine
+
+spaceship prompt : if we dont use ohmyzsh then this might be needed
+pure prompt : much simple such wow
+typewritten prompt : similar to pure prompt
+
+# TMUX #
+Session Manager from video guy
+## END ZSH PLUGINS ##
+
+## LIST ##
+git : manager
+bear : used for compiling c++ apps
+blackhole : both 2ch and 16ch
+cmake : for c++ compiling
+gcc : for c++ compiling
+ffmpeg : converting video/audio
+fzf : silver searcher
+htop : powerful system processes program
+lua : shitty programming language
+make : to make c++ compiling
+neovim : duh
+node : for js stuff
+pyenv : python version control / emulator
+python? : i think we can install right from pyenv
+the_silver_searcher : i think this is just fzf
+tmux : duh
+tree : display tree path
+tree-sitter : mby needed for neovim for completion?
+wget : downloader
+yarn : alternative to npm
+arduino-cli : arduino cli commands
+xcode-select --install
+navi : cheetsheet for the terminal
+fd : a better find tool, similar to my sfind tool
+cask -> keepingyouawake : stop screen from sleeping
+cask -> moom : window tiling manager
+cask -> istat-menus : for cpu and memory usage icons
+cask -> displaylink : display link manager for DS docks
+cask -> alt-tab : easy switching windows
+cask -> 1password : password manager
+cask -> unnaturalscrollwheels : flips the scroll wheel direction
+cask -> hiddenbar : hides stuff in menubar
+cask -> visual-studio-code : brew version of vscode
+cask -> google-chrome : chrome
+cask -> arc : arc browser
+cask -> spotify : music shiz
+cask -> discord : (throwup)
+cask -> iterm2 : terminal
+cask -> ableton-live-standard : ableton
+cask -> arduino-ide : arduino ide program
+cask -> microsoft-remote-desktop : remote to windows machine
+cask -> vlc : video player
+cask -> warp : new terminal
+## END LIST ##
+
+## Outside Install Programs ##
+AxeFX III / Fractal Bot
+Morningstar Editor (i think might just be chrome now)
+Morningstar Firmware updater
+Bome Midi Translator (just use for simple stuff now)
+Studio One 5
+Focusrite Control : for newer Focusrite devices
+Scarlett MixControl : for older Focusrite 18i20
+Reaper (portable)
+Davinci Resolve
+Darkglass Suite : ADAM pedal
+mymind
+RTL Utility : roundtrip latency test
+Steam
+Ultimaker-Cura
+## END Outside Install Programs ##
+
+## MUSIC PLUGINS ##
+iLok License Manager
+GGD Studio Cabs Cali
+Playbeat3
+UVI Portal / Workstation
+## END MUSIC PLUGINS ##

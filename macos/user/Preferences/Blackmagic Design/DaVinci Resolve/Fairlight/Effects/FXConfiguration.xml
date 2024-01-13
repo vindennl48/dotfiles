@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Effects version="1.4">
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/A1StereoControl.vst</Path>
+		<FileTime>2021-02-19 15:37</FileTime>
+		<Name>A1StereoControl</Name>
+		<ID>A1StereoControl:1093751651</ID>
+		<Category>5</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>A1AUDIO.de</Vendor>
+		<Width>2</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/CHANNEV.vst</Path>
+		<FileTime>2021-08-12 03:41</FileTime>
+		<Name>CHANNEV</Name>
+		<ID>CHANNEV:1128812081</ID>
+		<Category>1</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>AnalogObsession</Vendor>
+		<Width>2</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/ConvologyXT.vst</Path>
+		<FileTime>2023-03-27 15:38</FileTime>
+		<Name>Convology XT</Name>
+		<ID>Convology XT:1129732180</ID>
+		<Category>6</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Impulse Record</Vendor>
+		<Width>2</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/Surreal Machines/Crack.vst</Path>
+		<FileTime>2023-02-06 17:27</FileTime>
+		<Name>Crack</Name>
+		<ID>Crack:1129474923</ID>
+		<Category>1</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Surreal Machines</Vendor>
+		<Width>2</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/FabFilter Saturn 2.vst</Path>
+		<FileTime>2023-06-29 08:20</FileTime>
+		<Name>FabFilter Saturn 2</Name>
+		<ID>FabFilter Saturn 2:1179857505</ID>
+		<Category>1</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>FabFilter</Vendor>
+		<Width>2</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/Slate Digital/Fresh Air.vst</Path>
+		<FileTime>2022-03-31 04:22</FileTime>
+		<Name>Fresh Air</Name>
+		<ID>Fresh Air:1181892978</ID>
+		<Category>1</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Slate Digital</Vendor>
+		<Width>2</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/Frontier.vst</Path>
+		<FileTime>2021-02-05 05:28</FileTime>
+		<Name>Frontier</Name>
+		<ID>Frontier:1179807287</ID>
+		<Category>1</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>D16 Group Audio Software</Vendor>
+		<Width>2</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/Guitar Rig 6.vst</Path>
+		<FileTime>2020-12-15 07:30</FileTime>
+		<Name>Guitar Rig 6</Name>
+		<ID>Guitar Rig 6:1315513426</ID>
+		<Category>1</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Native Instruments GmbH</Vendor>
+		<Width>2</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/Komplete Kontrol.vst</Path>
+		<FileTime>2020-12-14 08:34</FileTime>
+		<Name>Komplete Kontrol</Name>
+		<ID>Komplete Kontrol:1315523403</ID>
+		<Category>2</Category>
+		<CategoryMask>128</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Native Instruments GmbH</Vendor>
+		<Width>32</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/Kontakt.vst</Path>
+		<FileTime>2020-09-16 07:34</FileTime>
+		<Name>Kontakt</Name>
+		<ID>Kontakt:1315513412</ID>
+		<Category>2</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Native Instruments GmbH</Vendor>
+		<Width>64</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/LABS.vst</Path>
+		<FileTime>2023-04-24 20:56</FileTime>
+		<Name>LABS</Name>
+		<ID>LABS:1399213154</ID>
+		<Category>2</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Spitfire Audio</Vendor>
+		<Width>2</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/MJUCjr.vst</Path>
+		<FileTime>2021-10-28 07:34</FileTime>
+		<Name>MJUCjr</Name>
+		<ID>MJUCjr:1296717162</ID>
+		<Category>1</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Klanghelm</Vendor>
+		<Width>2</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/MSED.vst</Path>
+		<FileTime>2021-08-04 03:05</FileTime>
+		<Name>MSED</Name>
+		<ID>MSED:892745576</ID>
+		<Category>5</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Voxengo</Vendor>
+		<Width>2</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/OTT.vst</Path>
+		<FileTime>2023-01-24 10:58</FileTime>
+		<Name>OTT</Name>
+		<ID>OTT:1483101268</ID>
+		<Category>1</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Xfer Records</Vendor>
+		<Width>2</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/Ozone Imager 2.vst</Path>
+		<FileTime>2021-12-31 13:21</FileTime>
+		<Name>Ozone Imager 2</Name>
+		<ID>Ozone Imager 2:1515145522</ID>
+		<Category>1</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>iZotope, Inc.</Vendor>
+		<Width>2</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/Pan Knob 2.vst</Path>
+		<FileTime>2023-10-19 20:00</FileTime>
+		<Name>Pan Knob 2</Name>
+		<ID>Pan Knob 2:1345613419</ID>
+		<Category>5</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Boz Digital Labs</Vendor>
+		<Width>2</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/Playbeat 3.vst</Path>
+		<FileTime>2022-12-19 06:00</FileTime>
+		<Name>Playbeat 3</Name>
+		<ID>Playbeat 3:1349280307</ID>
+		<Category>2</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Audiomodern</Vendor>
+		<Width>18</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/Reaktor 6 FX.vst</Path>
+		<FileTime>Thu Jul 2 12:22:40 2020</FileTime>
+		<Name>Reaktor 6 FX</Name>
+		<ID>Reaktor 6 FX</ID>
+		<Category>0</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor></Vendor>
+		<Width>-1</Width>
+		<Enabled>0</Enabled>
+		<Working>0</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/Scaler2.vst</Path>
+		<FileTime>2023-05-26 19:20</FileTime>
+		<Name>Scaler2</Name>
+		<ID>Scaler2:1399024690</ID>
+		<Category>2</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Plugin Boutique</Vendor>
+		<Width>2</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/ScalerAudio2.vst</Path>
+		<FileTime>2023-05-26 19:37</FileTime>
+		<Name>ScalerAudio 2</Name>
+		<ID>ScalerAudio 2:1399009906</ID>
+		<Category>1</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Plugin Boutique</Vendor>
+		<Width>2</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/Sitala.vst</Path>
+		<FileTime>2023-06-20 01:46</FileTime>
+		<Name>Sitala</Name>
+		<ID>Sitala:1399420001</ID>
+		<Category>2</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Decomposer</Vendor>
+		<Width>32</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/GGD Smash and Grab v2.vst</Path>
+		<FileTime>2023-07-14 06:12</FileTime>
+		<Name>Smash And Grab v2</Name>
+		<ID>Smash And Grab v2:1396786994</ID>
+		<Category>1</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>GetGood Drums</Vendor>
+		<Width>2</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/TDR Nova.vst</Path>
+		<FileTime>2021-12-31 13:18</FileTime>
+		<Name>TDR Nova</Name>
+		<ID>TDR Nova:1415853409</ID>
+		<Category>4</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Tokyo Dawn Labs</Vendor>
+		<Width>2</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/Trackspacer25.vst</Path>
+		<FileTime>2023-04-11 12:16</FileTime>
+		<Name>Trackspacer 2.5</Name>
+		<ID>Trackspacer 2.5:1416311349</ID>
+		<Category>1</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Wavesfactory</Vendor>
+		<Width>2</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/Trigger_2.vst</Path>
+		<FileTime>2022-11-04 18:45</FileTime>
+		<Name>Trigger 2</Name>
+		<ID>Trigger 2:1414678322</ID>
+		<Category>1</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Steven Slate</Vendor>
+		<Width>2</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/UVIWorkstationVST.vst</Path>
+		<FileTime>2023-06-01 03:20</FileTime>
+		<Name>UVIWorkstationVST</Name>
+		<ID>UVIWorkstationVST:1431718231</ID>
+		<Category>2</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>UVI</Vendor>
+		<Width>34</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/ValhallaSupermassive.vst</Path>
+		<FileTime>2022-11-11 15:46</FileTime>
+		<Name>ValhallaSupermassive</Name>
+		<ID>ValhallaSupermassive:1934451059</ID>
+		<Category>1</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Valhalla DSP, LLC</Vendor>
+		<Width>2</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/Crow Hill/Vaults BETA.vst</Path>
+		<FileTime>2023-11-16 13:01</FileTime>
+		<Name>Vaults BETA</Name>
+		<ID>Vaults BETA:1447444816</ID>
+		<Category>2</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Crow Hill</Vendor>
+		<Width>2</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/Vital.vst</Path>
+		<FileTime>2022-11-30 22:42</FileTime>
+		<Name>Vital</Name>
+		<ID>Vital:1449751649</ID>
+		<Category>2</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>Vital Audio</Vendor>
+		<Width>2</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+	<Effect>
+		<Path>/Library/Audio/Plug-Ins/VST/mvMeter2.vst</Path>
+		<FileTime>2023-06-17 09:51</FileTime>
+		<Name>mvMeter2</Name>
+		<ID>mvMeter2:1413624117</ID>
+		<Category>4</Category>
+		<CategoryMask>0</CategoryMask>
+		<Favourite>0</Favourite>
+		<Vendor>TBProAudio</Vendor>
+		<Width>2</Width>
+		<Enabled>1</Enabled>
+		<Working>1</Working>
+	</Effect>
+</Effects>

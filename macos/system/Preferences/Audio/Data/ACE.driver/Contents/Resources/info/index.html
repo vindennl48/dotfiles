@@ -1,0 +1,1139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<LINK href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="content">
+	<center>
+		<img src="ace-readme-logo.png" srcset="ace-readme-logo@2x.png 2x" style="width: 256px; height: 128px;">
+		<h1>Audio Capture Engine (ACE)</h1>
+	</center>
+
+
+<h3>What It Is</h3>
+<p>Rogue Amoeba's Audio Capture Engine (ACE) powers audio capture for many applications, including Rogue Amoeba's tools.
+
+<h3>Installing</h3>
+<p>To install ACE, just follow the prompts. Enter your password when requested, and you should be all set.</p>
+
+<p>The ACE components will be placed in the /Library/Audio/Plug-Ins/HAL/ folder.</p>
+
+<h3>Uninstalling</h3>
+<p>To uninstall ACE, choose the “Uninstall” option within an application that uses ACE.</p>
+
+<hr>
+
+<h3>Version History</h3>
+
+<h4>11.9.2</h4>
+<ul>
+	<li><p>A regression where audio capture became unreliable on MacOS 13.1 has been fixed. [#3814, #3821]</p></li>						
+</ul>	
+
+
+
+
+
+<h4>11.9.1</h4>
+<ul>
+	<li><p>Additional logging has been added, to help isolate issues with authorization status. [#3731]</p></li>						
+
+	<li><p>Unnecessary processing on device change events has been removed, to help avoid issues with configuration updates. [#3732]</p></li>						
+
+	<li><p>ACE now better detects and tolerates instances where the user has improperly disabled the ACE background items.</p></li>						
+</ul>	
+
+
+
+
+
+<h4>11.9.0</h4>
+<ul>
+	<li><p>ACE is now compatible with MacOS 13 (Ventura). [#2567, #3653, #3671]</p></li>						
+
+	<li><p>Meters have been fixed to prevent incorrectly reporting invalid levels when their target device’s sample rate changes. [#3487]</p></li>						
+
+	<li><p>Channel selection for VOIP audio captures has been improved, to isolate input vs output. [#3539]</p></li>						
+</ul>	
+
+
+
+
+
+<h4>11.8.3</h4>
+<ul>
+	<li><p>Additional corrections have been made to avoid triggering an improper Control Center mic-in-use notice on MacOS 12 (Monterey).</p></li>	
+
+</ul>	
+
+
+
+
+
+<h4>11.8.2</h4>
+<ul>
+	<li><p>A memory leak caused by the Meter CPU optimization in 11.8.1 has been fixed.</p></li>
+
+</ul>	
+
+
+
+
+
+<h4>11.8.1</h4>
+<ul>
+	<li><p>Meters with only one app or device context have been optimized to use very little CPU. [#3347]</p></li>					
+
+	<li><p>The overhead of resampling and drift correction initialization has been greatly reduced. [#3346]</p></li>
+
+	<li><p>Fixed a rare audio quality issue that could affect SoundSource when audio buffers where larger than 2048 frames and sample rates were lower than 88.2kHz. [#3304]</p></li>
+
+	<li><p>The setup and teardown of taps has been optimized, and now ignores clock re-sync.</p></li>
+
+	<li><p>Tap processing timeouts have been increased to four time the expected IO cycle duration<./p></li>
+
+	<li><p>Similarly, tap pre-flight timeouts have been greatly increased to work better with plugins that take a long time to initialize and/or start.</p></li>
+
+	<li><p>An inconsistency in the Tap API has been corrected. This resolves an issue with SoundSource where it could hang after a coreaudiod restart.</p></li>
+	
+	<li><p>Device tracking has been improved yet again, working around issues with multi-function USB devices (including those from Realtek) that present differently based on what is connected to them.</p></li>
+
+	<li><p>Excessive logging about potential IO cycle timing violations has been toned down. Desired logging for actual violations is still present.</p></li>
+
+</ul>	
+
+
+
+
+<h4>11.8.0</h4>
+<ul>
+	<li><p>Volume will now be received at the correct volume recording from the built-in microphone while it’s used by FaceTime, working around an Apple bug. [#2734]</p></li>							
+
+	<li><p>Poorly implemented AudioUnits will no longer block audio playback, thanks to timeouts in the tap preflight and process callbacks used by SoundSource. [#2888)]</p></li>							
+	
+	<li><p>Tracking of audio device sample clocks now works better when presented with erroneous information. [#2894]</p></li>								
+	
+	<li><p>CPU usage has been reduced when a high channel count device is used as a Loopback monitor or SoundSource redirected output. [#3021]</p></li>							
+</ul>	
+
+
+
+
+
+
+
+<h4>11.7.8</h4>
+<ul>
+	<li><p>ACE now properly recognizes audio from EVE Online. [#2695]</p></li>							
+	
+	<li><p>Audio capture is now more robust, even when devices (usually Bluetooth) disconnect and reconnect frequently. [#2748]</p></li>								
+	
+	<li><p>A a very rare coreaudiod crash / hang that could occur if an application crashed immediately after starting to play audio has been fixed. [#2584]</p></li>							
+
+	<li><p>An audio sync / glitching issue that could occur if a device clock rate changed significantly soon after starting to play audio has been fixed. [#2429, #2624]</p></li>							
+</ul>	
+
+
+	
+
+
+
+
+
+
+<h4>11.7.7</h4>
+<ul>
+	<li><p>Logging for device configurations and new style crash reports (.ips) has been improved. [#2412]</p></li>							
+
+	<li><p>Device tracking has been further improved, working around issues seen with poorly designed multi-function USB devices that incorrectly lack a unique identifier and DisplayPort devices that do not properly maintain a unique identifier across connections. [#2345, #2418]</p></li>							
+
+	<li><p>A rare issue where sound could go missing due to an audio device failing to start has been improved. [#2523]</p></li>		
+	
+	<li><p>Crashing third-party drives should no longer cause “ACE is damaged” alerts. [#2448]</p></li>		
+	
+	<li><p>Improvements have been made to deal with problems with Focusrite Scarlett devices processing audio for many hours. [#1885]</p></li>																					
+
+	<li><p>Another rare issue where sound could go missing due to an audio device reporting an invalid clock has also been improved.</p></li>							
+</ul>
+
+
+
+<h4>11.7.6</h4>
+<ul>
+	<li><p>Still another capture issue with Catalyst-based (and AVFoundation-based) apps has been fixed.</p></li>							
+</ul>
+
+
+
+<h4>11.7.5</h4>
+<ul>
+	<li><p>A bug has been fixed to avoid triggering an improper Control Center mic-in-use notice on MacOS 12 (Monterey).</p></li>							
+</ul>
+
+
+
+<h4>11.7.4</h4>
+<ul>
+	<li><p>ACE now identifies itself in Control Center on MacOS 12 (Monterey) when accessing a device with input channels.</p></li>							
+</ul>
+
+
+
+<h4>11.7.3</h4>
+<ul>
+	<li><p>Taps have been optimized to be more efficient.</p></li>						
+</ul>
+
+
+
+<h4>11.7.2</h4>
+<ul>
+	<li><p>ACE is now compatible with MacOS 12 (Monterey).</p></li>						
+	
+	<li><p>System Audio captures now work better for Catalyst apps. [#2218]</p></li>
+
+	<li><p>Rare audio artifacts should no longer be heard when sources come and go. This includes artifacts heard when capturing from browser tabs. [#2027, #2229]</p></li>
+	
+	<li><p>ACE no longer incorrectly includes Loopback monitor audio in System Audio captures for apps like Audio Hijack. [#2241]</p></li>
+	
+	<li><p>A rare crash when Loopback devices have unmapped channels and are used with SoundSource has been fixed. [#2063]</p></li>	
+</ul>
+
+
+
+<h4>11.7.1</h4>
+<ul>
+	<li><p>ACE updates now restore transient properties of audio devices, including volume, mute, balance, pan, and others. As a result, updates to ACE will no longer cause device volumes to change. [#1626]</p></li>
+	
+	<li><p>Improved drift correction to handle certain devices' bad behavior better. [#1494]</p></li>	
+	
+	<li><p>Negative logic matching issues have been corrected, to avoid issues with subdevices of aggregate devices when used by SoundSource. [#1723]</p></li>				
+
+	<li><p>An issue with VooV.app has been worked around. To avoid an issue where Voov filters out virtual devices, ACE devices will now indicate to Voov that they are USB devices. [#1723]</p></li>
+
+	<li><p>A very rare crash when stopping audio has been fixed. [#1923]</p></li>		
+
+	<li><p>The handling of processor overload (when an IO cycle has run past its deadline) has been improved.</p></li>
+
+	<li><p>USB device references for low-quality devices have been improved to work better with some third party drivers [#617]</p></li>		
+</ul>
+
+
+
+<h4>11.7.0</h4>
+<ul>
+	<li><p>ACE has been upgraded with a higher quality sample rate converter. [#1364]</p></li>
+
+	<li><p>The use of drift correction has been expanded to prevent more rare instances of static when syncing the virtual audio device clock with physical device clocks. [#1113]</p></li>		
+
+	<li><p>ACE's previous behavior, of not capturing sound effects, has been restored. ACE now allows this to be turned on, if desired. In future app updates, switches will be added to the main interfaces of Audio Hijack and Airfoil. [#1393]</p></li>
+
+	<li><p>An issue caused by an invalid shared region cache, where ACE could appear to install without a problem but then fail to work, has been resolved. [#1590]</p></li>
+
+	<!--<li><p>ACE now offers a "Device Used By" API, with change notifications [#1329]</p></li>-->
+
+	<li><p>Adjustments have been made to allow the Xcode Simulator to be captured. [#1397]</p></li>								
+
+	<li><p>ACE apps will now perform a health check on launch and show an installation "Repair" screen if damage is detected. [#1222]</p></li>
+
+	<li><p>ACE will now show a better error when the OS's audio system is behaving unreliably. [#904]</p></li>	
+</ul>
+
+
+
+
+
+<h4>11.6.3</h4>
+<ul>
+	<li><p>This update fixes an incorrect version number in the ACE.driver.</p></li>						
+</ul>
+
+
+
+
+
+<h4>11.6.2</h4>
+<ul>
+	<li><p>Due to undesired behavior from CoreAudio, automatic drift correction for virtual sub-devices in aggregate devices has been disabled.</p></li>						
+</ul>
+
+
+
+
+
+<h4>11.6.1</h4>
+<ul>
+	<li><p>A workaround for an incompatibility with MacOS 11.3 has been implemented.</p></li>						
+
+	<li><p>Rare audio glitches, caused by large 4K buffers and major sample rate differences (e.g. 44.1 kHz to 192 kHz) will no longer occur. [#1490]</p></li>
+
+	<li><p>ACE now does more to allow the Mac to sleep when running MacOS 11 (Big Sur). [#1524]</p></li>	
+	
+	<li><p>Logging for volume and mute property changes has been added. [#1402]</p></li>							
+</ul>
+
+
+
+
+
+<h4>11.6.0</h4>
+<ul>
+	<li><p>ACE now has support for audio capture on Apple Silicon-powered Macs.</p></li>						
+</ul>
+
+
+
+
+
+<h4>11.5.2</h4>
+<ul>
+	<li><p>A crashing issue which could occur with one-channel devices has been fixed.</p></li>						
+</ul>
+
+
+
+
+
+<h4>11.5.1</h4>
+<ul>
+	<li><p>Audio will no longer become distorted after a SoundSource redirect or Loopback monitor is used for a prolonged period of time, nor when a Loopback device was included in an aggregate device. [#1378, #1382]</p></li>						
+	<li><p> Loopback pass-thru audio is no longer drift corrected, and its latency is now more consistent. [#1382]</p></li>		
+	<li><p>Performance has been improved, to minimize the chance of CPU overloads when audio playback or recording is initially started. This fixes some undesired behavior when working alongside Pro Tools. [#1376]</p></li>	
+	<li><p>A race condition which could occur when audio playback or recording was stopped has been fixed. This avoids issues with future audio playback or recording failing, and fixes another Pro Tools incompatibility. [#1376, #1381]</p></li>	
+	<li><p>An issue where the newest versions of ACE could cause problems with the old SoundSource 4 has been fixed. [#1366]</p></li>	
+	<li><p>An issue where the newest versions of ACE could break old Loopback 1 monitoring devices has been fixed. [#1414]</p></li>			
+	<li><p>“Missing Monitor Device” notifications will again correctly appear for Loopback devices.</p></li>	
+</ul>
+
+
+
+
+
+<h4>11.5.0</h4>
+<ul>
+	<li><p>ACE is now compatible with MacOS 11 (Big Sur).</p></li>						
+	<li><p>An issue with improper reporting of changed properties has been corrected. [#1388]</p></li>						
+</ul>
+
+
+
+
+
+<h4>11.2.2</h4>
+<ul>
+	<li><p>Adjustments have been made to work around the flakiness of Bluetooth devices, particularly in regards to Safari web audio playback. [#1361]</p></li>						
+	<li><p>The default sample rate is once set to 44.1 kHz. This fixes a regression found in ACE 11.2.0. [#1357]</p></li>						
+	<li><p>A crash which could occur when using aggregate devices has been fixed. [#1358]</p></li>						
+	<li><p>Pass-thru of audio formats beyond the standard 32-bit floating point PCM standard, including integer format and 5.1 audio, once again works as expected. This fixes a regression found in ACE 11.2.0. [#1354 & #1359]</p></li>						
+	<li><p>Muting is now correctly applied solely to captured channels, rather than an entire audio device. This fixes a regression found in ACE 11.2.0. [#1360]</p></li>						
+</ul>
+
+
+
+
+
+<h4>11.2.1</h4>
+<ul>
+	<li><p>The unintentional muting of input devices with application captures has been corrected. This fixes a regression found in ACE 11.2.0.</p></li>							
+	<li><p>A crash which could occur when using multi-output devices has been fixed.</p></li>							
+</ul>
+
+
+
+
+
+<h4>11.2.0</h4>
+<ul>
+	<li><p>Drift correction has been improved to prevent rare instances of static when syncing the virtual audio device clock with physical device clocks. [#828 & #1113]</p></li>								
+
+	<li><p>Audio capture should now work as expected with all Catalyst apps, such as Apple's Voice Memos [#1253]</p></li>
+
+	<li><p>Mapping channels in aggregate devices is much improved. [#826 & #1292]</p></li>
+
+	<li><p>The ACE installer now automatically corrects configuration damage caused by unfortunately popular system optimization and cleanup tools. [#883]</p></li>
+	
+	<li><p>Logging has been improved, to include information about CoreAudio crashes as well. [#889]</p></li>								
+
+	<li><p>ACE now removes the no longer relevant InstantOn alias on MacOS 10.15 and higher. [#888]</p></li>								
+
+	<li><p>Differentiating between FaceTime.app audio and Home.app audio has been improved. [#938]</p></li>								
+</ul>
+
+
+
+
+
+<h4>11.1.8</h4>
+<ul>
+	<li><p>Fixes have been made for auto-latency controls for taps.</p></li>							
+</ul>
+
+
+
+
+
+<h4>11.1.7</h4>
+<ul>
+	<li><p>An issue where initial meter data could incorrectly spike has been corrected.</p></li>
+	<li><p>Taps can now be adjusted via automatic latency controls.</p></li>					
+</ul>
+
+
+
+
+
+<h4>11.1.6</h4>
+<ul>	
+	<li><p>Updates have been made specifically for SoundSource, enabling it to determine which applications are producing audio (ECServerClientsDidChangeNotification), and when a virtual audio device configuration has changed (kECAudioDevicePropertyConfigurationChanged).</p></li>				
+</ul>
+
+
+
+
+
+<h4>11.1.5</h4>
+<ul>
+	<li><p>Updates have been made to avoid issues with automatic ducking, most commonly observed with FaceTime. <!--This specifically impacts Loopback monitors, and SoundSource redirects. Other apps already handled auto-ducking.--></p></li>	
+
+	<li><p>Audio capture from Google Chrome Progressive Web Apps (PWAs) now works as expected.</p></li>	
+	
+	<li><p>Cisco Webex Meetings has been special-cased, so audio is picked up as expected.</p></li>		
+	
+	<li><p>A minor issue with the reporting of device sample rates has been corrected.</p></li>			
+	
+	<li><p>Additional support for low-latency processing, used by SoundSource, has been added.</p></li>				
+</ul>
+
+	
+
+
+
+<h4>11.1.4</h4>
+<ul>
+	<li><p>An extremely rare crash, caused by devices with massive buffer sizes, has been fixed.</p></li>	
+	
+	<li><p>Several issues related to aggregate devices have been fixed, including corrections for missing audio and issues with sample rate mismatches. Issues with capture of FaceTime, Podcasts.app, and more, should be corrected.</p></li>		
+	
+	<li><p>An issue with short glitches when starting to send audio to Bluetooth devices has been corrected.</p></li>			
+</ul>
+
+
+	
+
+
+<h4>11.1.3</h4>
+<ul>
+	<li><p>An issue where switching between Bluetooth and non-Bluetooth devices too quickly could break application redirects has been fixed.</p></li>	
+</ul>
+
+
+
+	
+
+<h4>11.1.2</h4>
+<ul>
+	<li><p>ACE now respects custom stereo channel mappings for aggregate devices.</p></li>	
+	<li><p>Audio is now correctly captured from aggregate devices even when the system output device is changed.</p></li>
+	<li><p>ACE's device tracking has been further improved, working around issues seen with poorly designed USB devices that incorrectly lack a unique identifier.</p></li>			
+	<li><p>CPU usage has been reduced in cases when physical source or monitor devices aren't present.</p></li>	
+</ul>
+
+
+	
+	
+
+<h4>11.1.1</h4>
+<ul>
+	<li><p>Issues where audio could fail to be captured or heard caused by a small subset of audio devices which fail to properly report their settings (specifically, the “physical transport” setting) have been worked around.</p></li>	
+	<li><p>A problem where sound could be double-captured from some aggregate device configurations, resulting in phased or overly loud audio, has been corrected. In particular, this fix will prevent these issues when processing audio from FaceTime.app.</p></li>	
+</ul>
+
+
+	
+	
+
+<h4>11.1.0</h4>
+<ul>
+	<li><p>ACE now supports capturing multiple processes into one, to better handle special sources like Siri and Finder.</p></li>
+	<li><p>ACE now offers an optional re-install process (performing an uninstallation, followed by an immediate re-installation).</p></li>
+	<li><p>ACE now does additional work to avoid issues caused by Apple's Bluetooth device handling.</p></li>	
+	<li><p>The command-line aceinstaller tool is now bundled inside of ACE, for use by system administrators.</p></li>	
+	<li><p>ACE can now work with applications to better handle scenarios where ACE is improperly removed.</p></li>	
+	<li><p>The “Extras” backend has been removed from ACE, as it is no longer needed.</p></li>		
+	<li><p>Several changes have been made to improve performance and robustness, and to better handle changes to configurations while running.</p></li>
+</ul>	
+
+
+	
+
+
+<h4>11.0.2</h4>
+<ul>
+	<li><p>Tracking of multiple identical USB audio devices which don't provide properly unique identifiers has been improved.</p></li>	
+</ul>
+
+
+	
+	
+
+<h4>11.0.1</h4>
+<ul>
+	<li><p>Skype audio capture will once again occur at the expected volume.</p></li>	
+</ul>
+
+
+	
+	
+
+<h4>11.0.0</h4>
+<ul>
+	<li><p>ACE now has initial compatibility with MacOS 10.15 (Catalina).</p></li>	
+	<li><p>ACE now requires MacOS 10.12 (Sierra) or higher.</p></li>	
+	<li><p>The SIP-incompatible old-style hijacker audio capture method which had previously been deprecated has now been removed entirely.</p></li>		
+</ul> 
+
+
+
+	
+	
+<h4>10.1.1</h4>
+<ul>
+	<li><p>A rare bug, which could cause some applications to temporarily hang when playing certain audio, has been fixed.</p></li>	
+</ul> 
+
+
+
+	
+	
+<h4>10.1.0</h4>
+<ul>
+	<li><p>An issue where apps (such as web browsers) could cease working correctly when they change audio buffer sizes has been fixed.</p></li>	
+
+	<li><p>USB audio devices which don't provide properly unique identifiers can now be better tracked across ports, so they're seen even if they've been unplugged from one port and plugged in to a different port.</p></li>	
+
+	<li><p>Latency has been reduced for apps that use large buffer sizes (such as, again, web browsers).</p></li>	
+
+	<li><p>A very rare crash, which could occur when an excessive amount of audio start/stop churn occurred, has been fixed.</p></li>	
+
+	<li><p>ACE now allows applications to prioritize reliability over latency, to avoid skips at the cost of higher latency, if desired.</p></li>	
+
+</ul> 
+
+
+
+
+
+<h4>10.0.1</h4>
+<ul>
+	<li><p>The ability to optionally prioritize reliability over latency has been added to ACE's backend, for use by individual ACE-backed applications.</p></li>	
+</ul> 
+
+
+
+	
+	
+<h4>10.0.0</h4>
+<ul>
+	<li><p>Bottlenecks have been removed when processing of multiple audio streams, and overall performance is improved.</p></li>	
+	<li><p>Major backend changes <!-- Read: Taps --> have been made for use by SoundSource, and other applications.</p></li>	
+	<li><p>Support has been added for low overhead activity monitoring <!-- Used by Loopback 2's “Reduce Animations” option --></p></li>	
+	<li><p>A workaround necessitated by bugs in iTunes has been removed on MacOS 10.13 and higher, where iTunes has finally been improved.</p></li>	
+	<li><p>ACE updates now show more useful information in their authorization dialogs.</p></li>					
+	<li><p>Backend logging has been further improved, to assist in tracking down rare issues.</p></li>			
+</ul> 
+
+
+
+
+
+<h4>9.1.5</h4>
+<ul>
+	<li><p>ACE now really requires MacOS 10.11 (El Capitan) or higher.</p></li>	
+	<li><p>Backend updates have been made to allow for simpler meters.</p></li>			
+	<li><p>Backend logging has been improved, to assist in tracking down rare issues.</p></li>			
+</ul> 
+
+
+
+
+
+<h4>9.1.4</h4>
+<ul>
+	<li><p>Audio capture from the “Twitch” desktop app now works as expected in all cases.</p></li>	
+</ul> 
+
+
+
+
+
+<h4>9.1.3</h4>
+<ul>
+	<li><p>Audio capture from “OBS” now works as expected in all cases.</p></li>	
+	<li><p>A small memory leak which could occur when a virtual device was removed has been fixed.</p></li>	
+	<li><p>A possible crashing bug caused by very complex virtual devices has been corrected.</p></li>	
+</ul> 
+
+
+
+
+
+<h4>9.1.2</h4>
+<ul>
+	<li><p>A fix has been made, to enable capturing audio from Voice Memos and other ports from iOS to Mac (“Marzipan” apps).</p></li>	
+</ul> 
+
+
+
+
+
+<h4>9.1.1</h4>
+<ul>
+	<li><p>ACE now requires MacOS 10.11 (El Capitan) or higher.</p></li>	
+</ul> 
+
+
+
+
+
+<h4>9.1.0</h4>
+<ul>
+	<li><p>ACE now has full compatibility with MacOS 10.14 (Mojave).</p></li>	
+	<li><p>A rare bug where very complex virtual audio devices could cause coreaudiod to crash has been fixed.</p></li>	
+	<li><p>Corrections have been made for trial noise limitations, which did not always appear properly.</p></li>	
+	<li><p>ACE now has full compatibility with MacOS 10.14 (Mojave).</p></li>	
+</ul> 
+
+
+
+
+
+<h4>9.0.5</h4>
+<ul>
+	<li><p>ACE now has preliminary compatibility with MacOS 10.14 (Mojave). We recommend users stick with a fully supported version of MacOS for now.</p></li>	
+
+	<li><p>Memory usage has been reduced when ACE is capturing audio.</p></li>		
+	
+	<li><p>The former “ACE Sound Effects” device is no longer being used.</p></li>	
+
+	<li><p>An issue where monitored audio might now be processed properly has been corrected. <!-- This issue could allow monitored audio in Loopback to be unaffected by trial limitations. --></p></li>	
+	
+	<li><p>An issue where audio might not be processed properly from an aggregate device with more than 2 channels has been corrected.</p></li>								
+
+	<li><p>ACE configurations now process faster, improving the performance of device adjustments.</p></li>
+	
+	<li><p>Several extremely rare edge case issues involving the proper handling of input devices and play-thru have been fixed.</p></li>		
+	
+	<li><p>A rare crashing bug related to 32-bit applications has been fixed.</p></li>						
+</ul> 
+
+
+
+
+
+<h4>9.0.4</h4>
+<ul>
+	<li><p>Multi-Output devices made by Audio MIDI Setup will now work more reliably with ACE-created virtual devices.</p></li>		
+</ul> 
+
+
+
+
+
+<h4>9.0.3</h4>
+<ul>
+	<li><p>ACE now supports volume controls for Loopback's virtual audio devices.</p></li>		
+</ul> 
+
+
+
+
+
+<h4>9.0.2</h4>
+<ul>
+	<li><p>ACE's installer has been updated to prevent an inaccurate coreaudiod crash log from appearing.</p></li>		
+	<li><p>ACE's installer has also been updated to fix a plugin loading issue which could sometimes cause coreaudiod crashes.</p></li>		
+</ul> 
+
+
+
+
+
+<h4>9.0.1</h4>
+<ul>
+	<li><p>ACE now properly imports old configurations from Instant On.</p></li>		
+</ul> 
+
+
+
+
+
+<h4>9.0.0</h4>
+<ul>
+	<li><p>Audio Capture Engine (ACE) is the new name for Rogue Amoeba's audio capture backend (formerly called “Instant On”).</p></li>
+	
+	<li><p>Installation and removal of ACE has been improved, with better handling of corrupted installs.</p></li>		
+</ul> 
+
+
+
+
+
+<h4>8.4.5</h4>
+<ul>
+	<li><p>Skype 8 will now have its audio captured as expected, with volume adjustments reflected in the captured audio.</p></li>	
+
+	<li><p>VOIP input is now properly captured at all times, including when input is limited to a single audio device.</p></li>	
+
+	<li><p>Minor backend improvements to installation have been made. <!-- Remove com.apple.quarantine extended attribute --></p></li>		
+</ul> 
+
+
+
+
+
+<h4>8.4.4</h4>
+<ul>
+	<li><p>Capturing audio from Google Hangouts running Safari or Firefox will now work as expected.</p></li>	
+
+	<li><p>A crashing issue on MacOS 10.13 has been corrected.</p></li>	
+
+	<li><p>Additional logging has been added.</p></li>		
+
+	<li><p>Improvements have been made when Instant On is accessed on unsupported OSes.</p></li>		
+</ul> 
+
+
+
+<h4>8.4.3</h4>
+<ul>
+	<li><p>Improvements have been made to VoIP mixing (stereo to mono).</p></li>
+
+	<li><p>Corrections have been made for audio capture for VMWare Fusion, FaceTime, and Flash running in Safari.</p></li>	
+
+	<li><p>Small fixes have been made to the new audio capture backend, so it matches previous behaviors.</p></li>		
+</ul>  
+
+
+
+<h4>8.4.2</h4>
+<ul>
+	<li><p>Monitoring will no longer generate error notifications when source audio devices are started and stopped very quickly. [Loopback-specific improvement]</p></li>
+</ul>  
+
+
+
+<h4>8.4.1</h4>
+<ul>
+	<li><p>Device monitoring has been updated to work properly with pass-thru devices. [Loopback-specific improvement]</p></li>
+</ul>  
+
+
+
+<h4>8.4</h4>
+<ul>
+	<li><p>Instant On has full support for MacOS 10.12 (Sierra).</p></li>
+
+	<li><p>The reliability of audio capture from virtual devices has been improved, and latency reduced.</p></li>
+
+	<li><p>An extremely rare crash which could occur when capturing audio from another application has been fixed.</p></li>		
+
+	<li><p>A frustrating crash which could occur when attempting to debug other issues has been fixed as well.</p></li>
+</ul>  
+
+
+
+<h4>8.3</h4>
+<ul>
+	<li><p>Instant On now offers preliminary support for MacOS 10.12 (Sierra).</p></li>
+	<li><p>Support for Mac OS X 10.7 and 10.8 has been removed.</p></li>
+</ul>  
+
+
+
+<h4>8.2.6</h4>
+<ul>
+	<li><p>A small backend change has been made to improve the reliability of monitoring devices.</p></li>
+</ul>  
+
+
+
+<h4>8.2.5</h4>
+<ul>
+	<li><p>A small backend change has been made to improve Loopback&rsquo;s trial mode.</p></li>
+</ul>
+
+
+
+<h4>8.2.4</h4>
+<ul>
+	<li><p>A rare problem where input devices could incorrectly be captured multiple times has been fixed.</p></li>
+	<li><p>Error reporting has been improved, providing better details if a device fails to be created properly.</p></li>
+	<li><p>A loss of audio sync could occur when a device's sample rate clock jumped backwards. That clock should never jump backwards, but some devices do things they're not supposed to. Instant On now handles that without a problem.</p></li>
+	<li><p>Sample rate reporting has been adjusted to improve compatibility with certain apps, including MAX, Roon, and Screenium.</p></li>
+	<li><p>There are several additional small improvements for better overall performance.</p></li>
+</ul>
+
+<h4>8.2.3</h4>
+<ul>
+	<li><p>Instant On devices now report their sample rate in a more robust way, to improve compatibility with some applications, including Max.</p></li>
+	<li><p>Various aspects of Instant On&rsquo;s debug logging have been improved.</p></li>
+	<li><p>An issue where errors weren&rsquo;t properly appearing when device creation failed has been fixed.</p></li>
+	<li><p>A rare hang, which occurred when the time code of a hardware device jumped significantly backwards in time, has been fixed.</p></li>
+</ul>
+
+<h4>8.2.2</h4>
+<ul>
+	<li><p>Further improvements have been made for Loopback&rsquo;s trial mode.</p></li>
+</ul>
+
+<h4>8.2.1</h4>
+<ul>
+	<li><p>The device handling for Loopback&rsquo;s trial mode has been improved.</p></li>
+</ul>
+
+<h4>8.2</h4>
+<ul>
+	<li><p>This is the first version of Instant On with full support for Loopback.</p></li>
+</ul>
+
+<h4>8.1.5</h4>
+<ul>
+	<li><p>Backend changes have been made for audio device monitoring, to improve performance.</p></li>
+</ul>
+
+<h4>8.1.4</h4>
+<ul>
+	<li><p>Channel count changes are now properly saved after rebooting.</p></li>
+	<li><p>An issue causing Radiologik DJ to be unable to access higher channels on Loopback devices has been corrected.</p></li>
+	<li><p>The rarely-seen virtual device icon has been updated and improved, despite the fact that it&rsquo;s rarely seen.</p></li>
+</ul>
+
+<h4>8.1.3</h4>
+<ul>
+	<li><p>An issue affecting Loopback&rsquo;s audio monitoring, which could cause it to fail to monitor audio devices, has been corrected.</p></li>
+	<li><p>We&rsquo;ve fixed an extremely rare issue which could cause the OS&rsquo;s coreaudiod to crash.</p></li>
+</ul>
+
+<h4>8.1.2</h4>
+<ul>
+	<li><p>We&rsquo;ve fixed an issue which could cause Rogue Amoeba applications to hang when beginning to capture audio.</p></li>
+</ul>
+
+<h4>8.1.1</h4>
+<ul>
+	<li><p>Applications which use Instant On have been updated with better uninstallation warnings to avoid conflicts.</p></li>
+	<li><p>Instant On is now fully compatible with our forthcoming Loopback application.</p></li>
+</ul>
+
+<h4>8.1</h4>
+<ul>
+	<li><p>Instant On now offers support for Mac OS X 10.11 (El Capitan).</p></li>
+</ul>
+
+<h4>8.0.8</h4>
+<ul>
+	<li><p>We&rsquo;ve fixed a bug where noise could be introduced when using devices set to high sample rates.</p></li>
+</ul>
+
+<h4>8.0.7</h4>
+<ul>
+	<li><p>Error handling has been improved, and a small memory leak was plugged.</p></li>
+</ul>
+
+<h4>8.0.6</h4>
+<ul>
+	<li><p>An issue where a crash of instanton-agent could occur on Mac OS X 10.7 has been corrected. The crash was largely harmless, but also entirely needless.</p></li>
+</ul>
+
+<h4>8.0.5</h4>
+<ul>
+	<li><p>More backend changes have been made to optimize the user experience with current and future products, which remains exciting, even if it doesn&rsquo;t sound like it!</p></li>
+</ul>
+
+<h4>8.0.4</h4>
+<ul>
+	<li><p>Several backend changes have been made to optimize the user experience with current and future products, which is quite exciting even if it doesn&rsquo;t sound like it!</p></li>
+</ul>
+
+<h4>8.0.3</h4>
+<ul>
+	<li><p>Compatibility with Accessibility's VoiceOver function has been improved, and multiple bugs in the default system output device (used for sound effects) play-through have been corrected.</p></li>
+</ul>
+
+<h4>8.0.2</h4>
+<ul>
+	<li><p>We've cured an issue where capture of iTunes audio could fail when dropping out of full-screen mode.</p></li>
+	<li><p>Sound effects again correctly bypass audio capture, particularly helpful when using VoiceOver.</p></li>
+</ul>
+
+<h4>8.0.1</h4>
+<ul>
+	<li><p>The ability to capture Text to Speech audio has been restored, after being briefly broken by recent changes.</p></li>
+</ul>
+
+<h4>8.0</h4>
+<ul>
+	<li><p>Instant On now offers support for Mac OS X 10.10 (Yosemite).</p></li>
+	<li><p>We&rsquo;ve resolved an issue that could result in loss of audio after lengthy audio captures.</p></li>
+	<li><p>A rare crash caused by audio device clock drift has been fixed as well.</p></li>
+</ul>
+
+<h4>7.2.2</h4>
+<ul>
+	<li><p>Instant On has been updated for improved support for Fast User Switching, limiting audio captures to the sessions in which they are initiated.</p></li>
+	<li><p>Audio artifacts could occur under heavy CPU load or VM paging. Instant On improves on this, and these already-rare dropouts should now be much more rare. This should also fix issues with static crackles creeping in on long audio captures, which could eventually result in a loss of playback audio all together.</p></li>
+	<li><p>System Audio capture has been improved to properly allow capture of System Audio by multiple sources.</p></li>
+</ul>
+
+<h4>7.2.1</h4>
+<ul>
+	<li><p>Instant On has been updated to no longer load at all on incompatible operating system versions.</p></li>
+</ul>
+
+<h4>7.2</h4>
+<ul>
+	<li><p>Latency of audio capture has been reduced, much to everyone&rsquo;s delight! In particular, capturing from applications which are pulling from audio devices should now have much lower latency.</p></li>
+	<li><p>Several issues with audible glitches after an audio stream skipped have been fixed.</p></li>
+	<li><p>When capturing from devices with more than 2 channels, Instant On will now automatically select the stereo pair of channels and properly mix them together.</p></li>
+</ul>
+
+<h4>7.1.2</h4>
+<ul>
+	<li><p>Audio is now captured from the Soundflower virtual audio device.</p></li>
+	<li><p>Several other small bug fixes have been made.</p></li>
+</ul>
+
+<h4>7.1</h4>
+<ul>
+	<li><p>Instant On now offers support for Mac OS X 10.9 (Mavericks), providing audio capture from running applications and Safari, as well as full System Audio capture.</p></li>
+	<li><p>With version 7 and up, Instant On has been entirely re-engineered under the hood, for better audio capture. </p></li>
+	<li><p>System Audio capture now works seamlessly with our own Intermission, enabling full playback control and prioritization with Intermission even while capturing System Audio.</p></li>
+	<li><p>Error handling and compatibility with older versions has been improved.</p></li>
+</ul>
+
+<h4>7.0</h4>
+<ul>
+	<li><p>Intermission-only release.</p></li>
+</ul>
+
+<h4>6.0.4</h4>
+<ul>
+	<li><p>Several small updates were made, including one to better capture audio from sandboxed applications.</p></li>
+</ul>
+
+<h4>6.0.3</h4>
+<ul>
+	<li><p>An issue which could cause hangs with the Amarra iTunes plug-in has been corrected.</p></li>
+</ul>
+
+<h4>6.0.2</h4>
+<ul>
+	<li><p>An issue where Instant On failed to load in some background applications on Mac OS X 10.8 has been fixed, enabling audio capture from VMWare Fusion, RadioLine, and more.</p></li>
+	<li><p>An extremely rare issue, where exceptional circumstances could cause a kernel panic, has been fixed.</p></li>
+</ul>
+
+<h4>6.0.1</h4>
+<ul>
+	<li><p>Some small improvements have been made to the Instant On installer and installation process.</p></li>
+	<li><p>An issue where the System Audio device could be incorrectly activated has been prevented.</p></li>
+	<li><p>A problem where audio devices were not always properly reset has been corrected.</p></li>
+	<li><p>A cosmetic bug related to the display of dB levels in Audio MIDI Setup has been fixed.</p></li>
+	<li><p>Compatibility between multiple applications using Instant On has been improved.</p></li>
+</ul>
+
+<h4>6.0.0</h4>
+<ul>
+	<li><p>Instant On now features preliminary support for Mac OS X 10.8 (Mountain Lion), providing audio capture from running applications as well as full System Audio capture.</p></li>
+	<li><p>Instant On no longer uses Soundflower on any systems.</p></li>
+</ul>
+
+<h4>5.0.2</h4>
+<ul>
+	<li><p>Fixed an initialization sequence issue in Qt based applications, which could cause a conflict with Sibelius.</p></li>
+</ul>
+
+<h4>5.0.1</h4>
+<ul>
+	<li><p>A rare synchronization issue between IOKit and BSD which could affect correct operation at startup has been fixed.</p></li>
+</ul>
+
+<h4>5.0</h4>
+<ul>
+	<li><p>Instant On now offers full support for capturing audio from sandboxed applications.</p></li>
+	<li><p>Many hijacking compatibility issues were addressed with a redesigned injection system.</p></li>
+	<li><p>A regression where the Exclude operation would still patch applications has been fixed.</p></li>
+	<li><p>Instant On no longer installs any components in /usr/local.</p></li>
+</ul>
+
+<h4>4.2</h4>
+<ul>
+	<li><p>Fixed a possible conflict when used in conjunction with the developer "valgrind" tool.</p></li>
+</ul>
+
+<h4>4.1</h4>
+<ul>
+	<li><p>Full support for Mac OS X 10.7 (Lion) has been restored, providing audio capture from running applications as well as full System Audio capture.</p></li>
+	<li><p>Instant On now uses Soundflower for System Audio capturing on 10.7</p></li>
+</ul>
+
+<h4>4.0</h4>
+<ul>
+	<li><p>Support for Mac OS X 10.7 Lion.</p></li>
+	<li><p>Now uses Soundflower for System Audio capturing on 10.7</p></li>
+	<li><p>Version 4.0 was pulled due to incompatibilities with several third-party applications.</p></li>
+</ul>
+
+<h4>3.1</h4>
+<ul>
+	<li><p>A race condition which could cause Google's GTalk to crash has been fixed.</p></li>
+</ul>
+
+<h4>3.0.2</h4>
+<ul>
+	<li><p>Fixed a deadlock which would cause the application to hang if System Audio failed.</p></li>
+</ul>
+
+<h4>3.0.1</h4>
+<ul>
+	<li><p>Fixed a System Audio bug that could produce corrupt audio and memory leaks.</p></li>
+</ul>
+
+<h4>3.0</h4>
+<ul>
+	<li><p>Instant On has a brand new name (formerly "Instant Hijack").</p></li>
+	<li><p>Instant On features a brand new System Audio hijacker, removing the need for SoundFlower.</p></li>
+</ul>
+
+<h4>2.2.8</h4>
+<ul>
+	<li><p>An installation issue with version 2.2.7 has been corrected.</p></li>
+</ul>
+
+<h4>2.2.7</h4>
+<ul>
+	<li><p>Fixed a rare deadlock</p></li>
+</ul>
+
+<h4>2.2.6</h4>
+<ul>
+	<li><p>Excessive logging, rarely seen in the kernel.log, has been removed</p></li>
+</ul>
+
+<h4>2.2.5</h4>
+<ul>
+	<li><p>Works around an incompatibility with Adobe's Version Cue software</p></li>
+</ul>
+
+<h4>2.2.4</h4>
+<ul>
+	<li><p>Fixed an error being displayed when hijacking the same program more than once from different Rogue Amoeba products</p></li>
+	<li><p>Fixed a rare bug that could prevent Instant On from loading</p></li>
+</ul>
+
+<h4>2.2.3</h4>
+<ul>
+	<li><p>Fixed an incompatibility with quicklookd seen as a crash in posix_spawn</p></li>
+	<li><p>New logo</p></li>
+</ul>
+
+<h4>2.2.2</h4>
+<ul>
+	<li><p>Fixed a kernel panic which could occur after a failed process start</p></li>
+</ul>
+
+<h4>2.2.1</h4>
+<ul>
+	<li><p>Fixed a rare crash due to a race condition</p></li>
+</ul>
+
+<h4>2.2</h4>
+<ul>
+	<li><p>Now compatible with Mac OS X 10.6 (Snow Leopard)</p></li>
+</ul>
+
+<h4>2.1.2</h4>
+<ul>
+	<li><p>Fixed crash when running a program under Valgrind</p></li>
+	<li><p>Fixed an obscure crash on startup in certain applications</p></li>
+</ul>
+
+<h4>2.1.1</h4>
+<ul>
+	<li><p>Fixed crash in 64-bit processes with a large number of command-line arguments</p></li>
+</ul>
+
+<h4>2.1</h4>
+<ul>
+	<li><p>Added support for hijacking of 64-bit applications</p></li>
+	<li><p>Fixed a audio skipping problem that would occur on some Intel machines, typically during heavy graphic or disk usage</p></li>
+	<li><p>Fixed crash that could occur on some G4-based machines</p></li>
+</ul>
+
+<h4>2.0.3</h4>
+<ul>
+	<li><p>Fixed crash in ssh and related commands when using Mac OS X 10.5 (Leopard) with Apple Security Update 2008-002</p></li>
+</ul>
+
+<h4>2.0.2</h4>
+<ul>
+	<li><p>Fixed an occasional crash on PowerPC Macs</p></li>
+</ul>
+
+<h4>2.0.1</h4>
+<ul>
+	<li><p>Now works to hijack Skype</p></li>
+	<li><p>Fixed race condition which could disable Instant On incorrectly</p></li>
+</ul>
+
+<h4>2.0</h4>
+<ul>
+	<li><p>Official release of Multi-Hijack, allowing multiple Rogue Amoeba applications to hijack the same audio source</p></li>
+	<li><p>Now fully Mac OS X 10.5 (Leopard) compatible</p></li>
+	<li><p>New Instant On Preferences application for editing Instant On's Exclude List</p></li>
+	<li><p>Fixes bugs where MegaMix mode could produce noise in audio</p></li>
+	<li><p>Instant On no longer uses Application Enhancers technology</p></li>
+</ul>
+
+<h4>1.5 (Unreleased)</h4>
+<ul>
+	<li><p>Added Multi-Hijack, allowing multiple applications to hijack the same audio source.</p></li>
+</ul>
+
+<h4>1.4</h4>
+<ul>
+	<li><p>Added MegaMix mode, with the ability to hijack all audio (including inputs) from a single application (useful for recording from applications like Skype and iChat).</p></li>
+</ul>
+
+<h4>1.3.3</h4>
+<ul>
+	<li><p>Full compatibility with Intel Chip Based Macs (ICBMs).</p></li>
+	<li><p>Now using Application Enhancer v2.0</p></li>
+</ul>
+
+<h4>1.3.2</h4>
+<ul>
+	<li><p>Removed old 'Debug Log' options</p></li>
+	<li><p>Improved built-in Exclude list</p></li>
+</ul>
+
+<h4>1.3.1</h4>
+<ul>
+	<li><p>Added ability to hijack Dashboard widgets</p></li>
+</ul>
+
+<h4>1.3</h4>
+<ul>
+	<li><p>Now using Application Enhancer v. 1.5.1</p></li>
+</ul>
+
+
+<p class="fine-print">Audio Capture Engine (ACE) is copyright &copy; Rogue Amoeba Software, Inc.</p>
+
+</div>
+
+</body>
+</html>

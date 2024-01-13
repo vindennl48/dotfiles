@@ -1,0 +1,462 @@
+2023-05-23T10:42:55.924387: info: #######################################
+2023-05-23T10:42:55.924569: info: Started: WebConnector 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-23T10:42:55.924574: info: #######################################
+2023-05-23T10:42:55.924578: info: Init: Setup environment
+2023-05-23T10:42:55.924623: info: UUID: BF8750C9-0F22-3C73-9676-132E80FFC3B7
+2023-05-23T10:42:55.925233: info: Code ID: identifier "Ableton Web Connector" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-23T10:42:55.925256: info: Init: Version: 'WebConnector 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-23T10:42:55.925260: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-23T10:42:55.925263: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-23T10:42:55.925950: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-23T10:42:55.925958: info: Init: BuildType: 'Release'
+2023-05-23T10:42:55.925961: info: Init: Pid: 9986
+2023-05-23T10:42:55.925979: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-23T10:42:55.925985: info: Init: CPU Brand String: 'Apple M1'
+2023-05-23T10:42:55.925988: info: Init: CPU Count: 8
+2023-05-23T10:42:55.926002: info: Init: Physical RAM: 17179869184 B
+2023-05-23T10:42:55.926005: info: Init: Address Space: 18446744073709551615 B
+2023-05-23T10:42:55.926008: info: Init: 64-bit Edition
+2023-05-23T10:42:56.001596: info: Init: Checksum 1: 1461ee47b6a52467b1e45459d0b95fc0
+2023-05-23T10:42:56.032849: info: Init: Checksum 2: 94bb374b80218694dde5150c857e6633
+2023-05-23T10:42:56.068685: info: Init: Checksum 3: 94bb374b80218694dde5150c857e6633
+2023-05-23T11:17:25.842321: info: #######################################
+2023-05-23T11:17:25.842578: info: Started: WebConnector 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-23T11:17:25.842584: info: #######################################
+2023-05-23T11:17:25.842588: info: Init: Setup environment
+2023-05-23T11:17:25.842627: info: UUID: BF8750C9-0F22-3C73-9676-132E80FFC3B7
+2023-05-23T11:17:25.845168: info: Code ID: identifier "Ableton Web Connector" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-23T11:17:25.845206: info: Init: Version: 'WebConnector 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-23T11:17:25.845211: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-23T11:17:25.845215: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-23T11:17:25.846141: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-23T11:17:25.846153: info: Init: BuildType: 'Release'
+2023-05-23T11:17:25.846157: info: Init: Pid: 10072
+2023-05-23T11:17:25.846182: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-23T11:17:25.846189: info: Init: CPU Brand String: 'Apple M1'
+2023-05-23T11:17:25.846193: info: Init: CPU Count: 8
+2023-05-23T11:17:25.846205: info: Init: Physical RAM: 17179869184 B
+2023-05-23T11:17:25.846210: info: Init: Address Space: 18446744073709551615 B
+2023-05-23T11:17:25.846213: info: Init: 64-bit Edition
+2023-05-23T11:17:25.928204: info: Init: Checksum 1: 1461ee47b6a52467b1e45459d0b95fc0
+2023-05-23T11:17:25.964305: info: Init: Checksum 2: 94bb374b80218694dde5150c857e6633
+2023-05-23T11:17:26.003394: info: Init: Checksum 3: 94bb374b80218694dde5150c857e6633
+2023-05-23T14:41:55.650145: info: #######################################
+2023-05-23T14:41:55.650430: info: Started: WebConnector 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-23T14:41:55.650438: info: #######################################
+2023-05-23T14:41:55.650443: info: Init: Setup environment
+2023-05-23T14:41:55.650482: info: UUID: BF8750C9-0F22-3C73-9676-132E80FFC3B7
+2023-05-23T14:41:55.651236: info: Code ID: identifier "Ableton Web Connector" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-23T14:41:55.651262: info: Init: Version: 'WebConnector 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-23T14:41:55.651265: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-23T14:41:55.651267: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-23T14:41:55.651992: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-23T14:41:55.651997: info: Init: BuildType: 'Release'
+2023-05-23T14:41:55.652000: info: Init: Pid: 10325
+2023-05-23T14:41:55.652018: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-23T14:41:55.652023: info: Init: CPU Brand String: 'Apple M1'
+2023-05-23T14:41:55.652026: info: Init: CPU Count: 8
+2023-05-23T14:41:55.652036: info: Init: Physical RAM: 17179869184 B
+2023-05-23T14:41:55.652038: info: Init: Address Space: 18446744073709551615 B
+2023-05-23T14:41:55.652040: info: Init: 64-bit Edition
+2023-05-23T14:41:55.730100: info: Init: Checksum 1: 1461ee47b6a52467b1e45459d0b95fc0
+2023-05-23T14:41:55.760677: info: Init: Checksum 2: 94bb374b80218694dde5150c857e6633
+2023-05-23T14:41:55.797069: info: Init: Checksum 3: 94bb374b80218694dde5150c857e6633
+2023-05-23T14:47:21.063525: info: #######################################
+2023-05-23T14:47:21.063684: info: Started: WebConnector 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-23T14:47:21.063688: info: #######################################
+2023-05-23T14:47:21.063693: info: Init: Setup environment
+2023-05-23T14:47:21.063704: info: UUID: BF8750C9-0F22-3C73-9676-132E80FFC3B7
+2023-05-23T14:47:21.064218: info: Code ID: identifier "Ableton Web Connector" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-23T14:47:21.064232: info: Init: Version: 'WebConnector 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-23T14:47:21.064236: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-23T14:47:21.064244: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-23T14:47:21.064913: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-23T14:47:21.064920: info: Init: BuildType: 'Release'
+2023-05-23T14:47:21.064924: info: Init: Pid: 10374
+2023-05-23T14:47:21.064934: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-23T14:47:21.064939: info: Init: CPU Brand String: 'Apple M1'
+2023-05-23T14:47:21.064944: info: Init: CPU Count: 8
+2023-05-23T14:47:21.064955: info: Init: Physical RAM: 17179869184 B
+2023-05-23T14:47:21.064958: info: Init: Address Space: 18446744073709551615 B
+2023-05-23T14:47:21.064961: info: Init: 64-bit Edition
+2023-05-23T14:47:21.139790: info: Init: Checksum 1: 1461ee47b6a52467b1e45459d0b95fc0
+2023-05-23T14:47:21.170022: info: Init: Checksum 2: 94bb374b80218694dde5150c857e6633
+2023-05-23T14:47:21.198550: info: Init: Checksum 3: 94bb374b80218694dde5150c857e6633
+2023-05-23T14:54:58.692658: info: #######################################
+2023-05-23T14:54:58.692809: info: Started: WebConnector 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-23T14:54:58.692814: info: #######################################
+2023-05-23T14:54:58.692818: info: Init: Setup environment
+2023-05-23T14:54:58.692829: info: UUID: BF8750C9-0F22-3C73-9676-132E80FFC3B7
+2023-05-23T14:54:58.693369: info: Code ID: identifier "Ableton Web Connector" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-23T14:54:58.693379: info: Init: Version: 'WebConnector 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-23T14:54:58.693383: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-23T14:54:58.693387: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-23T14:54:58.694035: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-23T14:54:58.694058: info: Init: BuildType: 'Release'
+2023-05-23T14:54:58.694062: info: Init: Pid: 10440
+2023-05-23T14:54:58.694071: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-23T14:54:58.694076: info: Init: CPU Brand String: 'Apple M1'
+2023-05-23T14:54:58.694080: info: Init: CPU Count: 8
+2023-05-23T14:54:58.694091: info: Init: Physical RAM: 17179869184 B
+2023-05-23T14:54:58.694094: info: Init: Address Space: 18446744073709551615 B
+2023-05-23T14:54:58.694095: info: Init: 64-bit Edition
+2023-05-23T14:54:58.769490: info: Init: Checksum 1: 1461ee47b6a52467b1e45459d0b95fc0
+2023-05-23T14:54:58.799895: info: Init: Checksum 2: 94bb374b80218694dde5150c857e6633
+2023-05-23T14:54:58.828437: info: Init: Checksum 3: 94bb374b80218694dde5150c857e6633
+2023-05-23T18:18:54.128421: info: #######################################
+2023-05-23T18:18:54.128721: info: Started: WebConnector 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-23T18:18:54.128729: info: #######################################
+2023-05-23T18:18:54.128733: info: Init: Setup environment
+2023-05-23T18:18:54.128748: info: UUID: BF8750C9-0F22-3C73-9676-132E80FFC3B7
+2023-05-23T18:18:54.129426: info: Code ID: identifier "Ableton Web Connector" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-23T18:18:54.129435: info: Init: Version: 'WebConnector 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-23T18:18:54.129439: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-23T18:18:54.129443: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-23T18:18:54.130108: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-23T18:18:54.130118: info: Init: BuildType: 'Release'
+2023-05-23T18:18:54.130123: info: Init: Pid: 10878
+2023-05-23T18:18:54.130134: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-23T18:18:54.130140: info: Init: CPU Brand String: 'Apple M1'
+2023-05-23T18:18:54.130145: info: Init: CPU Count: 8
+2023-05-23T18:18:54.130156: info: Init: Physical RAM: 17179869184 B
+2023-05-23T18:18:54.130160: info: Init: Address Space: 18446744073709551615 B
+2023-05-23T18:18:54.130164: info: Init: 64-bit Edition
+2023-05-23T18:18:54.205800: info: Init: Checksum 1: 1461ee47b6a52467b1e45459d0b95fc0
+2023-05-23T18:18:54.236267: info: Init: Checksum 2: 94bb374b80218694dde5150c857e6633
+2023-05-23T18:18:54.264864: info: Init: Checksum 3: 94bb374b80218694dde5150c857e6633
+2023-05-23T18:20:25.759734: info: #######################################
+2023-05-23T18:20:25.759883: info: Started: WebConnector 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-23T18:20:25.759888: info: #######################################
+2023-05-23T18:20:25.759892: info: Init: Setup environment
+2023-05-23T18:20:25.759904: info: UUID: BF8750C9-0F22-3C73-9676-132E80FFC3B7
+2023-05-23T18:20:25.760437: info: Code ID: identifier "Ableton Web Connector" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-23T18:20:25.760447: info: Init: Version: 'WebConnector 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-23T18:20:25.760452: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-23T18:20:25.760456: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-23T18:20:25.761122: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-23T18:20:25.761130: info: Init: BuildType: 'Release'
+2023-05-23T18:20:25.761133: info: Init: Pid: 10906
+2023-05-23T18:20:25.761143: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-23T18:20:25.761149: info: Init: CPU Brand String: 'Apple M1'
+2023-05-23T18:20:25.761154: info: Init: CPU Count: 8
+2023-05-23T18:20:25.761165: info: Init: Physical RAM: 17179869184 B
+2023-05-23T18:20:25.761168: info: Init: Address Space: 18446744073709551615 B
+2023-05-23T18:20:25.761172: info: Init: 64-bit Edition
+2023-05-23T18:20:25.836331: info: Init: Checksum 1: 1461ee47b6a52467b1e45459d0b95fc0
+2023-05-23T18:20:25.867269: info: Init: Checksum 2: 94bb374b80218694dde5150c857e6633
+2023-05-23T18:20:25.896203: info: Init: Checksum 3: 94bb374b80218694dde5150c857e6633
+2023-05-23T18:22:54.966135: info: #######################################
+2023-05-23T18:22:54.966282: info: Started: WebConnector 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-23T18:22:54.966286: info: #######################################
+2023-05-23T18:22:54.966291: info: Init: Setup environment
+2023-05-23T18:22:54.966303: info: UUID: BF8750C9-0F22-3C73-9676-132E80FFC3B7
+2023-05-23T18:22:54.966872: info: Code ID: identifier "Ableton Web Connector" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-23T18:22:54.966883: info: Init: Version: 'WebConnector 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-23T18:22:54.966887: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-23T18:22:54.966891: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-23T18:22:54.967572: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-23T18:22:54.967580: info: Init: BuildType: 'Release'
+2023-05-23T18:22:54.967585: info: Init: Pid: 10933
+2023-05-23T18:22:54.967596: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-23T18:22:54.967604: info: Init: CPU Brand String: 'Apple M1'
+2023-05-23T18:22:54.967609: info: Init: CPU Count: 8
+2023-05-23T18:22:54.967622: info: Init: Physical RAM: 17179869184 B
+2023-05-23T18:22:54.967626: info: Init: Address Space: 18446744073709551615 B
+2023-05-23T18:22:54.967629: info: Init: 64-bit Edition
+2023-05-23T18:22:55.046096: info: Init: Checksum 1: 1461ee47b6a52467b1e45459d0b95fc0
+2023-05-23T18:22:55.076836: info: Init: Checksum 2: 94bb374b80218694dde5150c857e6633
+2023-05-23T18:22:55.106172: info: Init: Checksum 3: 94bb374b80218694dde5150c857e6633
+2023-05-23T18:23:46.936192: info: #######################################
+2023-05-23T18:23:46.936364: info: Started: WebConnector 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-23T18:23:46.936368: info: #######################################
+2023-05-23T18:23:46.936373: info: Init: Setup environment
+2023-05-23T18:23:46.936384: info: UUID: BF8750C9-0F22-3C73-9676-132E80FFC3B7
+2023-05-23T18:23:46.936969: info: Code ID: identifier "Ableton Web Connector" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-23T18:23:46.936981: info: Init: Version: 'WebConnector 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-23T18:23:46.936986: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-23T18:23:46.936990: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-23T18:23:46.937688: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-23T18:23:46.937698: info: Init: BuildType: 'Release'
+2023-05-23T18:23:46.937702: info: Init: Pid: 10962
+2023-05-23T18:23:46.937713: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-23T18:23:46.937719: info: Init: CPU Brand String: 'Apple M1'
+2023-05-23T18:23:46.937724: info: Init: CPU Count: 8
+2023-05-23T18:23:46.937735: info: Init: Physical RAM: 17179869184 B
+2023-05-23T18:23:46.937739: info: Init: Address Space: 18446744073709551615 B
+2023-05-23T18:23:46.937743: info: Init: 64-bit Edition
+2023-05-23T18:23:47.014700: info: Init: Checksum 1: 1461ee47b6a52467b1e45459d0b95fc0
+2023-05-23T18:23:47.045688: info: Init: Checksum 2: 94bb374b80218694dde5150c857e6633
+2023-05-23T18:23:47.075098: info: Init: Checksum 3: 94bb374b80218694dde5150c857e6633
+2023-05-23T20:39:33.830468: info: #######################################
+2023-05-23T20:39:33.830756: info: Started: WebConnector 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-23T20:39:33.830764: info: #######################################
+2023-05-23T20:39:33.830778: info: Init: Setup environment
+2023-05-23T20:39:33.830815: info: UUID: BF8750C9-0F22-3C73-9676-132E80FFC3B7
+2023-05-23T20:39:33.831669: info: Code ID: identifier "Ableton Web Connector" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-23T20:39:33.831687: info: Init: Version: 'WebConnector 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-23T20:39:33.831690: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-23T20:39:33.831693: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-23T20:39:33.832382: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-23T20:39:33.832388: info: Init: BuildType: 'Release'
+2023-05-23T20:39:33.832390: info: Init: Pid: 11360
+2023-05-23T20:39:33.832408: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-23T20:39:33.832413: info: Init: CPU Brand String: 'Apple M1'
+2023-05-23T20:39:33.832416: info: Init: CPU Count: 8
+2023-05-23T20:39:33.832425: info: Init: Physical RAM: 17179869184 B
+2023-05-23T20:39:33.832428: info: Init: Address Space: 18446744073709551615 B
+2023-05-23T20:39:33.832430: info: Init: 64-bit Edition
+2023-05-23T20:39:33.913187: info: Init: Checksum 1: 1461ee47b6a52467b1e45459d0b95fc0
+2023-05-23T20:39:33.944372: info: Init: Checksum 2: 94bb374b80218694dde5150c857e6633
+2023-05-23T20:39:33.980775: info: Init: Checksum 3: 94bb374b80218694dde5150c857e6633
+2023-05-23T20:58:22.975494: info: #######################################
+2023-05-23T20:58:22.975698: info: Started: WebConnector 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-23T20:58:22.975704: info: #######################################
+2023-05-23T20:58:22.975709: info: Init: Setup environment
+2023-05-23T20:58:22.975752: info: UUID: BF8750C9-0F22-3C73-9676-132E80FFC3B7
+2023-05-23T20:58:22.976978: info: Code ID: identifier "Ableton Web Connector" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-23T20:58:22.977166: info: Init: Version: 'WebConnector 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-23T20:58:22.977205: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-23T20:58:22.977219: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-23T20:58:22.978477: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-23T20:58:22.978494: info: Init: BuildType: 'Release'
+2023-05-23T20:58:22.978500: info: Init: Pid: 684
+2023-05-23T20:58:22.978526: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-23T20:58:22.978535: info: Init: CPU Brand String: 'Apple M1'
+2023-05-23T20:58:22.978542: info: Init: CPU Count: 8
+2023-05-23T20:58:22.978554: info: Init: Physical RAM: 17179869184 B
+2023-05-23T20:58:22.978560: info: Init: Address Space: 18446744073709551615 B
+2023-05-23T20:58:22.978564: info: Init: 64-bit Edition
+2023-05-23T20:58:23.093853: info: Init: Checksum 1: 1461ee47b6a52467b1e45459d0b95fc0
+2023-05-23T20:58:23.135939: info: Init: Checksum 2: 94bb374b80218694dde5150c857e6633
+2023-05-23T20:58:23.185652: info: Init: Checksum 3: 94bb374b80218694dde5150c857e6633
+2023-05-23T21:23:35.531183: info: #######################################
+2023-05-23T21:23:35.531522: info: Started: WebConnector 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-23T21:23:35.531529: info: #######################################
+2023-05-23T21:23:35.531534: info: Init: Setup environment
+2023-05-23T21:23:35.531575: info: UUID: BF8750C9-0F22-3C73-9676-132E80FFC3B7
+2023-05-23T21:23:35.532665: info: Code ID: identifier "Ableton Web Connector" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-23T21:23:35.532683: info: Init: Version: 'WebConnector 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-23T21:23:35.532694: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-23T21:23:35.532697: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-23T21:23:35.533540: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-23T21:23:35.533546: info: Init: BuildType: 'Release'
+2023-05-23T21:23:35.533549: info: Init: Pid: 1630
+2023-05-23T21:23:35.533569: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-23T21:23:35.533575: info: Init: CPU Brand String: 'Apple M1'
+2023-05-23T21:23:35.533578: info: Init: CPU Count: 8
+2023-05-23T21:23:35.533589: info: Init: Physical RAM: 17179869184 B
+2023-05-23T21:23:35.533591: info: Init: Address Space: 18446744073709551615 B
+2023-05-23T21:23:35.533593: info: Init: 64-bit Edition
+2023-05-23T21:23:35.612995: info: Init: Checksum 1: 1461ee47b6a52467b1e45459d0b95fc0
+2023-05-23T21:23:35.645554: info: Init: Checksum 2: 94bb374b80218694dde5150c857e6633
+2023-05-23T21:23:35.682405: info: Init: Checksum 3: 94bb374b80218694dde5150c857e6633
+2023-05-24T18:26:40.857589: info: #######################################
+2023-05-24T18:26:40.857820: info: Started: WebConnector 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-24T18:26:40.857826: info: #######################################
+2023-05-24T18:26:40.857830: info: Init: Setup environment
+2023-05-24T18:26:40.857985: info: UUID: BF8750C9-0F22-3C73-9676-132E80FFC3B7
+2023-05-24T18:26:40.858922: info: Code ID: identifier "Ableton Web Connector" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-24T18:26:40.859077: info: Init: Version: 'WebConnector 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-24T18:26:40.859082: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-24T18:26:40.859086: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-24T18:26:40.859919: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-24T18:26:40.859929: info: Init: BuildType: 'Release'
+2023-05-24T18:26:40.859933: info: Init: Pid: 2385
+2023-05-24T18:26:40.860106: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-24T18:26:40.860114: info: Init: CPU Brand String: 'Apple M1'
+2023-05-24T18:26:40.860119: info: Init: CPU Count: 8
+2023-05-24T18:26:40.860131: info: Init: Physical RAM: 17179869184 B
+2023-05-24T18:26:40.860135: info: Init: Address Space: 18446744073709551615 B
+2023-05-24T18:26:40.860139: info: Init: 64-bit Edition
+2023-05-24T18:26:40.943233: info: Init: Checksum 1: 1461ee47b6a52467b1e45459d0b95fc0
+2023-05-24T18:26:40.975572: info: Init: Checksum 2: 94bb374b80218694dde5150c857e6633
+2023-05-24T18:26:41.012757: info: Init: Checksum 3: 94bb374b80218694dde5150c857e6633
+2023-05-24T18:28:37.918337: info: #######################################
+2023-05-24T18:28:37.918647: info: Started: WebConnector 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-24T18:28:37.918656: info: #######################################
+2023-05-24T18:28:37.918660: info: Init: Setup environment
+2023-05-24T18:28:37.918673: info: UUID: BF8750C9-0F22-3C73-9676-132E80FFC3B7
+2023-05-24T18:28:37.919549: info: Code ID: identifier "Ableton Web Connector" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-24T18:28:37.919558: info: Init: Version: 'WebConnector 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-24T18:28:37.919562: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-24T18:28:37.919566: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-24T18:28:37.920453: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-24T18:28:37.920462: info: Init: BuildType: 'Release'
+2023-05-24T18:28:37.920467: info: Init: Pid: 2422
+2023-05-24T18:28:37.920478: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-24T18:28:37.920484: info: Init: CPU Brand String: 'Apple M1'
+2023-05-24T18:28:37.920496: info: Init: CPU Count: 8
+2023-05-24T18:28:37.920506: info: Init: Physical RAM: 17179869184 B
+2023-05-24T18:28:37.920508: info: Init: Address Space: 18446744073709551615 B
+2023-05-24T18:28:37.920511: info: Init: 64-bit Edition
+2023-05-24T18:28:37.999425: info: Init: Checksum 1: 1461ee47b6a52467b1e45459d0b95fc0
+2023-05-24T18:28:38.030949: info: Init: Checksum 2: 94bb374b80218694dde5150c857e6633
+2023-05-24T18:28:38.060210: info: Init: Checksum 3: 94bb374b80218694dde5150c857e6633
+2023-05-24T19:06:41.342219: info: #######################################
+2023-05-24T19:06:41.342479: info: Started: WebConnector 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-24T19:06:41.342485: info: #######################################
+2023-05-24T19:06:41.342489: info: Init: Setup environment
+2023-05-24T19:06:41.342528: info: UUID: BF8750C9-0F22-3C73-9676-132E80FFC3B7
+2023-05-24T19:06:41.343548: info: Code ID: identifier "Ableton Web Connector" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-24T19:06:41.343565: info: Init: Version: 'WebConnector 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-24T19:06:41.343569: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-24T19:06:41.343573: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-24T19:06:41.344253: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-24T19:06:41.344263: info: Init: BuildType: 'Release'
+2023-05-24T19:06:41.344267: info: Init: Pid: 2581
+2023-05-24T19:06:41.344287: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-24T19:06:41.344294: info: Init: CPU Brand String: 'Apple M1'
+2023-05-24T19:06:41.344299: info: Init: CPU Count: 8
+2023-05-24T19:06:41.344309: info: Init: Physical RAM: 17179869184 B
+2023-05-24T19:06:41.344313: info: Init: Address Space: 18446744073709551615 B
+2023-05-24T19:06:41.344317: info: Init: 64-bit Edition
+2023-05-24T19:06:41.424730: info: Init: Checksum 1: 1461ee47b6a52467b1e45459d0b95fc0
+2023-05-24T19:06:41.456515: info: Init: Checksum 2: 94bb374b80218694dde5150c857e6633
+2023-05-24T19:06:41.492290: info: Init: Checksum 3: 94bb374b80218694dde5150c857e6633
+2023-05-31T18:32:44.697037: info: #######################################
+2023-05-31T18:32:44.697327: info: Started: WebConnector 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-31T18:32:44.697332: info: #######################################
+2023-05-31T18:32:44.697336: info: Init: Setup environment
+2023-05-31T18:32:44.697622: info: UUID: BF8750C9-0F22-3C73-9676-132E80FFC3B7
+2023-05-31T18:32:44.698281: info: Code ID: identifier "Ableton Web Connector" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-31T18:32:44.698367: info: Init: Version: 'WebConnector 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-31T18:32:44.698379: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-31T18:32:44.698385: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-31T18:32:44.699182: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-31T18:32:44.699193: info: Init: BuildType: 'Release'
+2023-05-31T18:32:44.699198: info: Init: Pid: 8928
+2023-05-31T18:32:44.699370: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-31T18:32:44.699379: info: Init: CPU Brand String: 'Apple M1'
+2023-05-31T18:32:44.699383: info: Init: CPU Count: 8
+2023-05-31T18:32:44.699394: info: Init: Physical RAM: 17179869184 B
+2023-05-31T18:32:44.699398: info: Init: Address Space: 18446744073709551615 B
+2023-05-31T18:32:44.699402: info: Init: 64-bit Edition
+2023-05-31T18:32:44.781401: info: Init: Checksum 1: 1461ee47b6a52467b1e45459d0b95fc0
+2023-05-31T18:32:44.813005: info: Init: Checksum 2: 94bb374b80218694dde5150c857e6633
+2023-05-31T18:32:44.849987: info: Init: Checksum 3: 94bb374b80218694dde5150c857e6633
+2023-05-31T19:37:13.807138: info: #######################################
+2023-05-31T19:37:13.807409: info: Started: WebConnector 11.3.2 Build: 2023-05-10_e3d052445a
+2023-05-31T19:37:13.807415: info: #######################################
+2023-05-31T19:37:13.807419: info: Init: Setup environment
+2023-05-31T19:37:13.807459: info: UUID: BF8750C9-0F22-3C73-9676-132E80FFC3B7
+2023-05-31T19:37:13.807990: info: Code ID: identifier "Ableton Web Connector" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-05-31T19:37:13.808194: info: Init: Version: 'WebConnector 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-05-31T19:37:13.808204: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-05-31T19:37:13.808209: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-05-31T19:37:13.809028: info: Init: OS: 'macOS 12.6.5 (21G531), Arch:arm64'
+2023-05-31T19:37:13.809037: info: Init: BuildType: 'Release'
+2023-05-31T19:37:13.809041: info: Init: Pid: 9393
+2023-05-31T19:37:13.809063: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-05-31T19:37:13.809070: info: Init: CPU Brand String: 'Apple M1'
+2023-05-31T19:37:13.809075: info: Init: CPU Count: 8
+2023-05-31T19:37:13.809087: info: Init: Physical RAM: 17179869184 B
+2023-05-31T19:37:13.809090: info: Init: Address Space: 18446744073709551615 B
+2023-05-31T19:37:13.809094: info: Init: 64-bit Edition
+2023-05-31T19:37:13.889427: info: Init: Checksum 1: 1461ee47b6a52467b1e45459d0b95fc0
+2023-05-31T19:37:13.920847: info: Init: Checksum 2: 94bb374b80218694dde5150c857e6633
+2023-05-31T19:37:13.956754: info: Init: Checksum 3: 94bb374b80218694dde5150c857e6633
+2023-06-03T11:33:47.846170: info: #######################################
+2023-06-03T11:33:47.846491: info: Started: WebConnector 11.3.2 Build: 2023-05-10_e3d052445a
+2023-06-03T11:33:47.846499: info: #######################################
+2023-06-03T11:33:47.846503: info: Init: Setup environment
+2023-06-03T11:33:47.846814: info: UUID: BF8750C9-0F22-3C73-9676-132E80FFC3B7
+2023-06-03T11:33:47.847316: info: Code ID: identifier "Ableton Web Connector" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-06-03T11:33:47.847359: info: Init: Version: 'WebConnector 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-06-03T11:33:47.847366: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-06-03T11:33:47.847370: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-06-03T11:33:47.848158: info: Init: OS: 'macOS 12.6.6 (21G646), Arch:arm64'
+2023-06-03T11:33:47.848165: info: Init: BuildType: 'Release'
+2023-06-03T11:33:47.848169: info: Init: Pid: 5714
+2023-06-03T11:33:47.848217: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-06-03T11:33:47.848229: info: Init: CPU Brand String: 'Apple M1'
+2023-06-03T11:33:47.848235: info: Init: CPU Count: 8
+2023-06-03T11:33:47.848247: info: Init: Physical RAM: 17179869184 B
+2023-06-03T11:33:47.848251: info: Init: Address Space: 18446744073709551615 B
+2023-06-03T11:33:47.848254: info: Init: 64-bit Edition
+2023-06-03T11:33:47.929808: info: Init: Checksum 1: 1461ee47b6a52467b1e45459d0b95fc0
+2023-06-03T11:33:47.960737: info: Init: Checksum 2: 94bb374b80218694dde5150c857e6633
+2023-06-03T11:33:47.997484: info: Init: Checksum 3: 94bb374b80218694dde5150c857e6633
+2023-06-03T11:36:39.820894: info: #######################################
+2023-06-03T11:36:39.821227: info: Started: WebConnector 11.3.2 Build: 2023-05-10_e3d052445a
+2023-06-03T11:36:39.821235: info: #######################################
+2023-06-03T11:36:39.821240: info: Init: Setup environment
+2023-06-03T11:36:39.821252: info: UUID: BF8750C9-0F22-3C73-9676-132E80FFC3B7
+2023-06-03T11:36:39.821776: info: Code ID: identifier "Ableton Web Connector" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-06-03T11:36:39.821794: info: Init: Version: 'WebConnector 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-06-03T11:36:39.821797: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-06-03T11:36:39.821799: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-06-03T11:36:39.822546: info: Init: OS: 'macOS 12.6.6 (21G646), Arch:arm64'
+2023-06-03T11:36:39.822551: info: Init: BuildType: 'Release'
+2023-06-03T11:36:39.822554: info: Init: Pid: 6002
+2023-06-03T11:36:39.822562: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-06-03T11:36:39.822567: info: Init: CPU Brand String: 'Apple M1'
+2023-06-03T11:36:39.822570: info: Init: CPU Count: 8
+2023-06-03T11:36:39.822579: info: Init: Physical RAM: 17179869184 B
+2023-06-03T11:36:39.822582: info: Init: Address Space: 18446744073709551615 B
+2023-06-03T11:36:39.822584: info: Init: 64-bit Edition
+2023-06-03T11:36:39.899457: info: Init: Checksum 1: 1461ee47b6a52467b1e45459d0b95fc0
+2023-06-03T11:36:39.930709: info: Init: Checksum 2: 94bb374b80218694dde5150c857e6633
+2023-06-03T11:36:39.960471: info: Init: Checksum 3: 94bb374b80218694dde5150c857e6633
+2023-06-04T14:17:03.287849: info: #######################################
+2023-06-04T14:17:03.288160: info: Started: WebConnector 11.3.2 Build: 2023-05-10_e3d052445a
+2023-06-04T14:17:03.288169: info: #######################################
+2023-06-04T14:17:03.288174: info: Init: Setup environment
+2023-06-04T14:17:03.288217: info: UUID: BF8750C9-0F22-3C73-9676-132E80FFC3B7
+2023-06-04T14:17:03.288874: info: Code ID: identifier "Ableton Web Connector" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-06-04T14:17:03.289093: info: Init: Version: 'WebConnector 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-06-04T14:17:03.289100: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-06-04T14:17:03.289105: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-06-04T14:17:03.289844: info: Init: OS: 'macOS 12.6.6 (21G646), Arch:arm64'
+2023-06-04T14:17:03.289852: info: Init: BuildType: 'Release'
+2023-06-04T14:17:03.289856: info: Init: Pid: 8166
+2023-06-04T14:17:03.289878: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-06-04T14:17:03.289884: info: Init: CPU Brand String: 'Apple M1'
+2023-06-04T14:17:03.289888: info: Init: CPU Count: 8
+2023-06-04T14:17:03.289900: info: Init: Physical RAM: 17179869184 B
+2023-06-04T14:17:03.289904: info: Init: Address Space: 18446744073709551615 B
+2023-06-04T14:17:03.289907: info: Init: 64-bit Edition
+2023-06-04T14:17:03.369562: info: Init: Checksum 1: 1461ee47b6a52467b1e45459d0b95fc0
+2023-06-04T14:17:03.401850: info: Init: Checksum 2: 94bb374b80218694dde5150c857e6633
+2023-06-04T14:17:03.438412: info: Init: Checksum 3: 94bb374b80218694dde5150c857e6633
+2023-06-04T17:34:35.434601: info: #######################################
+2023-06-04T17:34:35.434777: info: Started: WebConnector 11.3.2 Build: 2023-05-10_e3d052445a
+2023-06-04T17:34:35.434782: info: #######################################
+2023-06-04T17:34:35.434787: info: Init: Setup environment
+2023-06-04T17:34:35.434799: info: UUID: BF8750C9-0F22-3C73-9676-132E80FFC3B7
+2023-06-04T17:34:35.435404: info: Code ID: identifier "Ableton Web Connector" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-06-04T17:34:35.435418: info: Init: Version: 'WebConnector 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-06-04T17:34:35.435423: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-06-04T17:34:35.435427: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-06-04T17:34:35.436126: info: Init: OS: 'macOS 12.6.6 (21G646), Arch:arm64'
+2023-06-04T17:34:35.436142: info: Init: BuildType: 'Release'
+2023-06-04T17:34:35.436145: info: Init: Pid: 8309
+2023-06-04T17:34:35.436157: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-06-04T17:34:35.436161: info: Init: CPU Brand String: 'Apple M1'
+2023-06-04T17:34:35.436164: info: Init: CPU Count: 8
+2023-06-04T17:34:35.436174: info: Init: Physical RAM: 17179869184 B
+2023-06-04T17:34:35.436177: info: Init: Address Space: 18446744073709551615 B
+2023-06-04T17:34:35.436179: info: Init: 64-bit Edition
+2023-06-04T17:34:35.510916: info: Init: Checksum 1: 1461ee47b6a52467b1e45459d0b95fc0
+2023-06-04T17:34:35.541696: info: Init: Checksum 2: 94bb374b80218694dde5150c857e6633
+2023-06-04T17:34:35.570171: info: Init: Checksum 3: 94bb374b80218694dde5150c857e6633
+2023-06-05T14:10:14.245168: info: #######################################
+2023-06-05T14:10:14.245323: info: Started: WebConnector 11.3.2 Build: 2023-05-10_e3d052445a
+2023-06-05T14:10:14.245328: info: #######################################
+2023-06-05T14:10:14.245332: info: Init: Setup environment
+2023-06-05T14:10:14.245344: info: UUID: BF8750C9-0F22-3C73-9676-132E80FFC3B7
+2023-06-05T14:10:14.245881: info: Code ID: identifier "Ableton Web Connector" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = MWR434WD94
+2023-06-05T14:10:14.245890: info: Init: Version: 'WebConnector 11.3.2 Build: 2023-05-10_e3d052445a' 1114882
+2023-06-05T14:10:14.245894: info: Init: BuildRevisions: e3d052445ac61b8edfeb9cc35685d30807f93f8d
+2023-06-05T14:10:14.245898: info: Init: Commit ID: 'e3d052445ac61b8edfeb9cc35685d30807f93f8d'
+2023-06-05T14:10:14.246583: info: Init: OS: 'macOS 12.6.6 (21G646), Arch:arm64'
+2023-06-05T14:10:14.246592: info: Init: BuildType: 'Release'
+2023-06-05T14:10:14.246596: info: Init: Pid: 8711
+2023-06-05T14:10:14.246607: info: Init: Hardware Model: 'MacBookAir10,1'
+2023-06-05T14:10:14.246613: info: Init: CPU Brand String: 'Apple M1'
+2023-06-05T14:10:14.246617: info: Init: CPU Count: 8
+2023-06-05T14:10:14.246628: info: Init: Physical RAM: 17179869184 B
+2023-06-05T14:10:14.246632: info: Init: Address Space: 18446744073709551615 B
+2023-06-05T14:10:14.246635: info: Init: 64-bit Edition
+2023-06-05T14:10:14.321219: info: Init: Checksum 1: 1461ee47b6a52467b1e45459d0b95fc0
+2023-06-05T14:10:14.351678: info: Init: Checksum 2: 94bb374b80218694dde5150c857e6633
+2023-06-05T14:10:14.380258: info: Init: Checksum 3: 94bb374b80218694dde5150c857e6633

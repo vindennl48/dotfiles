@@ -1,0 +1,1039 @@
+2021-08-16T13:34:09.487616: info: #######################################
+2021-08-16T13:34:09.487698: info: Started: Index 11.0.6 Build: 2021-08-09_daefd4db27
+2021-08-16T13:34:09.487707: info: #######################################
+2021-08-16T13:34:09.487711: info: Init: Setup environment
+2021-08-16T13:34:09.487737: info: : UUID: 337A2738-E798-381F-8508-8B595EE3ADD3
+2021-08-16T13:34:09.487746: info: Init: Version: 'Index 11.0.6 Build: 2021-08-09_daefd4db27' 1114118
+2021-08-16T13:34:09.487758: info: Init: BuildRevisions: daefd4db27434b7ab68d4df150fd795f6502f8d5
+2021-08-16T13:34:09.487764: info: Init: Commit ID: 'daefd4db27434b7ab68d4df150fd795f6502f8d5'
+2021-08-16T13:34:09.487833: info: Init: OS: 'Mac OS X version 11.5.1, Arch:x86-64'
+2021-08-16T13:34:09.487839: info: Init: BuildType: 'Release'
+2021-08-16T13:34:09.487850: info: Init: Pid: 49761
+2021-08-16T13:34:09.487872: info: Init: Hardware Model: 'MacBookAir10,1'
+2021-08-16T13:34:09.487880: info: Init: CPU Brand String: 'Apple M1'
+2021-08-16T13:34:09.487888: info: Init: CPU Count: 8
+2021-08-16T13:34:09.487896: info: Init: Physical RAM: 17179869184 B
+2021-08-16T13:34:09.487900: info: Init: Address Space: 18446744073709551615 B
+2021-08-16T13:34:09.487904: info: Init: 64-bit Edition
+2021-08-16T13:34:09.512719: info: Init: GraphicsDevice: 'Unknown Unknown'
+2021-08-16T13:34:09.538608: info: Init: Checksum 1: 126e10211208e3474457ee0800737772
+2021-08-16T13:34:09.556471: info: Init: Checksum 2: 116b1349cde41f7f5af729f005bbbd2c
+2021-08-16T13:34:09.575288: info: Init: Checksum 3: 116b1349cde41f7f5af729f005bbbd2c
+2021-08-16T13:34:09.575654: info: Licensing: [Variant=Beta]
+2021-08-16T13:34:09.576033: info: Net: Setting up connection framework
+2021-08-16T13:34:09.576040: info: Metadata: Initialize XMP system
+2021-08-16T13:34:09.586745: info: App resources: "/Applications/Ableton Live 11 Trial.app/Contents/App-Resources"
+2021-08-16T13:34:09.586983: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-08-16T13:34:09.612321: info: Database: Open database '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Database/filerefmap.db' (key: SQL[3], sqlite 3.30.1)
+2021-08-16T13:34:36.143714: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-16T13:34:36.143740: info: Configure: UserFolders: 
+2021-08-16T13:34:36.143749: info: Configure: ManagedFolders: 
+2021-08-16T13:34:36.143755: info: Configure: LegacyFactoryPacks: 
+2021-08-16T13:34:36.143760: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-16T13:34:36.143766: info: Configure: CurrentProject: /Users/mitch/Music/Ableton/Live Recordings/Temp Project/
+2021-08-16T13:34:36.143781: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-16T13:34:36.217483: info: Configuring places: Time elapsed: 63
+2021-08-16T13:34:36.258196: info: DatabaseGC: Protect core content folder at "/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library" from being garbage-collected
+2021-08-16T13:34:36.269206: info: DatabaseGC: Protect core content folder at "/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin" from being garbage-collected
+2021-08-16T13:34:36.271318: info: DatabaseGC: Marking unused files. Time: 51
+2021-08-16T13:34:36.272929: info: DatabaseStats: Live files: 6657
+2021-08-16T13:34:36.272934: info: DatabaseStats: Dead files: 6551
+2021-08-16T13:34:36.272938: info: DatabaseStats: Ancestors count: 125878
+2021-08-16T13:34:36.272942: info: DatabaseStats: Number of metadata-file relations: 28162
+2021-08-16T13:34:36.272945: info: DatabaseStats: Number of metadata values: 399
+2021-08-16T13:34:36.272949: info: DatabaseStats: Places count: 4
+2021-08-16T13:34:36.300019: info: Starting scan, Reason: Live, Event ID: 1, All Folders?: true
+2021-08-16T13:34:36.610021: info: Start extraction, Event ID: 1
+2021-08-16T13:34:46.289864: info: DatabaseGC: Beginning sweep.
+2021-08-16T13:35:16.669648: info: DatabaseGC: Still sweeping... Number of iterations: 4, Longest run: 79
+2021-08-16T13:35:46.953219: info: DatabaseGC: Still sweeping... Number of iterations: 3, Longest run: 82
+2021-08-16T13:36:17.158202: info: DatabaseGC: Still sweeping... Number of iterations: 3, Longest run: 82
+2021-08-16T13:36:39.388952: info: Starting scan, Reason: Live, Event ID: 2, All Folders?: true
+2021-08-16T13:36:39.389076: info: Starting scan, Reason: Live, Event ID: 3, All Folders?: true
+2021-08-16T13:36:47.321524: info: DatabaseGC: Still sweeping... Number of iterations: 3, Longest run: 82
+2021-08-16T13:37:17.518436: info: DatabaseGC: Ending sweep. Number of iterations: 15, Total time: 661, Longest run: 82
+2021-08-16T13:37:17.518464: info: DatabaseGC: Still sweeping... Number of iterations: 3, Longest run: 95
+2021-08-16T13:43:37.591020: info: Starting scan, Reason: Live, Event ID: 4, All Folders?: true
+2021-08-16T13:43:37.641358: info: Starting scan, Reason: Live, Event ID: 5, All Folders?: true
+2021-08-16T13:43:47.885961: info: Starting scan, Reason: Live, Event ID: 6, All Folders?: true
+2021-08-16T13:43:47.886069: info: Starting scan, Reason: Live, Event ID: 7, All Folders?: true
+2021-08-16T13:44:43.078889: info: Starting scan, Reason: Live, Event ID: 8, All Folders?: true
+2021-08-16T13:44:43.135577: info: Starting scan, Reason: Live, Event ID: 9, All Folders?: true
+2021-08-16T13:48:19.920220: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Music/Ableton/Live Recordings/Temp Project/ (Recursive=false),/Users/mitch/Music/Ableton/Live Recordings/Temp Project/Samples/ (Recursive=false),/Users/mitch/Music/Ableton/Live Recordings/Temp Project/Samples/Recorded/ (Recursive=false)
+2021-08-16T13:48:19.929856: info: Start extraction, Event ID: 1073741823
+2021-08-16T13:55:55.216077: info: Starting scan, Reason: Live, Event ID: 10, All Folders?: true
+2021-08-16T13:55:55.216325: info: Starting scan, Reason: Live, Event ID: 11, All Folders?: true
+2021-08-16T16:08:56.780011: info: Starting scan, Reason: Live, Event ID: 12, All Folders?: true
+2021-08-16T16:09:27.774212: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-16T16:09:27.774431: info: Configure: UserFolders: 
+2021-08-16T16:09:27.774446: info: Configure: ManagedFolders: 
+2021-08-16T16:09:27.774453: info: Configure: LegacyFactoryPacks: 
+2021-08-16T16:09:27.774460: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-16T16:09:27.774466: info: Configure: CurrentProject: 
+2021-08-16T16:09:27.774485: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-16T16:09:27.798908: info: Configuring places: Time elapsed: 22
+2021-08-16T16:09:27.799914: info: Starting scan, Reason: Live, Event ID: 13, All Folders?: false
+2021-08-16T16:09:27.800476: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-16T16:09:27.800490: info: Configure: UserFolders: 
+2021-08-16T16:09:27.800495: info: Configure: ManagedFolders: 
+2021-08-16T16:09:27.800499: info: Configure: LegacyFactoryPacks: 
+2021-08-16T16:09:27.800503: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-16T16:09:27.800508: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-16T16:09:27.800516: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-16T16:09:27.818702: info: Configuring places: Time elapsed: 18
+2021-08-16T20:51:18.940734: info: #######################################
+2021-08-16T20:51:18.940886: info: Started: Index 11.0.6 Build: 2021-08-09_daefd4db27
+2021-08-16T20:51:18.940897: info: #######################################
+2021-08-16T20:51:18.940902: info: Init: Setup environment
+2021-08-16T20:51:18.940935: info: : UUID: 337A2738-E798-381F-8508-8B595EE3ADD3
+2021-08-16T20:51:18.940943: info: Init: Version: 'Index 11.0.6 Build: 2021-08-09_daefd4db27' 1114118
+2021-08-16T20:51:18.940954: info: Init: BuildRevisions: daefd4db27434b7ab68d4df150fd795f6502f8d5
+2021-08-16T20:51:18.940967: info: Init: Commit ID: 'daefd4db27434b7ab68d4df150fd795f6502f8d5'
+2021-08-16T20:51:18.941051: info: Init: OS: 'Mac OS X version 11.5.1, Arch:x86-64'
+2021-08-16T20:51:18.941057: info: Init: BuildType: 'Release'
+2021-08-16T20:51:18.941068: info: Init: Pid: 53182
+2021-08-16T20:51:18.941087: info: Init: Hardware Model: 'MacBookAir10,1'
+2021-08-16T20:51:18.941095: info: Init: CPU Brand String: 'Apple M1'
+2021-08-16T20:51:18.941103: info: Init: CPU Count: 8
+2021-08-16T20:51:18.941110: info: Init: Physical RAM: 17179869184 B
+2021-08-16T20:51:18.941114: info: Init: Address Space: 18446744073709551615 B
+2021-08-16T20:51:18.941117: info: Init: 64-bit Edition
+2021-08-16T20:51:18.963880: info: Init: GraphicsDevice: 'Unknown Unknown'
+2021-08-16T20:51:18.990085: info: Init: Checksum 1: 126e10211208e3474457ee0800737772
+2021-08-16T20:51:19.008126: info: Init: Checksum 2: 116b1349cde41f7f5af729f005bbbd2c
+2021-08-16T20:51:19.030943: info: Init: Checksum 3: 116b1349cde41f7f5af729f005bbbd2c
+2021-08-16T20:51:19.031708: info: Licensing: [Variant=Beta]
+2021-08-16T20:51:19.032081: info: Net: Setting up connection framework
+2021-08-16T20:51:19.032088: info: Metadata: Initialize XMP system
+2021-08-16T20:51:19.044263: info: App resources: "/Applications/Ableton Live 11 Trial.app/Contents/App-Resources"
+2021-08-16T20:51:19.044794: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-08-16T20:51:19.073571: info: Database: Open database '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Database/filerefmap.db' (key: SQL[3], sqlite 3.30.1)
+2021-08-16T20:51:25.207637: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-16T20:51:25.207660: info: Configure: UserFolders: 
+2021-08-16T20:51:25.207665: info: Configure: ManagedFolders: 
+2021-08-16T20:51:25.207668: info: Configure: LegacyFactoryPacks: 
+2021-08-16T20:51:25.207671: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-16T20:51:25.207674: info: Configure: CurrentProject: /Users/mitch/Music/Ableton/Live Recordings/Temp Project/
+2021-08-16T20:51:25.207684: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-16T20:51:25.238692: info: Configuring places: Time elapsed: 19
+2021-08-16T20:51:25.257815: info: DatabaseGC: Protect core content folder at "/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library" from being garbage-collected
+2021-08-16T20:51:25.268923: info: DatabaseGC: Protect core content folder at "/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin" from being garbage-collected
+2021-08-16T20:51:25.271211: info: DatabaseGC: Marking unused files. Time: 30
+2021-08-16T20:51:25.278170: info: DatabaseStats: Live files: 6657
+2021-08-16T20:51:25.278180: info: DatabaseStats: Dead files: 4
+2021-08-16T20:51:25.278184: info: DatabaseStats: Ancestors count: 63315
+2021-08-16T20:51:25.278187: info: DatabaseStats: Number of metadata-file relations: 14081
+2021-08-16T20:51:25.278189: info: DatabaseStats: Number of metadata values: 399
+2021-08-16T20:51:25.278192: info: DatabaseStats: Places count: 4
+2021-08-16T20:51:25.284566: info: Starting scan, Reason: Live, Event ID: 1, All Folders?: true
+2021-08-16T20:51:25.717656: info: Start extraction, Event ID: 1
+2021-08-16T20:51:31.298821: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-16T20:51:31.298847: info: Configure: UserFolders: 
+2021-08-16T20:51:31.298854: info: Configure: ManagedFolders: 
+2021-08-16T20:51:31.298859: info: Configure: LegacyFactoryPacks: 
+2021-08-16T20:51:31.298864: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-16T20:51:31.298869: info: Configure: CurrentProject: 
+2021-08-16T20:51:31.298881: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-16T20:51:31.321692: info: Configuring places: Time elapsed: 21
+2021-08-16T20:51:31.322387: info: Starting scan, Reason: Live, Event ID: 2, All Folders?: false
+2021-08-16T20:51:31.323406: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-16T20:51:31.323414: info: Configure: UserFolders: 
+2021-08-16T20:51:31.323417: info: Configure: ManagedFolders: 
+2021-08-16T20:51:31.323420: info: Configure: LegacyFactoryPacks: 
+2021-08-16T20:51:31.323423: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-16T20:51:31.323426: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-16T20:51:31.323433: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-16T20:51:31.342271: info: Configuring places: Time elapsed: 18
+2021-08-16T20:51:31.343541: info: Start extraction, Event ID: 2
+2021-08-16T20:51:35.306458: info: DatabaseGC: Beginning sweep.
+2021-08-16T20:51:35.401735: info: DatabaseGC: Ending sweep. Number of iterations: 0, Total time: 0, Longest run: 0
+2021-08-16T20:53:11.475407: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-16T20:53:11.475438: info: Configure: UserFolders: 
+2021-08-16T20:53:11.475444: info: Configure: ManagedFolders: 
+2021-08-16T20:53:11.475448: info: Configure: LegacyFactoryPacks: 
+2021-08-16T20:53:11.475453: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-16T20:53:11.475458: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-16T20:53:11.475469: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-16T20:53:11.497837: info: Configuring places: Time elapsed: 21
+2021-08-16T20:53:11.498940: info: Starting scan, Reason: Live, Event ID: 3, All Folders?: false
+2021-08-16T20:53:11.607027: info: Start extraction, Event ID: 3
+2021-08-16T20:53:11.607125: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-16T20:53:11.607133: info: Configure: UserFolders: 
+2021-08-16T20:53:11.607138: info: Configure: ManagedFolders: 
+2021-08-16T20:53:11.607142: info: Configure: LegacyFactoryPacks: 
+2021-08-16T20:53:11.607147: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-16T20:53:11.607151: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-16T20:53:11.607160: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-16T20:53:11.626116: info: Configuring places: Time elapsed: 18
+2021-08-16T20:53:28.694955: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-16T20:53:28.694986: info: Configure: UserFolders: 
+2021-08-16T20:53:28.694992: info: Configure: ManagedFolders: 
+2021-08-16T20:53:28.694997: info: Configure: LegacyFactoryPacks: 
+2021-08-16T20:53:28.695001: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-16T20:53:28.695006: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-16T20:53:28.695017: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-16T20:53:28.716679: info: Configuring places: Time elapsed: 19
+2021-08-16T20:56:41.733570: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-16T20:56:41.733625: info: Configure: UserFolders: 
+2021-08-16T20:56:41.733631: info: Configure: ManagedFolders: 
+2021-08-16T20:56:41.733636: info: Configure: LegacyFactoryPacks: 
+2021-08-16T20:56:41.733641: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-16T20:56:41.733646: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-16T20:56:41.733662: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-16T20:56:41.755715: info: Configuring places: Time elapsed: 21
+2021-08-16T20:56:46.273265: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false)
+2021-08-16T20:56:46.280637: info: Start extraction, Event ID: 1073741823
+2021-08-16T21:01:12.085780: info: Starting scan, Reason: Live, Event ID: 4, All Folders?: true
+2021-08-16T21:05:07.359876: info: Starting scan, Reason: Live, Event ID: 5, All Folders?: true
+2021-08-16T21:05:07.360239: info: Starting scan, Reason: Live, Event ID: 6, All Folders?: true
+2021-08-16T21:09:22.907404: info: Starting scan, Reason: Live, Event ID: 7, All Folders?: true
+2021-08-16T21:09:22.907695: info: Starting scan, Reason: Live, Event ID: 8, All Folders?: true
+2021-08-16T21:15:08.237360: info: Starting scan, Reason: Live, Event ID: 9, All Folders?: true
+2021-08-16T21:15:08.237717: info: Starting scan, Reason: Live, Event ID: 10, All Folders?: true
+2021-08-16T21:16:01.785889: info: Starting scan, Reason: Live, Event ID: 11, All Folders?: true
+2021-08-16T21:16:01.786078: info: Starting scan, Reason: Live, Event ID: 12, All Folders?: true
+2021-08-16T21:16:17.770403: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-16T21:16:17.770427: info: Configure: UserFolders: 
+2021-08-16T21:16:17.770433: info: Configure: ManagedFolders: 
+2021-08-16T21:16:17.770438: info: Configure: LegacyFactoryPacks: 
+2021-08-16T21:16:17.770442: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-16T21:16:17.770447: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-16T21:16:17.770457: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-16T21:16:17.795687: info: Configuring places: Time elapsed: 23
+2021-08-16T21:16:25.543418: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false)
+2021-08-16T21:16:25.547777: info: Start extraction, Event ID: 1073741823
+2021-08-16T21:17:37.883581: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-16T21:17:37.883601: info: Configure: UserFolders: 
+2021-08-16T21:17:37.883606: info: Configure: ManagedFolders: 
+2021-08-16T21:17:37.883610: info: Configure: LegacyFactoryPacks: 
+2021-08-16T21:17:37.883615: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-16T21:17:37.883619: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-16T21:17:37.883628: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-16T21:17:37.903240: info: Configuring places: Time elapsed: 19
+2021-08-16T21:17:42.566756: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false)
+2021-08-16T21:17:42.574805: info: Start extraction, Event ID: 1073741823
+2021-08-16T21:18:43.152969: info: Starting scan, Reason: Live, Event ID: 13, All Folders?: true
+2021-08-16T21:18:43.153052: info: Starting scan, Reason: Live, Event ID: 14, All Folders?: true
+2021-08-16T21:21:11.155108: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-16T21:21:11.155128: info: Configure: UserFolders: 
+2021-08-16T21:21:11.155134: info: Configure: ManagedFolders: 
+2021-08-16T21:21:11.155146: info: Configure: LegacyFactoryPacks: 
+2021-08-16T21:21:11.155149: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-16T21:21:11.155153: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-16T21:21:11.155161: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-16T21:21:11.175526: info: Configuring places: Time elapsed: 20
+2021-08-16T21:21:15.250901: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false)
+2021-08-16T21:21:15.258368: info: Start extraction, Event ID: 1073741823
+2021-08-16T21:21:17.306142: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-16T21:21:17.312067: info: Start extraction, Event ID: 1073741823
+2021-08-16T21:22:17.938947: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-16T21:22:17.944676: info: Start extraction, Event ID: 1073741823
+2021-08-16T21:22:47.617518: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-16T21:22:47.617544: info: Configure: UserFolders: 
+2021-08-16T21:22:47.617550: info: Configure: ManagedFolders: 
+2021-08-16T21:22:47.617554: info: Configure: LegacyFactoryPacks: 
+2021-08-16T21:22:47.617558: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-16T21:22:47.617562: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-16T21:22:47.617571: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-16T21:22:47.637111: info: Configuring places: Time elapsed: 18
+2021-08-16T21:22:52.401252: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false)
+2021-08-16T21:22:52.407149: info: Start extraction, Event ID: 1073741823
+2021-08-16T21:25:50.938098: info: Starting scan, Reason: Live, Event ID: 15, All Folders?: true
+2021-08-16T21:25:50.938191: info: Starting scan, Reason: Live, Event ID: 16, All Folders?: true
+2021-08-16T21:26:15.692868: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/ (Recursive=false)
+2021-08-16T21:26:15.707956: info: Start extraction, Event ID: 1073741823
+2021-08-16T21:26:21.784598: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/ (Recursive=false)
+2021-08-16T21:26:21.787593: info: Start extraction, Event ID: 1073741823
+2021-08-16T21:26:25.844152: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/ (Recursive=false)
+2021-08-16T21:26:25.851032: info: Start extraction, Event ID: 1073741823
+2021-08-16T21:26:29.324541: info: Starting scan, Reason: Live, Event ID: 17, All Folders?: true
+2021-08-16T21:26:29.922825: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/ (Recursive=false)
+2021-08-16T21:26:29.930985: info: Start extraction, Event ID: 1073741823
+2021-08-16T21:26:33.987179: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/ (Recursive=false)
+2021-08-16T21:26:33.990876: info: Start extraction, Event ID: 1073741823
+2021-08-16T21:26:36.002437: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/ (Recursive=false)
+2021-08-16T21:26:46.170429: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/ (Recursive=false)
+2021-08-16T21:26:46.173422: info: Start extraction, Event ID: 1073741823
+2021-08-16T21:26:52.228556: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/ (Recursive=false)
+2021-08-16T21:26:52.233028: info: Start extraction, Event ID: 1073741823
+2021-08-16T21:27:00.355867: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/ (Recursive=false)
+2021-08-16T21:27:00.359742: info: Start extraction, Event ID: 1073741823
+2021-08-16T21:27:10.477641: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/ (Recursive=false)
+2021-08-16T21:27:10.481332: info: Start extraction, Event ID: 1073741823
+2021-08-16T21:27:11.927479: info: Starting scan, Reason: Live, Event ID: 18, All Folders?: true
+2021-08-16T21:27:24.967202: info: Starting scan, Reason: Live, Event ID: 19, All Folders?: true
+2021-08-16T21:27:24.967412: info: Starting scan, Reason: Live, Event ID: 20, All Folders?: true
+2021-08-16T21:32:41.710766: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-16T21:32:41.710902: info: Configure: UserFolders: 
+2021-08-16T21:32:41.710910: info: Configure: ManagedFolders: 
+2021-08-16T21:32:41.710914: info: Configure: LegacyFactoryPacks: 
+2021-08-16T21:32:41.710919: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-16T21:32:41.710923: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-16T21:32:41.710933: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-16T21:32:41.733275: info: Configuring places: Time elapsed: 22
+2021-08-16T21:32:46.376244: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false)
+2021-08-16T21:32:46.384016: info: Start extraction, Event ID: 1073741823
+2021-08-16T21:33:40.963893: info: Starting scan, Reason: Live, Event ID: 21, All Folders?: true
+2021-08-16T21:34:52.249987: info: Starting scan, Reason: Live, Event ID: 22, All Folders?: true
+2021-08-16T21:46:23.395968: info: Starting scan, Reason: Live, Event ID: 23, All Folders?: true
+2021-08-16T21:50:02.153196: info: Starting scan, Reason: Live, Event ID: 24, All Folders?: true
+2021-08-16T21:50:02.153574: info: Starting scan, Reason: Live, Event ID: 25, All Folders?: true
+2021-08-16T21:50:21.565050: info: Starting scan, Reason: Live, Event ID: 26, All Folders?: true
+2021-08-16T21:52:44.954305: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-16T21:52:44.958429: info: Start extraction, Event ID: 1073741823
+2021-08-16T21:52:48.978133: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-16T21:55:03.830054: info: Starting scan, Reason: Live, Event ID: 27, All Folders?: true
+2021-08-16T21:57:42.524044: info: Starting scan, Reason: Live, Event ID: 28, All Folders?: true
+2021-08-16T21:59:08.244238: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-16T21:59:08.244260: info: Configure: UserFolders: 
+2021-08-16T21:59:08.244266: info: Configure: ManagedFolders: 
+2021-08-16T21:59:08.244270: info: Configure: LegacyFactoryPacks: 
+2021-08-16T21:59:08.244274: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-16T21:59:08.244279: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-16T21:59:08.244288: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-16T21:59:08.266607: info: Configuring places: Time elapsed: 21
+2021-08-16T21:59:32.822764: info: #######################################
+2021-08-16T21:59:32.822847: info: Started: Index 11.0.6 Build: 2021-08-09_daefd4db27
+2021-08-16T21:59:32.822853: info: #######################################
+2021-08-16T21:59:32.822858: info: Init: Setup environment
+2021-08-16T21:59:32.822886: info: : UUID: 337A2738-E798-381F-8508-8B595EE3ADD3
+2021-08-16T21:59:32.822894: info: Init: Version: 'Index 11.0.6 Build: 2021-08-09_daefd4db27' 1114118
+2021-08-16T21:59:32.822905: info: Init: BuildRevisions: daefd4db27434b7ab68d4df150fd795f6502f8d5
+2021-08-16T21:59:32.822910: info: Init: Commit ID: 'daefd4db27434b7ab68d4df150fd795f6502f8d5'
+2021-08-16T21:59:32.822985: info: Init: OS: 'Mac OS X version 11.5.1, Arch:x86-64'
+2021-08-16T21:59:32.822990: info: Init: BuildType: 'Release'
+2021-08-16T21:59:32.823003: info: Init: Pid: 55028
+2021-08-16T21:59:32.823022: info: Init: Hardware Model: 'MacBookAir10,1'
+2021-08-16T21:59:32.823030: info: Init: CPU Brand String: 'Apple M1'
+2021-08-16T21:59:32.823039: info: Init: CPU Count: 8
+2021-08-16T21:59:32.823048: info: Init: Physical RAM: 17179869184 B
+2021-08-16T21:59:32.823052: info: Init: Address Space: 18446744073709551615 B
+2021-08-16T21:59:32.823056: info: Init: 64-bit Edition
+2021-08-16T21:59:32.846055: info: Init: GraphicsDevice: 'Unknown Unknown'
+2021-08-16T21:59:32.872897: info: Init: Checksum 1: 126e10211208e3474457ee0800737772
+2021-08-16T21:59:32.891350: info: Init: Checksum 2: 116b1349cde41f7f5af729f005bbbd2c
+2021-08-16T21:59:32.910774: info: Init: Checksum 3: 116b1349cde41f7f5af729f005bbbd2c
+2021-08-16T21:59:32.911142: info: Licensing: [Variant=Beta]
+2021-08-16T21:59:32.911510: info: Net: Setting up connection framework
+2021-08-16T21:59:32.911523: info: Metadata: Initialize XMP system
+2021-08-16T21:59:32.922919: info: App resources: "/Applications/Ableton Live 11 Trial.app/Contents/App-Resources"
+2021-08-16T21:59:32.923134: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-08-16T21:59:32.948949: info: Database: Open database '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Database/filerefmap.db' (key: SQL[3], sqlite 3.30.1)
+2021-08-16T21:59:35.885827: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-16T21:59:35.885849: info: Configure: UserFolders: 
+2021-08-16T21:59:35.885856: info: Configure: ManagedFolders: 
+2021-08-16T21:59:35.885860: info: Configure: LegacyFactoryPacks: 
+2021-08-16T21:59:35.885865: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-16T21:59:35.885883: info: Configure: CurrentProject: /Users/mitch/Music/Ableton/Live Recordings/Temp Project/
+2021-08-16T21:59:35.885894: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-16T21:59:35.921534: info: Configuring places: Time elapsed: 26
+2021-08-16T21:59:35.945648: info: DatabaseGC: Protect core content folder at "/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library" from being garbage-collected
+2021-08-16T21:59:35.957914: info: DatabaseGC: Protect core content folder at "/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin" from being garbage-collected
+2021-08-16T21:59:35.959325: info: DatabaseGC: Marking unused files. Time: 35
+2021-08-16T21:59:35.962960: info: DatabaseStats: Live files: 6695
+2021-08-16T21:59:35.962966: info: DatabaseStats: Dead files: 197
+2021-08-16T21:59:35.962969: info: DatabaseStats: Ancestors count: 64988
+2021-08-16T21:59:35.962972: info: DatabaseStats: Number of metadata-file relations: 14186
+2021-08-16T21:59:35.962975: info: DatabaseStats: Number of metadata values: 435
+2021-08-16T21:59:35.962978: info: DatabaseStats: Places count: 4
+2021-08-16T21:59:35.969544: info: Starting scan, Reason: Live, Event ID: 1, All Folders?: true
+2021-08-16T21:59:36.417663: info: Start extraction, Event ID: 1
+2021-08-16T21:59:45.982786: info: DatabaseGC: Beginning sweep.
+2021-08-16T22:00:15.809084: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-16T22:00:15.809110: info: Configure: UserFolders: 
+2021-08-16T22:00:15.809115: info: Configure: ManagedFolders: 
+2021-08-16T22:00:15.809120: info: Configure: LegacyFactoryPacks: 
+2021-08-16T22:00:15.809124: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-16T22:00:15.809128: info: Configure: CurrentProject: 
+2021-08-16T22:00:15.809143: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-16T22:00:15.830094: info: Configuring places: Time elapsed: 20
+2021-08-16T22:00:15.883100: info: Starting scan, Reason: Live, Event ID: 2, All Folders?: false
+2021-08-16T22:00:15.884284: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-16T22:00:15.884296: info: Configure: UserFolders: 
+2021-08-16T22:00:15.884301: info: Configure: ManagedFolders: 
+2021-08-16T22:00:15.884306: info: Configure: LegacyFactoryPacks: 
+2021-08-16T22:00:15.884310: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-16T22:00:15.884314: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-16T22:00:15.884323: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-16T22:00:15.905259: info: Configuring places: Time elapsed: 20
+2021-08-16T22:00:15.907580: info: Start extraction, Event ID: 2
+2021-08-16T22:00:16.110221: info: DatabaseGC: Still sweeping... Number of iterations: 4, Longest run: 17
+2021-08-16T22:00:46.230963: info: DatabaseGC: Still sweeping... Number of iterations: 3, Longest run: 17
+2021-08-16T22:00:56.296508: info: DatabaseGC: Ending sweep. Number of iterations: 7, Total time: 81, Longest run: 17
+2021-08-16T22:03:03.911324: info: Starting scan, Reason: Live, Event ID: 3, All Folders?: true
+2021-08-16T22:03:20.276667: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-16T22:03:20.280386: info: Start extraction, Event ID: 1073741823
+2021-08-16T22:03:22.309019: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-16T22:03:26.338806: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-16T22:03:43.706742: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-16T22:03:43.706769: info: Configure: UserFolders: 
+2021-08-16T22:03:43.706773: info: Configure: ManagedFolders: 
+2021-08-16T22:03:43.706776: info: Configure: LegacyFactoryPacks: 
+2021-08-16T22:03:43.706779: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-16T22:03:43.706782: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-16T22:03:43.706790: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-16T22:03:43.727652: info: Configuring places: Time elapsed: 20
+2021-08-16T22:03:50.679258: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false)
+2021-08-16T22:03:50.686057: info: Start extraction, Event ID: 1073741823
+2021-08-16T22:09:48.148609: info: Starting scan, Reason: Live, Event ID: 4, All Folders?: true
+2021-08-16T22:12:01.197811: info: Starting scan, Reason: Live, Event ID: 5, All Folders?: true
+2021-08-16T22:14:31.406963: info: Starting scan, Reason: Live, Event ID: 6, All Folders?: true
+2021-08-16T22:17:30.574966: info: Starting scan, Reason: Live, Event ID: 7, All Folders?: true
+2021-08-16T22:17:32.653355: info: Starting scan, Reason: Live, Event ID: 8, All Folders?: true
+2021-08-16T22:20:21.545855: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-16T22:20:21.545882: info: Configure: UserFolders: 
+2021-08-16T22:20:21.545888: info: Configure: ManagedFolders: 
+2021-08-16T22:20:21.545892: info: Configure: LegacyFactoryPacks: 
+2021-08-16T22:20:21.545897: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-16T22:20:21.545901: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-16T22:20:21.545910: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-16T22:20:21.567290: info: Configuring places: Time elapsed: 20
+2021-08-16T22:20:27.402519: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false)
+2021-08-16T22:20:27.410144: info: Start extraction, Event ID: 1073741823
+2021-08-16T22:20:30.999234: info: Starting scan, Reason: Live, Event ID: 9, All Folders?: true
+2021-08-16T22:29:56.723599: info: Starting scan, Reason: Live, Event ID: 10, All Folders?: true
+2021-08-16T22:30:06.108902: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-16T22:30:06.108933: info: Configure: UserFolders: 
+2021-08-16T22:30:06.108938: info: Configure: ManagedFolders: 
+2021-08-16T22:30:06.108943: info: Configure: LegacyFactoryPacks: 
+2021-08-16T22:30:06.108947: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-16T22:30:06.108951: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-16T22:30:06.108962: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-16T22:30:06.130427: info: Configuring places: Time elapsed: 20
+2021-08-16T22:30:11.455892: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-16T22:30:11.455925: info: Configure: UserFolders: 
+2021-08-16T22:30:11.455931: info: Configure: ManagedFolders: 
+2021-08-16T22:30:11.455935: info: Configure: LegacyFactoryPacks: 
+2021-08-16T22:30:11.455940: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-16T22:30:11.455944: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-16T22:30:11.455955: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-16T22:30:11.477101: info: Configuring places: Time elapsed: 20
+2021-08-16T22:30:16.603240: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/ (Recursive=false)
+2021-08-16T22:30:20.659960: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-16T22:30:20.663786: info: Start extraction, Event ID: 1073741823
+2021-08-16T22:30:28.770735: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-16T22:30:28.774605: info: Start extraction, Event ID: 1073741823
+2021-08-16T22:30:38.891186: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-16T22:30:45.828832: info: Starting scan, Reason: Live, Event ID: 11, All Folders?: true
+2021-08-16T22:31:37.389510: info: Starting scan, Reason: Live, Event ID: 12, All Folders?: true
+2021-08-16T22:39:56.522356: info: Starting scan, Reason: Live, Event ID: 13, All Folders?: true
+2021-08-16T22:40:45.890142: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-16T22:40:45.893766: info: Start extraction, Event ID: 1073741823
+2021-08-16T22:40:47.924780: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-16T22:41:10.138647: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-16T22:41:10.138676: info: Configure: UserFolders: 
+2021-08-16T22:41:10.138681: info: Configure: ManagedFolders: 
+2021-08-16T22:41:10.138686: info: Configure: LegacyFactoryPacks: 
+2021-08-16T22:41:10.138691: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-16T22:41:10.138695: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-16T22:41:10.138704: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-16T22:41:10.160222: info: Configuring places: Time elapsed: 20
+2021-08-16T22:41:14.288791: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false)
+2021-08-16T22:41:14.295502: info: Start extraction, Event ID: 1073741823
+2021-08-16T22:50:54.476832: info: Starting scan, Reason: Live, Event ID: 14, All Folders?: true
+2021-08-16T23:21:42.129925: info: Starting scan, Reason: Live, Event ID: 15, All Folders?: true
+2021-08-16T23:46:40.868019: info: Starting scan, Reason: Live, Event ID: 16, All Folders?: true
+2021-08-16T23:57:36.168162: info: Starting scan, Reason: Live, Event ID: 17, All Folders?: true
+2021-08-16T23:57:39.306641: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-16T23:57:39.306659: info: Configure: UserFolders: 
+2021-08-16T23:57:39.306664: info: Configure: ManagedFolders: 
+2021-08-16T23:57:39.306668: info: Configure: LegacyFactoryPacks: 
+2021-08-16T23:57:39.306672: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-16T23:57:39.306676: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-16T23:57:39.306685: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-16T23:57:39.329917: info: Configuring places: Time elapsed: 22
+2021-08-16T23:57:42.378554: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false)
+2021-08-16T23:57:42.387424: info: Start extraction, Event ID: 1073741823
+2021-08-16T23:57:50.832273: info: Database: Cleanup keywords: 3 ms
+2021-08-16T23:57:50.851364: info: Database: Cleanup metadata: 19 ms
+2021-08-16T23:57:50.864523: info: Database: Cleanup search aggregation: 13 ms
+2021-08-17T18:25:36.500743: info: #######################################
+2021-08-17T18:25:36.500972: info: Started: Index 11.0.6 Build: 2021-08-09_daefd4db27
+2021-08-17T18:25:36.500983: info: #######################################
+2021-08-17T18:25:36.500987: info: Init: Setup environment
+2021-08-17T18:25:36.501019: info: : UUID: 337A2738-E798-381F-8508-8B595EE3ADD3
+2021-08-17T18:25:36.501028: info: Init: Version: 'Index 11.0.6 Build: 2021-08-09_daefd4db27' 1114118
+2021-08-17T18:25:36.501039: info: Init: BuildRevisions: daefd4db27434b7ab68d4df150fd795f6502f8d5
+2021-08-17T18:25:36.501045: info: Init: Commit ID: 'daefd4db27434b7ab68d4df150fd795f6502f8d5'
+2021-08-17T18:25:36.501136: info: Init: OS: 'Mac OS X version 11.5.1, Arch:x86-64'
+2021-08-17T18:25:36.501143: info: Init: BuildType: 'Release'
+2021-08-17T18:25:36.501154: info: Init: Pid: 59690
+2021-08-17T18:25:36.501178: info: Init: Hardware Model: 'MacBookAir10,1'
+2021-08-17T18:25:36.501187: info: Init: CPU Brand String: 'Apple M1'
+2021-08-17T18:25:36.501196: info: Init: CPU Count: 8
+2021-08-17T18:25:36.501205: info: Init: Physical RAM: 17179869184 B
+2021-08-17T18:25:36.501243: info: Init: Address Space: 18446744073709551615 B
+2021-08-17T18:25:36.501250: info: Init: 64-bit Edition
+2021-08-17T18:25:36.524490: info: Init: GraphicsDevice: 'Unknown Unknown'
+2021-08-17T18:25:36.550763: info: Init: Checksum 1: 126e10211208e3474457ee0800737772
+2021-08-17T18:25:36.570181: info: Init: Checksum 2: 116b1349cde41f7f5af729f005bbbd2c
+2021-08-17T18:25:36.589414: info: Init: Checksum 3: 116b1349cde41f7f5af729f005bbbd2c
+2021-08-17T18:25:36.590238: info: Licensing: [Variant=Beta]
+2021-08-17T18:25:36.590754: info: Net: Setting up connection framework
+2021-08-17T18:25:36.590764: info: Metadata: Initialize XMP system
+2021-08-17T18:25:36.606217: info: App resources: "/Applications/Ableton Live 11 Trial.app/Contents/App-Resources"
+2021-08-17T18:25:36.606702: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-08-17T18:25:36.639558: info: Database: Open database '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Database/filerefmap.db' (key: SQL[3], sqlite 3.30.1)
+2021-08-17T18:25:45.062307: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-17T18:25:45.062350: info: Configure: UserFolders: 
+2021-08-17T18:25:45.062356: info: Configure: ManagedFolders: 
+2021-08-17T18:25:45.062361: info: Configure: LegacyFactoryPacks: 
+2021-08-17T18:25:45.062365: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-17T18:25:45.062369: info: Configure: CurrentProject: /Users/mitch/Music/Ableton/Live Recordings/Temp Project/
+2021-08-17T18:25:45.062383: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-17T18:25:45.093389: info: Configuring places: Time elapsed: 22
+2021-08-17T18:25:45.115736: info: DatabaseGC: Protect core content folder at "/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library" from being garbage-collected
+2021-08-17T18:25:45.128104: info: DatabaseGC: Protect core content folder at "/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin" from being garbage-collected
+2021-08-17T18:25:45.129634: info: DatabaseGC: Marking unused files. Time: 33
+2021-08-17T18:25:45.136189: info: DatabaseStats: Live files: 6695
+2021-08-17T18:25:45.136204: info: DatabaseStats: Dead files: 24
+2021-08-17T18:25:45.136220: info: DatabaseStats: Ancestors count: 63566
+2021-08-17T18:25:45.136223: info: DatabaseStats: Number of metadata-file relations: 14186
+2021-08-17T18:25:45.136226: info: DatabaseStats: Number of metadata values: 435
+2021-08-17T18:25:45.136229: info: DatabaseStats: Places count: 4
+2021-08-17T18:25:45.143870: info: Starting scan, Reason: Live, Event ID: 1, All Folders?: true
+2021-08-17T18:25:45.646615: info: Start extraction, Event ID: 1
+2021-08-17T18:25:55.157887: info: DatabaseGC: Beginning sweep.
+2021-08-17T18:25:56.718973: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-17T18:25:56.719012: info: Configure: UserFolders: 
+2021-08-17T18:25:56.719018: info: Configure: ManagedFolders: 
+2021-08-17T18:25:56.719023: info: Configure: LegacyFactoryPacks: 
+2021-08-17T18:25:56.719027: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-17T18:25:56.719031: info: Configure: CurrentProject: 
+2021-08-17T18:25:56.719042: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-17T18:25:56.741939: info: Configuring places: Time elapsed: 21
+2021-08-17T18:25:56.742829: info: Starting scan, Reason: Live, Event ID: 2, All Folders?: false
+2021-08-17T18:25:56.743918: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-17T18:25:56.743928: info: Configure: UserFolders: 
+2021-08-17T18:25:56.743933: info: Configure: ManagedFolders: 
+2021-08-17T18:25:56.743937: info: Configure: LegacyFactoryPacks: 
+2021-08-17T18:25:56.743941: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-17T18:25:56.743945: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-17T18:25:56.743958: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-17T18:25:56.764230: info: Configuring places: Time elapsed: 19
+2021-08-17T18:25:56.766889: info: Start extraction, Event ID: 2
+2021-08-17T18:26:05.296723: info: DatabaseGC: Ending sweep. Number of iterations: 1, Total time: 14, Longest run: 14
+2021-08-17T18:46:23.805357: info: Starting scan, Reason: Live, Event ID: 3, All Folders?: true
+2021-08-17T18:51:24.758776: info: Starting scan, Reason: Live, Event ID: 4, All Folders?: true
+2021-08-17T18:52:28.147574: info: Starting scan, Reason: Live, Event ID: 5, All Folders?: true
+2021-08-17T18:53:25.581250: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-17T18:53:25.581269: info: Configure: UserFolders: 
+2021-08-17T18:53:25.581274: info: Configure: ManagedFolders: 
+2021-08-17T18:53:25.581278: info: Configure: LegacyFactoryPacks: 
+2021-08-17T18:53:25.581282: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-17T18:53:25.581286: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-17T18:53:25.581295: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-17T18:53:25.602980: info: Configuring places: Time elapsed: 21
+2021-08-17T18:53:31.655493: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false)
+2021-08-17T18:53:31.662977: info: Start extraction, Event ID: 1073741823
+2021-08-17T18:55:11.147850: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-17T18:55:11.147877: info: Configure: UserFolders: 
+2021-08-17T18:55:11.147882: info: Configure: ManagedFolders: 
+2021-08-17T18:55:11.147887: info: Configure: LegacyFactoryPacks: 
+2021-08-17T18:55:11.147892: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-17T18:55:11.147905: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-17T18:55:11.147914: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-17T18:55:11.169490: info: Configuring places: Time elapsed: 21
+2021-08-17T18:55:14.760478: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false)
+2021-08-17T18:55:14.765195: info: Start extraction, Event ID: 1073741823
+2021-08-17T19:02:47.705529: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-17T19:02:47.711012: info: Start extraction, Event ID: 1073741823
+2021-08-17T19:03:11.970835: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-17T19:03:11.976842: info: Start extraction, Event ID: 1073741823
+2021-08-17T19:03:24.105469: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-17T19:03:24.108630: info: Start extraction, Event ID: 1073741823
+2021-08-17T19:10:36.739856: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-17T19:10:36.743211: info: Start extraction, Event ID: 1073741823
+2021-08-17T19:26:18.982673: info: Starting scan, Reason: Live, Event ID: 6, All Folders?: true
+2021-08-17T19:45:07.814812: info: Starting scan, Reason: Live, Event ID: 7, All Folders?: true
+2021-08-17T19:46:47.915820: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-17T19:46:47.921562: info: Start extraction, Event ID: 1073741823
+2021-08-17T19:47:12.207100: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-17T19:49:58.244212: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-17T19:49:58.244241: info: Configure: UserFolders: 
+2021-08-17T19:49:58.244246: info: Configure: ManagedFolders: 
+2021-08-17T19:49:58.244251: info: Configure: LegacyFactoryPacks: 
+2021-08-17T19:49:58.244255: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-17T19:49:58.244259: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-17T19:49:58.244268: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-17T19:49:58.265809: info: Configuring places: Time elapsed: 21
+2021-08-17T19:50:06.052338: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false)
+2021-08-17T19:50:06.061887: info: Start extraction, Event ID: 1073741823
+2021-08-17T19:50:12.667758: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-17T19:50:12.667781: info: Configure: UserFolders: 
+2021-08-17T19:50:12.667785: info: Configure: ManagedFolders: 
+2021-08-17T19:50:12.667788: info: Configure: LegacyFactoryPacks: 
+2021-08-17T19:50:12.667791: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-17T19:50:12.667794: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-17T19:50:12.667804: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-17T19:50:12.689507: info: Configuring places: Time elapsed: 21
+2021-08-17T19:50:14.150940: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false)
+2021-08-17T19:50:14.155966: info: Start extraction, Event ID: 1073741823
+2021-08-17T19:53:00.611494: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-17T19:53:00.611515: info: Configure: UserFolders: 
+2021-08-17T19:53:00.611521: info: Configure: ManagedFolders: 
+2021-08-17T19:53:00.611525: info: Configure: LegacyFactoryPacks: 
+2021-08-17T19:53:00.611529: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-17T19:53:00.611533: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-17T19:53:00.611542: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-17T19:53:00.632840: info: Configuring places: Time elapsed: 20
+2021-08-17T19:53:05.901335: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false)
+2021-08-17T19:53:05.907862: info: Start extraction, Event ID: 1073741823
+2021-08-17T19:53:30.252109: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-17T19:53:30.257975: info: Start extraction, Event ID: 1073741823
+2021-08-17T20:30:58.563564: info: Starting scan, Reason: Live, Event ID: 8, All Folders?: true
+2021-08-17T20:31:06.428601: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-17T20:31:06.434475: info: Start extraction, Event ID: 1073741823
+2021-08-17T20:31:11.587236: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-17T20:31:11.587257: info: Configure: UserFolders: 
+2021-08-17T20:31:11.587262: info: Configure: ManagedFolders: 
+2021-08-17T20:31:11.587266: info: Configure: LegacyFactoryPacks: 
+2021-08-17T20:31:11.587277: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-17T20:31:11.587281: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-17T20:31:11.587289: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-17T20:31:11.608471: info: Configuring places: Time elapsed: 21
+2021-08-17T20:31:12.496150: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false)
+2021-08-17T20:31:12.499460: info: Start extraction, Event ID: 1073741823
+2021-08-17T20:31:14.524565: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false)
+2021-08-17T20:35:59.052727: info: Starting scan, Reason: Live, Event ID: 9, All Folders?: true
+2021-08-17T20:35:59.053003: info: Starting scan, Reason: Live, Event ID: 10, All Folders?: true
+2021-08-17T20:37:34.510259: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-17T20:37:34.518478: info: Start extraction, Event ID: 1073741823
+2021-08-17T21:02:08.108172: info: Starting scan, Reason: Live, Event ID: 11, All Folders?: true
+2021-08-17T21:02:15.394347: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-17T21:02:15.406311: info: Start extraction, Event ID: 1073741823
+2021-08-17T21:06:05.331854: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-17T21:06:05.332012: info: Configure: UserFolders: 
+2021-08-17T21:06:05.332019: info: Configure: ManagedFolders: 
+2021-08-17T21:06:05.332024: info: Configure: LegacyFactoryPacks: 
+2021-08-17T21:06:05.332028: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-17T21:06:05.332033: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-17T21:06:05.332042: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-17T21:06:05.356206: info: Configuring places: Time elapsed: 23
+2021-08-17T21:06:07.300706: info: Database: Cleanup keywords: 4 ms
+2021-08-17T21:06:07.320238: info: Database: Cleanup metadata: 20 ms
+2021-08-17T21:06:07.335073: info: Database: Cleanup search aggregation: 15 ms
+2021-08-24T18:16:36.652580: info: #######################################
+2021-08-24T18:16:36.652787: info: Started: Index 11.0.6 Build: 2021-08-09_daefd4db27
+2021-08-24T18:16:36.652799: info: #######################################
+2021-08-24T18:16:36.652804: info: Init: Setup environment
+2021-08-24T18:16:36.652837: info: : UUID: 337A2738-E798-381F-8508-8B595EE3ADD3
+2021-08-24T18:16:36.652845: info: Init: Version: 'Index 11.0.6 Build: 2021-08-09_daefd4db27' 1114118
+2021-08-24T18:16:36.652857: info: Init: BuildRevisions: daefd4db27434b7ab68d4df150fd795f6502f8d5
+2021-08-24T18:16:36.652862: info: Init: Commit ID: 'daefd4db27434b7ab68d4df150fd795f6502f8d5'
+2021-08-24T18:16:36.652954: info: Init: OS: 'Mac OS X version 11.5.1, Arch:x86-64'
+2021-08-24T18:16:36.652959: info: Init: BuildType: 'Release'
+2021-08-24T18:16:36.652971: info: Init: Pid: 57139
+2021-08-24T18:16:36.652991: info: Init: Hardware Model: 'MacBookAir10,1'
+2021-08-24T18:16:36.652999: info: Init: CPU Brand String: 'Apple M1'
+2021-08-24T18:16:36.653007: info: Init: CPU Count: 8
+2021-08-24T18:16:36.653015: info: Init: Physical RAM: 17179869184 B
+2021-08-24T18:16:36.653018: info: Init: Address Space: 18446744073709551615 B
+2021-08-24T18:16:36.653021: info: Init: 64-bit Edition
+2021-08-24T18:16:36.671961: info: Init: GraphicsDevice: 'Unknown Unknown'
+2021-08-24T18:16:36.699425: info: Init: Checksum 1: 126e10211208e3474457ee0800737772
+2021-08-24T18:16:36.717850: info: Init: Checksum 2: 116b1349cde41f7f5af729f005bbbd2c
+2021-08-24T18:16:36.740754: info: Init: Checksum 3: 116b1349cde41f7f5af729f005bbbd2c
+2021-08-24T18:16:36.741595: info: Licensing: [Variant=Beta]
+2021-08-24T18:16:36.742004: info: Net: Setting up connection framework
+2021-08-24T18:16:36.742014: info: Metadata: Initialize XMP system
+2021-08-24T18:16:36.754337: info: App resources: "/Applications/Ableton Live 11 Trial.app/Contents/App-Resources"
+2021-08-24T18:16:36.754945: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-08-24T18:16:36.785721: info: Database: Open database '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Database/filerefmap.db' (key: SQL[3], sqlite 3.30.1)
+2021-08-24T18:19:33.546170: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-24T18:19:33.546187: info: Configure: UserFolders: 
+2021-08-24T18:19:33.546193: info: Configure: ManagedFolders: 
+2021-08-24T18:19:33.546197: info: Configure: LegacyFactoryPacks: 
+2021-08-24T18:19:33.546201: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-24T18:19:33.546205: info: Configure: CurrentProject: /Users/mitch/Music/Ableton/Live Recordings/Temp Project/
+2021-08-24T18:19:33.546215: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-24T18:19:33.574682: info: Configuring places: Time elapsed: 19
+2021-08-24T18:19:33.597052: info: DatabaseGC: Protect core content folder at "/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library" from being garbage-collected
+2021-08-24T18:19:33.607851: info: DatabaseGC: Protect core content folder at "/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin" from being garbage-collected
+2021-08-24T18:19:33.609102: info: DatabaseGC: Marking unused files. Time: 29
+2021-08-24T18:19:33.616812: info: DatabaseStats: Live files: 6695
+2021-08-24T18:19:33.616821: info: DatabaseStats: Dead files: 41
+2021-08-24T18:19:33.616825: info: DatabaseStats: Ancestors count: 63702
+2021-08-24T18:19:33.616829: info: DatabaseStats: Number of metadata-file relations: 14186
+2021-08-24T18:19:33.616833: info: DatabaseStats: Number of metadata values: 435
+2021-08-24T18:19:33.616837: info: DatabaseStats: Places count: 4
+2021-08-24T18:19:33.623456: info: Starting scan, Reason: Live, Event ID: 1, All Folders?: true
+2021-08-24T18:19:34.092954: info: Start extraction, Event ID: 1
+2021-08-24T18:19:36.357110: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-24T18:19:36.357149: info: Configure: UserFolders: 
+2021-08-24T18:19:36.357154: info: Configure: ManagedFolders: 
+2021-08-24T18:19:36.357158: info: Configure: LegacyFactoryPacks: 
+2021-08-24T18:19:36.357162: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-24T18:19:36.357166: info: Configure: CurrentProject: 
+2021-08-24T18:19:36.357177: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-24T18:19:36.376016: info: Configuring places: Time elapsed: 17
+2021-08-24T18:19:36.376853: info: Starting scan, Reason: Live, Event ID: 2, All Folders?: false
+2021-08-24T18:19:36.377893: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-24T18:19:36.377903: info: Configure: UserFolders: 
+2021-08-24T18:19:36.377907: info: Configure: ManagedFolders: 
+2021-08-24T18:19:36.377916: info: Configure: LegacyFactoryPacks: 
+2021-08-24T18:19:36.377924: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-24T18:19:36.377928: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-24T18:19:36.377937: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-24T18:19:36.395921: info: Configuring places: Time elapsed: 18
+2021-08-24T18:19:36.399701: info: Start extraction, Event ID: 2
+2021-08-24T18:19:43.618811: info: DatabaseGC: Beginning sweep.
+2021-08-24T18:19:43.694854: info: DatabaseGC: Ending sweep. Number of iterations: 0, Total time: 0, Longest run: 0
+2021-08-24T18:22:42.001455: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-24T18:22:42.001477: info: Configure: UserFolders: 
+2021-08-24T18:22:42.001482: info: Configure: ManagedFolders: 
+2021-08-24T18:22:42.001486: info: Configure: LegacyFactoryPacks: 
+2021-08-24T18:22:42.001490: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-24T18:22:42.001494: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-24T18:22:42.001503: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-24T18:22:42.020728: info: Configuring places: Time elapsed: 18
+2021-08-24T18:22:46.795658: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false)
+2021-08-24T18:22:46.803629: info: Start extraction, Event ID: 1073741823
+2021-08-24T18:26:55.373879: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-24T18:26:55.373900: info: Configure: UserFolders: 
+2021-08-24T18:26:55.373906: info: Configure: ManagedFolders: 
+2021-08-24T18:26:55.373910: info: Configure: LegacyFactoryPacks: 
+2021-08-24T18:26:55.373914: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-24T18:26:55.373919: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-24T18:26:55.373928: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-24T18:26:55.392997: info: Configuring places: Time elapsed: 18
+2021-08-24T18:26:59.660508: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false)
+2021-08-24T18:26:59.666802: info: Start extraction, Event ID: 1073741823
+2021-08-24T18:41:02.624924: info: Starting scan, Reason: Live, Event ID: 3, All Folders?: true
+2021-08-24T18:52:19.989791: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-24T18:52:19.997405: info: Start extraction, Event ID: 1073741823
+2021-08-24T18:52:50.291682: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-24T18:52:50.300907: info: Start extraction, Event ID: 1073741823
+2021-08-24T18:53:18.545091: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-24T18:54:41.513306: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-24T18:54:41.524890: info: Start extraction, Event ID: 1073741823
+2021-08-24T18:55:20.053352: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-24T18:55:20.070086: info: Start extraction, Event ID: 1073741823
+2021-08-24T18:56:20.867948: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-24T18:56:20.877423: info: Start extraction, Event ID: 1073741823
+2021-08-24T19:07:55.263011: info: Starting scan, Reason: Live, Event ID: 4, All Folders?: true
+2021-08-24T19:18:56.053251: info: Starting scan, Reason: Live, Event ID: 5, All Folders?: true
+2021-08-24T19:35:23.521090: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-24T19:35:23.533642: info: Start extraction, Event ID: 1073741823
+2021-08-24T19:36:42.816366: info: Starting scan, Reason: Live, Event ID: 6, All Folders?: true
+2021-08-24T19:40:50.654453: info: Starting scan, Reason: Live, Event ID: 7, All Folders?: true
+2021-08-24T19:40:54.007533: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-24T19:40:54.007554: info: Configure: UserFolders: 
+2021-08-24T19:40:54.007561: info: Configure: ManagedFolders: 
+2021-08-24T19:40:54.007566: info: Configure: LegacyFactoryPacks: 
+2021-08-24T19:40:54.007571: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-24T19:40:54.007575: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-24T19:40:54.007583: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-24T19:40:54.030194: info: Configuring places: Time elapsed: 22
+2021-08-24T19:40:58.933845: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false)
+2021-08-24T19:40:58.941232: info: Start extraction, Event ID: 1073741823
+2021-08-24T20:22:47.838443: info: Starting scan, Reason: Live, Event ID: 8, All Folders?: true
+2021-08-24T20:27:32.491049: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-24T20:27:32.506953: info: Start extraction, Event ID: 1073741823
+2021-08-24T21:04:46.515732: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-24T21:04:46.529447: info: Start extraction, Event ID: 1073741823
+2021-08-24T21:07:50.753584: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-24T21:07:50.766335: info: Start extraction, Event ID: 1073741823
+2021-08-24T21:08:12.978997: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-24T21:08:12.993976: info: Start extraction, Event ID: 1073741823
+2021-08-24T21:08:15.019366: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-24T21:08:15.030907: info: Start extraction, Event ID: 1073741823
+2021-08-24T21:08:19.073573: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-24T21:08:19.079287: info: Start extraction, Event ID: 1073741823
+2021-08-24T21:08:41.347777: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-24T21:08:41.360885: info: Start extraction, Event ID: 1073741823
+2021-08-24T21:08:45.413704: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-24T21:09:19.886221: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-24T21:09:19.901507: info: Start extraction, Event ID: 1073741823
+2021-08-24T21:47:26.222171: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-24T21:47:26.222210: info: Configure: UserFolders: 
+2021-08-24T21:47:26.222216: info: Configure: ManagedFolders: 
+2021-08-24T21:47:26.222223: info: Configure: LegacyFactoryPacks: 
+2021-08-24T21:47:26.222227: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-24T21:47:26.222231: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-24T21:47:26.222242: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-24T21:47:26.242087: info: Configuring places: Time elapsed: 19
+2021-08-24T21:47:32.227846: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false)
+2021-08-24T21:47:32.248828: info: Start extraction, Event ID: 1073741823
+2021-08-24T21:49:01.232052: info: Database: Cleanup keywords: 2 ms
+2021-08-24T21:49:01.251611: info: Database: Cleanup metadata: 20 ms
+2021-08-24T21:49:01.263426: info: Database: Cleanup search aggregation: 12 ms
+2021-08-26T19:19:15.540395: info: #######################################
+2021-08-26T19:19:15.540654: info: Started: Index 11.0.6 Build: 2021-08-09_daefd4db27
+2021-08-26T19:19:15.540668: info: #######################################
+2021-08-26T19:19:15.540673: info: Init: Setup environment
+2021-08-26T19:19:15.540772: info: : UUID: 337A2738-E798-381F-8508-8B595EE3ADD3
+2021-08-26T19:19:15.540784: info: Init: Version: 'Index 11.0.6 Build: 2021-08-09_daefd4db27' 1114118
+2021-08-26T19:19:15.540800: info: Init: BuildRevisions: daefd4db27434b7ab68d4df150fd795f6502f8d5
+2021-08-26T19:19:15.540806: info: Init: Commit ID: 'daefd4db27434b7ab68d4df150fd795f6502f8d5'
+2021-08-26T19:19:15.540940: info: Init: OS: 'Mac OS X version 11.5.1, Arch:x86-64'
+2021-08-26T19:19:15.540946: info: Init: BuildType: 'Release'
+2021-08-26T19:19:15.540961: info: Init: Pid: 1195
+2021-08-26T19:19:15.540990: info: Init: Hardware Model: 'MacBookAir10,1'
+2021-08-26T19:19:15.541000: info: Init: CPU Brand String: 'Apple M1'
+2021-08-26T19:19:15.541012: info: Init: CPU Count: 8
+2021-08-26T19:19:15.541023: info: Init: Physical RAM: 17179869184 B
+2021-08-26T19:19:15.541029: info: Init: Address Space: 18446744073709551615 B
+2021-08-26T19:19:15.541033: info: Init: 64-bit Edition
+2021-08-26T19:19:15.563920: info: Init: GraphicsDevice: 'Unknown Unknown'
+2021-08-26T19:19:15.592631: info: Init: Checksum 1: 126e10211208e3474457ee0800737772
+2021-08-26T19:19:15.611612: info: Init: Checksum 2: 116b1349cde41f7f5af729f005bbbd2c
+2021-08-26T19:19:15.635007: info: Init: Checksum 3: 116b1349cde41f7f5af729f005bbbd2c
+2021-08-26T19:19:15.635897: info: Licensing: [Variant=Beta]
+2021-08-26T19:19:15.636265: info: Net: Setting up connection framework
+2021-08-26T19:19:15.636274: info: Metadata: Initialize XMP system
+2021-08-26T19:19:15.648942: info: App resources: "/Applications/Ableton Live 11 Trial.app/Contents/App-Resources"
+2021-08-26T19:19:15.649545: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-08-26T19:19:15.680861: info: Database: Open database '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Database/filerefmap.db' (key: SQL[3], sqlite 3.30.1)
+2021-08-26T19:19:19.853553: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-26T19:19:19.853579: info: Configure: UserFolders: 
+2021-08-26T19:19:19.853585: info: Configure: ManagedFolders: 
+2021-08-26T19:19:19.853589: info: Configure: LegacyFactoryPacks: 
+2021-08-26T19:19:19.853594: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-26T19:19:19.853598: info: Configure: CurrentProject: /Users/mitch/Music/Ableton/Live Recordings/Temp Project/
+2021-08-26T19:19:19.853610: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-26T19:19:19.882201: info: Configuring places: Time elapsed: 20
+2021-08-26T19:19:19.902394: info: DatabaseGC: Protect core content folder at "/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library" from being garbage-collected
+2021-08-26T19:19:19.913769: info: DatabaseGC: Protect core content folder at "/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin" from being garbage-collected
+2021-08-26T19:19:19.915158: info: DatabaseGC: Marking unused files. Time: 29
+2021-08-26T19:19:19.923267: info: DatabaseStats: Live files: 6695
+2021-08-26T19:19:19.923283: info: DatabaseStats: Dead files: 76
+2021-08-26T19:19:19.923288: info: DatabaseStats: Ancestors count: 63982
+2021-08-26T19:19:19.923292: info: DatabaseStats: Number of metadata-file relations: 14186
+2021-08-26T19:19:19.923296: info: DatabaseStats: Number of metadata values: 435
+2021-08-26T19:19:19.923300: info: DatabaseStats: Places count: 4
+2021-08-26T19:19:19.929913: info: Starting scan, Reason: Live, Event ID: 1, All Folders?: true
+2021-08-26T19:19:20.525033: info: Start extraction, Event ID: 1
+2021-08-26T19:19:29.707789: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-26T19:19:29.707808: info: Configure: UserFolders: 
+2021-08-26T19:19:29.707812: info: Configure: ManagedFolders: 
+2021-08-26T19:19:29.707815: info: Configure: LegacyFactoryPacks: 
+2021-08-26T19:19:29.707818: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-26T19:19:29.707820: info: Configure: CurrentProject: 
+2021-08-26T19:19:29.707829: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-26T19:19:29.726661: info: Configuring places: Time elapsed: 18
+2021-08-26T19:19:29.781094: info: Starting scan, Reason: Live, Event ID: 2, All Folders?: false
+2021-08-26T19:19:29.782049: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-26T19:19:29.782064: info: Configure: UserFolders: 
+2021-08-26T19:19:29.782068: info: Configure: ManagedFolders: 
+2021-08-26T19:19:29.782071: info: Configure: LegacyFactoryPacks: 
+2021-08-26T19:19:29.782075: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-26T19:19:29.782078: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-26T19:19:29.782087: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-26T19:19:29.800849: info: Configuring places: Time elapsed: 18
+2021-08-26T19:19:29.806058: info: Start extraction, Event ID: 2
+2021-08-26T19:19:30.189563: info: DatabaseGC: Beginning sweep.
+2021-08-26T19:19:30.254027: info: DatabaseGC: Ending sweep. Number of iterations: 0, Total time: 0, Longest run: 0
+2021-08-26T19:21:02.084929: info: Starting scan, Reason: Live, Event ID: 3, All Folders?: true
+2021-08-26T19:28:35.978826: info: Starting scan, Reason: Live, Event ID: 4, All Folders?: true
+2021-08-26T19:33:22.379948: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-26T19:33:22.380012: info: Configure: UserFolders: 
+2021-08-26T19:33:22.380018: info: Configure: ManagedFolders: 
+2021-08-26T19:33:22.380023: info: Configure: LegacyFactoryPacks: 
+2021-08-26T19:33:22.380028: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-26T19:33:22.380032: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-26T19:33:22.380044: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-26T19:33:22.400704: info: Configuring places: Time elapsed: 20
+2021-08-26T19:33:25.312930: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false)
+2021-08-26T19:33:25.320241: info: Start extraction, Event ID: 1073741823
+2021-08-26T19:37:16.909253: info: Starting scan, Reason: Live, Event ID: 5, All Folders?: true
+2021-08-26T19:37:52.752144: info: Starting scan, Reason: Live, Event ID: 6, All Folders?: true
+2021-08-26T19:39:45.746465: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-26T19:39:45.746486: info: Configure: UserFolders: 
+2021-08-26T19:39:45.746491: info: Configure: ManagedFolders: 
+2021-08-26T19:39:45.746495: info: Configure: LegacyFactoryPacks: 
+2021-08-26T19:39:45.746499: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-26T19:39:45.746503: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-26T19:39:45.746512: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-26T19:39:45.764819: info: Configuring places: Time elapsed: 18
+2021-08-26T19:39:51.589862: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false)
+2021-08-26T19:39:51.595477: info: Start extraction, Event ID: 1073741823
+2021-08-26T21:00:22.177477: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-26T21:00:22.196734: info: Start extraction, Event ID: 1073741823
+2021-08-26T21:37:46.540683: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-26T21:37:46.558370: info: Start extraction, Event ID: 1073741823
+2021-08-26T21:37:47.346661: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-26T21:37:47.346721: info: Configure: UserFolders: 
+2021-08-26T21:37:47.346726: info: Configure: ManagedFolders: 
+2021-08-26T21:37:47.346731: info: Configure: LegacyFactoryPacks: 
+2021-08-26T21:37:47.346736: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-26T21:37:47.346740: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-26T21:37:47.346752: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-26T21:37:47.366656: info: Configuring places: Time elapsed: 18
+2021-08-26T21:37:50.624165: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false)
+2021-08-26T21:37:50.630192: info: Start extraction, Event ID: 1073741823
+2021-08-26T21:53:04.518742: info: Database: Cleanup keywords: 1 ms
+2021-08-26T21:53:04.532664: info: Database: Cleanup metadata: 13 ms
+2021-08-26T21:53:04.545882: info: Database: Cleanup search aggregation: 13 ms
+2021-08-29T17:16:23.078515: info: #######################################
+2021-08-29T17:16:23.078905: info: Started: Index 11.0.6 Build: 2021-08-09_daefd4db27
+2021-08-29T17:16:23.078936: info: #######################################
+2021-08-29T17:16:23.078942: info: Init: Setup environment
+2021-08-29T17:16:23.078975: info: : UUID: 337A2738-E798-381F-8508-8B595EE3ADD3
+2021-08-29T17:16:23.078982: info: Init: Version: 'Index 11.0.6 Build: 2021-08-09_daefd4db27' 1114118
+2021-08-29T17:16:23.078994: info: Init: BuildRevisions: daefd4db27434b7ab68d4df150fd795f6502f8d5
+2021-08-29T17:16:23.078999: info: Init: Commit ID: 'daefd4db27434b7ab68d4df150fd795f6502f8d5'
+2021-08-29T17:16:23.079087: info: Init: OS: 'Mac OS X version 11.5.1, Arch:x86-64'
+2021-08-29T17:16:23.079093: info: Init: BuildType: 'Release'
+2021-08-29T17:16:23.079105: info: Init: Pid: 8228
+2021-08-29T17:16:23.079126: info: Init: Hardware Model: 'MacBookAir10,1'
+2021-08-29T17:16:23.079135: info: Init: CPU Brand String: 'Apple M1'
+2021-08-29T17:16:23.079146: info: Init: CPU Count: 8
+2021-08-29T17:16:23.079155: info: Init: Physical RAM: 17179869184 B
+2021-08-29T17:16:23.079160: info: Init: Address Space: 18446744073709551615 B
+2021-08-29T17:16:23.079164: info: Init: 64-bit Edition
+2021-08-29T17:16:23.099505: info: Init: GraphicsDevice: 'Unknown Unknown'
+2021-08-29T17:16:23.127582: info: Init: Checksum 1: 126e10211208e3474457ee0800737772
+2021-08-29T17:16:23.146083: info: Init: Checksum 2: 116b1349cde41f7f5af729f005bbbd2c
+2021-08-29T17:16:23.169330: info: Init: Checksum 3: 116b1349cde41f7f5af729f005bbbd2c
+2021-08-29T17:16:23.170134: info: Licensing: [Variant=Beta]
+2021-08-29T17:16:23.170818: info: Net: Setting up connection framework
+2021-08-29T17:16:23.170829: info: Metadata: Initialize XMP system
+2021-08-29T17:16:23.184201: info: App resources: "/Applications/Ableton Live 11 Trial.app/Contents/App-Resources"
+2021-08-29T17:16:23.184734: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-08-29T17:16:23.218695: info: Database: Open database '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Database/filerefmap.db' (key: SQL[3], sqlite 3.30.1)
+2021-08-29T17:17:32.196887: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-29T17:17:32.196905: info: Configure: UserFolders: 
+2021-08-29T17:17:32.196911: info: Configure: ManagedFolders: 
+2021-08-29T17:17:32.196915: info: Configure: LegacyFactoryPacks: 
+2021-08-29T17:17:32.196919: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-29T17:17:32.196923: info: Configure: CurrentProject: /Users/mitch/Music/Ableton/Live Recordings/Temp Project/
+2021-08-29T17:17:32.196934: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-29T17:17:32.227264: info: Configuring places: Time elapsed: 20
+2021-08-29T17:17:32.250358: info: DatabaseGC: Protect core content folder at "/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library" from being garbage-collected
+2021-08-29T17:17:32.262141: info: DatabaseGC: Protect core content folder at "/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin" from being garbage-collected
+2021-08-29T17:17:32.263475: info: DatabaseGC: Marking unused files. Time: 32
+2021-08-29T17:17:32.270660: info: DatabaseStats: Live files: 6695
+2021-08-29T17:17:32.270667: info: DatabaseStats: Dead files: 81
+2021-08-29T17:17:32.270671: info: DatabaseStats: Ancestors count: 64022
+2021-08-29T17:17:32.270675: info: DatabaseStats: Number of metadata-file relations: 14186
+2021-08-29T17:17:32.270678: info: DatabaseStats: Number of metadata values: 435
+2021-08-29T17:17:32.270682: info: DatabaseStats: Places count: 4
+2021-08-29T17:17:32.277353: info: Starting scan, Reason: Live, Event ID: 1, All Folders?: true
+2021-08-29T17:17:32.828286: info: Start extraction, Event ID: 1
+2021-08-29T17:17:39.980754: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-29T17:17:39.980782: info: Configure: UserFolders: 
+2021-08-29T17:17:39.980791: info: Configure: ManagedFolders: 
+2021-08-29T17:17:39.980798: info: Configure: LegacyFactoryPacks: 
+2021-08-29T17:17:39.980806: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-29T17:17:39.980812: info: Configure: CurrentProject: 
+2021-08-29T17:17:39.980828: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-29T17:17:40.002289: info: Configuring places: Time elapsed: 19
+2021-08-29T17:17:40.057753: info: Starting scan, Reason: Live, Event ID: 2, All Folders?: false
+2021-08-29T17:17:40.059117: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-29T17:17:40.059138: info: Configure: UserFolders: 
+2021-08-29T17:17:40.059143: info: Configure: ManagedFolders: 
+2021-08-29T17:17:40.059147: info: Configure: LegacyFactoryPacks: 
+2021-08-29T17:17:40.059151: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-29T17:17:40.059156: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-29T17:17:40.059166: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-29T17:17:40.079265: info: Configuring places: Time elapsed: 19
+2021-08-29T17:17:40.085081: info: Start extraction, Event ID: 2
+2021-08-29T17:17:42.274621: info: DatabaseGC: Beginning sweep.
+2021-08-29T17:17:42.341738: info: DatabaseGC: Ending sweep. Number of iterations: 0, Total time: 0, Longest run: 0
+2021-08-29T17:26:13.667659: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-29T17:26:13.688098: info: Start extraction, Event ID: 1073741823
+2021-08-29T18:03:49.145414: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-29T18:03:49.145449: info: Configure: UserFolders: 
+2021-08-29T18:03:49.145454: info: Configure: ManagedFolders: 
+2021-08-29T18:03:49.145459: info: Configure: LegacyFactoryPacks: 
+2021-08-29T18:03:49.145465: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-29T18:03:49.145470: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-29T18:03:49.145479: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-29T18:03:49.164317: info: Configuring places: Time elapsed: 18
+2021-08-29T18:03:52.373194: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Backup/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/ (Recursive=false)
+2021-08-29T18:03:52.394243: info: Start extraction, Event ID: 1073741823
+2021-08-29T18:08:13.431774: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-29T18:08:13.464351: info: Start extraction, Event ID: 1073741823
+2021-08-29T18:08:19.774583: info: Database: Cleanup keywords: 2 ms
+2021-08-29T18:08:19.790646: info: Database: Cleanup metadata: 16 ms
+2021-08-29T18:08:19.803959: info: Database: Cleanup search aggregation: 13 ms
+2021-08-31T18:49:53.616051: info: #######################################
+2021-08-31T18:49:53.616256: info: Started: Index 11.0.6 Build: 2021-08-09_daefd4db27
+2021-08-31T18:49:53.616266: info: #######################################
+2021-08-31T18:49:53.616271: info: Init: Setup environment
+2021-08-31T18:49:53.616308: info: : UUID: 337A2738-E798-381F-8508-8B595EE3ADD3
+2021-08-31T18:49:53.616317: info: Init: Version: 'Index 11.0.6 Build: 2021-08-09_daefd4db27' 1114118
+2021-08-31T18:49:53.616330: info: Init: BuildRevisions: daefd4db27434b7ab68d4df150fd795f6502f8d5
+2021-08-31T18:49:53.616335: info: Init: Commit ID: 'daefd4db27434b7ab68d4df150fd795f6502f8d5'
+2021-08-31T18:49:53.616438: info: Init: OS: 'Mac OS X version 11.5.1, Arch:x86-64'
+2021-08-31T18:49:53.616444: info: Init: BuildType: 'Release'
+2021-08-31T18:49:53.616457: info: Init: Pid: 38599
+2021-08-31T18:49:53.616479: info: Init: Hardware Model: 'MacBookAir10,1'
+2021-08-31T18:49:53.616489: info: Init: CPU Brand String: 'Apple M1'
+2021-08-31T18:49:53.616497: info: Init: CPU Count: 8
+2021-08-31T18:49:53.616506: info: Init: Physical RAM: 17179869184 B
+2021-08-31T18:49:53.616511: info: Init: Address Space: 18446744073709551615 B
+2021-08-31T18:49:53.616515: info: Init: 64-bit Edition
+2021-08-31T18:49:53.641363: info: Init: GraphicsDevice: 'Unknown Unknown'
+2021-08-31T18:49:53.667713: info: Init: Checksum 1: 126e10211208e3474457ee0800737772
+2021-08-31T18:49:53.685740: info: Init: Checksum 2: 116b1349cde41f7f5af729f005bbbd2c
+2021-08-31T18:49:53.708502: info: Init: Checksum 3: 116b1349cde41f7f5af729f005bbbd2c
+2021-08-31T18:49:53.709210: info: Licensing: [Variant=Beta]
+2021-08-31T18:49:53.709585: info: Net: Setting up connection framework
+2021-08-31T18:49:53.709593: info: Metadata: Initialize XMP system
+2021-08-31T18:49:53.721355: info: App resources: "/Applications/Ableton Live 11 Trial.app/Contents/App-Resources"
+2021-08-31T18:49:53.721792: info: Database: Open database '/Users/mitch/Library/Application Support/Ableton/Live Database/Live-files-41.db' (key: SQL[2], sqlite 3.30.1)
+2021-08-31T18:49:53.750338: info: Database: Open database '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Database/filerefmap.db' (key: SQL[3], sqlite 3.30.1)
+2021-08-31T18:49:57.611598: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-31T18:49:57.611618: info: Configure: UserFolders: 
+2021-08-31T18:49:57.611628: info: Configure: ManagedFolders: 
+2021-08-31T18:49:57.611633: info: Configure: LegacyFactoryPacks: 
+2021-08-31T18:49:57.611638: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-31T18:49:57.611643: info: Configure: CurrentProject: /Users/mitch/Music/Ableton/Live Recordings/Temp Project/
+2021-08-31T18:49:57.611654: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-31T18:49:57.642340: info: Configuring places: Time elapsed: 21
+2021-08-31T18:49:57.661782: info: DatabaseGC: Protect core content folder at "/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library" from being garbage-collected
+2021-08-31T18:49:57.673985: info: DatabaseGC: Protect core content folder at "/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin" from being garbage-collected
+2021-08-31T18:49:57.675345: info: DatabaseGC: Marking unused files. Time: 30
+2021-08-31T18:49:57.683520: info: DatabaseStats: Live files: 6695
+2021-08-31T18:49:57.683526: info: DatabaseStats: Dead files: 82
+2021-08-31T18:49:57.683530: info: DatabaseStats: Ancestors count: 64030
+2021-08-31T18:49:57.683534: info: DatabaseStats: Number of metadata-file relations: 14186
+2021-08-31T18:49:57.683537: info: DatabaseStats: Number of metadata values: 435
+2021-08-31T18:49:57.683541: info: DatabaseStats: Places count: 4
+2021-08-31T18:49:57.689927: info: Starting scan, Reason: Live, Event ID: 1, All Folders?: true
+2021-08-31T18:49:58.129967: info: Start extraction, Event ID: 1
+2021-08-31T18:50:01.425986: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-31T18:50:01.426003: info: Configure: UserFolders: 
+2021-08-31T18:50:01.426008: info: Configure: ManagedFolders: 
+2021-08-31T18:50:01.426012: info: Configure: LegacyFactoryPacks: 
+2021-08-31T18:50:01.426016: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-31T18:50:01.426019: info: Configure: CurrentProject: 
+2021-08-31T18:50:01.426028: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-31T18:50:01.444973: info: Configuring places: Time elapsed: 19
+2021-08-31T18:50:01.500578: info: Starting scan, Reason: Live, Event ID: 2, All Folders?: false
+2021-08-31T18:50:01.501996: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-31T18:50:01.502008: info: Configure: UserFolders: 
+2021-08-31T18:50:01.502013: info: Configure: ManagedFolders: 
+2021-08-31T18:50:01.502018: info: Configure: LegacyFactoryPacks: 
+2021-08-31T18:50:01.502022: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-31T18:50:01.502026: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-31T18:50:01.502035: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-31T18:50:01.522894: info: Configuring places: Time elapsed: 21
+2021-08-31T18:50:01.527651: info: Start extraction, Event ID: 2
+2021-08-31T18:50:07.694386: info: DatabaseGC: Beginning sweep.
+2021-08-31T18:50:07.791314: info: DatabaseGC: Ending sweep. Number of iterations: 0, Total time: 0, Longest run: 0
+2021-08-31T18:50:46.742973: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-31T18:50:46.770907: info: Start extraction, Event ID: 1073741823
+2021-08-31T18:51:33.479734: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-31T18:51:33.490389: info: Start extraction, Event ID: 1073741823
+2021-08-31T18:51:37.517714: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false),/Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-31T18:51:37.536650: info: Start extraction, Event ID: 1073741823
+2021-08-31T18:51:39.536876: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-31T19:18:55.539714: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-31T19:18:55.543123: info: Start extraction, Event ID: 1073741823
+2021-08-31T19:22:39.445118: info: Starting scan, Reason: OS Events, Folders: /Users/mitch/Documents/Land of Fires/LOF Live Project/Samples/Recorded/ (Recursive=false)
+2021-08-31T19:22:39.448606: info: Start extraction, Event ID: 1073741823
+2021-08-31T19:27:56.900961: info: Starting scan, Reason: Live, Event ID: 3, All Folders?: true
+2021-08-31T19:28:15.461597: info: Configure: FactoryPacks: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Core Library'
+2021-08-31T19:28:15.461632: info: Configure: UserFolders: 
+2021-08-31T19:28:15.461639: info: Configure: ManagedFolders: 
+2021-08-31T19:28:15.461645: info: Configure: LegacyFactoryPacks: 
+2021-08-31T19:28:15.461650: info: Configure: UserLibrary: /Users/mitch/Music/Ableton/User Library
+2021-08-31T19:28:15.461656: info: Configure: CurrentProject: /Users/mitch/Documents/Land of Fires/LOF Live Project/
+2021-08-31T19:28:15.461669: info: Configure: Builtin: '/Applications/Ableton Live 11 Trial.app/Contents/App-Resources/Builtin'
+2021-08-31T19:28:15.488217: info: Configuring places: Time elapsed: 25
+2021-08-31T19:28:18.896807: info: Database: Cleanup keywords: 3 ms
+2021-08-31T19:28:18.917487: info: Database: Cleanup metadata: 20 ms
+2021-08-31T19:28:18.931771: info: Database: Cleanup search aggregation: 14 ms

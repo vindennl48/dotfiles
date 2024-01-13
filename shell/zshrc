@@ -1,0 +1,92 @@
+# INFO #########################################################################
+################################################################################
+# .zshenv needs to be set up
+#   export ZDOTDIR="$HOME/.config/zsh" # move dotfiles to .config
+#   export DOTFILES_PATH="$HOME/bin/dotfiles" # custom dotfiles path
+#   export VISUAL="nvim" # default visual 
+#   export EDITOR="$VISUAL" # default editor
+#   # Any additional environment variables can go here
+#
+#   # Make sure this is in here to attach brew to the shell
+#   eval $(/opt/homebrew/bin/brew shellenv)
+#
+# Create the .config/zsh folder and put .zshrc inside this
+# Plugins also go inside .config/zsh/plugins
+
+# GENERAL ######################################################################
+################################################################################
+
+# Source alias files
+for f in $DOTFILES_PATH/shell/aliasfiles/*.zsh
+do
+    source "$f"
+done
+
+# SETTINGS #####################################################################
+################################################################################
+# Load and initialise completion system
+# autoload -Uz compinit
+# compinit
+
+# Use VI style editing
+###########################################
+# set -o vi
+# set editing-mode vi
+# set keymap vi
+# export KEYTIMEOUT=10
+# bindkey -M viins 'jk' vi-cmd-mode
+# bindkey -M vicmd '^U' kill-whole-line
+# bindkey -M viins '^U' kill-whole-line
+# bindkey -M viins '^V' edit-command-line
+# bindkey -M vicmd '^V' edit-command-line
+bindkey '^U' kill-whole-line
+
+autoload -z edit-command-line
+zle -N edit-command-line
+bindkey '^V' edit-command-line
+###########################################
+
+## FZF ##
+# Sourcing for fzf fuzzy finder
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# options for terminal fuzzy finder
+export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -g .'
+export FZF_CTRL_T_COMMAND='ag --hidden --ignore .git -g ""'
+export FZF_CTRL_T_OPTS='--extended --preview="head -$LINES {}" --height=100%'
+## END FZF ##
+
+## PYTHON ##
+# Stop python from creating pyc files
+export PYTHONDONTWRITEBYTECODE=1
+
+export PYENV_ROOT="$HOME/.config/pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+## END PYTHON ##
+
+# SCRIPTS ######################################################################
+################################################################################
+
+# Script to start tmux for every instance of terminal
+#####################################################
+# _not_inside_tmux() { [[ -z "$TMUX" ]] }
+# ensure_tmux_is_running() {
+#   if _not_inside_tmux; then
+#     tat
+#   fi
+# }
+# ensure_tmux_is_running
+#####################################################
+
+# PLUGINS ######################################################################
+################################################################################
+source "$ZDOTDIR/plugins/zap/zap-prompt/zap-prompt.zsh-theme"
+source "$ZDOTDIR/plugins/zsh-users/zsh-autosuggestions/zsh-autosuggestions.zsh"
+source "$ZDOTDIR/plugins/marlonrichert/zsh-autocomplete/zsh-autocomplete.plugin.zsh"
+    bindkey '\t' menu-select "$terminfo[kcbt]" menu-select
+    bindkey -M menuselect '\t' menu-complete "$terminfo[kcbt]" reverse-menu-complete
+# navi : install with homebrew
+# fd : install with homebrew
+# MUST BE LAST
+source "$ZDOTDIR/plugins/zsh-users/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+source "$ZDOTDIR/plugins/catppuccin/zsh-syntax-highlighting/themes/catppuccin_mocha-zsh-syntax-highlighting.zsh"
