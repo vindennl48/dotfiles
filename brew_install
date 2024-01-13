@@ -24,8 +24,13 @@ Session Manager from video guy
 ## END ZSH PLUGINS ##
 
 ## LIST ##
+nerdfonts: run the following commands to install them all
+brew tap homebrew/cask-fonts
+brew search '/font-.*-nerd-font/' | awk '{ print $1 }' | xargs -I{} brew install --cask {} || true
+
 git : manager
 bear : used for compiling c++ apps
+bat : a better form of cat
 blackhole : both 2ch and 16ch
 cmake : for c++ compiling
 gcc : for c++ compiling
