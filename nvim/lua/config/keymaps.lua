@@ -55,10 +55,10 @@ set("n", "<leader>zv",
 { noremap = false, silent = false, desc = "Make the active split bigger than the rest" })
 
 -- Move to a different split
-set("n", "<C-k>", ":wincmd k<cr>", { noremap = false, silent = true, desc = "move to top split" })
-set("n", "<C-j>", ":wincmd j<cr>", { noremap = false, silent = true, desc = "move to bottom split" })
-set("n", "<C-h>", ":wincmd h<cr>", { noremap = false, silent = true, desc = "move to left split" })
-set("n", "<C-l>", ":wincmd l<cr>", { noremap = false, silent = true, desc = "move to right split" })
+-- set("n", "<C-k>", ":wincmd k<cr>", { noremap = false, silent = true, desc = "move to top split" })
+-- set("n", "<C-j>", ":wincmd j<cr>", { noremap = false, silent = true, desc = "move to bottom split" })
+-- set("n", "<C-h>", ":wincmd h<cr>", { noremap = false, silent = true, desc = "move to left split" })
+-- set("n", "<C-l>", ":wincmd l<cr>", { noremap = false, silent = true, desc = "move to right split" })
 
 -- Custom CWD python app
 set(

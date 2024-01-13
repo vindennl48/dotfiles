@@ -7,7 +7,7 @@ vim.cmd [[highlight IndentBlanklineContext2 guifg=#166e0e gui=nocombine]]
 vim.cmd [[highlight IndentBlanklineContext3 guifg=#c2b727 gui=nocombine]]
 vim.cmd [[highlight IndentBlanklineContext4 guifg=#c22727 gui=nocombine]]
 
--- commented?
+-- commented? 
 -- vim.cmd [[highlight IndentBlanklineContextStart guifg=#670e6e gui=nocombine]]
 -- vim.cmd [[highlight IndentBlanklineContextChar guifg=#670e6e gui=nocombine]]
 -- vim.cmd [[highlight IndentBlanklineContextSpaceChar guifg=#670e6e gui=nocombine]]

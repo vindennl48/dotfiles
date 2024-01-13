@@ -1,0 +1,12 @@
+# Changing Window Focus
+# ALT is actually option key
+
+# cmd - 1 is set up thru macos keyboard shortcuts to desktop
+cmd - 2 : open -a arc
+cmd - 0 : open -a iterm
+shift + cmd - 0 : open -na iterm
+# cmd - 0 : open -a warp
+# shift + cmd - 0 : open -na warp
+
+# disable cmd-h to hide things
+# cmd - h : skhd -k ""
