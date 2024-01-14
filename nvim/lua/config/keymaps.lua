@@ -11,17 +11,17 @@ set("n", "ef", "::vsp<cr><c-w>l:e ~/bin/dotfiles/shell/helpers.sh<cr>", { norema
 -- NORMAL MODE -----------------------------------------------------------------
 --------------------------------------------------------------------------------
 -- Standard remaps
-set("n", ";",         ":",      { noremap = false })
-set("n", ":",         ";",      { noremap = false })
-set("n", "a",         "A",      { noremap = false })
-set("n", "d",         "dd",     { noremap = false })
-set("n", "J",         "ddp",    { noremap = false })
-set("n", "K",         "kddpk",  { noremap = true })
-set("n", "H",         "<<",     { noremap = false, silent = true })
-set("n", "L",         ">>",     { noremap = false, silent = true })
-set("n", "c4",        "c$",     { noremap = false })
-set("n", "<leader>s", ":%s /",  { noremap = false, desc = "Search & Replace" })
-set("n", "q1",        ":q<cr>", { noremap = false })
+set("n", ";",         ":",       { noremap = false })
+set("n", ":",         ";",       { noremap = false })
+set("n", "a",         "A",       { noremap = false })
+set("n", "d",         "dd",      { noremap = false })
+set("n", "J",         "ddp",     { noremap = false })
+set("n", "K",         "kddpk",   { noremap = true })
+set("n", "H",         "<<",      { noremap = false, silent = true })
+set("n", "L",         ">>",      { noremap = false, silent = true })
+set("n", "c4",        "c$",      { noremap = false })
+set("n", "<leader>s", ":%s /",   { noremap = false, desc = "Search & Replace" })
+set("n", "q1",        ":bd<cr>", { noremap = false })
 
 -- Split Arrangement
 set("n", "<leader>zz", ":wincmd _<cr>:wincmd |<cr>", { noremap = false, silent = true, desc = "Zoom into pane" })
