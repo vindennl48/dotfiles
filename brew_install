@@ -1,26 +1,12 @@
 ## ZSH PLUGINS ##
 zap-prompt : simple plugin manager
 zsh-autosuggestions : yep
+zsh-autocomplete : autocomplete like fish
 zsh-syntax-highlighting : dunno if this conflicts with catppuccine
 catppuccine : zsh highlighting
-zsh-autocomplete : autocomplete like fish
-navi : Homebrew : basically terminal snippets and helpers # maybe..
-fd : Homebrew : an easier finder; kind of like my sfind
-ranger : terminal file browser / manager... really need to learn how to use this
-
-exa : a replacement for ls ? not sure if its good or not
-ripgrep : a more powerful grep
-enhancd : a more powerful cd command with fuzzyfind
-# diff-so-fancy : good looking git diffs
-# autojump : jump to different folders quicker.  kinda like fzf
-# fast-syntax-highlighting : dunno if this conflicts with catppuccine
-
-spaceship prompt : if we dont use ohmyzsh then this might be needed
-pure prompt : much simple such wow
-typewritten prompt : similar to pure prompt
 
 # TMUX #
-Session Manager from video guy
+sessionx : Session Manager from video guy
 ## END ZSH PLUGINS ##
 
 ## LIST ##
@@ -28,6 +14,7 @@ nerdfonts: run the following commands to install them all
 brew tap homebrew/cask-fonts
 brew search '/font-.*-nerd-font/' | awk '{ print $1 }' | xargs -I{} brew install --cask {} || true
 
+ranger : terminal file browser / manager... really need to learn how to use this
 git : manager
 bear : used for compiling c++ apps
 bat : a better form of cat
@@ -51,7 +38,7 @@ wget : downloader
 yarn : alternative to npm
 arduino-cli : arduino cli commands
 xcode-select --install
-navi : cheetsheet for the terminal
+# navi : cheetsheet for the terminal
 fd : a better find tool, similar to my sfind tool
 cask -> keepingyouawake : stop screen from sleeping
 cask -> moom : window tiling manager

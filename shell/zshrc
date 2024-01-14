@@ -55,27 +55,18 @@ export FZF_CTRL_T_COMMAND='ag --hidden --ignore .git -g ""'
 export FZF_CTRL_T_OPTS='--extended --preview="head -$LINES {}" --height=100%'
 ## END FZF ##
 
-## PYTHON ##
-# Stop python from creating pyc files
-export PYTHONDONTWRITEBYTECODE=1
-
-export PYENV_ROOT="$HOME/.config/pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-## END PYTHON ##
-
 # SCRIPTS ######################################################################
 ################################################################################
 
 # Script to start tmux for every instance of terminal
 #####################################################
-# _not_inside_tmux() { [[ -z "$TMUX" ]] }
-# ensure_tmux_is_running() {
-#   if _not_inside_tmux; then
-#     tat
-#   fi
-# }
-# ensure_tmux_is_running
+_not_inside_tmux() { [[ -z "$TMUX" ]] }
+ensure_tmux_is_running() {
+  if _not_inside_tmux; then
+    tat
+  fi
+}
+ensure_tmux_is_running
 #####################################################
 
 # PLUGINS ######################################################################
@@ -85,8 +76,14 @@ source "$ZDOTDIR/plugins/zsh-users/zsh-autosuggestions/zsh-autosuggestions.zsh"
 source "$ZDOTDIR/plugins/marlonrichert/zsh-autocomplete/zsh-autocomplete.plugin.zsh"
     bindkey '\t' menu-select "$terminfo[kcbt]" menu-select
     bindkey -M menuselect '\t' menu-complete "$terminfo[kcbt]" reverse-menu-complete
-# navi : install with homebrew
-# fd : install with homebrew
+
+## Other Plugins ##
+# diff-so-fancy
+## Other Prompts ##
+# spaceship prompt : if we dont use ohmyzsh then this might be needed
+# pure prompt : much simple such wow
+# typewritten prompt : similar to pure prompt
+
 # MUST BE LAST
 source "$ZDOTDIR/plugins/zsh-users/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 source "$ZDOTDIR/plugins/catppuccin/zsh-syntax-highlighting/themes/catppuccin_mocha-zsh-syntax-highlighting.zsh"

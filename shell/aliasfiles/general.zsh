@@ -22,8 +22,8 @@
 # Locations
   # alias lof='cd /Users/mitch/Documents/Code/Python/LOFRecord_Convert; python3 main.py'
   alias lof='cd /Users/mitch/Documents/Code/Python/LOFUpload; python3 main.py'
-  alias ga='~/Documents/code/AudioPlugins/AutoLevel' # most used shortcut
-  alias gc='~/Documents/code/'
+  alias ga='cd ~/Documents/code/AudioPlugins/AutoLevel' # most used shortcut
+  alias gc='cd ~/Documents/code/'
   # alias gea='~/.oh-my-zsh/custom/'
   # alias ges='~/.config/nvim/'
   alias go='cd'

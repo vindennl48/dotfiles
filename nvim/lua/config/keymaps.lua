@@ -119,6 +119,7 @@ set("v", "<leader>gn", "g<C-a>",           { noremap = false, desc = "Number a v
 set({ "n", "i", "v" }, "<esc>", "<esc><esc>", { noremap = false })
 set({ "n", "i", "v" }, "<C-z>", "",           { noremap = false })
 set({ "n", "v" }, "<leader>Y",   '"+y',                { noremap = false, desc = "Copy to System Clipboard" })
+set({ "n", "v" }, "<leader>P",   '"+p',                { noremap = false, desc = "Paste from system clipboard (or use ctrl+v)" })
 set({ "n", "v" }, "<leader>cop", ":'<,'>w! ~/.cp<cr>", { noremap = false, silent = true, desc = "Copy to temp buffer" })
 set({ "n", "v" }, "<leader>pas", ":r ~/.cp<cr>",       { noremap = false, silent = true, desc = "Paste from temp buffer" })
 -- END MULTI MODES -------------------------------------------------------------
