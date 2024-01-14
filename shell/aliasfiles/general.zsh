@@ -40,9 +40,9 @@
 
 # Edits
   alias ee='vim ~/bin/dotfiles/UserNotes.md'
-  alias ea='vim ~/.oh-my-zsh/custom/general.zsh'
-  alias eaa='vim ~/.zshrc'
-  alias es='vim ~/.config/nvim/'
+  alias ea='vim ~/bin/dotfiles/shell/aliasfiles/general.zsh'
+  alias es='vim ~/bin/dotfiles/nvim/'
+  alias ef='vim ~/bin/dotfiles/shell/helpers.sh'
 
 # TMUX
   alias ta='tmux attach -t'

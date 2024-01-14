@@ -6,7 +6,7 @@ local set = vim.keymap.set
 set("n", "es", ":e ~/.config/nvim/<cr>",                 { noremap = false, desc = "Open vim keymaps" })
 set("n", "ea", ":e ~/.oh-my-zsh/custom/general.zsh<cr>", { noremap = false, desc = "Open bash alias commands" })
 set("n", "ee", ":e ~/bin/dotfiles/UserNotes.md<cr>",     { noremap = false, desc = "Open User Notes" })
-
+set("n", "ef", "::vsp<cr><c-w>l:e ~/bin/dotfiles/shell/helpers.sh<cr>", { noremap = false, desc = "Open shell helpers" })
 
 -- NORMAL MODE -----------------------------------------------------------------
 --------------------------------------------------------------------------------
