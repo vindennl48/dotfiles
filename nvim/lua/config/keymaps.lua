@@ -21,7 +21,7 @@ set("n", "H",         "<<",      { noremap = false, silent = true })
 set("n", "L",         ">>",      { noremap = false, silent = true })
 set("n", "c4",        "c$",      { noremap = false })
 set("n", "<leader>s", ":%s /",   { noremap = false, desc = "Search & Replace" })
-set("n", "q1",        ":bd<cr>", { noremap = false })
+set("n", "q1",        ":q<cr>",  { noremap = false })
 
 -- Split Arrangement
 set("n", "<leader>zz", ":wincmd _<cr>:wincmd |<cr>", { noremap = false, silent = true, desc = "Zoom into pane" })
