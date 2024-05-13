@@ -1,0 +1,4 @@
+#!/bin/bash
+source "$HOME/bin/dotfiles2/bin/lib"
+
+backup "$@"

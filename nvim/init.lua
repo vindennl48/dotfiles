@@ -131,6 +131,11 @@ require("lazy").setup({
     'tpope/vim-obsession',
     commit = "fe9d3e1a9a50171e7d316a52e1e56d868e4c1fe5"
   },
+
+  {
+    'Exafunction/codeium.vim',
+    commit = "f2d90dedb45e35f7563d2ce3a31c6928f79de678"
+  },
 })
 -- END PLUGINS -----------------------------------------------------------------
 --------------------------------------------------------------------------------

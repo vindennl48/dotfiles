@@ -18,7 +18,7 @@ require('telescope').setup{
 
 -- KEYMAPS ---------------------------------------------------------------------
 --------------------------------------------------------------------------------
-vim.keymap.set('n', '<leader>ff', require('telescope.builtin').find_files, {})
+-- vim.keymap.set('n', '<leader>ff', require('telescope.builtin').find_files, {})
 vim.keymap.set('n', '<C-p>', require('telescope.builtin').git_files, {})
 -- vim.keymap.set('n', '<leader>fs', function()
 --   builtin.grep_string({ search = vim.fn.input("Grep > ") })

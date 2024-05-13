@@ -1,0 +1,34 @@
+#!/bin/bash
+
+convert_wav_to_mp3() {
+  local input_file="$1"
+  local output_file="${input_file%.wav}.mp3"
+  ffmpeg -i "$input_file" -acodec libmp3lame -b:a 128k "$output_file"
+}
+
+process_files() {
+  for file in "${wav_files[@]}"; do
+    convert_wav_to_mp3 "$file" &
+  done
+  wait
+}
+
+# Check if ffmpeg is installed
+if ! command -v ffmpeg &> /dev/null; then
+  echo "Error: ffmpeg is not installed. Please install ffmpeg and try again."
+  exit 1
+fi
+
+# Identify all WAV files in the current directory
+wav_files=(*.wav)
+
+# Check if there are any WAV files
+if [ ${#wav_files[@]} -eq 0 ]; then
+  echo "No WAV files found in the current directory."
+  exit 0
+fi
+
+# Process the files in parallel
+process_files
+
+echo "Conversion complete."

@@ -31,7 +31,7 @@ done
 # Use VI style editing
 ###########################################
 # set -o vi
-# set editing-mode vi
+set editing-mode vi
 # set keymap vi
 # export KEYTIMEOUT=10
 # bindkey -M viins 'jk' vi-cmd-mode
@@ -43,7 +43,8 @@ bindkey '^U' kill-whole-line
 
 autoload -z edit-command-line
 zle -N edit-command-line
-bindkey '^V' edit-command-line
+bindkey "^V" edit-command-line
+# bindkey -M vicmd "^V" edit-command-line
 ###########################################
 
 ## FZF ##
@@ -73,6 +74,7 @@ ensure_tmux_is_running
 ################################################################################
 source "$ZDOTDIR/plugins/zap/zap-prompt/zap-prompt.zsh-theme"
 source "$ZDOTDIR/plugins/zsh-users/zsh-autosuggestions/zsh-autosuggestions.zsh"
+bindkey -e # turn off vi mode
 source "$ZDOTDIR/plugins/marlonrichert/zsh-autocomplete/zsh-autocomplete.plugin.zsh"
     bindkey '\t' menu-select "$terminfo[kcbt]" menu-select
     bindkey -M menuselect '\t' menu-complete "$terminfo[kcbt]" reverse-menu-complete

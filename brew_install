@@ -4,10 +4,15 @@ zsh-autosuggestions : yep
 zsh-autocomplete : autocomplete like fish
 zsh-syntax-highlighting : dunno if this conflicts with catppuccine
 catppuccine : zsh highlighting
-
-# TMUX #
-sessionx : Session Manager from video guy
 ## END ZSH PLUGINS ##
+
+## VIM PLUGINS ##
+oil.nvim : filetree manager
+## END VIM PLUGINS ##
+
+## TMUX PLUGINS ##
+sessionx : Session Manager from video guy
+## END TMUX PLUGINS ##
 
 ## LIST ##
 nerdfonts: run the following commands to install them all

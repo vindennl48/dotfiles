@@ -52,11 +52,11 @@
   bindkey '^ ' autosuggest-accept
 
 # Bindings
-  bindkey '^V' edit-command-line
+  bindkey '^v' edit-command-line
 
 # Settings
   export VISUAL='nvim' # default visual
-  export EDITOR='n$VISUAL' # default visual
+  export EDITOR='$VISUAL' # default visual
 
 # Git Commands
 ##############
@@ -103,13 +103,13 @@
       git commit
   }
 
-  #used with CWD.py to set and change working directories
-  cwd() {
-    # ans=$(p ~/bin/dotfiles/python/CWD.py $@)
-    # eval "$ans"
-    eval $(p ~/bin/dotfiles/python/CWD.py $@)
-  }
-  alias cwdd="p ~/bin/dotfiles/python/CWD.py"
+  # #used with CWD.py to set and change working directories
+  # cwd() {
+  #   # ans=$(p ~/bin/dotfiles/python/CWD.py $@)
+  #   # eval "$ans"
+  #   eval $(p ~/bin/dotfiles/python/CWD.py $@)
+  # }
+  # alias cwdd="p ~/bin/dotfiles/python/CWD.py"
 
 # Settings
 ##########

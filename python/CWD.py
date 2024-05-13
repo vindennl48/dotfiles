@@ -42,17 +42,8 @@ if __name__ == "__main__":
 
     ## Get cmd arguments #######################################################
     parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "-a",
-        "--add",
-        help = "Add a directory to the list"
-    )
-    parser.add_argument(
-        "-d",
-        "--dump",
-        action = "store_true",
-        help   = "Get a list of all directories"
-    )
+    parser.add_argument( "-a", "--add", help = "Add a directory to the list" )
+    parser.add_argument( "-d", "--dump", action = "store_true", help = "Get a list of all directories" )
     args = parser.parse_args()
     ############################################################################
 

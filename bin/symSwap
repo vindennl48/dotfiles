@@ -1,0 +1,44 @@
+#!/bin/bash
+
+# Check if the symlink path argument is provided
+if [ -z "$1" ]; then
+    echo "Usage: $0 <symlink_path>"
+    exit 1
+fi
+
+symlink_path=$1
+echo "Symlink path: $symlink_path"
+
+if [ -L ${symlink_path} ] ; then
+   if [ ! -e ${symlink_path} ] ; then
+      echo "Broken symlink"
+      exit 1
+   fi
+else
+   echo "Not a symlink"
+   exit 1
+fi
+
+# Get the target of the symlink
+target_path=$(readlink -f "$symlink_path")
+echo "Target path: $target_path"
+
+# Check if the target exists
+if [ ! -e "$target_path" ]; then
+    echo "Error: The target '$target_path' does not exist."
+    exit 1
+fi
+
+# Get the directory where the symlink is located
+rm "$symlink_path"
+
+# Move the target to the symlink location
+mv "$target_path" "$symlink_path"
+
+# Get the new path after move
+new_symlink_path=$(realpath "$symlink_path")
+
+# Create a new symlink at the target's original location
+ln -s "$new_symlink_path" "$target_path"
+
+echo "Success! The target has been moved, and a new symlink has been created."

@@ -1,10 +1,11 @@
 # Changing Window Focus
 # ALT is actually option key
 
+# cmd - 0 : open -a iterm
+cmd - 0 : open -a alacritty
 # cmd - 1 is set up thru macos keyboard shortcuts to desktop
 cmd - 2 : open -a arc
 # cmd - 3 : open -a notes
-cmd - 0 : open -a iterm
 shift + cmd - 0 : open -na iterm
 
 # disable cmd-h to hide things
