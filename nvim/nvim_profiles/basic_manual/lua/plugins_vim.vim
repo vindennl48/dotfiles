@@ -1,3 +1,13 @@
+" Plugin Settings in Vimscript
+
+
+"" Ouroboros
+autocmd! Filetype h,c,cpp noremap<buffer> <leader>t :Ouroboros<CR>
+
+
+"" Coc Completion
+" Included packages for COC
+let g:coc_global_extensions = ['coc-pyright', 'coc-json', 'coc-sumneko-lua']
 " Some LSP's can have issues with backups
 set nobackup
 set nowritebackup
@@ -42,3 +52,4 @@ nnoremap <silent> <C-k> :call ShowDocumentation()<CR>
 
 " Highlight the symbol and its references when holding the cursor
 autocmd CursorHold * silent call CocActionAsync('highlight')
+

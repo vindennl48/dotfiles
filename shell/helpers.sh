@@ -1,2 +1,0 @@
-# Reload skhd
-skhd --reload

@@ -1,0 +1,27 @@
+[env]
+TERM = "xterm-256color"
+
+[window]
+padding.x     = 10
+padding.y     = 10
+decorations   = "Buttonless"
+# opacity       = 0.8
+# blur          = true
+option_as_alt = "Both"
+
+## to search for a font
+## run `fc-list : family style | grep <name>
+[font]
+size          = 14
+normal.family = "BlexMono Nerd Font"
+# normal.family = "DejaVuSansM Nerd Font Mono"
+# normal.family = "CodeNewRoman Nerd Font"
+# normal.family = "RobotoMono Nerd Font Mono SmBd"
+
+[colors]
+primary.background = "#1e1e2e"
+
+[keyboard]
+bindings = [
+  { key = "Enter", mods = "Command", action = "ToggleFullscreen" },
+]

@@ -1,0 +1,10 @@
+################################################################################
+# PROFILES
+################################################################################
+# All profiles are located at .config/zsh_profiles
+#   and symlinked to .config/zsh
+# All plugins are located at .local/share/zsh_profiles
+#   and symlinked to .local/share/zsh
+# Need to change symlinks in .config and .local/share to switch profiles
+################################################################################
+source "$HOME/.config/zsh/init.zsh"
