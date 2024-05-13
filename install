@@ -1,0 +1,113 @@
+#!/bin/bash
+source "./bin/lib"
+
+local DTP=$(pwd)
+
+cprint -p "Installing Dotfiles"
+
+zsh() {
+  cprint -p "Installing ZSH"
+
+  # set the zsh profile you want to use
+  local profile="simple"
+
+  cprint "Removing old files"
+  backup_or_remove "$HOME/.zshrc"
+  backup_or_remove "$HOME/.config/zsh_profiles"
+  backup_or_remove "$HOME/.config/zsh"
+  backup_or_remove "$HOME/.local/share/zsh_profiles"
+  backup_or_remove "$HOME/.local/share/zsh"
+
+  cprint "Setting up local/share directory"
+  mkdir -p "$HOME/.local/share/zsh_profiles/$profile"
+
+  cprint "Linking new files"
+  ln -s "$DTP/zsh/zshrc" "$HOME/.zshrc"
+  ln -s "$DTP/zsh/zsh_profiles" "$HOME/.config/zsh_profiles"
+  ln -s "$HOME/.config/zsh_profiles/simple" "$HOME/.config/zsh"
+  ln -s "$HOME/.local/share/zsh_profiles/$profile" "$HOME/.local/share/zsh"
+
+  cprint "Complete!"
+}
+
+nvim() {
+  cprint -p "Installing NVIM"
+
+  # set the nvim profile you want to use
+  local profile="basic_manual"
+
+  cprint "Removing old files"
+  backup_or_remove "$HOME/.config/nvim_profiles"
+  backup_or_remove "$HOME/.config/nvim"
+  backup_or_remove "$HOME/.local/share/nvim_profiles"
+  backup_or_remove "$HOME/.local/share/nvim"
+
+  cprint "Setting up local/share directory"
+  mkdir -p "$HOME/.local/share/nvim_profiles/$profile"
+
+  cprint "Linking new files"
+  ln -s "$DTP/nvim/nvim_profiles" "$HOME/.config/nvim_profiles"
+  ln -s "$HOME/.config/nvim_profiles/$profile" "$HOME/.config/nvim"
+  ln -s "$HOME/.local/share/nvim_profiles/$profile" "$HOME/.local/share/nvim"
+
+  cprint "Complete!"
+}
+
+tmux() {
+  cprint -p "Installing TMUX"
+
+  cprint "Removing old files"
+  backup_or_remove "$HOME/.config/tmux"
+
+  cprint "Linking new files"
+  ln -s "$DTP/tmux/tmux" "$HOME/.config/tmux"
+
+  cprint "Complete!"
+}
+
+skhd() {
+  cprint -p "Installing SKHD"
+
+  cprint "Removing old files"
+  backup_or_remove "$HOME/.config/skhd"
+
+  cprint "Linking new files"
+  ln -s "$DTP/skhd/skhd" "$HOME/.config/skhd"
+
+  cprint "Complete!"
+}
+
+alacritty() {
+
+  cprint -p "Installing ALACRITTY"
+
+  cprint "Removing old files"
+  backup_or_remove "$HOME/.config/alacritty"
+
+  cprint "Linking new files"
+  ln -s "$DTP/alacritty/alacritty" "$HOME/.config/alacritty"
+
+  cprint "Complete!"
+}
+
+git() {
+  cprint -p "Installing GIT"
+
+  cprint "Removing old files"
+  backup_or_remove "$HOME/.gitconfig"
+
+  cprint "Linking new files"
+  ln -s "$DTP/git/gitconfig" "$HOME/.gitconfig"
+
+  cprint "Complete!"
+}
+
+main() {
+  zsh
+  nvim
+  tmux
+  skhd
+  alacritty
+  git
+}
+
