@@ -28,14 +28,14 @@ class Files:
 
     @staticmethod
     def mkdir(path):
-        path = Path(path)
+        path = Files.newPath(path)
         if not path.exists():
             path.mkdir(parents=True, exist_ok=True)
         return path
 
     @staticmethod
     def ls(path, substr=None):
-        path = Path(path)
+        path = Files.newPath(path)
         if not path.exists():
             return []
         result = [Path(x) for x in path.iterdir()]
@@ -45,7 +45,7 @@ class Files:
 
     @staticmethod
     def lsFiles(path, suffix=None, substr=None, notSubstr=None):
-        path = Path(path)
+        path = Files.newPath(path)
         if not path.exists():
             return []
         result = [Path(x) for x in path.iterdir() if not x.is_dir()]
@@ -60,8 +60,10 @@ class Files:
 
     @staticmethod
     def lsFolders(path, substr=None):
-        path = Path(path)
+        path = Files.newPath(path)
         if not path.exists():
+            if path.is_symlink():
+                print("prob: ", path.readlink())
             return []
         result = [Path(x) for x in path.iterdir() if x.is_dir()]
         if substr != None:
@@ -70,14 +72,14 @@ class Files:
 
     @staticmethod
     def rename(path, newName):
-        path = Path(path)
+        path = Files.newPath(path)
         newPath = path.parent / newName
         path.rename(newPath)
         return newPath
 
     @staticmethod
     def move(path, newDir):
-        path = Path(path)
+        path = Files.newPath(path)
         newDir = Path(newDir)
         newPath = newDir / path.name
         path.rename(newPath)
@@ -85,7 +87,7 @@ class Files:
 
     @staticmethod
     def moveAndRename(path, newPath):
-        path = Path(path)
+        path = Files.newPath(path)
         newPath = Path(newPath)
         if newPath.exists() or not path.exists():
             return
@@ -96,12 +98,12 @@ class Files:
     def moveAll(paths, newDir):
         newDir = Path(newDir)
         for path in paths:
-            path = Path(path)
+            path = Files.newPath(path)
             Files.move(path, newDir)
 
     @staticmethod
     def copy(path, newDir):
-        path = Path(path)
+        path = Files.newPath(path)
         newDir = Path(newDir)
         newPath = newDir / path.name
         shutil.copy(path, newPath)
@@ -112,12 +114,12 @@ class Files:
     def copyAll(paths, newDir):
         newDir = Path(newDir)
         for path in paths:
-            path = Path(path)
+            path = Files.newPath(path)
             Files.copy(path, newDir)
 
     @staticmethod
     def remove(path, confirm=True):
-        path = Path(path)
+        path = Files.newPath(path)
         if not path.exists():
             return
         if confirm:
@@ -142,7 +144,7 @@ class Files:
 
     @staticmethod
     def wasEditedWithin(path, days=1):
-        path = Path(path)
+        path = Files.newPath(path)
         xDaysAgo = datetime.now() - timedelta(days=days)
         filetime = datetime.fromtimestamp(os.path.getctime(path))
         return xDaysAgo < filetime

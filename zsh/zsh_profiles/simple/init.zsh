@@ -138,6 +138,19 @@ bindkey '^v' edit-command-line
 autoload -Uz compinit && compinit
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 
+# Custom Python CLI tools
+#########################
+#used with CWD.py to set and change working directories
+cwd() {
+  # ans=$(p ~/bin/dotfiles/python/CWD.py $@)
+  # eval "$ans"
+  eval $(p ~/bin/dotfiles/python/CWD.py $@)
+}
+# alias cwdd="p ~/bin/dotfiles/python/CWD.py"
+
+#used with mitch.py
+alias mitch="p ~/bin/dotfiles/python/mitch.py"
+
 # Git Commands
 ##############
 alias showa='git branch -a'

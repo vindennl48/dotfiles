@@ -18,8 +18,8 @@ g.mapleader = '-' -- Make sure this is first!
 -- PLUGINS ---------------------------------------------------------------------
 --------------------------------------------------------------------------------
 -- cmd('source $HOME/.config/nvim/plugins/vim-plug/plug.vim')
-cmd('source $HOME/.local/share/nvim/basic_manual/plugins/vim-plug/plug.vim')
-call('plug#begin', '$HOME/.local/share/nvim/basic_manual/plugins')
+cmd('source $HOME/.local/share/nvim/plugins/vim-plug/plug.vim')
+call('plug#begin', '$HOME/.local/share/nvim/plugins')
 
 Plug 'junegunn/vim-plug' -- to make sure vim-plug is not removed
 Plug('catppuccin/nvim', { ['as'] = 'catppuccin' }) -- cool color scheme

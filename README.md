@@ -37,3 +37,8 @@ Shortcuts
 - s = hop.nvim - this will highlight letters that you can jump to
 - <leader>z* = the * represents a couple options for modifying windows
 
+# TODO
+- Need to add a script to switch nvim and zsh profiles
+- Need to create a custom command to do various activities
+- Need to create a script to work with Brew to keep track of installed stuff
+- Need an install script for Brew
