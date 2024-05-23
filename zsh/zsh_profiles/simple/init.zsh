@@ -105,6 +105,10 @@ alias ga='cd ~/Documents/code/AudioPlugins/AutoLevel' # most used shortcut
 alias gc='cd ~/Documents/code/'
 alias go='cd'
 
+# YouTube Downloads
+alias youtube='yt-dlp -x --audio-format wav' # last arg is link
+alias youtubeList='yt-dlp -x --audio-format wav -a' # last arg is file of links
+
 # FZF
 alias gpp='cd $(find . -type d | fzf)'
 alias gpo='cd $(find ~ -type d | fzf)'
