@@ -36,6 +36,19 @@ export PATH="/usr/local/opt/llvm/bin/:$PATH"
 bindkey "^[[A" history-search-backward
 bindkey "^[[B" history-search-forward
 
+## YADS ##
+yads_check() {
+  # Define the directory to search
+  DIRECTORY_TO_SEARCH="$HOME/bin/dotfiles/yads"
+  # Find files with .DECRYPTED extension recursively
+  files=$(find "$DIRECTORY_TO_SEARCH" -type f -name "*.DECRYPTED")
+  # Check if any files were found
+  if [ -n "$files" ]; then
+      # Run the python script
+      python3 "$HOME/bin/dotfiles/python/mitch.py" safe --silent --mode encrypt "$HOME/bin/dotfiles/yads"
+  fi
+}
+yads_check
 
 ################################################################################
 # FUNCTIONS
