@@ -98,6 +98,9 @@ alias p='python3'
 alias rem='p $DOTFILES_PATH/python/shell/rm.py'      # this needs to update
 alias unlock='sudo xattr -r -d com.apple.quarantine' # Used for unlocking downloaded files from apple's quarantine process
 alias ..='cd ..'
+alias ...='cd ...'
+alias ....='cd ....'
+alias .....='cd .....'
 
 # Locations
 alias lof='cd /Users/mitch/Documents/Code/Python/LOFUpload; python3 main.py'
@@ -120,9 +123,8 @@ alias ss='source ~/.zshrc'
 
 # Edits
 alias ee='vim $DOTFILES_PATH/UserNotes.md'
-alias ea='vim $DOTFILES_PATH/shell/aliasfiles/general.zsh'
-alias es='vim $DOTFILES_PATH/nvim/'
-alias ef='vim $DOTFILES_PATH/shell/helpers.sh'
+alias ea='vim $ZSH_HOME_PATH/init.zsh'
+alias es='vim ~/.config/nvim/'
 
 # TMUX
 alias ta='tmux attach -t'
