@@ -1,0 +1,31 @@
+#!/bin/bash
+SUCKPATH="$HOME/.config/suckless/"
+
+echo "----> Installing Suckless Programs!"
+
+echo "----> Installing necessary packages.."
+sudo pacman -Syu neovim git base-devel xorg-server xorg-xinit libx11 libxinerama libxft webkit2gtk
+
+echo "----> Making config file location.."
+mkdir -p "$SUCKPATH"
+
+cd "$SUCKPATH"
+
+echo "----> Cloning suckless repos.."
+git clone https://git.suckless.org/dwm
+git clone https://git.suckless.org/st
+git clone https://git.suckless.org/dmenu
+
+echo "----> Making and installing suckless repos.."
+cd "$SUCKPATH/dwm"; sudo make clean install
+cd "$SUCKPATH/st"; sudo make clean install
+cd "$SUCKPATH/dmenu"; sudo make clean install
+
+echo "----> Adding startup codes to user account.."
+echo "exec dwm" >> "$HOME/.xinitrc"
+echo "startx" >> "$HOME/.bash_profile"
+echo "startx" >> "$HOME/.zsh_profile"
+
+echo "-----> Remember to modify config.h for dwm to add st to terminal source.."
+echo "-----> Done!!.."
+
