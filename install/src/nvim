@@ -22,8 +22,9 @@ _common_install() {
   backup_or_remove "$HOME/.local/share/nvim"
 
   cprint "Creating new directories.."
-  ln -s "$SCRIPT_DIR/../../nvim/nvim_profiles/basic_manual" "$HOME/.config/nvim"
+  mkdir -p "$HOME/.config"
   mkdir -p "$HOME/.local/share/nvim/plugins"
+  ln -s "$HOME/bin/dotfiles/nvim/nvim_profiles/basic_manual" "$HOME/.config/nvim"
 
   cprint "Installing vim-plug.."
   git clone https://github.com/junegunn/vim-plug.git "$HOME/.local/share/nvim/plugins/vim-plug"

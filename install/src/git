@@ -19,7 +19,7 @@ _common_install() {
   backup_or_remove "$HOME/.gitconfig"
 
   cprint "Creating new directories.."
-  ln -s "$SCRIPT_DIR/../../git/gitconfig" "$HOME/.gitconfig"
+  ln -s "$HOME/bin/dotfiles/git/gitconfig" "$HOME/.gitconfig"
 }
 
 _arch_install() {
