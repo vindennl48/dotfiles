@@ -22,6 +22,7 @@ _common_install() {
   mkdir -p "$HOME/.pyenv"
   echo "3.10.4" >> "$HOME/.pyenv/version"
 
+  cprint "Installing Python v3.10.4.."
   pyenv install 3.10.4
 }
 

@@ -29,6 +29,8 @@ _common_install() {
   echo "# Add any additional zsh modules here" >> "$HOME/.zshrc_modules"
 
   cprint "Make sure to follow up with the ~/.zsh_modules setup!"
+  cprint "Also make sure you change your shell:"
+  cprint "sudo chsh -s $(which zsh) $USER"
 }
 
 _arch_install() {
