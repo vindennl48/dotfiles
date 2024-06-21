@@ -1,0 +1,76 @@
+#!/bin/bash
+
+################################################################################
+## NEOVIM INSTALL ##############################################################
+## This install does not include the ability to swap different profiles.
+## This is just to install our normal neovim package.
+################################################################################
+
+# Get the directory of the currently executing script
+SCRIPT_DIR="$(dirname "$(realpath "$0")")"
+
+# Source helpers
+source "$SCRIPT_DIR/helpers"
+
+# Install Neovim
+_common_install() {
+  cprint -p "Running common install"
+
+  # run the common commands here
+  cprint "Old Files: backing up or removing symlinks.."
+  backup_or_remove "$HOME/.config/nvim"
+  backup_or_remove "$HOME/.local/share/nvim"
+
+  cprint "Creating new directories.."
+  ln -s "$SCRIPT_DIR/../../nvim/nvim_profiles/basic_manual" "$HOME/.config/nvim"
+  mkdir -p "$HOME/.local/share/nvim/plugins"
+
+  cprint "Installing vim-plug.."
+  git clone https://github.com/junegunn/vim-plug.git "$HOME/.local/share/nvim/plugins/vim-plug"
+}
+
+_arch_install() {
+  cprint -p "Installing Neovim for Arch!"
+  cprint "Gathering dependencies.."
+
+  sudo pacman -Syu git neovim nodejs yarn npm
+
+  _common_install
+
+  cprint "Make sure to run :PlugInstall in neovim!"
+  cprint "Finished installing Neovim for Arch!"
+}
+
+_ubuntu_install() {
+  cprint -p "Ubuntu Install: Under Construction.."
+}
+
+_macos_install() {
+  cprint -p "MacOS Install: Under Construction.."
+}
+
+main() {
+  # Figure out what OS we're running
+  case $OS_TYPE in
+    $OS_ARCH_LINUX)
+      _arch_install
+      ;;
+    $OS_UBUNTU)
+      _ubuntu_install
+      ;;
+    $OS_MACOS)
+      _macos_install
+      ;;
+    $OS_OTHER_LINUX)
+      cprint "Running an unknown Linux distribution.."
+      cprint "This OS is not supported.. Exiting."
+      exit 1
+      ;;
+    $OS_UNKNOWN)
+      cprint "Running an unknown OS.."
+      cprint "This OS is not supported.. Exiting."
+      exit 1
+      ;;
+  esac
+}
+main

@@ -1,0 +1,146 @@
+#!/bin/bash
+
+cprint() {
+  local leader="     "  # Default leader
+
+  # Process flags
+  while [[ $# -gt 0 ]]; do
+    case "$1" in
+      -p)
+        leader="---->"
+        shift
+        ;;
+      --)
+        shift
+        break
+        ;;
+      -*)
+        echo "Unknown option: $1" >&2
+        return 1
+        ;;
+      *)
+        break
+        ;;
+    esac
+  done
+
+  # Print the leader followed by the remaining arguments
+  echo "$leader" "$@"
+}
+
+cprint -p "Sourced Helpers!"
+
+# Define constants for OS types
+OS_UNKNOWN=0
+OS_ARCH_LINUX=1
+OS_UBUNTU=2
+OS_OTHER_LINUX=3
+OS_MACOS=4
+
+detect_os() {
+  if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+    if [[ -f /etc/arch-release ]]; then
+      return $OS_ARCH_LINUX
+    elif [[ -f /etc/os-release ]]; then
+      . /etc/os-release
+      if [[ "$ID" == "ubuntu" ]]; then
+        return $OS_UBUNTU
+      else
+        return $OS_OTHER_LINUX
+      fi
+    else
+      return $OS_UNKNOWN
+    fi
+  elif [[ "$OSTYPE" == "darwin"* ]]; then
+    return $OS_MACOS
+  else
+    return $OS_UNKNOWN
+  fi
+}
+
+backup() {
+  # for all files listed as arguments
+  for file in "$@"; do
+    # rename the file with .bak
+    mv "$file" "${file}.bak"
+  done
+}
+
+backup_or_remove() {
+  local destination="$1"
+
+  if [ -e "$destination" ]; then
+    if [ -L "$destination" ]; then
+      cprint "Removing symlink: $destination"
+      rm "$destination"
+    else
+      backup "$destination"
+      # local backup_file="${destination}.bak"
+      # cprint "Renaming $destination to $backup_file"
+      # mv "$destination" "$backup_file"
+    fi
+  fi
+}
+
+copy_from_to() {
+  local source="$1"
+  local destination="$2"
+
+  if [ ! -e "$source" ]; then
+    cprint "File not found: $source"
+    return 1
+  fi
+
+  # check if the destination file exists
+  if [ -e "$destination" ]; then
+    # check if the destination file is a symlink
+    if [ -L "$destination" ]; then
+      cprint "Removing symlink: $destination"
+      rm "$destination"
+    else
+      # backup the destination file
+      backup "$destination"
+      # local backup_file="${destination}.bak"
+      # cprint "Renaming $destination to $backup_file"
+      # mv "$destination" "$backup_file"
+    fi
+  fi
+
+  # check if the source file is a folder
+  if [ -d "$source" ]; then
+    cp -r "$source" "$destination"
+  else
+    cp "$source" "$destination"
+  fi
+
+  cprint "Copied $source to $destination"
+  return 0
+}
+
+# Call the function
+detect_os
+OS_TYPE=$?
+cprint "Detecting OS type..."
+
+# Example usage
+case $OS_TYPE in
+  $OS_ARCH_LINUX)
+    cprint "Running Arch"
+    ;;
+  $OS_UBUNTU)
+    cprint "Running Ubuntu"
+    ;;
+  $OS_MACOS)
+    cprint "Running macOS"
+    ;;
+  $OS_OTHER_LINUX)
+    cprint "Running an unknown Linux distribution.."
+    cprint "This OS is not supported.. Exiting."
+    exit 1
+    ;;
+  $OS_UNKNOWN)
+    cprint "Running an unknown OS.."
+    cprint "This OS is not supported.. Exiting."
+    exit 1
+    ;;
+esac

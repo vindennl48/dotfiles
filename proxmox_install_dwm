@@ -1,0 +1,69 @@
+#!/bin/bash
+
+################################################################################
+# Install desktop environment on Proxmox
+################################################################################
+
+if [ "$1" == "-h" ]; then
+    echo "Usage: $0 <PASSWORD>"
+    echo "Provide a password as the first argument."
+    exit 0
+fi
+
+if [ -z "$1" ]; then
+    echo "Error: No password provided."
+    echo "Usage: $0 <PASSWORD>"
+    exit 1
+fi
+
+cprint() {
+    prefix="----> "
+
+    result="$prefix"
+    for arg in "$@"; do
+        result="$result$arg "
+    done
+    echo ""
+    echo "${result% }"
+}
+
+pause() {
+    read -p "----> Press Enter to continue..."
+}
+
+SUCKPATH="$HOME/.config/suckless/"
+
+cprint "Requirements; You must have installed sudo and created a new user."
+cprint "This new user needs to be a member of the sudo group."
+cprint "You also need to be logged into this user."
+cprint "Have you fulfilled these requirements?"
+pause
+
+cprint "Updating apt and installing required packages.."
+sudo apt update && apt dist-upgrade
+sudo apt install build-essentials libx11-dev libxft-dev libxinerama-dev libfreetype6-dev libfontconfig1-dev
+
+cprint "Making config file location.."
+mkdir -p "$SUCKPATH"
+
+cd "$SUCKPATH"
+
+cd "$SUCKPATH"
+
+cprint "Cloning suckless repos.."
+git clone https://git.suckless.org/dwm
+git clone https://git.suckless.org/st
+git clone https://git.suckless.org/dmenu
+
+cprint "Making and installing suckless repos.."
+cd "$SUCKPATH/dwm"; sudo make clean install
+cd "$SUCKPATH/st"; sudo make clean install
+cd "$SUCKPATH/dmenu"; sudo make clean install
+
+cprint "Adding startup codes to user account.."
+cprint "exec dwm" >> "$HOME/.xinitrc"
+cprint "startx" >> "$HOME/.bash_profile"
+cprint "startx" >> "$HOME/.zsh_profile"
+
+cprint "Remember to modify config.h for dwm to add st to terminal source.."
+cprint "Done!!.."

@@ -1,0 +1,3 @@
+# YouTube Downloads
+alias youtube='yt-dlp -x --audio-format wav' # last arg is link
+alias youtubeList='yt-dlp -x --audio-format wav -a' # last arg is file of links

@@ -10,21 +10,9 @@ export DOTFILES_PATH="$HOME/bin/dotfiles" # custom dotfiles path
 export PATH="$DOTFILES_PATH/bin:$PATH"    # add dotfiles bin to path
 
 export PLUGIN_PATH="$HOME/.local/share/zsh/plugins"
-# if PLUGIN_PATH is not a symlink
-if [ ! -L "$HOME/.local/share/zsh" ]; then
-  echo "~/.local/share/zsh is not set up for multiple profiles.. Please create zsh_profiles and symlink it to ~/.local/share/zsh"
-  # press any key to continue
-  read
-fi
-
-## HOMEBREW ##
-eval $(/opt/homebrew/bin/brew shellenv)
 
 ## PYTHON ##
 export PYTHONDONTWRITEBYTECODE=1 # Stop python from creating pyc files
-export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
 
 ## For C++ code linting ##
 export PATH="/usr/local/opt/llvm/bin/:$PATH"
@@ -35,20 +23,6 @@ export PATH="/usr/local/opt/llvm/bin/:$PATH"
 ## HISTORY ##
 bindkey "^[[A" history-search-backward
 bindkey "^[[B" history-search-forward
-
-## YADS ##
-yads_check() {
-  # Define the directory to search
-  DIRECTORY_TO_SEARCH="$HOME/bin/dotfiles/yads"
-  # Find files with .DECRYPTED extension recursively
-  files=$(find "$DIRECTORY_TO_SEARCH" -type f -name "*.DECRYPTED")
-  # Check if any files were found
-  if [ -n "$files" ]; then
-      # Run the python script
-      python3 "$HOME/bin/dotfiles/python/mitch.py" safe --silent --mode encrypt "$HOME/bin/dotfiles/yads"
-  fi
-}
-yads_check
 
 ################################################################################
 # FUNCTIONS
@@ -121,10 +95,6 @@ alias ga='cd ~/Documents/code/AudioPlugins/AutoLevel' # most used shortcut
 alias gc='cd ~/Documents/code/'
 alias go='cd'
 
-# YouTube Downloads
-alias youtube='yt-dlp -x --audio-format wav' # last arg is link
-alias youtubeList='yt-dlp -x --audio-format wav -a' # last arg is file of links
-
 # FZF
 alias gpp='cd $(find . -type d | fzf)'
 alias gpo='cd $(find ~ -type d | fzf)'
@@ -136,8 +106,8 @@ alias ss='source ~/.zshrc'
 
 # Edits
 alias ee='vim $DOTFILES_PATH/UserNotes.md'
-alias ea='vim $ZSH_HOME_PATH/init.zsh'
-alias es='vim ~/.config/nvim/'
+alias ea='vim $HOME/.config/zsh'
+alias es='vim $HOME/.config/nvim/'
 
 # TMUX
 alias ta='tmux attach -t'

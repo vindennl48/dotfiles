@@ -35,9 +35,10 @@ copy_from_to() {
       rm "$destination"
     else
       # backup the destination file
-      local backup_file="${destination}.bak"
-      cprint "Renaming $destination to $backup_file"
-      mv "$destination" "$backup_file"
+      backup "$destination"
+      # local backup_file="${destination}.bak"
+      # cprint "Renaming $destination to $backup_file"
+      # mv "$destination" "$backup_file"
     fi
   fi
 

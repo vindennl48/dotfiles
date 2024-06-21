@@ -1,0 +1,6 @@
+# if PLUGIN_PATH is not a symlink
+if [ ! -L "$HOME/.local/share/zsh" ]; then
+  echo "~/.local/share/zsh is not set up for multiple profiles.. Please create zsh_profiles and symlink it to ~/.local/share/zsh"
+  # press any key to continue
+  read
+fi

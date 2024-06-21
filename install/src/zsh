@@ -1,0 +1,77 @@
+#!/bin/bash
+
+################################################################################
+## ZSH INSTALL #################################################################
+## This install does not include the ability to swap different profiles.
+## This is just to install our normal zsh package.
+################################################################################
+
+# Get the directory of the currently executing script
+SCRIPT_DIR="$(dirname "$(realpath "$0")")"
+
+# Source helpers
+source "$SCRIPT_DIR/helpers"
+
+# Install ZSH
+_common_install() {
+  cprint -p "Running common install"
+
+  # run the common commands here
+  cprint "Old Files: backing up or removing symlinks.."
+  backup_or_remove "$HOME/.config/zsh"
+  backup_or_remove "$HOME/.local/share/zsh"
+  backup_or_remove "$HOME/.zshrc"
+  backup_or_remove "$HOME/.zshrc_modules"
+
+  cprint "Creating new directories.."
+  ln -s "$SCRIPT_DIR/../../zsh/zsh_profiles/simple" "$HOME/.config/zsh"
+  ln -s "$SCRIPT_DIR/../../zsh/zshrc" "$HOME/.zshrc"
+  echo "# Add any additional zsh modules here" >> "$HOME/.zshrc_modules"
+
+  cprint "Make sure to follow up with the ~/.zsh_modules setup!"
+}
+
+_arch_install() {
+  cprint -p "Installing ZSH for Arch!"
+
+  cprint "Gathering dependencies.."
+  sudo pacman -Syu git fzf zsh
+
+  _common_install
+
+  cprint "Finished installing ZSH for Arch!"
+}
+
+_ubuntu_install() {
+  cprint -p "Ubuntu Install: Under Construction.."
+}
+
+_macos_install() {
+  cprint -p "MacOS Install: Under Construction.."
+}
+
+main() {
+  # Figure out what OS we're running
+  case $OS_TYPE in
+    $OS_ARCH_LINUX)
+      _arch_install
+      ;;
+    $OS_UBUNTU)
+      _ubuntu_install
+      ;;
+    $OS_MACOS)
+      _macos_install
+      ;;
+    $OS_OTHER_LINUX)
+      cprint "Running an unknown Linux distribution.."
+      cprint "This OS is not supported.. Exiting."
+      exit 1
+      ;;
+    $OS_UNKNOWN)
+      cprint "Running an unknown OS.."
+      cprint "This OS is not supported.. Exiting."
+      exit 1
+      ;;
+  esac
+}
+main

@@ -8,3 +8,8 @@
 # Need to change symlinks in .config and .local/share to switch profiles
 ################################################################################
 source "$HOME/.config/zsh/init.zsh"
+
+# load modules
+if [ -e "$HOME/.zshrc_modules" ]; then
+  source "$HOME/.zshrc_modules"
+fi
