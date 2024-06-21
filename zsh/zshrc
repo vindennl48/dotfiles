@@ -12,4 +12,20 @@ source "$HOME/.config/zsh/init.zsh"
 # load modules
 if [ -e "$HOME/.zshrc_modules" ]; then
   source "$HOME/.zshrc_modules"
+
+  # Directory containing the subscripts
+  src_dir="$HOME/bin/dotfiles/zsh/zsh_profiles/simple/modules"
+
+  # Iterate over the packages
+  for module in "${ZSH_MODULES[@]}"; do
+    # Construct the path to the subscript
+    subscript="$src_dir/$module"
+
+    # Check if the subscript exists
+    if [ -e "$subscript" ]; then
+      source "$subscript"
+    else
+      echo "Module $subscript not found!"
+    fi
+  done
 fi

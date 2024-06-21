@@ -26,7 +26,7 @@ _common_install() {
   cprint "Creating new directories.."
   ln -s "$HOME/bin/dotfiles/zsh/zsh_profiles/simple" "$HOME/.config/zsh"
   ln -s "$HOME/bin/dotfiles/zsh/zshrc" "$HOME/.zshrc"
-  echo "# Add any additional zsh modules here" >> "$HOME/.zshrc_modules"
+  cp "$HOME/bin/dotfiles/zsh/zshrc_modules" "$HOME/.zshrc_modules"
 
   cprint "Make sure to follow up with the ~/.zsh_modules setup!"
   cprint "Also make sure you change your shell:"

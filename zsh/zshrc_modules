@@ -1,0 +1,9 @@
+# Uncomment modules you want to use
+
+ZSH_MODULES=(
+  # homebrew
+  # profiles
+  # pyenv
+  # yads
+  # ytdownloads
+)
