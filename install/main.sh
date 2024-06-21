@@ -25,9 +25,9 @@ fi
 src_dir="$SCRIPT_DIR/src"
 
 # Iterate over the packages
-for name in "${names[@]}"; do
+for package in "${packages[@]}"; do
   # Construct the path to the subscript
-  subscript="$src_dir/$name"
+  subscript="$src_dir/$package"
 
   # Check if the subscript exists
   if [ -e "$subscript" ]; then
