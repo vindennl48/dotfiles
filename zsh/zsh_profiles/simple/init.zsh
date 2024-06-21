@@ -95,6 +95,9 @@ alias ga='cd ~/Documents/code/AudioPlugins/AutoLevel' # most used shortcut
 alias gc='cd ~/Documents/code/'
 alias go='cd'
 
+# Mount Network Drive WSL
+alias mountwsl='sudo mkdir -p /mnt/z; sudo mount -t drvfs '\\192.168.1.5\sambashare' /mnt/z
+
 # FZF
 alias gpp='cd $(find . -type d | fzf)'
 alias gpo='cd $(find ~ -type d | fzf)'
