@@ -90,6 +90,7 @@ alias ....='cd ....'
 alias .....='cd .....'
 alias cat='bat'
 alias cp='cp -i'
+alias cpqcow='cp -i --sparse=always'
 alias hdsize='df -H'
 
 # Locations
