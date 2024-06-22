@@ -17,6 +17,7 @@ packages=(
 )
 
 pacman_packages=(
+  # ttf-ibmplex-mono-nerd
   # piper
   # htop
   # pavucontrol
