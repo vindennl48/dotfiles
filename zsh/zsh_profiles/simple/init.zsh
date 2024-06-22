@@ -89,6 +89,7 @@ alias ...='cd ...'
 alias ....='cd ....'
 alias .....='cd .....'
 alias cat='bat'
+alias cp='cp -i'
 
 # Locations
 alias lof='cd /Users/mitch/Documents/Code/Python/LOFUpload; python3 main.py'
@@ -97,6 +98,7 @@ alias gc='cd ~/Documents/code/'
 alias go='cd'
 
 # Mount Network Drive WSL
+alias usbmount='sudo mount --mkdir -o uid=1000,gid=1000'
 alias mountwsl='sudo mkdir -p /mnt/z; sudo mount -t drvfs "\\192.168.1.5\sambashare" /mnt/z'
 alias mountarch='sudo mount --mkdir -t cifs //192.168.1.5/sambashare /mnt/z -o username=mitch,password='
 alias addGithubKey='mkdir -p ~/.ssh; cp /mnt/z/github/id_ed25519 ~/.ssh/.; sudo chmod 400 ~/.ssh/id_ed25519; eval $(ssh-agent -s); ssh-add ~/.ssh/id_ed25519'
