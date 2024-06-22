@@ -97,6 +97,8 @@ alias go='cd'
 
 # Mount Network Drive WSL
 alias mountwsl='sudo mkdir -p /mnt/z; sudo mount -t drvfs "\\192.168.1.5\sambashare" /mnt/z'
+alias mountarch='sudo mount --mkdir -t cifs //192.168.1.5/sambashare /mnt/z -o username=mitch,password='
+alias addGithubKey='cp /mnt/z/github/id_ed25519 ~/.ssh/.; sudo chmod 400 ~/.ssh/id_ed25519; eval $(ssh-agent -s); ssh-add ~/.ssh/id_ed25519'
 
 # FZF
 alias gpp='cd $(find . -type d | fzf)'
