@@ -32,7 +32,8 @@ SCRIPT_DIR="$(dirname "$(realpath "$0")")"
 
 # Import helpers
 source "$SCRIPT_DIR/src/helpers"
-cprint "Installing packages: ${packages[*]}"
+cprint "Installing custom packages: ${packages[*]}"
+cprint "And installing pacman packages: ${pacman_packages[*]}"
 # would you like to continue
 read -p "Continue? (y/n) " -n 1 -r
 echo
