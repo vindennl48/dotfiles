@@ -27,9 +27,11 @@ _common_install() {
   cprint "Pulling down tmux plugin manager.."
   git clone https://github.com/tmux-plugins/tpm "$HOME/.local/share/tmux/plugins/tpm"
 
-  cprint "Make sure to run leader-a shift-I to install plugins!"
-  # press enter to continue
-  read -p "Press enter to continue"
+  cprint "Installing tmux plugins.."
+  tmux start-server
+  tmux new-session -d
+  $HOME/.local/share/tmux/plugins/tpm/scripts/install_plugins.sh
+  tmux kill-server
 }
 
 _arch_install() {
