@@ -26,7 +26,7 @@ _arch_install() {
   cprint -p "Installing Git for Arch!"
   cprint "Gathering dependencies.."
 
-  sudo pacman -Syu git
+  sudo pacman -Syu --needed git
 
   _common_install
 

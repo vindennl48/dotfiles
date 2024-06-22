@@ -1,9 +1,7 @@
 #!/bin/bash
 
 ################################################################################
-## NEOVIM INSTALL ##############################################################
-## This install does not include the ability to swap different profiles.
-## This is just to install our normal neovim package.
+## SUCKLESS INSTALL ############################################################
 ################################################################################
 
 # Get the directory of the currently executing script
@@ -12,34 +10,41 @@ SCRIPT_DIR="$(dirname "$(realpath "$0")")"
 # Source helpers
 source "$SCRIPT_DIR/helpers"
 
-# Install Neovim
+# Install DWM
 _common_install() {
   cprint -p "Running common install"
 
   # run the common commands here
   cprint "Old Files: backing up or removing symlinks.."
-  backup_or_remove "$HOME/.config/nvim"
-  backup_or_remove "$HOME/.local/share/nvim"
+  backup_or_remove "$HOME/.config/suckless/dwm"
+  backup_or_remove "$HOME/.config/suckless/dmenu"
 
   cprint "Creating new directories.."
-  mkdir -p "$HOME/.config"
-  mkdir -p "$HOME/.local/share/nvim/plugins"
-  ln -s "$HOME/bin/dotfiles/nvim/nvim_profiles/basic_manual" "$HOME/.config/nvim"
+  mkdir -p "$HOME/.config/suckless"
+  git clone https://git.suckless.org/dwm "$HOME/.config/suckless/dwm"
+  git clone https://git.suckless.org/dmenu "$HOME/.config/suckless/dmenu"
 
-  cprint "Installing vim-plug.."
-  git clone https://github.com/junegunn/vim-plug.git "$HOME/.local/share/nvim/plugins/vim-plug"
+  cprint "Making and installing.."
+  cd "$HOME/.config/suckless/dwm"; sudo make clean install
+  cd "$HOME/.config/suckless/dmenu"; sudo make clean install
+
+  cprint "Adding startup codes to user account.."
+  echo "exec dwm" >> "$HOME/.xinitrc"
+  echo "startx" >> "$HOME/.bash_profile"
+  echo "startx" >> "$HOME/.zsh_profile"
+
+  cprint "Remember to modify config.h for dwm to add your terminal to terminal source.."
 }
 
 _arch_install() {
-  cprint -p "Installing Neovim for Arch!"
-  cprint "Gathering dependencies.."
+  cprint -p "Installing DWM for Arch!"
 
-  sudo pacman -Syu --needed git neovim nodejs yarn npm
+  cprint "Gathering dependencies.."
+  sudo pacman -Syu --needed git base-devel xorg-server xorg-xinit libx11 libxinerama libxft webkit2gtk
 
   _common_install
 
-  cprint "Make sure to run :PlugInstall in neovim!"
-  cprint "Finished installing Neovim for Arch!"
+  cprint "Finished installing DWM for Arch!"
 }
 
 _ubuntu_install() {

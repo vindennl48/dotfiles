@@ -30,7 +30,7 @@ _arch_install() {
   cprint -p "Installing Pyenv for Arch!"
   cprint "Gathering dependencies.."
 
-  sudo pacman -Syu pyenv
+  sudo pacman -Syu --needed pyenv
 
   _common_install
 

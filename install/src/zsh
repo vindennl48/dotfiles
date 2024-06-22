@@ -37,7 +37,7 @@ _arch_install() {
   cprint -p "Installing ZSH for Arch!"
 
   cprint "Gathering dependencies.."
-  sudo pacman -Syu git fzf zsh
+  sudo pacman -Syu --needed git fzf zsh
 
   _common_install
 

@@ -1,9 +1,7 @@
 #!/bin/bash
 
 ################################################################################
-## NEOVIM INSTALL ##############################################################
-## This install does not include the ability to swap different profiles.
-## This is just to install our normal neovim package.
+## QEMU INSTALL ################################################################
 ################################################################################
 
 # Get the directory of the currently executing script
@@ -12,34 +10,21 @@ SCRIPT_DIR="$(dirname "$(realpath "$0")")"
 # Source helpers
 source "$SCRIPT_DIR/helpers"
 
-# Install Neovim
-_common_install() {
-  cprint -p "Running common install"
-
-  # run the common commands here
-  cprint "Old Files: backing up or removing symlinks.."
-  backup_or_remove "$HOME/.config/nvim"
-  backup_or_remove "$HOME/.local/share/nvim"
-
-  cprint "Creating new directories.."
-  mkdir -p "$HOME/.config"
-  mkdir -p "$HOME/.local/share/nvim/plugins"
-  ln -s "$HOME/bin/dotfiles/nvim/nvim_profiles/basic_manual" "$HOME/.config/nvim"
-
-  cprint "Installing vim-plug.."
-  git clone https://github.com/junegunn/vim-plug.git "$HOME/.local/share/nvim/plugins/vim-plug"
-}
-
 _arch_install() {
-  cprint -p "Installing Neovim for Arch!"
+  cprint -p "Installing Qemu for Arch!"
+
   cprint "Gathering dependencies.."
+  sudo pacman -Syu --needed qemu virt-manager virt-viewer dnsmasq vde2\
+    bridge-utils openbsd-netcat ebtables iptables libguestfs
 
-  sudo pacman -Syu --needed git neovim nodejs yarn npm
+  sudo systemctl enable libvirtd.service
+  sudo systemctl start libvirtd.service
+  systemctl status libvirtd.service
 
-  _common_install
+  sudo usermod -a -G libvirtd $(whoami)
+  sudo systemctl restart libvirtd.service
 
-  cprint "Make sure to run :PlugInstall in neovim!"
-  cprint "Finished installing Neovim for Arch!"
+  cprint "Finished installing Qemu for Arch!"
 }
 
 _ubuntu_install() {
