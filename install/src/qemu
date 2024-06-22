@@ -15,7 +15,7 @@ _arch_install() {
 
   cprint "Gathering dependencies.."
   sudo pacman -Syu --needed qemu virt-manager virt-viewer dnsmasq vde2\
-    bridge-utils openbsd-netcat ebtables iptables libguestfs nvidia
+    bridge-utils openbsd-netcat ebtables iptables libguestfs nvidia swtpm
 
   sudo systemctl enable libvirtd.service
   sudo systemctl start libvirtd.service
