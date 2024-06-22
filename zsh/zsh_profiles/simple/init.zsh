@@ -88,6 +88,7 @@ alias ..='cd ..'
 alias ...='cd ...'
 alias ....='cd ....'
 alias .....='cd .....'
+alias cat='bat'
 
 # Locations
 alias lof='cd /Users/mitch/Documents/Code/Python/LOFUpload; python3 main.py'
