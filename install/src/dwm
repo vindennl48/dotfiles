@@ -21,7 +21,7 @@ _common_install() {
 
   cprint "Creating new directories.."
   mkdir -p "$HOME/.config/suckless"
-  git clone https://git.suckless.org/dwm "$HOME/.config/suckless/dwm"
+  git clone https://github.com/vindennl48/dwm "$HOME/.config/suckless/dwm"
   git clone https://git.suckless.org/dmenu "$HOME/.config/suckless/dmenu"
 
   cprint "Making and installing.."
