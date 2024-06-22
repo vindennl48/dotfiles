@@ -21,7 +21,7 @@ _arch_install() {
   sudo systemctl start libvirtd.service
   systemctl status libvirtd.service
 
-  sudo usermod -a -G libvirtd $(whoami)
+  sudo usermod -a -G libvirt $(whoami)
   sudo systemctl restart libvirtd.service
 
   cprint "Finished installing Qemu for Arch!"
