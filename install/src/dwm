@@ -31,7 +31,7 @@ _common_install() {
   cprint "Adding startup codes to user account.."
   echo "exec dwm" >> "$HOME/.xinitrc"
   echo "startx" >> "$HOME/.bash_profile"
-  echo "startx" >> "$HOME/.zsh_profile"
+  echo "startx" >> "$HOME/.zprofile"
 
   cprint "Remember to modify config.h for dwm to add your terminal to terminal source.."
 }

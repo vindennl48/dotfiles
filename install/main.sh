@@ -7,12 +7,12 @@
 packages=(
   # git
   # yay
-  # zsh
   # nvim
-  # tmux
   # pyenv
+  # zsh
   # alacritty
   # dwm
+  # tmux
   # qemu
 )
 

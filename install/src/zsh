@@ -29,8 +29,11 @@ _common_install() {
   cp "$HOME/bin/dotfiles/zsh/zshrc_modules" "$HOME/.zshrc_modules"
 
   cprint "Make sure to follow up with the ~/.zsh_modules setup!"
-  cprint "Also make sure you change your shell:"
-  cprint "sudo chsh -s $(which zsh) $USER"
+  # press enter to continue
+  read -p "Press enter to continue"
+
+  # set our new shell as the default
+  sudo chsh -s $(which zsh) $USER
 }
 
 _arch_install() {

@@ -17,10 +17,19 @@ _common_install() {
   # run the common commands here
   cprint "Old Files: backing up or removing symlinks.."
   backup_or_remove "$HOME/.config/tmux"
+  backup_or_remove "$HOME/.local/share/tmux"
 
   cprint "Creating new directories.."
   mkdir -p "$HOME/.config"
+  mkdir -p "$HOME/.local/share/tmux/plugins"
   ln -s "$HOME/bin/dotfiles/tmux/tmux" "$HOME/.config/tmux"
+
+  cprint "Pulling down tmux plugin manager.."
+  git clone https://github.com/tmux-plugins/tpm "$HOME/.local/share/tmux/plugins/tpm"
+
+  cprint "Make sure to run leader-a shift-I to install plugins!"
+  # press enter to continue
+  read -p "Press enter to continue"
 }
 
 _arch_install() {
@@ -31,7 +40,6 @@ _arch_install() {
 
   _common_install
 
-  cprint "Make sure to run :PlugInstall in neovim!"
   cprint "Finished installing Tmux for Arch!"
 }
 
