@@ -90,6 +90,7 @@ alias ....='cd ....'
 alias .....='cd .....'
 alias cat='bat'
 alias cp='cp -i'
+alias hdsize='df -H'
 
 # Locations
 alias lof='cd /Users/mitch/Documents/Code/Python/LOFUpload; python3 main.py'
