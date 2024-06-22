@@ -30,8 +30,8 @@ _common_install() {
 
   cprint "Adding startup codes to user account.."
   echo "exec dwm" >> "$HOME/.xinitrc"
-  echo "[[ -z "$DISPLAY" && $XDG_VTNR -eq 1  && -z "$SSH_CONNECTION" ]] && exec startx" >> "$HOME/.bash_profile"
-  echo "[[ -z "$DISPLAY" && $XDG_VTNR -eq 1  && -z "$SSH_CONNECTION" ]] && exec startx" >> "$HOME/.zprofile"
+  echo "[[ -z '\$DISPLAY' && \$XDG_VTNR -eq 1  && -z '\$SSH_CONNECTION' ]] && exec startx" >> "$HOME/.bash_profile"
+  echo "[[ -z '\$DISPLAY' && \$XDG_VTNR -eq 1  && -z '\$SSH_CONNECTION' ]] && exec startx" >> "$HOME/.zprofile"
 
   cprint "Remember to modify config.h for dwm to add your terminal to terminal source.."
 }
