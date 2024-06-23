@@ -13,6 +13,7 @@ packages=(
   # alacritty
   # dwm
   # tmux
+  # pipewire
   # qemu
 )
 
