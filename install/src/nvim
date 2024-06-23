@@ -34,7 +34,7 @@ _arch_install() {
   cprint -p "Installing Neovim for Arch!"
   cprint "Gathering dependencies.."
 
-  sudo pacman -Syu --needed git neovim nodejs yarn npm
+  sudo pacman -Syu git neovim nodejs yarn npm xclip
 
   _common_install
 
