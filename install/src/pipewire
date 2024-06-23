@@ -1,0 +1,73 @@
+#!/bin/bash
+
+################################################################################
+## PIPEWIRE INSTALL ############################################################
+################################################################################
+
+# Get the directory of the currently executing script
+SCRIPT_DIR="$(dirname "$(realpath "$0")")"
+
+# Source helpers
+source "$SCRIPT_DIR/helpers"
+
+# Install Pipewire
+_common_install() {
+  cprint -p "Running common install"
+
+  cprint "Adding startup scripts.."
+  echo "/usr/bin/pipewire &" >> "$HOME/.xinitrc"
+  echo "/usr/bin/pipewire-pulse &" >> "$HOME/.xinitrc"
+  echo "/usr/bin/pipewire-media-session &" >> "$HOME/.xinitrc"
+
+  cprint "Make sure to pull the pipewire commands before exec dwm!"
+  vim $HOME/.xinitrc
+}
+
+_arch_install() {
+  cprint -p "Installing Pipewire for Arch!"
+
+  cprint "Gathering dependencies.."
+  sudo pacman -Syu pipewire pipewire-pulse pavucontrol
+
+  cprint "Make sure pulseaudio is uninstalled!"
+  sudo pacman -Rs pulseaudio
+
+  _common_install
+
+  cprint "You will need to restart for Pipewire to take effect!"
+  cprint "Finished installing Pipewire for Arch!"
+}
+
+_ubuntu_install() {
+  cprint -p "Ubuntu Install: Under Construction.."
+}
+
+_macos_install() {
+  cprint -p "MacOS Install: Under Construction.."
+}
+
+main() {
+  # Figure out what OS we're running
+  case $OS_TYPE in
+    $OS_ARCH_LINUX)
+      _arch_install
+      ;;
+    $OS_UBUNTU)
+      _ubuntu_install
+      ;;
+    $OS_MACOS)
+      _macos_install
+      ;;
+    $OS_OTHER_LINUX)
+      cprint "Running an unknown Linux distribution.."
+      cprint "This OS is not supported.. Exiting."
+      exit 1
+      ;;
+    $OS_UNKNOWN)
+      cprint "Running an unknown OS.."
+      cprint "This OS is not supported.. Exiting."
+      exit 1
+      ;;
+  esac
+}
+main
