@@ -10,6 +10,10 @@ SCRIPT_DIR="$(dirname "$(realpath "$0")")"
 # Source helpers
 source "$SCRIPT_DIR/helpers"
 
+# GPU Passthru
+# Go to this link: https://www.youtube.com/watch?v=g--fe8_kEcw&t=353s 
+# Its by Ksk Royal called: How to USE QEMU KVM GPU Passthrough in Linux Using VFIO
+
 _arch_install() {
   cprint -p "Installing Qemu for Arch!"
 
