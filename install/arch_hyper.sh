@@ -90,7 +90,7 @@ pacman_packages=(
 # Install all packages at once
 if [ ${#pacman_packages[@]} -gt 0 ]; then
   echo "Installing pacman packages: ${pacman_packages[@]}"
-  sudo pacman -Syu --noconfirm "${pacman_packages[@]}"
+  sudo pacman -Syu "${pacman_packages[@]}"
 else
   echo "No pacman packages to install."
 fi
@@ -123,8 +123,8 @@ cd "$HOME/.config/suckless/st"; sudo make clean install
 
 cprint "Adding startup codes to user account.."
 echo "exec dwm" >> "$HOME/.xinitrc"
-echo '[[ -z "\$DISPLAY" && \$XDG_VTNR -eq 1  && -z "\$SSH_CONNECTION" ]] && exec startx' >> "$HOME/.bash_profile"
-echo '[[ -z "\$DISPLAY" && \$XDG_VTNR -eq 1  && -z "\$SSH_CONNECTION" ]] && exec startx' >> "$HOME/.zprofile"
+echo '[[ -z "$DISPLAY" && $XDG_VTNR -eq 1 && -z "$SSH_CONNECTION" ]] && exec startx' >> "$HOME/.bash_profile"
+echo '[[ -z "$DISPLAY" && $XDG_VTNR -eq 1 && -z "$SSH_CONNECTION" ]] && exec startx' >> "$HOME/.zprofile"
 
 cprint "Remember to modify config.h for dwm to add your terminal to terminal source.."
 press_enter
@@ -145,7 +145,7 @@ sudo systemctl restart libvirtd.service
 cprint -p "Setting up Network Bridge.."
 cprint "Copying over networkd files.."
 sudo rm /etc/systemd/network/*
-sudo cp "$HOME/bin/dotfiles/install/network/*" "/etc/systemd/network/*"
+sudo cp $HOME/bin/dotfiles/install/network/* /etc/systemd/network/.
 sudo systemctl enable systemd-networkd
 
 # Setting up GPU passthrough
