@@ -94,8 +94,8 @@ alias cpqcow='cp -i --sparse=always'
 alias hdsize='df -H'
 
 # Locations
-alias lof='cd /Users/mitch/Documents/Code/Python/LOFUpload; python3 main.py'
-alias ga='cd ~/Documents/code/AudioPlugins/AutoLevel' # most used shortcut
+# alias lof='cd /Users/mitch/Documents/Code/Python/LOFUpload; python3 main.py'
+alias ga='cd ~/Documents/code/python/MidiRoute' # most used shortcut
 alias gc='cd ~/Documents/code/'
 alias go='cd'
 
@@ -149,6 +149,8 @@ cwd() {
 
 #used with mitch.py
 alias mitch="p ~/bin/dotfiles/python/mitch.py"
+#used with lof.py
+alias lof="p ~/bin/dotfiles/python/lof.py"
 
 # Custom Functions
 ##################
