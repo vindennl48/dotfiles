@@ -81,7 +81,7 @@ if __name__ == "__main__":
     )
     menuAnswer = mainMenu.show()
 
-    if menuAnswer == None:
+    if menuAnswer == None or items[menuAnswer][0] not in ["/", "="]:
         exit()
 
     if menuAnswer > 0:
