@@ -13,3 +13,4 @@
 *.swo
 .DS_Store
 yads
+nohup.out

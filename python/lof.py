@@ -73,7 +73,7 @@ def start_programs(type_of_startup="practice"):
     disableSleep(True)
 
     # Update reaper.ini with the correct audio device
-    new_device = "LOF Practice" if type_of_startup == "practice" else "LOF Show"
+    new_device = "LOF Practice" if type_of_startup == "practice" else "Axe-Fx III"
 
     reaper_ini = ini_to_dict(REAPER_INI_PATH)
     reaper_ini["REAPER"]["coreaudioindevnew"]  = new_device
@@ -104,7 +104,7 @@ def reset():
     reaper_ini = ini_to_dict(REAPER_INI_PATH)
     reaper_ini["REAPER"]["coreaudioindevnew"]  = new_device
     reaper_ini["REAPER"]["coreaudiooutdevnew"] = new_device
-    reaper_ini["REAPER"].pop("useinnc")
+    reaper_ini["REAPER"].pop("useinnc", None)
     dict_to_ini(REAPER_INI_PATH, reaper_ini)
 
     print("\n--> Reset Desktop Audio Device!\n")
@@ -112,7 +112,8 @@ def reset():
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--live",                  action="store_true", help="Start all programs for live")
+    parser.add_argument("--live",                  action="store_true", help="Start all programs for live") # same as show
+    parser.add_argument("--show",                  action="store_true", help="Start all programs for live") # same as live
     parser.add_argument("--practice",              action="store_true", help="Start all programs for practice")
     parser.add_argument("-m", "--midi-translator", action="store_true", help="Start all programs for practice")
     parser.add_argument("--reset",                 action="store_true", help="Reset sleep and audio device")
@@ -122,9 +123,11 @@ if __name__ == "__main__":
     parser.add_argument("--enable-sleep",          action="store_true", help="Enable sleep")
     args = parser.parse_args()
 
-    if args.live:
+    if args.live or args.show:
+        clean_log_folder()
         start_programs("live")
     if args.practice:
+        clean_log_folder()
         start_programs("practice")
     if args.midi_translator:
         open_midi_translator()
