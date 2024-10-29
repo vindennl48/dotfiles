@@ -26,8 +26,8 @@ fi
 
 # Execute the find command with the specified arguments
 if [ "$search_type" == "-f" ]; then
-  find "$search_dir" -type f -name "$search_pattern"
+  find "$search_dir" -type f -name "$search_pattern" -print 2>/dev/null
 elif [ "$search_type" == "-d" ]; then
-  find "$search_dir" -type d -name "$search_pattern"
+  find "$search_dir" -type d -name "$search_pattern" -print 2>/dev/null
 fi
 
