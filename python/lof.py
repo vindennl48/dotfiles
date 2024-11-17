@@ -91,9 +91,10 @@ def start_programs(type_of_startup="practice"):
     #  open Reaper
     os.system('open "/Applications/REAPER.app"')
 
-    #  # open MIDI settings
-    #  time.sleep(5) # make sure it's on top
-    #  os.system('open "/System/Applications/Utilities/Audio MIDI Setup.app"')
+    if type_of_startup == "practice":
+        # open AUDIO/MIDI settings
+        time.sleep(5) # make sure it's on top
+        os.system('open "/System/Applications/Utilities/Audio MIDI Setup.app"')
 
 def reset():
     disableSleep(False)
@@ -124,6 +125,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.live or args.show:
+        input("--> Make sure you Caffeinate before continuing!!! Then press enter..")
         clean_log_folder()
         start_programs("live")
     if args.practice:

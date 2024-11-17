@@ -12,5 +12,11 @@
     }
   },
   "sumneko-lua.enableNvimLuaDev": true,
-  "inlayHint.enable": false
+
+  "inlayHint.enable": false,
+  "Lua.hint.enable": false,
+
+  "pyright.inlayHints.functionReturnTypes": false,
+  "pyright.inlayHints.variableTypes": false,
+  "pyright.inlayHints.parameterTypes": false
 }
