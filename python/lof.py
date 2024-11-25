@@ -73,7 +73,7 @@ def start_programs(type_of_startup="practice"):
     disableSleep(True)
 
     # Update reaper.ini with the correct audio device
-    new_device = "LOF Practice" if type_of_startup == "practice" else "Axe-Fx III"
+    new_device = "LOF Practice" if type_of_startup == "practice" else "LOF Live"
 
     reaper_ini = ini_to_dict(REAPER_INI_PATH)
     reaper_ini["REAPER"]["coreaudioindevnew"]  = new_device

@@ -1,0 +1,26 @@
+{
+  "channels": [
+    [  0, "IEM Out L"],
+    [  1, "IEM Out R"],
+    [  2, "James OUT FOH"],
+    [  3, "Jesse OUT FOH"],
+    [  4, "Backtracks FOH"],
+    [  5, "Mitch OUT Axe/FOH"],
+    [512, "-> Aux James L"],
+    [513, "-> Aux James R"],
+    [514, "-> Aux Jesse L"],
+    [515, "-> Aux Jesse R"],
+    [516, "-> Aux Mitch L"],
+    [517, "-> Aux Mitch R"],
+    [518, "-> Aux Sean L"],
+    [519, "-> Aux Sean R"],
+    [520, "-> Aux Click L"],
+    [521, "-> Aux Click R"],
+    [522, "-> Aux Tabs L"],
+    [523, "-> Aux Tabs R"],
+    [524, "-> Aux Mitch Loop L"],
+    [525, "-> Aux Mitch Loop R"],
+    [526, "-> Aux Backtracks L"],
+    [527, "-> Aux Backtracks R"]
+  ]
+}
