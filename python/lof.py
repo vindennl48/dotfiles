@@ -105,9 +105,10 @@ def reset():
     reaper_ini = ini_to_dict(REAPER_INI_PATH)
     reaper_ini["REAPER"]["coreaudioindevnew"]  = new_device
     reaper_ini["REAPER"]["coreaudiooutdevnew"] = new_device
-    reaper_ini["REAPER"].pop("useinnc", None)
+    #  reaper_ini["REAPER"].pop("useinnc", None)
     dict_to_ini(REAPER_INI_PATH, reaper_ini)
 
+    os.system('open "/Applications/Google Drive.app"')
     print("\n--> Reset Desktop Audio Device!\n")
 
 
@@ -126,9 +127,12 @@ if __name__ == "__main__":
 
     if args.live or args.show:
         input("--> Make sure you Caffeinate before continuing!!! Then press enter..")
+        input("--> Make sure you turn off Google Drive before continuing!!! Then press enter..")
         clean_log_folder()
         start_programs("live")
     if args.practice:
+        input("--> Make sure you Caffeinate before continuing!!! Then press enter..")
+        input("--> Make sure you turn off Google Drive before continuing!!! Then press enter..")
         clean_log_folder()
         start_programs("practice")
     if args.midi_translator:
@@ -145,3 +149,4 @@ if __name__ == "__main__":
         disableSleep(True)
     if args.enable_sleep:
         disableSleep(False)
+

@@ -1,0 +1,8 @@
+beautifulsoup4==4.12.3
+pydrive2==1.21.3
+pydub==0.25.1
+python_editor==1.0.4
+Requests==2.32.3
+Send2Trash==1.8.3
+simple_term_menu==1.6.5
+tqdm==4.67.1
