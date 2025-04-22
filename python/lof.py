@@ -72,29 +72,42 @@ def open_midi_translator():
 def start_programs(type_of_startup="practice"):
     disableSleep(True)
 
-    # Update reaper.ini with the correct audio device
-    new_device = "LOF Practice" if type_of_startup == "practice" else "LOF Live"
+    new_device = "LOF Practice"
+    #  # Update reaper.ini with the correct audio device
+    #  if type_of_startup in [ "practice", "record" ]:
+    #      new_device = "LOF Practice"
+    #  else:
+    #  #  elif type_of_startup = "live":
+    #      new_device = "LOF Live"
 
     reaper_ini = ini_to_dict(REAPER_INI_PATH)
     reaper_ini["REAPER"]["coreaudioindevnew"]  = new_device
     reaper_ini["REAPER"]["coreaudiooutdevnew"] = new_device
     reaper_ini["REAPER"]["useinnc"]            = 3
+    reaper_ini["REAPER"]["coreaudiosrate"]     = 48000
     dict_to_ini(REAPER_INI_PATH, reaper_ini)
 
     # Switch MAC output to different output
     os.system("SwitchAudioSource -u BlackHole2ch_UID")
 
-    # start Midi Translator
-    os.system('nohup python3 "/Users/mitch/Documents/Code/Python/MidiRoute/main.py" &')
+    # start Midi Translator and Lights
+    #  os.system('nohup python3 "/Users/mitch/Documents/Code/Python/MidiRoute/main.py" &')
+    #  os.system('nohup python3 "/Users/mitch/Documents/Code/Python/DMX/main.py" &')
+    os.system('nohup python3 "/Users/mitch/Documents/Code/Python/MidiAllToOne/main.py" &')
     time.sleep(2)
+
+    input("--> Make sure Audio Devices are set up correctly before continuing")
+    input("    Make sure Focusrite is primary device!")
+    print("--> Opening Audio/MIDI settings.. ")
+    os.system('open "/System/Applications/Utilities/Audio MIDI Setup.app"')
+    input("--> Press Enter to open Reaper..")
 
     #  open Reaper
     os.system('open "/Applications/REAPER.app"')
-
-    if type_of_startup == "practice":
-        # open AUDIO/MIDI settings
-        time.sleep(5) # make sure it's on top
-        os.system('open "/System/Applications/Utilities/Audio MIDI Setup.app"')
+    #  if type_of_startup == "practice":
+    #      # open AUDIO/MIDI settings
+    #      time.sleep(5) # make sure it's on top
+    #      os.system('open "/System/Applications/Utilities/Audio MIDI Setup.app"')
 
 def reset():
     disableSleep(False)
@@ -117,6 +130,7 @@ if __name__ == "__main__":
     parser.add_argument("--live",                  action="store_true", help="Start all programs for live") # same as show
     parser.add_argument("--show",                  action="store_true", help="Start all programs for live") # same as live
     parser.add_argument("--practice",              action="store_true", help="Start all programs for practice")
+    parser.add_argument("--record",                action="store_true", help="Start all programs for recording")
     parser.add_argument("-m", "--midi-translator", action="store_true", help="Start all programs for practice")
     parser.add_argument("--reset",                 action="store_true", help="Reset sleep and audio device")
     parser.add_argument("--upload",                action="store_true", help="Start all programs for LOF")
@@ -135,6 +149,9 @@ if __name__ == "__main__":
         input("--> Make sure you turn off Google Drive before continuing!!! Then press enter..")
         clean_log_folder()
         start_programs("practice")
+    if args.record:
+        input("--> Make sure you Caffeinate before continuing!!! Then press enter..")
+        start_programs("record")
     if args.midi_translator:
         open_midi_translator()
     if args.upload:
